@@ -1,0 +1,38 @@
+{
+  "id": "2ba560dc-9027-4d78-a625-6e7fed141b80",
+  "type": "code_pattern",
+  "content": {
+    "code": "class KiroMemorySystem:\n    def __init__(self, storage_path: str, enable_learning: bool = True):\n        # 分层架构：存储层 -> 检索层 -> 学习层 -> API层\n        self.storage = MemoryStorage(storage_path)\n        self.hash_retrieval = HashRetrieval(self.storage)\n        self.context_retrieval = ContextAwareRetrieval(self.storage, self.hash_retrieval)\n        self.recommendation_engine = SmartRecommendationEngine(self.storage, self.context_retrieval)\n        \n        if enable_learning:\n            self.usage_learning = UsageLearning(self.storage)\n            self.error_detector = ErrorPatternDetector(self.storage)\n            self.adaptive_learning = AdaptiveLearning(self.storage, self.usage_learning, self.error_detector)",
+    "description": "分层架构模式：存储-检索-学习-API四层架构设计",
+    "file_type": "python"
+  },
+  "hash_key": "282258937f7e1417",
+  "metadata": {
+    "file_type": "python",
+    "usage_contexts": [
+      {
+        "file_type": null,
+        "task_type": null,
+        "user_role": "Full-Stack Engineer",
+        "success": true,
+        "timestamp": "2026-02-03T11:22:08.571998"
+      }
+    ]
+  },
+  "created_at": "2026-02-03T11:22:08.535311",
+  "last_used": "2026-02-03T11:22:08.535311",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "architecture",
+    "layered_pattern",
+    "dependency_injection",
+    "python",
+    "system_design",
+    "python",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

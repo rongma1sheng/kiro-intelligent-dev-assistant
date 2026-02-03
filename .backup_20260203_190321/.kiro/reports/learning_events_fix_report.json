@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-02-03T12:56:52.827061",
+  "diagnosis": {
+    "issues_found": 1,
+    "issues_list": [
+      "学习事件列表为空"
+    ]
+  },
+  "fix_actions": {
+    "events_created": 3,
+    "created_event_ids": [
+      "3b756a30-7047-4a3e-89b0-a969d41ace92",
+      "42bab323-ac28-435b-80df-58954ea06b72",
+      "0ad93e48-cc23-4044-8894-7255bf6ad31f"
+    ]
+  },
+  "validation": {
+    "events_count": 0,
+    "stats_events": 0,
+    "consistency": true,
+    "event_types": {},
+    "event_outcomes": {},
+    "recent_events": 0,
+    "success_rate": 0
+  },
+  "recommendations": [
+    "需要激活学习事件记录功能",
+    "需要提高学习事件成功率"
+  ]
+}

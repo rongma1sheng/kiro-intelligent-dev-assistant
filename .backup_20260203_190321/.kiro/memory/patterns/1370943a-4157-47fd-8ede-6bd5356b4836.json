@@ -1,0 +1,28 @@
+{
+  "id": "1370943a-4157-47fd-8ede-6bd5356b4836",
+  "type": "best_practice",
+  "content": {
+    "title": "系统性能基准测试策略",
+    "description": "建立和维护系统性能基准的最佳实践：1)定义关键性能指标KPI-响应时间、吞吐量、资源使用 2)设定性能目标阈值-基于业务需求和行业标准 3)自动化性能测试-集成到健康检查流程 4)性能趋势监控-跟踪性能变化趋势 5)性能回归检测-识别性能下降问题 6)基准对比分析-与行业标准对比。这种方法确保系统性能持续优化。",
+    "category": "performance_testing"
+  },
+  "hash_key": "8d9affcb5e765c41",
+  "metadata": {
+    "category": "performance_testing"
+  },
+  "created_at": "2026-02-03T12:00:31.864124",
+  "last_used": "2026-02-03T12:00:31.864124",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "performance",
+    "benchmarking",
+    "monitoring",
+    "optimization",
+    "performance_testing",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

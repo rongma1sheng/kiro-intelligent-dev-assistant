@@ -1,0 +1,31 @@
+{
+  "id": "c9d06d24-4f3b-49c6-9dba-8487b4a901d3",
+  "type": "best_practice",
+  "content": {
+    "title": "多维度系统评估报告的生成方法",
+    "description": "生成多维度系统评估报告的最佳实践：1)结构化报告格式-概述、详细结果、分析、建议 2)可视化数据展示-使用表格、图标、颜色编码 3)分层信息组织-从总体到细节的信息层次 4)量化与定性结合-数据支撑加文字分析 5)问题优先级排序-按严重程度和影响范围排序 6)可操作的改进建议-具体的实施步骤和时间规划 7)历史对比分析-与之前的检查结果对比 8)多格式输出-JSON数据+Markdown报告。这种方法确保报告的实用性和可读性",
+    "context": "系统评估报告生成",
+    "tags": [
+      "报告生成",
+      "数据可视化",
+      "系统评估",
+      "文档管理"
+    ],
+    "code_example": "\n# 多维度评估报告生成器\nclass ComprehensiveReportGenerator:\n    def __init__(self):\n        self.status_icons = {\n            'excellent': '🟢',\n            'good': '🟡', \n            'needs_improvement': '🟠',\n            'critical': '🔴',\n            'error': '❌'\n        }\n        \n    def generate_report(self, check_results, overall_score):\n        \"\"\"生成综合报告\"\"\"\n        report = {\n            'metadata': self.generate_metadata(overall_score),\n            'executive_summary': self.generate_executive_summary(check_results, overall_score),\n            'detailed_results': self.generate_detailed_results(check_results),\n            'analysis': self.generate_analysis(check_results),\n            'recommendations': self.generate_recommendations(check_results),\n            'appendix': self.generate_appendix(check_results)\n        }\n        \n        return report\n    \n    def generate_executive_summary(self, results, overall_score):\n        \"\"\"生成执行摘要\"\"\"\n        status = self.determine_overall_status(overall_score)\n        passed_checks = len([r for r in results.values() \n                           if r.get('status') in ['excellent', 'good']])\n        total_checks = len(results)\n        \n        return {\n            'overall_score': overall_score,\n            'overall_status': f\"{self.status_icons[status]} {status.title()}\",\n            'checks_passed': f\"{passed_checks}/{total_checks}\",\n            'key_findings': self.extract_key_findings(results),\n            'critical_issues': self.extract_critical_issues(results)\n        }\n    \n    def generate_detailed_results(self, results):\n        \"\"\"生成详细结果\"\"\"\n        detailed = {}\n        \n        for check_name, result in results.items():\n            status = result.get('status', 'unknown')\n            score = result.get('score', 0)\n            \n            detailed[check_name] = {\n                'display_name': check_name.replace('_', ' ').title(),\n                'status': f\"{self.status_icons.get(status, '❓')} {status.title()}\",\n                'score': f\"{score:.1f}/100\" if score > 0 else \"N/A\",\n                'details': self.format_details(result.get('details', {})),\n                'metrics': result.get('metrics', {}),\n                'issues': result.get('issues', [])\n            }\n        \n        return detailed\n    \n    def generate_markdown_report(self, report_data):\n        \"\"\"生成Markdown格式报告\"\"\"\n        markdown = f\"\"\"# 系统综合评估报告\n\n## 🎯 评估概述\n\n**评估时间**: {report_data['metadata']['timestamp']}  \n**总体评分**: {report_data['executive_summary']['overall_score']:.1f}/100  \n**总体状态**: {report_data['executive_summary']['overall_status']}  \n**检查通过率**: {report_data['executive_summary']['checks_passed']}  \n\n## 📊 检查结果总览\n\n| 检查项目 | 状态 | 评分 | 关键指标 |\n|----------|------|------|----------|\n\"\"\"\n        \n        for check_name, details in report_data['detailed_results'].items():\n            markdown += f\"| {details['display_name']} | {details['status']} | {details['score']} | {self.format_key_metrics(details['metrics'])} |\n\"\n        \n        markdown += f\"\"\"\n## 🔍 详细分析\n\n{report_data['analysis']['summary']}\n\n### 主要发现\n{self.format_findings_list(report_data['executive_summary']['key_findings'])}\n\n### 关键问题\n{self.format_issues_list(report_data['executive_summary']['critical_issues'])}\n\n## 💡 改进建议\n\n{self.format_recommendations(report_data['recommendations'])}\n\n---\n\n**报告生成时间**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  \n**报告版本**: v1.0  \n**状态**: 评估完成\n\"\"\"\n        \n        return markdown\n    \n    def save_dual_format_report(self, report_data, base_path):\n        \"\"\"保存双格式报告\"\"\"\n        # 保存JSON格式\n        json_path = f\"{base_path}.json\"\n        with open(json_path, 'w', encoding='utf-8') as f:\n            json.dump(report_data, f, ensure_ascii=False, indent=2)\n        \n        # 保存Markdown格式\n        markdown_path = f\"{base_path}.md\"\n        markdown_content = self.generate_markdown_report(report_data)\n        with open(markdown_path, 'w', encoding='utf-8') as f:\n            f.write(markdown_content)\n        \n        return json_path, markdown_path\n"
+  },
+  "hash_key": "16d48d147e89e8e9",
+  "metadata": {},
+  "created_at": "2026-02-03T12:29:15.691386",
+  "last_used": "2026-02-03T12:29:15.691386",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "报告生成",
+    "数据可视化",
+    "系统评估",
+    "文档管理"
+  ],
+  "source": "comprehensive_analysis",
+  "confidence": 1.0
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a6c1ebc-c9b9-4ae6-9da1-dc78a6fcfc3f",
+  "type": "best_practice",
+  "content": {
+    "title": "GitHub技能: template-skill",
+    "description": "Replace with description of the skill and when Claude should use it. 来源: anthropic",
+    "category": "github_skills"
+  },
+  "hash_key": "514f47ca0ee0997b",
+  "metadata": {
+    "category": "github_skills"
+  },
+  "created_at": "2026-02-03T11:47:29.418524",
+  "last_used": "2026-02-03T11:47:29.418524",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "github",
+    "anthropic",
+    "skills",
+    "template-skill",
+    "general",
+    "github_skills",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

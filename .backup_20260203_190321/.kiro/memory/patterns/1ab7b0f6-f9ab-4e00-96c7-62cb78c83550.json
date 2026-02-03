@@ -1,0 +1,28 @@
+{
+  "id": "1ab7b0f6-f9ab-4e00-96c7-62cb78c83550",
+  "type": "code_pattern",
+  "content": {
+    "code": "# GitHub仓库下载和解析模式\nimport requests\nimport zipfile\nimport yaml\nfrom pathlib import Path\n\ndef download_github_repo(repo_url: str, target_dir: str):\n    \"\"\"下载GitHub仓库的标准模式\"\"\"\n    # 转换URL为API和下载链接\n    parts = repo_url.replace(\"https://github.com/\", \"\").split(\"/\")\n    user, repo = parts[0], parts[1]\n    api_url = f\"https://api.github.com/repos/{user}/{repo}\"\n    download_url = f\"https://github.com/{user}/{repo}/archive/refs/heads/main.zip\"\n    \n    # 获取仓库信息\n    response = requests.get(api_url, timeout=30)\n    repo_info = response.json()\n    \n    # 下载并解压\n    zip_response = requests.get(download_url, timeout=60)\n    zip_path = Path(target_dir) / f\"{repo}.zip\"\n    \n    with open(zip_path, 'wb') as f:\n        f.write(zip_response.content)\n    \n    with zipfile.ZipFile(zip_path, 'r') as zip_ref:\n        zip_ref.extractall(target_dir)\n    \n    zip_path.unlink()  # 删除ZIP文件\n    return repo_info\n\ndef parse_skill_files(skills_dir: str):\n    \"\"\"解析技能文件的标准模式\"\"\"\n    skills = []\n    for skill_file in Path(skills_dir).rglob(\"SKILL.md\"):\n        with open(skill_file, 'r', encoding='utf-8') as f:\n            content = f.read()\n        \n        # 解析YAML frontmatter\n        if content.startswith('---'):\n            parts = content.split('---', 2)\n            if len(parts) >= 3:\n                metadata = yaml.safe_load(parts[1])\n                instructions = parts[2].strip()\n                \n                skill = {\n                    'name': metadata.get('name', skill_file.parent.name),\n                    'description': metadata.get('description', ''),\n                    'category': metadata.get('category', 'general'),\n                    'tags': metadata.get('tags', []),\n                    'instructions': instructions,\n                    'path': str(skill_file)\n                }\n                skills.append(skill)\n    \n    return skills",
+    "description": "GitHub仓库下载和技能文件解析的完整实现，包含错误处理和YAML解析",
+    "file_type": "python"
+  },
+  "hash_key": "4d1df4c0bc166bf0",
+  "metadata": {
+    "file_type": "python"
+  },
+  "created_at": "2026-02-03T11:52:31.410736",
+  "last_used": "2026-02-03T11:52:31.410736",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "github_api",
+    "yaml_parsing",
+    "file_processing",
+    "automation",
+    "python",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

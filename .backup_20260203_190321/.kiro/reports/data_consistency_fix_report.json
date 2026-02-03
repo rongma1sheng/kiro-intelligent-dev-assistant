@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-02-03T12:34:39.718089",
+  "diagnosis": {
+    "total_issues_found": 0,
+    "issues_list": []
+  },
+  "fixes_applied": {
+    "total_fixes": 1,
+    "fixes_list": [
+      "重新计算了系统统计数据"
+    ]
+  },
+  "validation": {
+    "remaining_issues": 0,
+    "issues_list": [],
+    "total_roles": 12,
+    "active_roles": 12,
+    "total_skill_instances": 28,
+    "unique_skills": 7,
+    "data_consistency_ratio": 4.0,
+    "system_stats": {
+      "total_roles": 12,
+      "active_roles": 12,
+      "total_skill_instances": 28,
+      "unique_skills": 7,
+      "total_learning_events": 0,
+      "average_proficiency": 0.57,
+      "skill_categories": 3,
+      "recent_activity": 0,
+      "data_consistency": {
+        "profiles_with_skills": 12,
+        "empty_profiles": 0,
+        "skill_distribution_ratio": 4.0
+      }
+    }
+  },
+  "summary": {
+    "issues_resolved": 0,
+    "success_rate": 100,
+    "data_quality": "优秀"
+  }
+}

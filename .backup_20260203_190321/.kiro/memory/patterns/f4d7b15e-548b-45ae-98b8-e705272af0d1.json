@@ -1,0 +1,29 @@
+{
+  "id": "f4d7b15e-548b-45ae-98b8-e705272af0d1",
+  "type": "best_practice",
+  "content": {
+    "title": "GitHub技能: web-artifacts-builder",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts. 来源: anthropic",
+    "category": "github_skills"
+  },
+  "hash_key": "768a43c056b1a15b",
+  "metadata": {
+    "category": "github_skills"
+  },
+  "created_at": "2026-02-03T11:47:29.408411",
+  "last_used": "2026-02-03T11:47:29.408411",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "github",
+    "anthropic",
+    "skills",
+    "web-artifacts-builder",
+    "general",
+    "github_skills",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "analysis_date": "2026-02-03T15:02:11.491793",
+    "analyzer": "🔧 DevOps Engineer",
+    "system_platform": "Windows",
+    "analysis_type": "性能分析"
+  },
+  "overall_performance": {
+    "score": 100,
+    "status": "优秀",
+    "bottlenecks": [
+      "无明显瓶颈"
+    ]
+  },
+  "detailed_analysis": {
+    "cpu_memory_analysis": {
+      "cpu": {
+        "current_usage": 2.0,
+        "average_usage": 1.42,
+        "peak_usage": 1.8,
+        "logical_cores": 32,
+        "physical_cores": 16,
+        "frequency_mhz": 3000.0,
+        "status": "正常"
+      },
+      "memory": {
+        "total_gb": 31.65,
+        "used_gb": 16.6,
+        "available_gb": 15.04,
+        "usage_percent": 52.5,
+        "status": "正常"
+      },
+      "swap": {
+        "total_gb": 10.0,
+        "used_gb": 0.49,
+        "usage_percent": 4.9
+      },
+      "top_memory_processes": [
+        {
+          "pid": 9068,
+          "name": "AMDChat.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 4.2246127568888925
+        },
+        {
+          "pid": 11152,
+          "name": "rustdesk.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 3.855344861981077
+        },
+        {
+          "pid": 23964,
+          "name": "Kiro.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 3.662652955077328
+        },
+        {
+          "pid": 9552,
+          "name": "explorer.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 2.012525094486656
+        },
+        {
+          "pid": 26264,
+          "name": "Weixin.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 1.4606422621591113
+        }
+      ],
+      "top_cpu_processes": [
+        {
+          "pid": 0,
+          "name": "System Idle Process",
+          "cpu_percent": 0.0,
+          "memory_percent": 2.410758249765403e-05
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.04276685135083825
+        },
+        {
+          "pid": 428,
+          "name": "",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.9342290907403378
+        },
+        {
+          "pid": 472,
+          "name": "Registry",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.09603255487940483
+        },
+        {
+          "pid": 1108,
+          "name": "smss.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.004821516499530806
+        }
+      ],
+      "timestamp": "2026-02-03T15:02:07.794137"
+    },
+    "disk_analysis": {
+      "partitions": {
+        "C:\\": {
+          "mountpoint": "C:\\",
+          "filesystem": "NTFS",
+          "total_gb": 1861.93,
+          "used_gb": 156.8,
+          "free_gb": 1705.12,
+          "usage_percent": 8.42,
+          "status": "正常"
+        },
+        "D:\\": {
+          "mountpoint": "D:\\",
+          "filesystem": "NTFS",
+          "total_gb": 1863.0,
+          "used_gb": 11.0,
+          "free_gb": 1852.0,
+          "usage_percent": 0.59,
+          "status": "正常"
+        }
+      },
+      "fragmentation": {
+        "C:": "良好",
+        "D:": "良好",
+        "E:": "需要整理"
+      },
+      "io_performance": {
+        "read_speed_mbps": 0.0,
+        "write_speed_mbps": 0.0,
+        "status": "正常"
+      },
+      "recommendations": [],
+      "timestamp": "2026-02-03T15:02:09.924904"
+    },
+    "startup_optimization": {
+      "startup_programs": {
+        "registry_startup": {
+          "count": 2,
+          "entries": [
+            {
+              "name": "SecurityHealth",
+              "type": "REG_EXPAND_SZ",
+              "path": "%windir%\\system32\\SecurityHealthSystray.exe"
+            },
+            {
+              "name": "RtkAudUService",
+              "type": "REG_SZ",
+              "path": "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_bfa70010dbc3149e\\RtkAudUService64.exe\" -background"
+            }
+          ],
+          "status": "正常"
+        },
+        "user_startup": {
+          "count": 5,
+          "status": "正常"
+        },
+        "services": {
+          "auto_start_running": 0,
+          "status": "正常",
+          "sample_services": []
+        }
+      },
+      "optimization_suggestions": [],
+      "boot_time_estimate": "44秒 (快速)",
+      "timestamp": "2026-02-03T15:02:10.092984"
+    },
+    "development_environment": {
+      "powershell_info": {
+        "version": {
+          "Major": 5,
+          "Minor": 1,
+          "Build": 26100,
+          "Revision": 1882,
+          "MajorRevision": 0,
+          "MinorRevision": 1882
+        },
+        "edition": "Desktop",
+        "status": "已安装",
+        "execution_policy": "RemoteSigned",
+        "policy_status": "宽松"
+      },
+      "development_tools": {
+        "git": {
+          "installed": true,
+          "version": "git version 2.52.0.windows.1",
+          "status": "可用"
+        },
+        "python": {
+          "installed": true,
+          "version": "Python 3.10.11",
+          "status": "可用"
+        },
+        "node": {
+          "installed": true,
+          "version": "v24.13.0",
+          "status": "可用"
+        },
+        "npm": {
+          "installed": true,
+          "version": "11.6.2",
+          "status": "可用"
+        },
+        "docker": {
+          "installed": true,
+          "version": "Docker version 29.1.3, build f52814d",
+          "status": "可用"
+        },
+        "code": {
+          "installed": true,
+          "version": "1.108.1",
+          "status": "可用"
+        }
+      },
+      "environment_variables": {
+        "PATH": {
+          "set": true,
+          "length": 895,
+          "status": "已配置"
+        },
+        "PYTHONPATH": {
+          "set": false,
+          "status": "未设置"
+        },
+        "NODE_PATH": {
+          "set": false,
+          "status": "未设置"
+        },
+        "JAVA_HOME": {
+          "set": false,
+          "status": "未设置"
+        }
+      },
+      "optimization_suggestions": [
+        "建议配置环境变量: PYTHONPATH, NODE_PATH, JAVA_HOME"
+      ],
+      "development_readiness": true,
+      "timestamp": "2026-02-03T15:02:11.490790"
+    },
+    "optimization_recommendations": [
+      {
+        "category": "安全优化",
+        "priority": "高",
+        "suggestion": "确保Windows Defender实时保护开启",
+        "action": "检查Windows安全中心设置"
+      },
+      {
+        "category": "系统维护",
+        "priority": "中",
+        "suggestion": "定期运行Windows Update检查系统更新",
+        "action": "设置自动更新或定期手动检查"
+      },
+      {
+        "category": "存储优化",
+        "priority": "中",
+        "suggestion": "使用磁盘清理工具清理临时文件和系统垃圾",
+        "action": "运行磁盘清理工具或第三方清理软件"
+      },
+      {
+        "category": "开发环境",
+        "priority": "低",
+        "suggestion": "建议配置环境变量: PYTHONPATH, NODE_PATH, JAVA_HOME",
+        "action": "配置开发工具和环境变量"
+      },
+      {
+        "category": "性能调优",
+        "priority": "低",
+        "suggestion": "定期重启系统以清理内存和临时文件",
+        "action": "建立定期重启计划"
+      }
+    ]
+  },
+  "executive_summary": {
+    "cpu_status": "正常",
+    "memory_status": "正常",
+    "disk_status": "正常",
+    "startup_status": "正常",
+    "development_readiness": true
+  },
+  "priority_actions": [
+    {
+      "category": "安全优化",
+      "priority": "高",
+      "suggestion": "确保Windows Defender实时保护开启",
+      "action": "检查Windows安全中心设置"
+    }
+  ]
+}

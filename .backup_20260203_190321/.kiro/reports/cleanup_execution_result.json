@@ -1,0 +1,138 @@
+{
+  "execution_date": "2026-02-03T18:15:15.332696",
+  "actions_taken": [
+    {
+      "action": "删除",
+      "file": "extract_final_lifecycle_knowledge.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 21.3544921875
+    },
+    {
+      "action": "删除",
+      "file": "extract_hook_analysis_knowledge.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 11.6796875
+    },
+    {
+      "action": "删除",
+      "file": "extract_hook_refactor_knowledge.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 23.083984375
+    },
+    {
+      "action": "删除",
+      "file": "extract_intelligent_assistant_knowledge.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 23.5751953125
+    },
+    {
+      "action": "删除",
+      "file": "extract_intelligent_support_system_knowledge.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 27.248046875
+    },
+    {
+      "action": "删除",
+      "file": "extract_mcp_storage_knowledge.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 22.509765625
+    },
+    {
+      "action": "删除",
+      "file": "extract_repository_naming_knowledge.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 14.365234375
+    },
+    {
+      "action": "删除",
+      "file": "extract_risk_assessment_knowledge.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 0.0
+    },
+    {
+      "action": "删除",
+      "file": "extract_windows_system_analysis_knowledge.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 26.134765625
+    },
+    {
+      "action": "删除",
+      "file": "quick_knowledge_extract.py",
+      "reason": "简单提取器，已被新系统替代",
+      "size_kb": 5.53515625
+    },
+    {
+      "action": "删除",
+      "file": "cleanup_and_finalize.py",
+      "reason": "最终化脚本，功能已被新系统替代",
+      "size_kb": 10.5498046875
+    },
+    {
+      "action": "删除",
+      "file": "finalize_bilingual_knowledge_accumulation.py",
+      "reason": "最终化脚本，功能已被新系统替代",
+      "size_kb": 15.5029296875
+    },
+    {
+      "action": "删除",
+      "file": "finalize_cross_platform_optimization.py",
+      "reason": "最终化脚本，功能已被新系统替代",
+      "size_kb": 13.0537109375
+    },
+    {
+      "action": "删除",
+      "file": "finalize_intelligent_assistant_knowledge.py",
+      "reason": "最终化脚本，功能已被新系统替代",
+      "size_kb": 9.775390625
+    },
+    {
+      "action": "删除",
+      "file": "finalize_knowledge_accumulation.py",
+      "reason": "最终化脚本，功能已被新系统替代",
+      "size_kb": 11.083984375
+    },
+    {
+      "action": "删除",
+      "file": "finalize_version_3_commit.py",
+      "reason": "最终化脚本，功能已被新系统替代",
+      "size_kb": 12.8310546875
+    },
+    {
+      "action": "归档",
+      "file": "extract_emergency_recovery_knowledge.py",
+      "reason": "复杂度较高，可能包含有价值逻辑",
+      "archive_location": "archive\\legacy_knowledge_scripts\\extract_emergency_recovery_knowledge.py",
+      "size_kb": 21.392578125
+    },
+    {
+      "action": "归档",
+      "file": "extract_lifecycle_execution_knowledge.py",
+      "reason": "复杂度较高，可能包含有价值逻辑",
+      "archive_location": "archive\\legacy_knowledge_scripts\\extract_lifecycle_execution_knowledge.py",
+      "size_kb": 25.4130859375
+    },
+    {
+      "action": "归档",
+      "file": "extract_next_phase_knowledge.py",
+      "reason": "复杂度较高，可能包含有价值逻辑",
+      "archive_location": "archive\\legacy_knowledge_scripts\\extract_next_phase_knowledge.py",
+      "size_kb": 26.8642578125
+    },
+    {
+      "action": "归档",
+      "file": "extract_platform_adaptation_knowledge.py",
+      "reason": "复杂度较高，可能包含有价值逻辑",
+      "archive_location": "archive\\legacy_knowledge_scripts\\extract_platform_adaptation_knowledge.py",
+      "size_kb": 23.125
+    },
+    {
+      "action": "归档",
+      "file": "extract_version_3_knowledge.py",
+      "reason": "复杂度较高，可能包含有价值逻辑",
+      "archive_location": "archive\\legacy_knowledge_scripts\\extract_version_3_knowledge.py",
+      "size_kb": 19.62890625
+    }
+  ],
+  "space_saved_kb": 248.283203125,
+  "files_processed": 21
+}

@@ -1,0 +1,28 @@
+{
+  "id": "255e30dd-2fb3-4fc3-af01-48d95a0244f0",
+  "type": "code_pattern",
+  "content": {
+    "code": "# 智能技能分配模式\ndef assign_skills_to_roles(skills: list, role_profiles: dict):\n    \"\"\"智能技能分配的标准实现\"\"\"\n    # 技能到角色映射表\n    skill_role_mapping = {\n        'frontend-design': ['UI/UX Engineer', 'Full-Stack Engineer'],\n        'webapp-testing': ['Test Engineer', 'Full-Stack Engineer'],\n        'docx': ['Product Manager', 'Code Review Specialist'],\n        # ... 更多映射\n    }\n    \n    assigned_count = 0\n    \n    for skill in skills:\n        skill_name = skill['name']\n        target_roles = skill_role_mapping.get(skill_name, [])\n        \n        # 基于描述推断角色\n        if not target_roles:\n            description = skill.get('description', '').lower()\n            if any(keyword in description for keyword in ['frontend', 'ui', 'design']):\n                target_roles = ['UI/UX Engineer', 'Full-Stack Engineer']\n            elif 'test' in description:\n                target_roles = ['Test Engineer']\n            # ... 更多推断逻辑\n        \n        # 为每个角色分配技能\n        for role_name in target_roles:\n            if role_name in role_profiles:\n                # 创建模拟代码触发技能识别\n                mock_code = f\"\"\"\n# {skill['name']} skill implementation\nclass {skill['name'].replace('-', '_').title()}Skill:\n    def __init__(self):\n        self.name = \"{skill['name']}\"\n        self.description = \"{skill['description'][:100]}...\"\n    \n    def execute(self):\n        pass\n\"\"\"\n                \n                # 通过技能系统分析和分配\n                recognized_skills = skills_system.analyze_code_skills(\n                    role_name, mock_code, f\"{skill['name']}_skill.py\"\n                )\n                \n                if recognized_skills:\n                    assigned_count += len(recognized_skills)\n    \n    return assigned_count",
+    "description": "智能技能分配的完整实现，包含映射表、推断逻辑和模拟代码生成",
+    "file_type": "python"
+  },
+  "hash_key": "216743f8bd3ec7ee",
+  "metadata": {
+    "file_type": "python"
+  },
+  "created_at": "2026-02-03T11:52:31.416663",
+  "last_used": "2026-02-03T11:52:31.416663",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "skill_assignment",
+    "role_mapping",
+    "code_generation",
+    "ai_logic",
+    "python",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

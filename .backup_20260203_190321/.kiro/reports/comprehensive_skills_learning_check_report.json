@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-02-03T12:23:00.264076",
+  "overall_score": 90.0,
+  "overall_status": "🟢 优秀",
+  "check_results": {
+    "system_health": {
+      "status": "healthy",
+      "score": 95,
+      "details": {
+        "system_initialized": true,
+        "total_roles": 12,
+        "total_skills": 28,
+        "active_roles": 12,
+        "average_proficiency": 0.5700000000000002,
+        "skill_categories": 3,
+        "learning_events": 0,
+        "recent_activity": 0
+      }
+    },
+    "learning_effectiveness": {
+      "status": "effective",
+      "score": 85,
+      "summary": "{'score': 85, 'metrics': {'skill_distribution': {'Product Manager': {'skill_count': 2, 'skills': ['技术文档写作', '系统架构设计'], 'proficiency': 0.56, 'categories': [<SkillCategory.TECHNICAL: 'technical'>, <Skil..."
+    },
+    "skills_integration": {
+      "score": 80,
+      "metrics": {
+        "memory_integration": {
+          "status": "good",
+          "skill_patterns_count": 0,
+          "team_patterns_count": 0,
+          "total_relevant_patterns": 0
+        },
+        "github_integration": {
+          "status": "good",
+          "github_skills_count": 2,
+          "integration_success": true
+        },
+        "hook_integration": {
+          "status": "good",
+          "skills_hooks_count": 1,
+          "hook_files": [
+            "team-skills-meta-learning.kiro.hook"
+          ]
+        },
+        "data_consistency": {
+          "status": "inconsistent",
+          "issues": [
+            "技能数量不一致: 实际7 vs 统计28"
+          ],
+          "issues_count": 1
+        }
+      },
+      "status": "good"
+    },
+    "performance": {
+      "score": 100,
+      "metrics": {
+        "response_times": {
+          "average": 0.2013683319091797,
+          "min": 0.0,
+          "max": 1.0068416595458984,
+          "samples": 5
+        },
+        "memory_usage": {
+          "current": 35.4375,
+          "peak": 761.390625,
+          "status": "normal"
+        },
+        "storage_efficiency": {
+          "total_size_mb": 0.0,
+          "compression_ratio": 85.0,
+          "efficiency": "good"
+        },
+        "concurrency": {
+          "supported": true,
+          "success_rate": 1.0,
+          "concurrent_requests": 3
+        }
+      },
+      "status": "excellent"
+    }
+  },
+  "summary": {
+    "total_checks": 4,
+    "passed_checks": 4,
+    "recommendations": [
+      "系统运行良好，继续保持当前状态"
+    ]
+  }
+}

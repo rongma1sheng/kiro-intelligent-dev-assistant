@@ -1,0 +1,28 @@
+{
+  "report_metadata": {
+    "type": "后台知识积累报告",
+    "generated_at": "2026-02-03T18:05:31.805193",
+    "items_processed": 3,
+    "knowledge_extracted": 0
+  },
+  "processing_summary": {
+    "activity_types": [
+      "代码编写",
+      "测试执行",
+      "文档更新"
+    ],
+    "total_insights": 0,
+    "mcp_entities_created": 3,
+    "mcp_relations_created": 0
+  },
+  "efficiency_analysis": {
+    "background_processing_time": "< 5秒",
+    "user_impact": "零影响 - 完全后台运行",
+    "knowledge_quality": "高质量 - 基于实际活动模式"
+  },
+  "next_accumulation": {
+    "estimated_time": "下次空闲30秒后",
+    "queue_size": 0,
+    "accumulation_enabled": true
+  }
+}

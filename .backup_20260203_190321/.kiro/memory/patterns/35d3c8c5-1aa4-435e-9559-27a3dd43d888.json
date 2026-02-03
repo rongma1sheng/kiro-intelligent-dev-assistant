@@ -1,0 +1,31 @@
+{
+  "id": "35d3c8c5-1aa4-435e-9559-27a3dd43d888",
+  "type": "best_practice",
+  "content": {
+    "title": "学习模式识别和分析的方法论",
+    "description": "识别团队学习模式的方法论：1)热门技能模式识别-统计多个角色共同掌握的技能，识别团队的核心能力 2)专业化角色模式-识别掌握多项技能的专业化角色，作为知识传播者 3)技能协作模式-分析技能重叠情况，发现协作机会 4)学习路径模式-基于技能关联性分析学习路径 5)能力互补模式-识别技能互补的角色组合。这种方法帮助团队优化学习策略和资源配置",
+    "context": "学习模式识别",
+    "tags": [
+      "学习模式",
+      "模式识别",
+      "团队分析",
+      "知识管理"
+    ],
+    "code_example": "\n# 学习模式识别系统\nclass LearningPatternAnalyzer:\n    def identify_patterns(self, team_profiles):\n        patterns = []\n        \n        # 1. 热门技能模式\n        skill_counts = self.count_skill_frequency(team_profiles)\n        popular_skills = [skill for skill, count in skill_counts.items() if count >= 3]\n        if popular_skills:\n            patterns.append({\n                'type': 'popular_skills',\n                'description': f'发现{len(popular_skills)}个热门技能',\n                'skills': popular_skills,\n                'value': '团队核心能力，可作为协作基础'\n            })\n        \n        # 2. 专业化角色模式\n        specialized_roles = []\n        for role_name, profile in team_profiles.items():\n            skill_count = len(profile.get_all_skills())\n            if skill_count >= 3:\n                specialized_roles.append({\n                    'role': role_name,\n                    'skill_count': skill_count,\n                    'proficiency': profile.calculate_overall_proficiency()\n                })\n        \n        if specialized_roles:\n            patterns.append({\n                'type': 'specialized_roles',\n                'description': f'发现{len(specialized_roles)}个专业化角色',\n                'roles': specialized_roles,\n                'value': '可作为技能导师和知识传播者'\n            })\n        \n        # 3. 技能协作模式\n        collaboration_opportunities = self.find_collaboration_opportunities(team_profiles)\n        if collaboration_opportunities:\n            patterns.append({\n                'type': 'collaboration_opportunities',\n                'description': f'发现{len(collaboration_opportunities)}个协作机会',\n                'opportunities': collaboration_opportunities,\n                'value': '促进团队内部知识分享'\n            })\n        \n        return patterns\n"
+  },
+  "hash_key": "74396ee334628773",
+  "metadata": {},
+  "created_at": "2026-02-03T12:26:56.079811",
+  "last_used": "2026-02-03T12:26:56.079811",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "学习模式",
+    "模式识别",
+    "团队分析",
+    "知识管理"
+  ],
+  "source": "skills_check_analysis",
+  "confidence": 1.0
+}

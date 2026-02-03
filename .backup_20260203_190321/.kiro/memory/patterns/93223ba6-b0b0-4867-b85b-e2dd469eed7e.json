@@ -1,0 +1,31 @@
+{
+  "id": "93223ba6-b0b0-4867-b85b-e2dd469eed7e",
+  "type": "code_pattern",
+  "content": {
+    "title": "动态方法调用和异常处理的安全模式",
+    "description": "在系统检查中使用动态方法调用的安全模式：通过getattr动态获取检查方法，结合try-catch异常处理，确保单个检查失败不影响整体流程。这种模式特别适用于插件化的检查系统",
+    "context": "动态方法调用",
+    "tags": [
+      "动态调用",
+      "异常处理",
+      "插件化",
+      "系统检查"
+    ],
+    "code_example": "\n# 动态方法调用安全模式\nclass DynamicMethodCaller:\n    def __init__(self):\n        self.check_methods = [\n            'check_system_health',\n            'check_learning_effectiveness', \n            'check_skills_integration',\n            'check_performance_metrics'\n        ]\n        self.results = {}\n        \n    def execute_checks_safely(self):\n        \"\"\"安全执行所有检查方法\"\"\"\n        passed_checks = 0\n        total_checks = len(self.check_methods)\n        \n        for method_name in self.check_methods:\n            try:\n                # 动态获取方法\n                if hasattr(self, method_name):\n                    check_method = getattr(self, method_name)\n                    \n                    # 执行检查\n                    print(f\"🔍 执行检查: {method_name}\")\n                    result = check_method()\n                    \n                    # 记录结果\n                    self.results[method_name] = {\n                        'status': 'success',\n                        'result': result,\n                        'timestamp': datetime.now().isoformat()\n                    }\n                    \n                    if result:  # 如果检查通过\n                        passed_checks += 1\n                        \n                else:\n                    print(f\"⚠️ 检查方法不存在: {method_name}\")\n                    self.results[method_name] = {\n                        'status': 'method_not_found',\n                        'error': f\"Method {method_name} not implemented\"\n                    }\n                    \n            except Exception as e:\n                print(f\"❌ 检查失败: {method_name} - {e}\")\n                self.results[method_name] = {\n                    'status': 'error',\n                    'error': str(e),\n                    'timestamp': datetime.now().isoformat()\n                }\n        \n        return {\n            'passed_checks': passed_checks,\n            'total_checks': total_checks,\n            'success_rate': passed_checks / total_checks if total_checks > 0 else 0,\n            'detailed_results': self.results\n        }\n    \n    def register_check_method(self, method_name, method_func):\n        \"\"\"动态注册检查方法\"\"\"\n        setattr(self, method_name, method_func)\n        if method_name not in self.check_methods:\n            self.check_methods.append(method_name)\n    \n    def get_failed_checks(self):\n        \"\"\"获取失败的检查\"\"\"\n        failed = []\n        for method_name, result in self.results.items():\n            if result.get('status') != 'success':\n                failed.append({\n                    'method': method_name,\n                    'error': result.get('error', 'Unknown error'),\n                    'status': result.get('status', 'unknown')\n                })\n        return failed\n\n# 使用示例\nclass SystemChecker(DynamicMethodCaller):\n    def check_system_health(self):\n        # 具体的健康检查逻辑\n        return True\n    \n    def check_performance_metrics(self):\n        # 具体的性能检查逻辑  \n        return True\n\n# 执行检查\nchecker = SystemChecker()\nresults = checker.execute_checks_safely()\nprint(f\"检查完成: {results['passed_checks']}/{results['total_checks']} 通过\")\n"
+  },
+  "hash_key": "c8c89b6a4f8c3eaa",
+  "metadata": {},
+  "created_at": "2026-02-03T12:29:15.694386",
+  "last_used": "2026-02-03T12:29:15.694386",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "动态调用",
+    "异常处理",
+    "插件化",
+    "系统检查"
+  ],
+  "source": "comprehensive_analysis",
+  "confidence": 1.0
+}

@@ -1,0 +1,38 @@
+{
+  "id": "784a0b8e-0fc6-4dbb-abb7-5953d999c2e6",
+  "type": "code_pattern",
+  "content": {
+    "code": "def _generate_hash_key(self, content: Dict[str, Any]) -> str:\n    # 标准化内容以确保一致性哈希\n    content_str = json.dumps(content, sort_keys=True, ensure_ascii=False)\n    hash_obj = hashlib.sha256(content_str.encode('utf-8'))\n    return hash_obj.hexdigest()[:16]  # 使用前16位避免冲突\n\ndef _generate_ngrams(self, text: str, n: int = None) -> List[str]:\n    # 多粒度N-gram生成提高匹配精度\n    text = re.sub(r'\\s+', ' ', text.lower().strip())\n    if len(text) < n:\n        return [text]\n    return [text[i:i+n] for i in range(len(text) - n + 1)]",
+    "description": "O(1)哈希检索优化：标准化内容+多粒度N-gram",
+    "file_type": "python"
+  },
+  "hash_key": "1cbb2b0be72f4915",
+  "metadata": {
+    "file_type": "python",
+    "usage_contexts": [
+      {
+        "file_type": null,
+        "task_type": null,
+        "user_role": "Full-Stack Engineer",
+        "success": true,
+        "timestamp": "2026-02-03T11:22:08.642176"
+      }
+    ]
+  },
+  "created_at": "2026-02-03T11:22:08.538834",
+  "last_used": "2026-02-03T11:22:08.538834",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "optimization",
+    "hashing",
+    "ngram",
+    "search",
+    "performance",
+    "python",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

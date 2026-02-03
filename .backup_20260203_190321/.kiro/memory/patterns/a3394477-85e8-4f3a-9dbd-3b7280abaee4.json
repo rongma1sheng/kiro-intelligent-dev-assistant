@@ -1,0 +1,24 @@
+{
+  "id": "a3394477-85e8-4f3a-9dbd-3b7280abaee4",
+  "type": "code_pattern",
+  "content": {
+    "code": "def test_function_0(): pass",
+    "description": "测试函数 0",
+    "file_type": "python"
+  },
+  "hash_key": "0a4ae33e1ac27fa5",
+  "metadata": {
+    "file_type": "python"
+  },
+  "created_at": "2026-02-03T11:15:42.618286",
+  "last_used": "2026-02-03T11:15:42.618286",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "python",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

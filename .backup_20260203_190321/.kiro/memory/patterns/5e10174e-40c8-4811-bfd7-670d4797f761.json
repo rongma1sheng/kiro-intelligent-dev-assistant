@@ -1,0 +1,29 @@
+{
+  "id": "5e10174e-40c8-4811-bfd7-670d4797f761",
+  "type": "best_practice",
+  "content": {
+    "title": "多维度系统健康检查方法论",
+    "description": "全面的系统健康检查最佳实践：1)核心系统状态检查-验证各子系统基本功能 2)功能测试验证-执行完整的测试套件 3)Hook系统集成检查-验证自动化组件 4)文件系统结构检查-确保目录完整性 5)性能和资源检查-监控系统资源使用 6)配置一致性检查-验证配置版本和格式 7)集成测试验证-测试跨系统协作 8)生成详细报告-记录所有检查结果。这种系统性方法确保无遗漏的全面健康评估。",
+    "category": "system_monitoring"
+  },
+  "hash_key": "658c6909f807f56f",
+  "metadata": {
+    "category": "system_monitoring"
+  },
+  "created_at": "2026-02-03T12:00:31.856588",
+  "last_used": "2026-02-03T12:00:31.856588",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "health_check",
+    "system_monitoring",
+    "testing",
+    "integration",
+    "best_practice",
+    "system_monitoring",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

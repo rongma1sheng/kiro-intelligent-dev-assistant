@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-02-03T19:09:01.819982",
+  "version": "3.0",
+  "overall_health": 99,
+  "tests": {
+    "directory_structure": {
+      "name": "目录结构测试",
+      "status": "pass",
+      "score": 20,
+      "max_score": 20,
+      "details": [
+        "✅ .kiro目录存在",
+        "✅ hooks目录存在",
+        "✅ settings目录存在",
+        "✅ scripts/utilities目录存在"
+      ],
+      "issues": []
+    },
+    "hook_files": {
+      "name": "Hook文件测试",
+      "status": "pass",
+      "score": 35,
+      "max_score": 30,
+      "details": [
+        "✅ core-quality-guardian.kiro.hook 格式正确",
+        "✅ intelligent-development-assistant.kiro.hook 格式正确",
+        "✅ real-time-code-guardian.kiro.hook 格式正确",
+        "✅ documentation-sync-manager.kiro.hook 格式正确",
+        "✅ automated-deployment-orchestrator.kiro.hook 格式正确",
+        "✅ background-knowledge-accumulator.kiro.hook 格式正确",
+        "✅ Hook架构文档存在"
+      ],
+      "issues": [],
+      "hook_status": {
+        "core-quality-guardian.kiro.hook": "valid",
+        "intelligent-development-assistant.kiro.hook": "valid",
+        "real-time-code-guardian.kiro.hook": "valid",
+        "documentation-sync-manager.kiro.hook": "valid",
+        "automated-deployment-orchestrator.kiro.hook": "valid",
+        "background-knowledge-accumulator.kiro.hook": "valid"
+      }
+    },
+    "mcp_settings": {
+      "name": "MCP设置测试",
+      "status": "pass",
+      "score": 14,
+      "max_score": 20,
+      "details": [
+        "✅ MCP配置文件存在",
+        "✅ 配置了 2 个MCP服务器",
+        "✅ filesystem 配置完整",
+        "✅ memory 配置完整"
+      ],
+      "issues": [],
+      "mcp_servers": {
+        "filesystem": {
+          "configured": true,
+          "has_command": true,
+          "has_args": true,
+          "disabled": false
+        },
+        "memory": {
+          "configured": true,
+          "has_command": true,
+          "has_args": true,
+          "disabled": false
+        }
+      }
+    },
+    "core_scripts": {
+      "name": "核心脚本测试",
+      "status": "pass",
+      "score": 20,
+      "max_score": 20,
+      "details": [
+        "✅ intelligent_development_support_integrated.py 结构正确",
+        "✅ background_knowledge_accumulator.py 结构正确",
+        "✅ comprehensive_kiro_system_test.py 结构正确",
+        "✅ final_system_status_report.py 结构正确"
+      ],
+      "issues": [],
+      "script_status": {
+        "intelligent_development_support_integrated.py": "valid",
+        "background_knowledge_accumulator.py": "valid",
+        "comprehensive_kiro_system_test.py": "valid",
+        "final_system_status_report.py": "valid"
+      }
+    },
+    "system_integration": {
+      "name": "系统集成测试",
+      "status": "pass",
+      "score": 10,
+      "max_score": 10,
+      "details": [
+        "✅ 错误诊断功能正常",
+        "✅ 任务分配功能正常",
+        "✅ 生命周期管理功能正常"
+      ],
+      "issues": []
+    }
+  }
+}

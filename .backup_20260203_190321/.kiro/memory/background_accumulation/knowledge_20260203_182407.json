@@ -1,0 +1,94 @@
+{
+  "extraction_timestamp": "2026-02-03T18:24:07.743498",
+  "total_items_processed": 3,
+  "activity_patterns": {
+    "代码编写": {
+      "activity_type": "代码编写",
+      "frequency": 1,
+      "time_span": "0秒",
+      "context_analysis": {
+        "common_context_keys": {
+          "file": 1,
+          "lines": 1
+        },
+        "total_contexts": 1,
+        "unique_contexts": 1
+      },
+      "efficiency_metrics": {
+        "items_per_minute": 1.0,
+        "average_duration": 60,
+        "efficiency_score": 10
+      }
+    },
+    "测试执行": {
+      "activity_type": "测试执行",
+      "frequency": 1,
+      "time_span": "0秒",
+      "context_analysis": {
+        "common_context_keys": {
+          "test_count": 1,
+          "passed": 1
+        },
+        "total_contexts": 1,
+        "unique_contexts": 1
+      },
+      "efficiency_metrics": {
+        "items_per_minute": 1.0,
+        "average_duration": 60,
+        "efficiency_score": 10
+      }
+    },
+    "文档更新": {
+      "activity_type": "文档更新",
+      "frequency": 1,
+      "time_span": "0秒",
+      "context_analysis": {
+        "common_context_keys": {
+          "doc": 1,
+          "changes": 1
+        },
+        "total_contexts": 1,
+        "unique_contexts": 1
+      },
+      "efficiency_metrics": {
+        "items_per_minute": 1.0,
+        "average_duration": 60,
+        "efficiency_score": 10
+      }
+    }
+  },
+  "key_insights": [],
+  "mcp_entities": [
+    {
+      "name": "代码编写活动模式",
+      "entityType": "活动模式知识",
+      "observations": [
+        "活动频率: 1次",
+        "时间跨度: 0秒",
+        "效率指标: {\"items_per_minute\": 1.0, \"average_duration\": 60, \"efficiency_score\": 10}",
+        "上下文分析: {\"common_context_keys\": {\"file\": 1, \"lines\": 1}, \"total_contexts\": 1, \"unique_contexts\": 1}"
+      ]
+    },
+    {
+      "name": "测试执行活动模式",
+      "entityType": "活动模式知识",
+      "observations": [
+        "活动频率: 1次",
+        "时间跨度: 0秒",
+        "效率指标: {\"items_per_minute\": 1.0, \"average_duration\": 60, \"efficiency_score\": 10}",
+        "上下文分析: {\"common_context_keys\": {\"test_count\": 1, \"passed\": 1}, \"total_contexts\": 1, \"unique_contexts\": 1}"
+      ]
+    },
+    {
+      "name": "文档更新活动模式",
+      "entityType": "活动模式知识",
+      "observations": [
+        "活动频率: 1次",
+        "时间跨度: 0秒",
+        "效率指标: {\"items_per_minute\": 1.0, \"average_duration\": 60, \"efficiency_score\": 10}",
+        "上下文分析: {\"common_context_keys\": {\"doc\": 1, \"changes\": 1}, \"total_contexts\": 1, \"unique_contexts\": 1}"
+      ]
+    }
+  ],
+  "mcp_relations": []
+}

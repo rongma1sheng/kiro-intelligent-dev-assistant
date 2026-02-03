@@ -1,0 +1,22 @@
+2026-02-03 18:02:06,137 - BackgroundKnowledgeAccumulator - INFO - 后台知识积累引擎启动
+2026-02-03 18:02:36,157 - BackgroundKnowledgeAccumulator - INFO - 开始空闲时间知识积累...
+2026-02-03 18:02:36,161 - BackgroundKnowledgeAccumulator - INFO - 知识已存储到记忆系统: .kiro\memory\background_accumulation\knowledge_20260203_180236.json
+2026-02-03 18:02:36,162 - BackgroundKnowledgeAccumulator - INFO - 积累报告已生成: .kiro\reports\background_accumulation\accumulation_report_20260203_180236.json
+2026-02-03 18:02:36,162 - BackgroundKnowledgeAccumulator - INFO - 知识积累完成，处理了3个项目
+2026-02-03 18:05:01,786 - BackgroundKnowledgeAccumulator - INFO - 后台知识积累引擎启动
+2026-02-03 18:05:31,804 - BackgroundKnowledgeAccumulator - INFO - 开始空闲时间知识积累...
+2026-02-03 18:05:31,805 - BackgroundKnowledgeAccumulator - INFO - 知识已存储到记忆系统: .kiro\memory\background_accumulation\knowledge_20260203_180531.json
+2026-02-03 18:05:31,806 - BackgroundKnowledgeAccumulator - INFO - 积累报告已生成: .kiro\reports\background_accumulation\accumulation_report_20260203_180531.json
+2026-02-03 18:05:31,806 - BackgroundKnowledgeAccumulator - INFO - 知识积累完成，处理了3个项目
+2026-02-03 18:07:26,417 - BackgroundKnowledgeAccumulator - INFO - 后台知识积累引擎停止
+2026-02-03 18:08:57,434 - BackgroundKnowledgeAccumulator - INFO - 后台知识积累引擎启动
+2026-02-03 18:09:27,466 - BackgroundKnowledgeAccumulator - INFO - 开始空闲时间知识积累...
+2026-02-03 18:09:27,493 - BackgroundKnowledgeAccumulator - INFO - 知识已存储到记忆系统: .kiro\memory\background_accumulation\knowledge_20260203_180927.json
+2026-02-03 18:09:27,493 - BackgroundKnowledgeAccumulator - INFO - 积累报告已生成: .kiro\reports\background_accumulation\accumulation_report_20260203_180927.json
+2026-02-03 18:09:27,493 - BackgroundKnowledgeAccumulator - INFO - 知识积累完成，处理了3个项目
+2026-02-03 18:16:33,286 - BackgroundKnowledgeAccumulator - INFO - 后台知识积累引擎启动
+2026-02-03 18:17:03,308 - BackgroundKnowledgeAccumulator - INFO - 开始空闲时间知识积累...
+2026-02-03 18:17:03,308 - BackgroundKnowledgeAccumulator - INFO - MCP实体存储: 3个
+2026-02-03 18:17:03,309 - BackgroundKnowledgeAccumulator - INFO - 知识已存储到记忆系统: .kiro\memory\background_accumulation\knowledge_20260203_181703.json
+2026-02-03 18:17:03,310 - BackgroundKnowledgeAccumulator - INFO - 积累报告已生成: .kiro\reports\background_accumulation\accumulation_report_20260203_181703.json
+2026-02-03 18:17:03,310 - BackgroundKnowledgeAccumulator - INFO - 知识积累完成，处理了3个项目

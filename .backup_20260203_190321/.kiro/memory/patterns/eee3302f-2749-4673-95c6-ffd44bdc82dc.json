@@ -1,0 +1,29 @@
+{
+  "id": "eee3302f-2749-4673-95c6-ffd44bdc82dc",
+  "type": "best_practice",
+  "content": {
+    "title": "系统健康检查最佳实践",
+    "description": "通过多维度检查确保复杂系统的健康状态：1)运行统计检查 2)功能测试验证 3)集成状态确认 4)性能指标监控 5)Hook系统响应验证。这种方法能够全面评估系统状态，及早发现潜在问题。",
+    "category": "system_monitoring"
+  },
+  "hash_key": "7c676fe6576575e7",
+  "metadata": {
+    "category": "system_monitoring"
+  },
+  "created_at": "2026-02-03T11:41:21.286655",
+  "last_used": "2026-02-03T11:41:21.286655",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "system_health",
+    "monitoring",
+    "testing",
+    "integration",
+    "best_practice",
+    "system_monitoring",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

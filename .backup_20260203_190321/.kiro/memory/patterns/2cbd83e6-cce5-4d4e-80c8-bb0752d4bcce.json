@@ -1,0 +1,44 @@
+{
+  "id": "2cbd83e6-cce5-4d4e-80c8-bb0752d4bcce",
+  "type": "error_solution",
+  "content": {
+    "title": "Python模块导入和API调用错误的解决方案",
+    "description": "解决Python项目中模块导入错误和API调用参数不匹配问题的完整方案：1)ImportError解决-检查模块路径、类名、函数名是否正确 2)API参数错误-查看源码确认正确的参数签名 3)数据模型匹配-确保使用正确的数据模型类 4)路径问题-使用sys.path.insert添加模块路径 5)版本兼容-检查API版本变化。常见错误包括类名错误、参数缺失、路径不正确等",
+    "context": "Python开发错误解决",
+    "tags": [
+      "Python错误",
+      "模块导入",
+      "API调用",
+      "参数匹配"
+    ],
+    "error_symptoms": [
+      "ImportError: cannot import name from module",
+      "missing required positional argument",
+      "TypeError: unexpected keyword argument",
+      "ModuleNotFoundError: No module named"
+    ],
+    "solution_steps": [
+      "1. 检查导入的类名和函数名是否正确",
+      "2. 查看源码确认正确的API签名",
+      "3. 使用sys.path.insert添加正确的模块路径",
+      "4. 确认使用的数据模型类是否匹配",
+      "5. 检查API版本是否有变化",
+      "6. 使用try-except捕获具体错误信息进行调试"
+    ]
+  },
+  "hash_key": "90e0d321395ed355",
+  "metadata": {},
+  "created_at": "2026-02-03T12:19:14.955146",
+  "last_used": "2026-02-03T12:19:14.955146",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "Python错误",
+    "模块导入",
+    "API调用",
+    "参数匹配"
+  ],
+  "source": "task_execution_analysis",
+  "confidence": 1.0
+}

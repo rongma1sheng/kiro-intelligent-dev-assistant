@@ -1,0 +1,31 @@
+{
+  "id": "c4025fc5-f367-41ac-af32-a851829bf680",
+  "type": "best_practice",
+  "content": {
+    "title": "知识积累系统的设计和实现最佳实践",
+    "description": "构建有效的知识积累系统的最佳实践：1)分类存储-按照最佳实践、代码模式、错误解决方案等分类存储 2)结构化内容-使用统一的内容结构包含标题、描述、标签、代码示例 3)自动触发-在任务完成后自动触发知识积累 4)搜索优化-支持多语言搜索和语义匹配 5)持续学习-根据使用频率和反馈优化知识质量 6)版本管理-跟踪知识的更新和演进。这种系统能够有效积累和复用开发经验",
+    "context": "知识管理系统",
+    "tags": [
+      "知识管理",
+      "经验积累",
+      "自动化学习",
+      "系统设计"
+    ],
+    "code_example": "\n# 知识积累系统设计\nclass KnowledgeAccumulator:\n    def __init__(self, memory_system):\n        self.memory_system = memory_system\n        self.pattern_types = {\n            'best_practice': MemoryType.BEST_PRACTICE,\n            'code_pattern': MemoryType.CODE_PATTERN,\n            'error_solution': MemoryType.ERROR_SOLUTION\n        }\n    \n    def accumulate_from_task(self, task_context):\n        \"\"\"从任务执行中积累知识\"\"\"\n        patterns = []\n        \n        # 提取最佳实践\n        if task_context.successful_approaches:\n            patterns.extend(self.extract_best_practices(task_context))\n        \n        # 提取代码模式\n        if task_context.code_solutions:\n            patterns.extend(self.extract_code_patterns(task_context))\n        \n        # 提取错误解决方案\n        if task_context.errors_and_fixes:\n            patterns.extend(self.extract_error_solutions(task_context))\n        \n        # 存储到记忆系统\n        for pattern in patterns:\n            self.memory_system.store_pattern(\n                content=pattern['content'],\n                pattern_type=pattern['type'],\n                tags=pattern.get('tags', [])\n            )\n        \n        return len(patterns)\n"
+  },
+  "hash_key": "164ceeab9301a22a",
+  "metadata": {},
+  "created_at": "2026-02-03T12:19:14.959145",
+  "last_used": "2026-02-03T12:19:14.959145",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "知识管理",
+    "经验积累",
+    "自动化学习",
+    "系统设计"
+  ],
+  "source": "task_execution_analysis",
+  "confidence": 1.0
+}

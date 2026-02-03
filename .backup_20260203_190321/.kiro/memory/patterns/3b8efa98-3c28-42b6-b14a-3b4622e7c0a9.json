@@ -1,0 +1,38 @@
+{
+  "id": "3b8efa98-3c28-42b6-b14a-3b4622e7c0a9",
+  "type": "code_pattern",
+  "content": {
+    "code": "{\n  \"name\": \"智能编程助手\",\n  \"version\": \"4.0.0\", \n  \"description\": \"基于记忆系统的智能编程助手\",\n  \"when\": {\n    \"type\": \"fileEdited\",\n    \"patterns\": [\"*.py\", \"*.js\", \"*.ts\", \"*.java\"]\n  },\n  \"then\": {\n    \"type\": \"askAgent\",\n    \"prompt\": \"分析文件并提供智能建议...\"\n  }\n}\n\ndef enhance_hook_prompt(self, hook_name: str, original_prompt: str, context: Dict[str, Any]) -> str:\n    relevant_patterns = self.search(query=original_prompt, **context)\n    if relevant_patterns:\n        enhanced_parts = [original_prompt, \"\\n🧠 相关记忆模式:\"]\n        for i, pattern in enumerate(relevant_patterns, 1):\n            enhanced_parts.append(f\"\\n{i}. {pattern.content.get('description', '无描述')}\")\n        return ''.join(enhanced_parts)\n    return original_prompt",
+    "description": "Hook系统集成模式：事件触发+智能提示增强",
+    "file_type": "json"
+  },
+  "hash_key": "fb29a5b182373e9c",
+  "metadata": {
+    "file_type": "json",
+    "usage_contexts": [
+      {
+        "file_type": null,
+        "task_type": null,
+        "user_role": "Full-Stack Engineer",
+        "success": true,
+        "timestamp": "2026-02-03T11:22:08.772196"
+      }
+    ]
+  },
+  "created_at": "2026-02-03T11:22:08.548298",
+  "last_used": "2026-02-03T11:22:08.548298",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "hook",
+    "integration",
+    "event_driven",
+    "json_config",
+    "automation",
+    "json",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

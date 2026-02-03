@@ -1,0 +1,134 @@
+{
+  "Product Manager": {
+    "role_name": "Product Manager",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "Software Architect": {
+    "role_name": "Software Architect",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "Algorithm Engineer": {
+    "role_name": "Algorithm Engineer",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "Database Engineer": {
+    "role_name": "Database Engineer",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "UI/UX Engineer": {
+    "role_name": "UI/UX Engineer",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "Full-Stack Engineer": {
+    "role_name": "Full-Stack Engineer",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "Security Engineer": {
+    "role_name": "Security Engineer",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "DevOps Engineer": {
+    "role_name": "DevOps Engineer",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "Data Engineer": {
+    "role_name": "Data Engineer",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "Test Engineer": {
+    "role_name": "Test Engineer",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "Scrum Master/Tech Lead": {
+    "role_name": "Scrum Master/Tech Lead",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  },
+  "Code Review Specialist": {
+    "role_name": "Code Review Specialist",
+    "primary_skills": [],
+    "secondary_skills": [],
+    "learning_skills": [],
+    "skill_gaps": [],
+    "learning_preferences": {},
+    "collaboration_patterns": {},
+    "performance_metrics": {},
+    "last_updated": "2026-02-03T13:12:11.078785"
+  }
+}

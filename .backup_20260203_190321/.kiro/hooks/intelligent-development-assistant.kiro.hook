@@ -1,0 +1,12 @@
+{
+  "name": "智能开发助手",
+  "version": "5.0.0",
+  "description": "智能化的开发支持系统，提供错误解决、任务分配、生命周期管理",
+  "when": {
+    "type": "promptSubmit"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "提供智能开发支持：错误诊断和解决方案推荐、任务智能分配、生命周期自动管理。整合原有的error-solution-finder、pm-task-assignment、task-lifecycle-management功能。"
+  }
+}

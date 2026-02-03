@@ -1,0 +1,45 @@
+{
+  "id": "b6ff5db4-ce0a-4db5-ac45-c724aba1ee7a",
+  "type": "error_solution",
+  "content": {
+    "title": "系统检查中的常见错误和解决方案",
+    "description": "系统检查过程中常见错误的解决方案：1)JSON序列化错误-使用安全序列化方法处理复杂对象 2)方法调用失败-使用hasattr检查方法存在性 3)数据类型不匹配-添加类型检查和转换 4)资源访问错误-添加权限和存在性检查 5)并发访问冲突-使用线程安全的数据结构 6)内存不足-优化数据结构和及时释放资源。这些解决方案确保系统检查的稳定性和可靠性",
+    "context": "系统检查错误处理",
+    "tags": [
+      "错误处理",
+      "系统检查",
+      "稳定性",
+      "可靠性"
+    ],
+    "error_symptoms": [
+      "Object of type X is not JSON serializable",
+      "AttributeError: object has no attribute method",
+      "TypeError: unsupported operand type(s)",
+      "FileNotFoundError: file not found",
+      "MemoryError: out of memory"
+    ],
+    "solution_steps": [
+      "1. JSON序列化错误：实现安全序列化方法，处理枚举和自定义对象",
+      "2. 方法调用错误：使用hasattr检查方法存在性，提供默认实现",
+      "3. 数据类型错误：添加类型检查，实现自动类型转换",
+      "4. 文件访问错误：检查文件存在性和访问权限",
+      "5. 内存错误：优化数据结构，实现分批处理",
+      "6. 并发错误：使用线程安全的数据结构和锁机制"
+    ]
+  },
+  "hash_key": "beb1112af9842a39",
+  "metadata": {},
+  "created_at": "2026-02-03T12:29:15.697387",
+  "last_used": "2026-02-03T12:29:15.697387",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "错误处理",
+    "系统检查",
+    "稳定性",
+    "可靠性"
+  ],
+  "source": "comprehensive_analysis",
+  "confidence": 1.0
+}

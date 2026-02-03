@@ -1,0 +1,31 @@
+{
+  "id": "18a31c95-bbc9-4b7a-a39e-e223d2fcca68",
+  "type": "best_practice",
+  "content": {
+    "title": "系统性能基准测试的实施方法",
+    "description": "实施系统性能基准测试的最佳实践：1)多指标测试-响应时间、内存使用、存储效率、并发能力 2)多样本测试-多次测试取平均值，减少偶然误差 3)真实场景模拟-使用实际业务场景进行测试 4)基准对比-与历史数据和行业标准对比 5)瓶颈识别-通过测试识别性能瓶颈 6)持续监控-建立性能监控机制 7)优化验证-优化后重新测试验证效果。这种方法确保性能测试的准确性和实用性",
+    "context": "系统性能测试",
+    "tags": [
+      "性能测试",
+      "基准测试",
+      "系统优化",
+      "质量保证"
+    ],
+    "code_example": "\n# 系统性能基准测试框架\nimport time\nimport psutil\nimport threading\nfrom statistics import mean, median\n\nclass PerformanceBenchmark:\n    def __init__(self, system_under_test):\n        self.system = system_under_test\n        self.benchmarks = {}\n        \n    def measure_response_time(self, operation, samples=10):\n        \"\"\"测量响应时间\"\"\"\n        response_times = []\n        \n        for _ in range(samples):\n            start_time = time.time()\n            try:\n                operation()\n                end_time = time.time()\n                response_times.append((end_time - start_time) * 1000)  # 转换为毫秒\n            except Exception as e:\n                print(f\"操作执行失败: {e}\")\n        \n        if response_times:\n            return {\n                'average': mean(response_times),\n                'median': median(response_times),\n                'min': min(response_times),\n                'max': max(response_times),\n                'samples': len(response_times)\n            }\n        return None\n    \n    def measure_memory_usage(self):\n        \"\"\"测量内存使用\"\"\"\n        process = psutil.Process()\n        memory_info = process.memory_info()\n        \n        return {\n            'rss_mb': memory_info.rss / 1024 / 1024,  # 物理内存\n            'vms_mb': memory_info.vms / 1024 / 1024,  # 虚拟内存\n            'percent': process.memory_percent()\n        }\n    \n    def test_concurrency(self, operation, concurrent_requests=5):\n        \"\"\"测试并发处理能力\"\"\"\n        results = []\n        threads = []\n        \n        def concurrent_operation():\n            try:\n                start_time = time.time()\n                operation()\n                end_time = time.time()\n                results.append({\n                    'success': True,\n                    'duration': (end_time - start_time) * 1000\n                })\n            except Exception as e:\n                results.append({\n                    'success': False,\n                    'error': str(e)\n                })\n        \n        # 启动并发线程\n        for _ in range(concurrent_requests):\n            thread = threading.Thread(target=concurrent_operation)\n            threads.append(thread)\n            thread.start()\n        \n        # 等待所有线程完成\n        for thread in threads:\n            thread.join()\n        \n        success_count = sum(1 for r in results if r['success'])\n        success_rate = success_count / len(results) if results else 0\n        \n        return {\n            'total_requests': len(results),\n            'successful_requests': success_count,\n            'success_rate': success_rate,\n            'supported': success_rate >= 0.8\n        }\n    \n    def run_full_benchmark(self):\n        \"\"\"运行完整基准测试\"\"\"\n        print(\"🚀 开始性能基准测试...\")\n        \n        # 响应时间测试\n        response_time = self.measure_response_time(\n            lambda: self.system.get_system_stats()\n        )\n        \n        # 内存使用测试\n        memory_usage = self.measure_memory_usage()\n        \n        # 并发测试\n        concurrency = self.test_concurrency(\n            lambda: self.system.get_system_stats()\n        )\n        \n        benchmark_results = {\n            'response_time': response_time,\n            'memory_usage': memory_usage,\n            'concurrency': concurrency,\n            'timestamp': time.time()\n        }\n        \n        # 计算性能评分\n        performance_score = self.calculate_performance_score(benchmark_results)\n        benchmark_results['performance_score'] = performance_score\n        \n        return benchmark_results\n"
+  },
+  "hash_key": "e94e153e4402e65c",
+  "metadata": {},
+  "created_at": "2026-02-03T12:29:15.687314",
+  "last_used": "2026-02-03T12:29:15.687314",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "性能测试",
+    "基准测试",
+    "系统优化",
+    "质量保证"
+  ],
+  "source": "comprehensive_analysis",
+  "confidence": 1.0
+}

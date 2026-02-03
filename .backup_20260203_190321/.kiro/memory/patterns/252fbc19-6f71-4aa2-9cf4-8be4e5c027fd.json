@@ -1,0 +1,29 @@
+{
+  "id": "252fbc19-6f71-4aa2-9cf4-8be4e5c027fd",
+  "type": "best_practice",
+  "content": {
+    "title": "Hook系统响应分析方法",
+    "description": "Hook系统响应分析的最佳实践：1)检查Hook配置文件语法正确性 2)验证触发条件是否匹配 3)确认Hook执行日志和输出 4)分析Hook提示内容的相关性 5)评估Hook系统与其他组件的集成效果。这种分析方法有助于理解Hook系统的工作机制。",
+    "category": "hook_system"
+  },
+  "hash_key": "786773903010e6b7",
+  "metadata": {
+    "category": "hook_system"
+  },
+  "created_at": "2026-02-03T11:41:21.302371",
+  "last_used": "2026-02-03T11:41:21.302371",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "hook_system",
+    "analysis",
+    "debugging",
+    "integration",
+    "configuration",
+    "hook_system",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

@@ -1,0 +1,27 @@
+{
+  "id": "23a08bb4-af69-43b9-9ad1-5d0e57532913",
+  "type": "error_solution",
+  "content": {
+    "error_description": "TypeError: 'NoneType' object is not iterable",
+    "solution": "检查变量是否为None，使用 if variable is not None: 进行判断",
+    "error_type": "TypeError"
+  },
+  "hash_key": "f388111b16638baa",
+  "metadata": {
+    "error_type": "TypeError"
+  },
+  "created_at": "2026-02-03T11:56:44.127399",
+  "last_used": "2026-02-03T11:56:44.127399",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "python",
+    "none",
+    "iteration",
+    "error",
+    "solution"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

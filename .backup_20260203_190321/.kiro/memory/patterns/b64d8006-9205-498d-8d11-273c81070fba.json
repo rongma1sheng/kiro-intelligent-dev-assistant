@@ -1,0 +1,29 @@
+{
+  "id": "b64d8006-9205-498d-8d11-273c81070fba",
+  "type": "best_practice",
+  "content": {
+    "title": "GitHub技能: canvas-design",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations. 来源: anthropic",
+    "category": "github_skills"
+  },
+  "hash_key": "d4638df7d726dfec",
+  "metadata": {
+    "category": "github_skills"
+  },
+  "created_at": "2026-02-03T11:47:29.370410",
+  "last_used": "2026-02-03T11:47:29.370410",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "github",
+    "anthropic",
+    "skills",
+    "canvas-design",
+    "general",
+    "github_skills",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

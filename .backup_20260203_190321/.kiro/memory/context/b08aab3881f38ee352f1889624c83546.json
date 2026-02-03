@@ -1,0 +1,25 @@
+{
+  "file_path": "test_integration.py",
+  "file_type": "python",
+  "dependencies": [],
+  "imports": [
+    "sys",
+    "os",
+    "json",
+    "pathlib",
+    "datetime"
+  ],
+  "functions": [
+    "test_memory_hook_integration",
+    "main"
+  ],
+  "classes": [],
+  "test_files": [],
+  "complexity_score": 6.5,
+  "coverage_percentage": 95.0,
+  "last_modified": "2026-02-03T11:56:44.158598",
+  "change_frequency": 0.0,
+  "error_count": 0,
+  "success_count": 0,
+  "related_files": []
+}
