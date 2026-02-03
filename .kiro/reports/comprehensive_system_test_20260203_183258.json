@@ -1,0 +1,122 @@
+{
+  "test_metadata": {
+    "timestamp": "2026-02-03T18:32:58.305807",
+    "platform": "win32",
+    "test_scope": "全面系统测试"
+  },
+  "hook_tests": {
+    "hook_directory_exists": true,
+    "hook_files": [
+      "automated-deployment-orchestrator.kiro.hook",
+      "background-knowledge-accumulator.kiro.hook",
+      "core-quality-guardian.kiro.hook",
+      "documentation-sync-manager.kiro.hook",
+      "intelligent-development-assistant.kiro.hook",
+      "real-time-code-guardian.kiro.hook"
+    ],
+    "hook_validity": {
+      "automated-deployment-orchestrator.kiro.hook": {
+        "file_readable": true,
+        "json_valid": true,
+        "required_fields": true,
+        "configuration": {}
+      },
+      "background-knowledge-accumulator.kiro.hook": {
+        "file_readable": true,
+        "json_valid": true,
+        "required_fields": true,
+        "configuration": {
+          "category": "知识管理",
+          "priority": "低",
+          "background_execution": true,
+          "user_impact": "零影响",
+          "efficiency_gain": "高",
+          "created_by": "🧠 Knowledge Engineer",
+          "integration": "MCP记忆系统联动",
+          "silent_mode": true,
+          "encoding_fixed": true
+        }
+      },
+      "core-quality-guardian.kiro.hook": {
+        "file_readable": true,
+        "json_valid": true,
+        "required_fields": true,
+        "configuration": {}
+      },
+      "documentation-sync-manager.kiro.hook": {
+        "file_readable": true,
+        "json_valid": true,
+        "required_fields": true,
+        "configuration": {}
+      },
+      "intelligent-development-assistant.kiro.hook": {
+        "file_readable": true,
+        "json_valid": true,
+        "required_fields": true,
+        "configuration": {}
+      },
+      "real-time-code-guardian.kiro.hook": {
+        "file_readable": true,
+        "json_valid": true,
+        "required_fields": true,
+        "configuration": {}
+      }
+    },
+    "architecture_score": 0
+  },
+  "mcp_tests": {
+    "mcp_directory_exists": true,
+    "mcp_config_files": [
+      "mcp.json",
+      "mcp_darwin.json",
+      "mcp_win32.json"
+    ],
+    "memory_system_status": "已配置",
+    "filesystem_integration": true,
+    "memory_directories": [
+      "background_accumulation",
+      "context",
+      "knowledge",
+      "patterns",
+      "task_knowledge"
+    ],
+    "latest_knowledge_extraction": "task_knowledge_20260203_183149.json"
+  },
+  "meta_learning_tests": {
+    "team_skills_meta_learning": true,
+    "brain_meta_learning": true,
+    "core_components": [
+      "core.py",
+      "meta_coordinator.py",
+      "models.py",
+      "__init__.py"
+    ],
+    "integration_status": "完整且运行正常",
+    "risk_control_meta_learner": true,
+    "test_coverage": [
+      "test_data_models.py",
+      "test_risk_control_meta_learner.py"
+    ]
+  },
+  "integration_tests": {
+    "background_knowledge_accumulator": true,
+    "knowledge_extraction_system": true,
+    "anti_drift_mechanism": true,
+    "cross_platform_compatibility": true,
+    "logging_system": true
+  },
+  "system_health": {
+    "overall_score": 82.5,
+    "component_scores": {
+      "hook_system": 30,
+      "mcp_configuration": 100,
+      "meta_learning": 100,
+      "system_integration": 100.0
+    },
+    "recommendations": [
+      "优化Hook系统配置和架构"
+    ],
+    "critical_issues": [],
+    "optimization_opportunities": []
+  }
+}
