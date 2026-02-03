@@ -1,0 +1,152 @@
+{
+  "temporary_files_removed": [
+    "tests\\unit\\brain\\__pycache__",
+    ".pytest_cache",
+    ".pytest_cache\\v",
+    ".pytest_cache\\v\\cache",
+    "htmlcov_ai_brain_coordinator",
+    "htmlcov_single_test",
+    "backup_20260203_135753"
+  ],
+  "important_files_preserved": [
+    {
+      "path": ".kiro/settings/mcp.json",
+      "size": 1252,
+      "modified": "2026-02-03T13:37:06.050729",
+      "status": "preserved"
+    },
+    {
+      "path": ".kiro/settings/mcp_darwin.json",
+      "size": 1867,
+      "modified": "2026-02-03T14:36:07.920579",
+      "status": "preserved"
+    },
+    {
+      "path": ".kiro/settings/mac_performance_config.json",
+      "size": 1011,
+      "modified": "2026-02-03T14:36:07.921579",
+      "status": "preserved"
+    },
+    {
+      "path": ".kiro/hooks/windows-performance-monitor.kiro.hook",
+      "size": 395,
+      "modified": "2026-02-03T14:40:15.249104",
+      "status": "preserved"
+    },
+    {
+      "path": ".kiro/hooks/windows-system-health-checker.kiro.hook",
+      "size": 361,
+      "modified": "2026-02-03T14:40:15.250107",
+      "status": "preserved"
+    },
+    {
+      "path": ".kiro/hooks/intelligent-platform-adapter.kiro.hook",
+      "size": 347,
+      "modified": "2026-02-03T14:40:15.250107",
+      "status": "preserved"
+    },
+    {
+      "path": "scripts/utilities/windows_system_health_checker.py",
+      "size": 21836,
+      "modified": "2026-02-03T14:47:58.432643",
+      "status": "preserved"
+    },
+    {
+      "path": "scripts/utilities/windows_performance_analyzer.py",
+      "size": 35080,
+      "modified": "2026-02-03T14:45:49.535624",
+      "status": "preserved"
+    },
+    {
+      "path": "scripts/utilities/extract_windows_system_analysis_knowledge.py",
+      "size": 26762,
+      "modified": "2026-02-03T14:50:09.350022",
+      "status": "preserved"
+    },
+    {
+      "path": "scripts/utilities/extract_platform_adaptation_knowledge.py",
+      "size": 23680,
+      "modified": "2026-02-03T14:43:18.852620",
+      "status": "preserved"
+    },
+    {
+      "path": "3.0/README.md",
+      "size": 2130,
+      "modified": "2026-02-03T14:13:45.403769",
+      "status": "preserved"
+    },
+    {
+      "path": "3.0/MIGRATION_GUIDE.md",
+      "size": 1838,
+      "modified": "2026-02-03T14:13:45.404581",
+      "status": "preserved"
+    },
+    {
+      "path": "3.0/base/mcp.json",
+      "size": 1261,
+      "modified": "2026-02-03T14:13:45.367173",
+      "status": "preserved"
+    },
+    {
+      "path": ".kiro/reports/windows_system_health_report.json",
+      "size": 3173,
+      "modified": "2026-02-03T14:48:27.402488",
+      "status": "preserved"
+    },
+    {
+      "path": ".kiro/reports/windows_performance_analysis_report.json",
+      "size": 7998,
+      "modified": "2026-02-03T14:46:17.876975",
+      "status": "preserved"
+    },
+    {
+      "path": ".kiro/reports/windows_system_analysis_knowledge_report.json",
+      "size": 13771,
+      "modified": "2026-02-03T14:50:59.967558",
+      "status": "preserved"
+    },
+    {
+      "path": ".kiro/reports/platform_adaptation_knowledge_report.json",
+      "size": 10470,
+      "modified": "2026-02-03T14:46:36.876861",
+      "status": "preserved"
+    }
+  ],
+  "git_operations": [
+    {
+      "operation": "status_check",
+      "modified_files_count": 613,
+      "status": "success"
+    }
+  ],
+  "final_status": {
+    "total_files": 6573,
+    "python_files": 1143,
+    "json_files": 251,
+    "markdown_files": 221,
+    "important_directories": {
+      ".kiro/settings": {
+        "exists": true,
+        "files_count": 6
+      },
+      ".kiro/hooks": {
+        "exists": true,
+        "files_count": 17
+      },
+      ".kiro/reports": {
+        "exists": true,
+        "files_count": 63
+      },
+      "scripts/utilities": {
+        "exists": true,
+        "files_count": 48
+      },
+      "3.0": {
+        "exists": true,
+        "files_count": 25
+      }
+    },
+    "cleanup_date": "2026-02-03T14:54:04.309048",
+    "project_health": "excellent"
+  }
+}

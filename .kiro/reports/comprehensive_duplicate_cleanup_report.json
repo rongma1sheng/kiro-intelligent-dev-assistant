@@ -1,0 +1,2441 @@
+{
+  "metadata": {
+    "cleanup_date": "2026-02-03T14:31:35.670681",
+    "cleaner": "🔍 Code Review Specialist",
+    "total_files_scanned": 2450
+  },
+  "duplicate_analysis": {
+    "duplicate_groups_found": 241,
+    "duplicate_files_found": 639,
+    "files_deleted": 603,
+    "space_saved_bytes": 6098011,
+    "space_saved_mb": 5.82
+  },
+  "duplicate_breakdown": {
+    "by_extension": {
+      ".md": 135,
+      ".json": 51,
+      ".hook": 155,
+      ".py": 394,
+      ".txt": 14,
+      ".xsd": 78,
+      ".sh": 11,
+      ".bat": 42
+    },
+    "by_directory": {
+      ".kiro": 1,
+      ".kiro\\backups\\config_backup_20260202_155408": 2,
+      ".kiro\\backups\\config_backup_20260202_172559": 2,
+      ".kiro\\backups\\config_backup_20260202_172913": 1,
+      ".kiro\\backups\\config_backup_20260203_104252": 1,
+      ".kiro\\backups\\config_backup_20260202_155408\\hooks": 10,
+      ".kiro\\backups\\config_backup_20260202_172559\\hooks": 10,
+      ".kiro\\backups\\config_backup_20260202_172913\\hooks": 9,
+      "2.1\\mac\\.kiro\\hooks": 1,
+      ".kiro\\backups\\config_backup_20260202_155408\\scripts": 3,
+      ".kiro\\backups\\config_backup_20260202_172559\\scripts": 3,
+      ".kiro\\backups\\config_backup_20260202_172913\\scripts": 3,
+      ".kiro\\backups\\config_backup_20260203_104252\\scripts": 3,
+      ".kiro\\scripts": 3,
+      ".kiro\\backups\\config_backup_20260202_155408\\settings": 3,
+      ".kiro\\backups\\config_backup_20260202_172559\\settings": 3,
+      ".kiro\\backups\\config_backup_20260202_172913\\settings": 3,
+      ".kiro\\backups\\config_backup_20260203_104252\\settings": 3,
+      ".kiro\\settings": 3,
+      ".kiro\\backups\\mcp_configs_20260203_133634": 3,
+      ".kiro\\backups\\mcp_configs_20260203_133706": 3,
+      "2.0\\linux\\.kiro\\settings": 3,
+      "2.0\\win\\.kiro\\settings": 3,
+      "2.1\\linux\\.kiro\\settings": 3,
+      "2.1\\mac\\.kiro\\settings": 3,
+      "2.1\\win\\.kiro\\settings": 3,
+      ".kiro\\backups\\config_backup_20260202_155408\\specs\\unified-bug-detection-system": 3,
+      ".kiro\\backups\\config_backup_20260202_172559\\specs\\unified-bug-detection-system": 3,
+      ".kiro\\backups\\config_backup_20260202_172913\\specs\\unified-bug-detection-system": 3,
+      ".kiro\\backups\\config_backup_20260203_104252\\specs\\unified-bug-detection-system": 3,
+      ".kiro\\specs\\unified-bug-detection-system": 3,
+      "2.0\\linux\\.kiro\\specs\\unified-bug-detection-system": 3,
+      "2.0\\win\\.kiro\\specs\\unified-bug-detection-system": 3,
+      "2.1\\linux\\.kiro\\specs\\unified-bug-detection-system": 3,
+      "2.1\\mac\\.kiro\\specs\\unified-bug-detection-system": 3,
+      "2.1\\win\\.kiro\\specs\\unified-bug-detection-system": 3,
+      ".kiro\\backups\\config_backup_20260202_155408\\steering": 5,
+      ".kiro\\backups\\config_backup_20260202_172559\\steering": 5,
+      ".kiro\\backups\\config_backup_20260202_172913\\steering": 5,
+      ".kiro\\backups\\config_backup_20260203_104252\\steering": 5,
+      ".kiro\\steering": 5,
+      "2.0\\linux\\.kiro\\steering": 5,
+      "2.0\\win\\.kiro\\steering": 5,
+      "2.1\\linux\\.kiro\\steering": 5,
+      "2.1\\mac\\.kiro\\steering": 5,
+      "2.1\\win\\.kiro\\steering": 5,
+      ".kiro\\backups\\config_backup_20260203_104252\\hooks": 10,
+      ".kiro\\backups\\hooks_20260203_133833": 11,
+      ".kiro\\backups\\hooks_20260203_133859": 11,
+      ".kiro\\hooks": 12,
+      "3.0\\linux\\hooks": 8,
+      "3.0\\mac\\hooks": 11,
+      "3.0\\win\\hooks": 8,
+      ".kiro\\docs": 1,
+      "3.0\\mac\\docs": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\algorithmic-art": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\brand-guidelines": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\canvas-design": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\internal-comms": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\mcp-builder": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\skill-creator": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\slack-gif-creator": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\theme-factory": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\web-artifacts-builder": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\webapp-testing": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pdf": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\xlsx": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ecma\\fouth-edition": 4,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ecma\\fouth-edition": 4,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016": 27,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016": 27,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\mce": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\mce": 1,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\microsoft": 7,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\microsoft": 7,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\scripts": 3,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\scripts": 3,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\scripts\\validation": 5,
+      ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\scripts\\validation": 5,
+      "3.0\\mac\\settings": 2,
+      "1.0\\linux": 1,
+      "1.0\\mac": 1,
+      "1.0\\win": 1,
+      "2.0\\linux": 1,
+      "2.0\\mac": 1,
+      "2.0\\win": 1,
+      "2.0\\linux\\.kiro\\hooks": 11,
+      "2.1\\linux\\.kiro\\hooks": 11,
+      "2.0\\linux\\.kiro\\templates\\global-project-config": 2,
+      "2.0\\win\\.kiro\\templates\\global-project-config": 2,
+      "2.1\\linux\\.kiro\\templates\\global-project-config": 2,
+      "2.1\\mac\\.kiro\\templates\\global-project-config": 2,
+      "2.1\\win\\.kiro\\templates\\global-project-config": 2,
+      "2.0\\linux\\.kiro\\templates\\global-project-config\\hooks": 3,
+      "2.0\\win\\.kiro\\templates\\global-project-config\\hooks": 3,
+      "2.1\\linux\\.kiro\\templates\\global-project-config\\hooks": 3,
+      "2.1\\mac\\.kiro\\templates\\global-project-config\\hooks": 3,
+      "2.1\\win\\.kiro\\templates\\global-project-config\\hooks": 3,
+      "2.0\\linux\\.kiro\\templates\\global-project-config\\scripts": 5,
+      "2.0\\win\\.kiro\\templates\\global-project-config\\scripts": 5,
+      "2.1\\linux\\.kiro\\templates\\global-project-config\\scripts": 5,
+      "2.1\\mac\\.kiro\\templates\\global-project-config\\scripts": 5,
+      "2.1\\win\\.kiro\\templates\\global-project-config\\scripts": 5,
+      "2.0\\linux\\.kiro\\templates\\global-project-config\\steering": 2,
+      "2.0\\win\\.kiro\\templates\\global-project-config\\steering": 2,
+      "2.1\\linux\\.kiro\\templates\\global-project-config\\steering": 2,
+      "2.1\\mac\\.kiro\\templates\\global-project-config\\steering": 2,
+      "2.1\\win\\.kiro\\templates\\global-project-config\\steering": 2,
+      "2.0\\linux\\docs": 2,
+      "2.0\\win\\docs": 2,
+      "docs": 1,
+      "2.1\\linux\\docs": 1,
+      "2.1\\mac\\docs": 2,
+      "2.1\\win\\docs": 1,
+      "2.0\\linux\\scripts": 56,
+      "2.0\\win\\scripts": 56,
+      "2.1\\linux\\scripts": 56,
+      "2.1\\mac\\scripts": 56,
+      "2.1\\win\\scripts": 56,
+      "scripts\\analysis": 3,
+      "scripts\\utilities": 39,
+      "scripts\\deployment": 5,
+      "scripts\\maintenance": 5,
+      "scripts": 3,
+      "scripts\\testing": 3,
+      "2.0\\linux\\scripts\\win": 7,
+      "2.0\\win\\scripts\\win": 7,
+      "2.1\\linux\\scripts\\win": 7,
+      "2.1\\mac\\scripts\\win": 7,
+      "2.1\\win\\scripts\\win": 7,
+      "scripts\\win": 7,
+      "2.0\\win\\.kiro\\hooks": 11,
+      "2.1\\win\\.kiro\\hooks": 11,
+      "2.1\\linux": 1,
+      "2.1\\mac": 1,
+      "2.1\\win": 1,
+      "docs\\guides": 1,
+      "reports": 1,
+      "src\\config": 1,
+      "src\\core": 1,
+      "src\\evolution\\security": 1,
+      "src\\scheduler": 1,
+      "tests\\e2e": 1,
+      "tests\\integration\\chapter_1": 1,
+      "tests\\integration\\chapter_2": 1,
+      "tests\\integration\\chapter_3": 1,
+      "tests\\integration\\chapter_4": 1,
+      "tests\\integration\\chapter_6": 1,
+      "tests\\properties\\brain": 2,
+      "tests\\unit\\brain": 3,
+      "tests\\unit\\brain\\soldier": 1,
+      "tests\\unit\\chapter_1": 1,
+      "tests\\unit\\chapter_2": 1,
+      "tests\\unit\\chapter_23": 1,
+      "tests\\unit\\chapter_3": 1,
+      "tests\\unit\\chapter_4": 1,
+      "src\\brain": 2,
+      "tasks": 2
+    },
+    "large_duplicates_count": 0,
+    "critical_duplicates_count": 114
+  },
+  "cleanup_opportunities": {
+    "empty_directories": 102,
+    "large_files": 0,
+    "old_backup_files": 2,
+    "temporary_files": 27,
+    "unused_test_files": 9
+  },
+  "cleanup_log": [
+    {
+      "group_id": 1,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\CONFIG_STATUS_REPORT.md",
+      "deleted_files": [
+        ".kiro\\CONFIG_STATUS_REPORT.md",
+        ".kiro\\backups\\config_backup_20260202_172559\\CONFIG_STATUS_REPORT.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\CONFIG_STATUS_REPORT.md",
+        ".kiro\\backups\\config_backup_20260203_104252\\CONFIG_STATUS_REPORT.md"
+      ],
+      "size_saved": 17604
+    },
+    {
+      "group_id": 2,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_172559\\fingerprint.json",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_155408\\fingerprint.json"
+      ],
+      "size_saved": 2755
+    },
+    {
+      "group_id": 3,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\auto-deploy-test.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\auto-deploy-test.kiro.hook"
+      ],
+      "size_saved": 738
+    },
+    {
+      "group_id": 4,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\context-consistency-anchor.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\context-consistency-anchor.kiro.hook"
+      ],
+      "size_saved": 1243
+    },
+    {
+      "group_id": 5,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\global-debug-360.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\global-debug-360.kiro.hook"
+      ],
+      "size_saved": 1875
+    },
+    {
+      "group_id": 6,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\HOOK_ARCHITECTURE.md",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\HOOK_ARCHITECTURE.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\hooks\\HOOK_ARCHITECTURE.md"
+      ],
+      "size_saved": 6790
+    },
+    {
+      "group_id": 7,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\llm-execution-monitor.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\llm-execution-monitor.kiro.hook"
+      ],
+      "size_saved": 1129
+    },
+    {
+      "group_id": 8,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\pm-task-assignment.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\pm-task-assignment.kiro.hook"
+      ],
+      "size_saved": 697
+    },
+    {
+      "group_id": 9,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\prd-sync-on-change.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\prd-sync-on-change.kiro.hook"
+      ],
+      "size_saved": 721
+    },
+    {
+      "group_id": 10,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\real-time-quality-guard.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\real-time-quality-guard.kiro.hook"
+      ],
+      "size_saved": 1332
+    },
+    {
+      "group_id": 11,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\task-lifecycle-management.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\task-lifecycle-management.kiro.hook"
+      ],
+      "size_saved": 1492
+    },
+    {
+      "group_id": 12,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\hooks\\unified-quality-check.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\hooks\\unified-quality-check.kiro.hook",
+        "2.1\\mac\\.kiro\\hooks\\unified-quality-check.kiro.hook"
+      ],
+      "size_saved": 2696
+    },
+    {
+      "group_id": 13,
+      "kept_file": ".kiro\\scripts\\config_validator.py",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_155408\\scripts\\config_validator.py",
+        ".kiro\\backups\\config_backup_20260202_172559\\scripts\\config_validator.py",
+        ".kiro\\backups\\config_backup_20260202_172913\\scripts\\config_validator.py",
+        ".kiro\\backups\\config_backup_20260203_104252\\scripts\\config_validator.py"
+      ],
+      "size_saved": 39644
+    },
+    {
+      "group_id": 14,
+      "kept_file": ".kiro\\scripts\\hook_trigger_tester.py",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_155408\\scripts\\hook_trigger_tester.py",
+        ".kiro\\backups\\config_backup_20260202_172559\\scripts\\hook_trigger_tester.py",
+        ".kiro\\backups\\config_backup_20260202_172913\\scripts\\hook_trigger_tester.py",
+        ".kiro\\backups\\config_backup_20260203_104252\\scripts\\hook_trigger_tester.py"
+      ],
+      "size_saved": 69064
+    },
+    {
+      "group_id": 15,
+      "kept_file": ".kiro\\scripts\\trigger_analysis_report.py",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_155408\\scripts\\trigger_analysis_report.py",
+        ".kiro\\backups\\config_backup_20260202_172559\\scripts\\trigger_analysis_report.py",
+        ".kiro\\backups\\config_backup_20260202_172913\\scripts\\trigger_analysis_report.py",
+        ".kiro\\backups\\config_backup_20260203_104252\\scripts\\trigger_analysis_report.py"
+      ],
+      "size_saved": 70944
+    },
+    {
+      "group_id": 17,
+      "kept_file": ".kiro\\backups\\mcp_configs_20260203_133634\\mcp.json",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_155408\\settings\\mcp.json",
+        ".kiro\\backups\\config_backup_20260202_172559\\settings\\mcp.json",
+        ".kiro\\backups\\config_backup_20260202_172913\\settings\\mcp.json",
+        ".kiro\\backups\\config_backup_20260203_104252\\settings\\mcp.json",
+        ".kiro\\backups\\mcp_configs_20260203_133706\\mcp.json",
+        "2.0\\linux\\.kiro\\settings\\mcp.json",
+        "2.0\\win\\.kiro\\settings\\mcp.json",
+        "2.1\\linux\\.kiro\\settings\\mcp.json",
+        "2.1\\mac\\.kiro\\settings\\mcp.json",
+        "2.1\\win\\.kiro\\settings\\mcp.json"
+      ],
+      "size_saved": 9900
+    },
+    {
+      "group_id": 18,
+      "kept_file": ".kiro\\backups\\mcp_configs_20260203_133634\\mcp_mac.json",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_155408\\settings\\mcp_mac.json",
+        ".kiro\\backups\\config_backup_20260202_172559\\settings\\mcp_mac.json",
+        ".kiro\\backups\\config_backup_20260202_172913\\settings\\mcp_mac.json",
+        ".kiro\\backups\\config_backup_20260203_104252\\settings\\mcp_mac.json",
+        ".kiro\\backups\\mcp_configs_20260203_133706\\mcp_mac.json",
+        "2.0\\linux\\.kiro\\settings\\mcp_mac.json",
+        "2.0\\win\\.kiro\\settings\\mcp_mac.json",
+        "2.1\\linux\\.kiro\\settings\\mcp_mac.json",
+        "2.1\\mac\\.kiro\\settings\\mcp_mac.json",
+        "2.1\\win\\.kiro\\settings\\mcp_mac.json"
+      ],
+      "size_saved": 10470
+    },
+    {
+      "group_id": 19,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\specs\\unified-bug-detection-system\\design.md",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\specs\\unified-bug-detection-system\\design.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\specs\\unified-bug-detection-system\\design.md",
+        ".kiro\\backups\\config_backup_20260203_104252\\specs\\unified-bug-detection-system\\design.md",
+        ".kiro\\specs\\unified-bug-detection-system\\design.md",
+        "2.0\\linux\\.kiro\\specs\\unified-bug-detection-system\\design.md",
+        "2.0\\win\\.kiro\\specs\\unified-bug-detection-system\\design.md",
+        "2.1\\linux\\.kiro\\specs\\unified-bug-detection-system\\design.md",
+        "2.1\\mac\\.kiro\\specs\\unified-bug-detection-system\\design.md",
+        "2.1\\win\\.kiro\\specs\\unified-bug-detection-system\\design.md"
+      ],
+      "size_saved": 132885
+    },
+    {
+      "group_id": 20,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\specs\\unified-bug-detection-system\\requirements.md",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\specs\\unified-bug-detection-system\\requirements.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\specs\\unified-bug-detection-system\\requirements.md",
+        ".kiro\\backups\\config_backup_20260203_104252\\specs\\unified-bug-detection-system\\requirements.md",
+        ".kiro\\specs\\unified-bug-detection-system\\requirements.md",
+        "2.0\\linux\\.kiro\\specs\\unified-bug-detection-system\\requirements.md",
+        "2.0\\win\\.kiro\\specs\\unified-bug-detection-system\\requirements.md",
+        "2.1\\linux\\.kiro\\specs\\unified-bug-detection-system\\requirements.md",
+        "2.1\\mac\\.kiro\\specs\\unified-bug-detection-system\\requirements.md",
+        "2.1\\win\\.kiro\\specs\\unified-bug-detection-system\\requirements.md"
+      ],
+      "size_saved": 71226
+    },
+    {
+      "group_id": 21,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\specs\\unified-bug-detection-system\\tasks.md",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\specs\\unified-bug-detection-system\\tasks.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\specs\\unified-bug-detection-system\\tasks.md",
+        ".kiro\\backups\\config_backup_20260203_104252\\specs\\unified-bug-detection-system\\tasks.md",
+        ".kiro\\specs\\unified-bug-detection-system\\tasks.md",
+        "2.0\\linux\\.kiro\\specs\\unified-bug-detection-system\\tasks.md",
+        "2.0\\win\\.kiro\\specs\\unified-bug-detection-system\\tasks.md",
+        "2.1\\linux\\.kiro\\specs\\unified-bug-detection-system\\tasks.md",
+        "2.1\\mac\\.kiro\\specs\\unified-bug-detection-system\\tasks.md",
+        "2.1\\win\\.kiro\\specs\\unified-bug-detection-system\\tasks.md"
+      ],
+      "size_saved": 124425
+    },
+    {
+      "group_id": 22,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\steering\\llm-anti-drift-system.md",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\steering\\llm-anti-drift-system.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\steering\\llm-anti-drift-system.md",
+        ".kiro\\backups\\config_backup_20260203_104252\\steering\\llm-anti-drift-system.md",
+        ".kiro\\steering\\llm-anti-drift-system.md",
+        "2.0\\linux\\.kiro\\steering\\llm-anti-drift-system.md",
+        "2.0\\win\\.kiro\\steering\\llm-anti-drift-system.md",
+        "2.1\\linux\\.kiro\\steering\\llm-anti-drift-system.md",
+        "2.1\\mac\\.kiro\\steering\\llm-anti-drift-system.md",
+        "2.1\\win\\.kiro\\steering\\llm-anti-drift-system.md"
+      ],
+      "size_saved": 169767
+    },
+    {
+      "group_id": 23,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\steering\\pm-project-planning-requirements.md",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\steering\\pm-project-planning-requirements.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\steering\\pm-project-planning-requirements.md",
+        ".kiro\\backups\\config_backup_20260203_104252\\steering\\pm-project-planning-requirements.md",
+        ".kiro\\steering\\pm-project-planning-requirements.md",
+        "2.0\\linux\\.kiro\\steering\\pm-project-planning-requirements.md",
+        "2.0\\win\\.kiro\\steering\\pm-project-planning-requirements.md",
+        "2.1\\linux\\.kiro\\steering\\pm-project-planning-requirements.md",
+        "2.1\\mac\\.kiro\\steering\\pm-project-planning-requirements.md",
+        "2.1\\win\\.kiro\\steering\\pm-project-planning-requirements.md"
+      ],
+      "size_saved": 76698
+    },
+    {
+      "group_id": 24,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\steering\\role-permission-matrix.md",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\steering\\role-permission-matrix.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\steering\\role-permission-matrix.md",
+        ".kiro\\backups\\config_backup_20260203_104252\\steering\\role-permission-matrix.md",
+        ".kiro\\steering\\role-permission-matrix.md",
+        "2.0\\linux\\.kiro\\steering\\role-permission-matrix.md",
+        "2.0\\win\\.kiro\\steering\\role-permission-matrix.md",
+        "2.1\\linux\\.kiro\\steering\\role-permission-matrix.md",
+        "2.1\\mac\\.kiro\\steering\\role-permission-matrix.md",
+        "2.1\\win\\.kiro\\steering\\role-permission-matrix.md"
+      ],
+      "size_saved": 70542
+    },
+    {
+      "group_id": 25,
+      "kept_file": ".kiro\\steering\\silicon-valley-team-config-optimized.md",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_155408\\steering\\silicon-valley-team-config-optimized.md",
+        ".kiro\\backups\\config_backup_20260202_172559\\steering\\silicon-valley-team-config-optimized.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\steering\\silicon-valley-team-config-optimized.md",
+        ".kiro\\backups\\config_backup_20260203_104252\\steering\\silicon-valley-team-config-optimized.md",
+        "2.0\\linux\\.kiro\\steering\\silicon-valley-team-config-optimized.md",
+        "2.0\\win\\.kiro\\steering\\silicon-valley-team-config-optimized.md",
+        "2.1\\linux\\.kiro\\steering\\silicon-valley-team-config-optimized.md",
+        "2.1\\mac\\.kiro\\steering\\silicon-valley-team-config-optimized.md",
+        "2.1\\win\\.kiro\\steering\\silicon-valley-team-config-optimized.md"
+      ],
+      "size_saved": 55125
+    },
+    {
+      "group_id": 26,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_155408\\steering\\task-hierarchy-management.md",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260202_172559\\steering\\task-hierarchy-management.md",
+        ".kiro\\backups\\config_backup_20260202_172913\\steering\\task-hierarchy-management.md",
+        ".kiro\\backups\\config_backup_20260203_104252\\steering\\task-hierarchy-management.md",
+        ".kiro\\steering\\task-hierarchy-management.md",
+        "2.0\\linux\\.kiro\\steering\\task-hierarchy-management.md",
+        "2.0\\win\\.kiro\\steering\\task-hierarchy-management.md",
+        "2.1\\linux\\.kiro\\steering\\task-hierarchy-management.md",
+        "2.1\\mac\\.kiro\\steering\\task-hierarchy-management.md",
+        "2.1\\win\\.kiro\\steering\\task-hierarchy-management.md"
+      ],
+      "size_saved": 52164
+    },
+    {
+      "group_id": 27,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_172913\\hooks\\auto-deploy-test.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260203_104252\\hooks\\auto-deploy-test.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133833\\auto-deploy-test.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133859\\auto-deploy-test.kiro.hook"
+      ],
+      "size_saved": 2178
+    },
+    {
+      "group_id": 28,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_172913\\hooks\\context-consistency-anchor.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260203_104252\\hooks\\context-consistency-anchor.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133833\\context-consistency-anchor.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133859\\context-consistency-anchor.kiro.hook"
+      ],
+      "size_saved": 3696
+    },
+    {
+      "group_id": 29,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_172913\\hooks\\global-debug-360.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260203_104252\\hooks\\global-debug-360.kiro.hook",
+        ".kiro\\hooks\\global-debug-360.kiro.hook",
+        "3.0\\linux\\hooks\\global-debug-360.kiro.hook",
+        "3.0\\mac\\hooks\\global-debug-360.kiro.hook",
+        "3.0\\win\\hooks\\global-debug-360.kiro.hook"
+      ],
+      "size_saved": 9315
+    },
+    {
+      "group_id": 30,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_172913\\hooks\\llm-execution-monitor.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260203_104252\\hooks\\llm-execution-monitor.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133833\\llm-execution-monitor.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133859\\llm-execution-monitor.kiro.hook"
+      ],
+      "size_saved": 3354
+    },
+    {
+      "group_id": 31,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_172913\\hooks\\pm-task-assignment.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260203_104252\\hooks\\pm-task-assignment.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133833\\pm-task-assignment.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133859\\pm-task-assignment.kiro.hook"
+      ],
+      "size_saved": 2055
+    },
+    {
+      "group_id": 32,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_172913\\hooks\\prd-sync-on-change.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260203_104252\\hooks\\prd-sync-on-change.kiro.hook",
+        ".kiro\\hooks\\prd-sync-on-change.kiro.hook",
+        "3.0\\linux\\hooks\\prd-sync-on-change.kiro.hook",
+        "3.0\\mac\\hooks\\prd-sync-on-change.kiro.hook",
+        "3.0\\win\\hooks\\prd-sync-on-change.kiro.hook"
+      ],
+      "size_saved": 3550
+    },
+    {
+      "group_id": 33,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_172913\\hooks\\real-time-quality-guard.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260203_104252\\hooks\\real-time-quality-guard.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133833\\real-time-quality-guard.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133859\\real-time-quality-guard.kiro.hook"
+      ],
+      "size_saved": 3963
+    },
+    {
+      "group_id": 34,
+      "kept_file": ".kiro\\backups\\config_backup_20260202_172913\\hooks\\unified-quality-check.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\config_backup_20260203_104252\\hooks\\unified-quality-check.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133833\\unified-quality-check.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133859\\unified-quality-check.kiro.hook"
+      ],
+      "size_saved": 4011
+    },
+    {
+      "group_id": 35,
+      "kept_file": ".kiro\\backups\\config_backup_20260203_104252\\hooks\\HOOK_ARCHITECTURE.md",
+      "deleted_files": [
+        ".kiro\\hooks\\HOOK_ARCHITECTURE.md"
+      ],
+      "size_saved": 3796
+    },
+    {
+      "group_id": 36,
+      "kept_file": ".kiro\\backups\\config_backup_20260203_104252\\hooks\\task-lifecycle-management.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\hooks_20260203_133833\\task-lifecycle-management.kiro.hook",
+        ".kiro\\backups\\hooks_20260203_133859\\task-lifecycle-management.kiro.hook"
+      ],
+      "size_saved": 2964
+    },
+    {
+      "group_id": 37,
+      "kept_file": ".kiro\\backups\\hooks_20260203_133833\\config-protection-guard.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\hooks_20260203_133859\\config-protection-guard.kiro.hook"
+      ],
+      "size_saved": 977
+    },
+    {
+      "group_id": 38,
+      "kept_file": ".kiro\\backups\\hooks_20260203_133833\\memory-enhanced-hook.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\hooks_20260203_133859\\memory-enhanced-hook.kiro.hook"
+      ],
+      "size_saved": 1234
+    },
+    {
+      "group_id": 39,
+      "kept_file": ".kiro\\backups\\hooks_20260203_133833\\team-skills-meta-learning.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\hooks_20260203_133859\\team-skills-meta-learning.kiro.hook"
+      ],
+      "size_saved": 1768
+    },
+    {
+      "group_id": 40,
+      "kept_file": ".kiro\\backups\\hooks_20260203_133833\\test-hook-trigger.kiro.hook",
+      "deleted_files": [
+        ".kiro\\backups\\hooks_20260203_133859\\test-hook-trigger.kiro.hook"
+      ],
+      "size_saved": 461
+    },
+    {
+      "group_id": 41,
+      "kept_file": ".kiro\\backups\\mcp_configs_20260203_133634\\mcp_windows_fixed.json",
+      "deleted_files": [
+        ".kiro\\backups\\mcp_configs_20260203_133706\\mcp_windows_fixed.json"
+      ],
+      "size_saved": 1842
+    },
+    {
+      "group_id": 42,
+      "kept_file": "3.0\\mac\\docs\\development_guide.md",
+      "deleted_files": [
+        ".kiro\\docs\\MAC_DEVELOPMENT_GUIDE.md"
+      ],
+      "size_saved": 2624
+    },
+    {
+      "group_id": 43,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\mcp-builder\\LICENSE.txt",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\algorithmic-art\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\brand-guidelines\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\canvas-design\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\internal-comms\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\skill-creator\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\slack-gif-creator\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\theme-factory\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\web-artifacts-builder\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\webapp-testing\\LICENSE.txt"
+      ],
+      "size_saved": 102213
+    },
+    {
+      "group_id": 44,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pdf\\LICENSE.txt",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\LICENSE.txt",
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\xlsx\\LICENSE.txt"
+      ],
+      "size_saved": 4401
+    },
+    {
+      "group_id": 45,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ecma\\fouth-edition\\opc-contentTypes.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ecma\\fouth-edition\\opc-contentTypes.xsd"
+      ],
+      "size_saved": 1963
+    },
+    {
+      "group_id": 46,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ecma\\fouth-edition\\opc-coreProperties.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ecma\\fouth-edition\\opc-coreProperties.xsd"
+      ],
+      "size_saved": 2515
+    },
+    {
+      "group_id": 48,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ecma\\fouth-edition\\opc-relationships.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ecma\\fouth-edition\\opc-relationships.xsd"
+      ],
+      "size_saved": 1344
+    },
+    {
+      "group_id": 49,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-chart.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-chart.xsd"
+      ],
+      "size_saved": 74984
+    },
+    {
+      "group_id": 50,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-chartDrawing.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-chartDrawing.xsd"
+      ],
+      "size_saved": 6956
+    },
+    {
+      "group_id": 53,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-main.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-main.xsd"
+      ],
+      "size_saved": 152039
+    },
+    {
+      "group_id": 54,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-picture.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-picture.xsd"
+      ],
+      "size_saved": 1231
+    },
+    {
+      "group_id": 55,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-spreadsheetDrawing.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-spreadsheetDrawing.xsd"
+      ],
+      "size_saved": 8862
+    },
+    {
+      "group_id": 56,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-wordprocessingDrawing.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\dml-wordprocessingDrawing.xsd"
+      ],
+      "size_saved": 14795
+    },
+    {
+      "group_id": 57,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\pml.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\pml.xsd"
+      ],
+      "size_saved": 83612
+    },
+    {
+      "group_id": 58,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-additionalCharacteristics.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-additionalCharacteristics.xsd"
+      ],
+      "size_saved": 1269
+    },
+    {
+      "group_id": 59,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-bibliography.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-bibliography.xsd"
+      ],
+      "size_saved": 7328
+    },
+    {
+      "group_id": 60,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-commonSimpleTypes.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-commonSimpleTypes.xsd"
+      ],
+      "size_saved": 6382
+    },
+    {
+      "group_id": 61,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-customXmlDataProperties.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-customXmlDataProperties.xsd"
+      ],
+      "size_saved": 1248
+    },
+    {
+      "group_id": 63,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesCustom.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesCustom.xsd"
+      ],
+      "size_saved": 2608
+    },
+    {
+      "group_id": 65,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesVariantTypes.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-documentPropertiesVariantTypes.xsd"
+      ],
+      "size_saved": 7507
+    },
+    {
+      "group_id": 66,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-math.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-math.xsd"
+      ],
+      "size_saved": 23313
+    },
+    {
+      "group_id": 67,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-relationshipReference.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\shared-relationshipReference.xsd"
+      ],
+      "size_saved": 1367
+    },
+    {
+      "group_id": 68,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\sml.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\sml.xsd"
+      ],
+      "size_saved": 242277
+    },
+    {
+      "group_id": 69,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-main.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-main.xsd"
+      ],
+      "size_saved": 26148
+    },
+    {
+      "group_id": 70,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-officeDrawing.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-officeDrawing.xsd"
+      ],
+      "size_saved": 25279
+    },
+    {
+      "group_id": 71,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-presentationDrawing.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-presentationDrawing.xsd"
+      ],
+      "size_saved": 535
+    },
+    {
+      "group_id": 72,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-spreadsheetDrawing.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-spreadsheetDrawing.xsd"
+      ],
+      "size_saved": 5712
+    },
+    {
+      "group_id": 73,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-wordprocessingDrawing.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\vml-wordprocessingDrawing.xsd"
+      ],
+      "size_saved": 4010
+    },
+    {
+      "group_id": 74,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\wml.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\wml.xsd"
+      ],
+      "size_saved": 171367
+    },
+    {
+      "group_id": 75,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\xml.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\ISO-IEC29500-4_2016\\xml.xsd"
+      ],
+      "size_saved": 4646
+    },
+    {
+      "group_id": 76,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\mce\\mc.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\mce\\mc.xsd"
+      ],
+      "size_saved": 3127
+    },
+    {
+      "group_id": 77,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\microsoft\\wml-2010.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\microsoft\\wml-2010.xsd"
+      ],
+      "size_saved": 26549
+    },
+    {
+      "group_id": 78,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\microsoft\\wml-2012.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\microsoft\\wml-2012.xsd"
+      ],
+      "size_saved": 3745
+    },
+    {
+      "group_id": 79,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\microsoft\\wml-2018.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\microsoft\\wml-2018.xsd"
+      ],
+      "size_saved": 901
+    },
+    {
+      "group_id": 80,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\microsoft\\wml-cex-2018.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\microsoft\\wml-cex-2018.xsd"
+      ],
+      "size_saved": 1778
+    },
+    {
+      "group_id": 82,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\microsoft\\wml-sdtdatahash-2020.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\microsoft\\wml-sdtdatahash-2020.xsd"
+      ],
+      "size_saved": 600
+    },
+    {
+      "group_id": 83,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\schemas\\microsoft\\wml-symex-2015.xsd",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\schemas\\microsoft\\wml-symex-2015.xsd"
+      ],
+      "size_saved": 745
+    },
+    {
+      "group_id": 84,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\scripts\\pack.py",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\scripts\\pack.py"
+      ],
+      "size_saved": 5596
+    },
+    {
+      "group_id": 85,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\scripts\\unpack.py",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\scripts\\unpack.py"
+      ],
+      "size_saved": 1037
+    },
+    {
+      "group_id": 86,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\scripts\\validate.py",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\scripts\\validate.py"
+      ],
+      "size_saved": 1959
+    },
+    {
+      "group_id": 87,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\scripts\\validation\\base.py",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\scripts\\validation\\base.py"
+      ],
+      "size_saved": 39892
+    },
+    {
+      "group_id": 89,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\scripts\\validation\\pptx.py",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\scripts\\validation\\pptx.py"
+      ],
+      "size_saved": 12327
+    },
+    {
+      "group_id": 90,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\scripts\\validation\\redlining.py",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\scripts\\validation\\redlining.py"
+      ],
+      "size_saved": 11179
+    },
+    {
+      "group_id": 91,
+      "kept_file": ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\pptx\\ooxml\\scripts\\validation\\__init__.py",
+      "deleted_files": [
+        ".kiro\\downloads\\github_skills\\anthropic_skills\\skills-main\\skills\\docx\\ooxml\\scripts\\validation\\__init__.py"
+      ],
+      "size_saved": 336
+    },
+    {
+      "group_id": 92,
+      "kept_file": ".kiro\\hooks\\error-solution-finder.kiro.hook",
+      "deleted_files": [
+        "3.0\\linux\\hooks\\error-solution-finder.kiro.hook",
+        "3.0\\mac\\hooks\\error-solution-finder.kiro.hook",
+        "3.0\\win\\hooks\\error-solution-finder.kiro.hook"
+      ],
+      "size_saved": 3456
+    },
+    {
+      "group_id": 93,
+      "kept_file": ".kiro\\hooks\\intelligent-monitoring-hub.kiro.hook",
+      "deleted_files": [
+        "3.0\\linux\\hooks\\intelligent-monitoring-hub.kiro.hook",
+        "3.0\\mac\\hooks\\intelligent-monitoring-hub.kiro.hook",
+        "3.0\\win\\hooks\\intelligent-monitoring-hub.kiro.hook"
+      ],
+      "size_saved": 4782
+    },
+    {
+      "group_id": 94,
+      "kept_file": ".kiro\\hooks\\knowledge-accumulator.kiro.hook",
+      "deleted_files": [
+        "3.0\\linux\\hooks\\knowledge-accumulator.kiro.hook",
+        "3.0\\mac\\hooks\\knowledge-accumulator.kiro.hook",
+        "3.0\\win\\hooks\\knowledge-accumulator.kiro.hook"
+      ],
+      "size_saved": 4410
+    },
+    {
+      "group_id": 95,
+      "kept_file": ".kiro\\hooks\\mac-compatibility-checker.kiro.hook",
+      "deleted_files": [
+        "3.0\\mac\\hooks\\mac-compatibility-checker.kiro.hook"
+      ],
+      "size_saved": 1231
+    },
+    {
+      "group_id": 96,
+      "kept_file": ".kiro\\hooks\\mac-development-environment.kiro.hook",
+      "deleted_files": [
+        "3.0\\mac\\hooks\\mac-development-environment.kiro.hook"
+      ],
+      "size_saved": 1080
+    },
+    {
+      "group_id": 97,
+      "kept_file": ".kiro\\hooks\\mac-performance-monitor.kiro.hook",
+      "deleted_files": [
+        "3.0\\mac\\hooks\\mac-performance-monitor.kiro.hook"
+      ],
+      "size_saved": 1122
+    },
+    {
+      "group_id": 98,
+      "kept_file": ".kiro\\hooks\\smart-coding-assistant.kiro.hook",
+      "deleted_files": [
+        "3.0\\linux\\hooks\\smart-coding-assistant.kiro.hook",
+        "3.0\\mac\\hooks\\smart-coding-assistant.kiro.hook",
+        "3.0\\win\\hooks\\smart-coding-assistant.kiro.hook"
+      ],
+      "size_saved": 4581
+    },
+    {
+      "group_id": 99,
+      "kept_file": ".kiro\\hooks\\smart-task-orchestrator.kiro.hook",
+      "deleted_files": [
+        "3.0\\linux\\hooks\\smart-task-orchestrator.kiro.hook",
+        "3.0\\mac\\hooks\\smart-task-orchestrator.kiro.hook",
+        "3.0\\win\\hooks\\smart-task-orchestrator.kiro.hook"
+      ],
+      "size_saved": 3732
+    },
+    {
+      "group_id": 100,
+      "kept_file": ".kiro\\hooks\\unified-quality-system.kiro.hook",
+      "deleted_files": [
+        "3.0\\linux\\hooks\\unified-quality-system.kiro.hook",
+        "3.0\\mac\\hooks\\unified-quality-system.kiro.hook",
+        "3.0\\win\\hooks\\unified-quality-system.kiro.hook"
+      ],
+      "size_saved": 4929
+    },
+    {
+      "group_id": 101,
+      "kept_file": ".kiro\\settings\\mac_performance_config.json",
+      "deleted_files": [
+        "3.0\\mac\\settings\\performance.json"
+      ],
+      "size_saved": 1834
+    },
+    {
+      "group_id": 102,
+      "kept_file": "3.0\\mac\\settings\\mcp.json",
+      "deleted_files": [
+        ".kiro\\settings\\mcp_darwin.json"
+      ],
+      "size_saved": 1873
+    },
+    {
+      "group_id": 103,
+      "kept_file": "1.0\\mac\\version.json",
+      "deleted_files": [
+        "1.0\\linux\\version.json",
+        "1.0\\win\\version.json"
+      ],
+      "size_saved": 976
+    },
+    {
+      "group_id": 104,
+      "kept_file": "2.0\\mac\\version.json",
+      "deleted_files": [
+        "2.0\\linux\\version.json",
+        "2.0\\win\\version.json"
+      ],
+      "size_saved": 1154
+    },
+    {
+      "group_id": 105,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\auto-deploy-test.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\auto-deploy-test.kiro.hook"
+      ],
+      "size_saved": 739
+    },
+    {
+      "group_id": 106,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\context-consistency-anchor.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\context-consistency-anchor.kiro.hook"
+      ],
+      "size_saved": 1243
+    },
+    {
+      "group_id": 107,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\global-debug-360.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\global-debug-360.kiro.hook"
+      ],
+      "size_saved": 1977
+    },
+    {
+      "group_id": 108,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\llm-execution-monitor.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\llm-execution-monitor.kiro.hook"
+      ],
+      "size_saved": 1130
+    },
+    {
+      "group_id": 109,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\mac-environment-check.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\mac-environment-check.kiro.hook"
+      ],
+      "size_saved": 715
+    },
+    {
+      "group_id": 110,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\pm-task-assignment.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\pm-task-assignment.kiro.hook"
+      ],
+      "size_saved": 698
+    },
+    {
+      "group_id": 111,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\prd-sync-on-change.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\prd-sync-on-change.kiro.hook"
+      ],
+      "size_saved": 748
+    },
+    {
+      "group_id": 112,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\real-time-quality-guard.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\real-time-quality-guard.kiro.hook"
+      ],
+      "size_saved": 1440
+    },
+    {
+      "group_id": 113,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\task-lifecycle-management.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\task-lifecycle-management.kiro.hook"
+      ],
+      "size_saved": 1507
+    },
+    {
+      "group_id": 114,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\unified-bug-detection.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\unified-bug-detection.kiro.hook"
+      ],
+      "size_saved": 2164
+    },
+    {
+      "group_id": 115,
+      "kept_file": "2.1\\linux\\.kiro\\hooks\\unified-quality-check.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\hooks\\unified-quality-check.kiro.hook"
+      ],
+      "size_saved": 1349
+    },
+    {
+      "group_id": 116,
+      "kept_file": "2.0\\win\\.kiro\\settings\\llm-behavior-constraints.json",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\settings\\llm-behavior-constraints.json",
+        "2.1\\linux\\.kiro\\settings\\llm-behavior-constraints.json",
+        "2.1\\mac\\.kiro\\settings\\llm-behavior-constraints.json",
+        "2.1\\win\\.kiro\\settings\\llm-behavior-constraints.json"
+      ],
+      "size_saved": 21228
+    },
+    {
+      "group_id": 117,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\README.md",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\README.md",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\README.md",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\README.md",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\README.md"
+      ],
+      "size_saved": 10636
+    },
+    {
+      "group_id": 118,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\USAGE_GUIDE.md",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\USAGE_GUIDE.md",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\USAGE_GUIDE.md",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\USAGE_GUIDE.md",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\USAGE_GUIDE.md"
+      ],
+      "size_saved": 23464
+    },
+    {
+      "group_id": 119,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\hooks\\quality-gate-enforcement-template.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\hooks\\quality-gate-enforcement-template.kiro.hook",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\hooks\\quality-gate-enforcement-template.kiro.hook",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\hooks\\quality-gate-enforcement-template.kiro.hook",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\hooks\\quality-gate-enforcement-template.kiro.hook"
+      ],
+      "size_saved": 6568
+    },
+    {
+      "group_id": 120,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\hooks\\task-lifecycle-management-template.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\hooks\\task-lifecycle-management-template.kiro.hook",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\hooks\\task-lifecycle-management-template.kiro.hook",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\hooks\\task-lifecycle-management-template.kiro.hook",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\hooks\\task-lifecycle-management-template.kiro.hook"
+      ],
+      "size_saved": 6148
+    },
+    {
+      "group_id": 121,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\hooks\\test-coverage-monitor-template.kiro.hook",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\hooks\\test-coverage-monitor-template.kiro.hook",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\hooks\\test-coverage-monitor-template.kiro.hook",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\hooks\\test-coverage-monitor-template.kiro.hook",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\hooks\\test-coverage-monitor-template.kiro.hook"
+      ],
+      "size_saved": 6652
+    },
+    {
+      "group_id": 122,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\scripts\\deploy_to_project.sh",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\scripts\\deploy_to_project.sh",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\scripts\\deploy_to_project.sh",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\scripts\\deploy_to_project.sh",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\scripts\\deploy_to_project.sh"
+      ],
+      "size_saved": 29084
+    },
+    {
+      "group_id": 123,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\scripts\\mac_adapter.py",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\scripts\\mac_adapter.py",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\scripts\\mac_adapter.py",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\scripts\\mac_adapter.py",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\scripts\\mac_adapter.py"
+      ],
+      "size_saved": 82536
+    },
+    {
+      "group_id": 124,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\scripts\\project_initializer.py",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\scripts\\project_initializer.py",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\scripts\\project_initializer.py",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\scripts\\project_initializer.py",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\scripts\\project_initializer.py"
+      ],
+      "size_saved": 35292
+    },
+    {
+      "group_id": 125,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\scripts\\universal_quality_gate.py",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\scripts\\universal_quality_gate.py",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\scripts\\universal_quality_gate.py",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\scripts\\universal_quality_gate.py",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\scripts\\universal_quality_gate.py"
+      ],
+      "size_saved": 72548
+    },
+    {
+      "group_id": 126,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\scripts\\validate_config.py",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\scripts\\validate_config.py",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\scripts\\validate_config.py",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\scripts\\validate_config.py",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\scripts\\validate_config.py"
+      ],
+      "size_saved": 65532
+    },
+    {
+      "group_id": 127,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\steering\\silicon-valley-team-config-template.md",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\steering\\silicon-valley-team-config-template.md",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\steering\\silicon-valley-team-config-template.md",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\steering\\silicon-valley-team-config-template.md",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\steering\\silicon-valley-team-config-template.md"
+      ],
+      "size_saved": 20872
+    },
+    {
+      "group_id": 128,
+      "kept_file": "2.0\\win\\.kiro\\templates\\global-project-config\\steering\\task-hierarchy-management-template.md",
+      "deleted_files": [
+        "2.0\\linux\\.kiro\\templates\\global-project-config\\steering\\task-hierarchy-management-template.md",
+        "2.1\\linux\\.kiro\\templates\\global-project-config\\steering\\task-hierarchy-management-template.md",
+        "2.1\\mac\\.kiro\\templates\\global-project-config\\steering\\task-hierarchy-management-template.md",
+        "2.1\\win\\.kiro\\templates\\global-project-config\\steering\\task-hierarchy-management-template.md"
+      ],
+      "size_saved": 18236
+    },
+    {
+      "group_id": 129,
+      "kept_file": "docs\\RELEASE_NOTES_V2.0.md",
+      "deleted_files": [
+        "2.0\\linux\\docs\\KIRO_CONFIG_SYSTEM_V2.0_RELEASE_NOTES.md",
+        "2.0\\win\\docs\\KIRO_CONFIG_SYSTEM_V2.0_RELEASE_NOTES.md"
+      ],
+      "size_saved": 11910
+    },
+    {
+      "group_id": 130,
+      "kept_file": "2.0\\win\\docs\\README.md",
+      "deleted_files": [
+        "2.0\\linux\\docs\\README.md",
+        "2.1\\linux\\docs\\README.md",
+        "2.1\\mac\\docs\\README.md",
+        "2.1\\win\\docs\\README.md"
+      ],
+      "size_saved": 43328
+    },
+    {
+      "group_id": 131,
+      "kept_file": "2.1\\mac\\scripts\\analyze_dependencies.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\analyze_dependencies.py",
+        "2.0\\win\\scripts\\analyze_dependencies.py",
+        "2.1\\linux\\scripts\\analyze_dependencies.py",
+        "2.1\\win\\scripts\\analyze_dependencies.py",
+        "scripts\\analysis\\analyze_dependencies.py"
+      ],
+      "size_saved": 57375
+    },
+    {
+      "group_id": 132,
+      "kept_file": "2.1\\mac\\scripts\\auto_bug_detection.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\auto_bug_detection.py",
+        "2.0\\win\\scripts\\auto_bug_detection.py",
+        "2.1\\linux\\scripts\\auto_bug_detection.py",
+        "2.1\\win\\scripts\\auto_bug_detection.py",
+        "scripts\\utilities\\auto_bug_detection.py"
+      ],
+      "size_saved": 218380
+    },
+    {
+      "group_id": 133,
+      "kept_file": "2.1\\mac\\scripts\\check_coverage.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\check_coverage.py",
+        "2.1\\linux\\scripts\\check_coverage.py",
+        "scripts\\analysis\\check_coverage.py"
+      ],
+      "size_saved": 4782
+    },
+    {
+      "group_id": 134,
+      "kept_file": "2.1\\mac\\scripts\\check_hallucination.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\check_hallucination.py",
+        "2.1\\linux\\scripts\\check_hallucination.py",
+        "scripts\\analysis\\check_hallucination.py"
+      ],
+      "size_saved": 27027
+    },
+    {
+      "group_id": 135,
+      "kept_file": "2.1\\mac\\scripts\\cleanup_project.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\cleanup_project.py",
+        "2.1\\linux\\scripts\\cleanup_project.py",
+        "scripts\\utilities\\cleanup_project.py"
+      ],
+      "size_saved": 15390
+    },
+    {
+      "group_id": 136,
+      "kept_file": "2.1\\mac\\scripts\\coverage_analyzer.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\coverage_analyzer.py",
+        "2.1\\linux\\scripts\\coverage_analyzer.py",
+        "scripts\\utilities\\coverage_analyzer.py"
+      ],
+      "size_saved": 22935
+    },
+    {
+      "group_id": 137,
+      "kept_file": "2.1\\mac\\scripts\\debug_360.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\debug_360.py",
+        "2.1\\linux\\scripts\\debug_360.py",
+        "scripts\\utilities\\debug_360.py"
+      ],
+      "size_saved": 76821
+    },
+    {
+      "group_id": 138,
+      "kept_file": "2.1\\mac\\scripts\\debug_all_modules.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\debug_all_modules.py",
+        "2.0\\win\\scripts\\debug_all_modules.py",
+        "2.1\\linux\\scripts\\debug_all_modules.py",
+        "2.1\\win\\scripts\\debug_all_modules.py",
+        "scripts\\utilities\\debug_all_modules.py"
+      ],
+      "size_saved": 179530
+    },
+    {
+      "group_id": 139,
+      "kept_file": "2.1\\mac\\scripts\\debug_full_workflow.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\debug_full_workflow.py",
+        "2.0\\win\\scripts\\debug_full_workflow.py",
+        "2.1\\linux\\scripts\\debug_full_workflow.py",
+        "2.1\\win\\scripts\\debug_full_workflow.py",
+        "scripts\\utilities\\debug_full_workflow.py"
+      ],
+      "size_saved": 87800
+    },
+    {
+      "group_id": 140,
+      "kept_file": "2.1\\mac\\scripts\\debug_functional_test.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\debug_functional_test.py",
+        "2.0\\win\\scripts\\debug_functional_test.py",
+        "2.1\\linux\\scripts\\debug_functional_test.py",
+        "2.1\\win\\scripts\\debug_functional_test.py",
+        "scripts\\utilities\\debug_functional_test.py"
+      ],
+      "size_saved": 214600
+    },
+    {
+      "group_id": 141,
+      "kept_file": "2.1\\mac\\scripts\\debug_functional_test_v2.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\debug_functional_test_v2.py",
+        "2.0\\win\\scripts\\debug_functional_test_v2.py",
+        "2.1\\linux\\scripts\\debug_functional_test_v2.py",
+        "2.1\\win\\scripts\\debug_functional_test_v2.py",
+        "scripts\\utilities\\debug_functional_test_v2.py"
+      ],
+      "size_saved": 177425
+    },
+    {
+      "group_id": 142,
+      "kept_file": "2.1\\mac\\scripts\\demo_factor_arena.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\demo_factor_arena.py",
+        "2.1\\linux\\scripts\\demo_factor_arena.py",
+        "scripts\\utilities\\demo_factor_arena.py"
+      ],
+      "size_saved": 46926
+    },
+    {
+      "group_id": 143,
+      "kept_file": "2.1\\mac\\scripts\\demo_factor_mining_intelligence_sentinel.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\demo_factor_mining_intelligence_sentinel.py",
+        "2.1\\linux\\scripts\\demo_factor_mining_intelligence_sentinel.py",
+        "scripts\\utilities\\demo_factor_mining_intelligence_sentinel.py"
+      ],
+      "size_saved": 84420
+    },
+    {
+      "group_id": 144,
+      "kept_file": "2.1\\mac\\scripts\\demo_four_tier_validation.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\demo_four_tier_validation.py",
+        "2.1\\linux\\scripts\\demo_four_tier_validation.py",
+        "scripts\\utilities\\demo_four_tier_validation.py"
+      ],
+      "size_saved": 76224
+    },
+    {
+      "group_id": 145,
+      "kept_file": "2.1\\mac\\scripts\\demo_historical_bridge.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\demo_historical_bridge.py",
+        "2.0\\win\\scripts\\demo_historical_bridge.py",
+        "2.1\\linux\\scripts\\demo_historical_bridge.py",
+        "2.1\\win\\scripts\\demo_historical_bridge.py",
+        "scripts\\utilities\\demo_historical_bridge.py"
+      ],
+      "size_saved": 29990
+    },
+    {
+      "group_id": 146,
+      "kept_file": "2.1\\mac\\scripts\\demo_soldier_engine_v2.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\demo_soldier_engine_v2.py",
+        "2.1\\linux\\scripts\\demo_soldier_engine_v2.py",
+        "scripts\\utilities\\demo_soldier_engine_v2.py"
+      ],
+      "size_saved": 55707
+    },
+    {
+      "group_id": 147,
+      "kept_file": "2.1\\mac\\scripts\\demo_sparta_arena_standards.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\demo_sparta_arena_standards.py",
+        "2.1\\linux\\scripts\\demo_sparta_arena_standards.py",
+        "scripts\\utilities\\demo_sparta_arena_standards.py"
+      ],
+      "size_saved": 47811
+    },
+    {
+      "group_id": 148,
+      "kept_file": "2.1\\mac\\scripts\\demo_unified_llm_control.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\demo_unified_llm_control.py",
+        "2.1\\linux\\scripts\\demo_unified_llm_control.py",
+        "scripts\\utilities\\demo_unified_llm_control.py"
+      ],
+      "size_saved": 60393
+    },
+    {
+      "group_id": 149,
+      "kept_file": "2.1\\mac\\scripts\\dependency_checker.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\dependency_checker.py",
+        "2.1\\linux\\scripts\\dependency_checker.py",
+        "scripts\\utilities\\dependency_checker.py"
+      ],
+      "size_saved": 28956
+    },
+    {
+      "group_id": 150,
+      "kept_file": "2.1\\mac\\scripts\\deploy_test.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\deploy_test.py",
+        "2.0\\win\\scripts\\deploy_test.py",
+        "2.1\\linux\\scripts\\deploy_test.py",
+        "2.1\\win\\scripts\\deploy_test.py",
+        "scripts\\deployment\\deploy_test.py"
+      ],
+      "size_saved": 112225
+    },
+    {
+      "group_id": 152,
+      "kept_file": "2.1\\linux\\scripts\\enhanced_quality_gate.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\enhanced_quality_gate.py"
+      ],
+      "size_saved": 16332
+    },
+    {
+      "group_id": 153,
+      "kept_file": "2.1\\mac\\scripts\\fix_all_todos.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\fix_all_todos.py",
+        "2.0\\win\\scripts\\fix_all_todos.py",
+        "2.1\\linux\\scripts\\fix_all_todos.py",
+        "2.1\\win\\scripts\\fix_all_todos.py",
+        "scripts\\maintenance\\fix_all_todos.py"
+      ],
+      "size_saved": 26995
+    },
+    {
+      "group_id": 154,
+      "kept_file": "2.1\\mac\\scripts\\fix_chinese_law_violations.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\fix_chinese_law_violations.py",
+        "2.0\\win\\scripts\\fix_chinese_law_violations.py",
+        "2.1\\linux\\scripts\\fix_chinese_law_violations.py",
+        "2.1\\win\\scripts\\fix_chinese_law_violations.py",
+        "scripts\\maintenance\\fix_chinese_law_violations.py"
+      ],
+      "size_saved": 22040
+    },
+    {
+      "group_id": 155,
+      "kept_file": "2.1\\mac\\scripts\\fix_remaining_violations.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\fix_remaining_violations.py",
+        "2.0\\win\\scripts\\fix_remaining_violations.py",
+        "2.1\\linux\\scripts\\fix_remaining_violations.py",
+        "2.1\\win\\scripts\\fix_remaining_violations.py",
+        "scripts\\maintenance\\fix_remaining_violations.py"
+      ],
+      "size_saved": 18355
+    },
+    {
+      "group_id": 156,
+      "kept_file": "2.1\\mac\\scripts\\fix_todos_by_prd.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\fix_todos_by_prd.py",
+        "2.0\\win\\scripts\\fix_todos_by_prd.py",
+        "2.1\\linux\\scripts\\fix_todos_by_prd.py",
+        "2.1\\win\\scripts\\fix_todos_by_prd.py",
+        "scripts\\maintenance\\fix_todos_by_prd.py"
+      ],
+      "size_saved": 91005
+    },
+    {
+      "group_id": 157,
+      "kept_file": "2.1\\mac\\scripts\\full_alignment_check.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\full_alignment_check.py",
+        "2.1\\linux\\scripts\\full_alignment_check.py",
+        "scripts\\utilities\\full_alignment_check.py"
+      ],
+      "size_saved": 43863
+    },
+    {
+      "group_id": 158,
+      "kept_file": "2.1\\mac\\scripts\\generate_performance_report.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\generate_performance_report.py",
+        "2.0\\win\\scripts\\generate_performance_report.py",
+        "2.1\\linux\\scripts\\generate_performance_report.py",
+        "2.1\\win\\scripts\\generate_performance_report.py",
+        "scripts\\utilities\\generate_performance_report.py"
+      ],
+      "size_saved": 86585
+    },
+    {
+      "group_id": 159,
+      "kept_file": "2.1\\mac\\scripts\\hook_system_validator.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\hook_system_validator.py",
+        "2.1\\linux\\scripts\\hook_system_validator.py",
+        "scripts\\utilities\\hook_system_validator.py"
+      ],
+      "size_saved": 41028
+    },
+    {
+      "group_id": 160,
+      "kept_file": "2.1\\mac\\scripts\\install_bug_detection_tools.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\install_bug_detection_tools.py",
+        "2.0\\win\\scripts\\install_bug_detection_tools.py",
+        "2.1\\linux\\scripts\\install_bug_detection_tools.py",
+        "2.1\\win\\scripts\\install_bug_detection_tools.py",
+        "scripts\\deployment\\install_bug_detection_tools.py"
+      ],
+      "size_saved": 10050
+    },
+    {
+      "group_id": 161,
+      "kept_file": "2.1\\mac\\scripts\\iron_law_checker.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\iron_law_checker.py",
+        "2.1\\linux\\scripts\\iron_law_checker.py",
+        "scripts\\utilities\\iron_law_checker.py"
+      ],
+      "size_saved": 32280
+    },
+    {
+      "group_id": 162,
+      "kept_file": "2.1\\mac\\scripts\\kiro_config_validator.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\kiro_config_validator.py",
+        "2.1\\linux\\scripts\\kiro_config_validator.py",
+        "scripts\\utilities\\kiro_config_validator.py"
+      ],
+      "size_saved": 34314
+    },
+    {
+      "group_id": 163,
+      "kept_file": "2.1\\mac\\scripts\\llm_execution_monitor.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\llm_execution_monitor.py",
+        "2.1\\linux\\scripts\\llm_execution_monitor.py",
+        "scripts\\utilities\\llm_execution_monitor.py"
+      ],
+      "size_saved": 48285
+    },
+    {
+      "group_id": 164,
+      "kept_file": "2.1\\linux\\scripts\\mac_compatibility.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\mac_compatibility.py"
+      ],
+      "size_saved": 17056
+    },
+    {
+      "group_id": 165,
+      "kept_file": "2.1\\mac\\scripts\\mcp_silicon_valley_team.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\mcp_silicon_valley_team.py",
+        "2.1\\linux\\scripts\\mcp_silicon_valley_team.py",
+        "scripts\\utilities\\mcp_silicon_valley_team.py"
+      ],
+      "size_saved": 44259
+    },
+    {
+      "group_id": 166,
+      "kept_file": "2.1\\mac\\scripts\\prd_parser.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\prd_parser.py",
+        "2.0\\win\\scripts\\prd_parser.py",
+        "2.1\\linux\\scripts\\prd_parser.py",
+        "2.1\\win\\scripts\\prd_parser.py",
+        "scripts\\utilities\\prd_parser.py"
+      ],
+      "size_saved": 85355
+    },
+    {
+      "group_id": 167,
+      "kept_file": "2.1\\mac\\scripts\\pre_commit_check.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\pre_commit_check.py",
+        "2.1\\linux\\scripts\\pre_commit_check.py",
+        "scripts\\utilities\\pre_commit_check.py"
+      ],
+      "size_saved": 21468
+    },
+    {
+      "group_id": 168,
+      "kept_file": "2.1\\mac\\scripts\\quality_gate.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\quality_gate.py",
+        "2.0\\win\\scripts\\quality_gate.py",
+        "2.1\\linux\\scripts\\quality_gate.py",
+        "2.1\\win\\scripts\\quality_gate.py",
+        "scripts\\utilities\\quality_gate.py"
+      ],
+      "size_saved": 24115
+    },
+    {
+      "group_id": 169,
+      "kept_file": "scripts\\quick-test.bat",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\quick-test.bat",
+        "2.0\\win\\scripts\\quick-test.bat",
+        "2.1\\linux\\scripts\\quick-test.bat",
+        "2.1\\mac\\scripts\\quick-test.bat",
+        "2.1\\win\\scripts\\quick-test.bat"
+      ],
+      "size_saved": 2450
+    },
+    {
+      "group_id": 170,
+      "kept_file": "scripts\\README.md",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\README.md",
+        "2.0\\win\\scripts\\README.md",
+        "2.1\\linux\\scripts\\README.md",
+        "2.1\\mac\\scripts\\README.md",
+        "2.1\\win\\scripts\\README.md"
+      ],
+      "size_saved": 11175
+    },
+    {
+      "group_id": 171,
+      "kept_file": "2.1\\mac\\scripts\\run_regression_tests.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\run_regression_tests.py",
+        "2.0\\win\\scripts\\run_regression_tests.py",
+        "2.1\\linux\\scripts\\run_regression_tests.py",
+        "2.1\\win\\scripts\\run_regression_tests.py",
+        "scripts\\utilities\\run_regression_tests.py"
+      ],
+      "size_saved": 70525
+    },
+    {
+      "group_id": 173,
+      "kept_file": "2.1\\mac\\scripts\\setup_local_llm.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\setup_local_llm.py",
+        "2.0\\win\\scripts\\setup_local_llm.py",
+        "2.1\\linux\\scripts\\setup_local_llm.py",
+        "2.1\\win\\scripts\\setup_local_llm.py",
+        "scripts\\deployment\\setup_local_llm.py"
+      ],
+      "size_saved": 69000
+    },
+    {
+      "group_id": 174,
+      "kept_file": "2.1\\mac\\scripts\\setup_project_structure.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\setup_project_structure.py",
+        "2.1\\linux\\scripts\\setup_project_structure.py",
+        "scripts\\deployment\\setup_project_structure.py"
+      ],
+      "size_saved": 25767
+    },
+    {
+      "group_id": 175,
+      "kept_file": "2.1\\mac\\scripts\\show_bugs.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\show_bugs.py",
+        "2.0\\win\\scripts\\show_bugs.py",
+        "2.1\\linux\\scripts\\show_bugs.py",
+        "2.1\\win\\scripts\\show_bugs.py",
+        "scripts\\utilities\\show_bugs.py"
+      ],
+      "size_saved": 1975
+    },
+    {
+      "group_id": 176,
+      "kept_file": "2.1\\mac\\scripts\\simple_quality_gate.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\simple_quality_gate.py",
+        "2.0\\win\\scripts\\simple_quality_gate.py",
+        "2.1\\linux\\scripts\\simple_quality_gate.py",
+        "2.1\\win\\scripts\\simple_quality_gate.py",
+        "scripts\\utilities\\simple_quality_gate.py"
+      ],
+      "size_saved": 5540
+    },
+    {
+      "group_id": 177,
+      "kept_file": "2.1\\mac\\scripts\\start_streamlit.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\start_streamlit.py",
+        "2.1\\linux\\scripts\\start_streamlit.py",
+        "scripts\\utilities\\start_streamlit.py"
+      ],
+      "size_saved": 4866
+    },
+    {
+      "group_id": 178,
+      "kept_file": "2.1\\mac\\scripts\\system_deployment_checker.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\system_deployment_checker.py",
+        "2.1\\linux\\scripts\\system_deployment_checker.py",
+        "scripts\\utilities\\system_deployment_checker.py"
+      ],
+      "size_saved": 57201
+    },
+    {
+      "group_id": 179,
+      "kept_file": "2.1\\mac\\scripts\\team_bug_fixer.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\team_bug_fixer.py",
+        "2.1\\linux\\scripts\\team_bug_fixer.py",
+        "scripts\\utilities\\team_bug_fixer.py"
+      ],
+      "size_saved": 43755
+    },
+    {
+      "group_id": 180,
+      "kept_file": "2.1\\mac\\scripts\\unified_config_manager.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\unified_config_manager.py",
+        "2.1\\linux\\scripts\\unified_config_manager.py",
+        "scripts\\utilities\\unified_config_manager.py"
+      ],
+      "size_saved": 61806
+    },
+    {
+      "group_id": 181,
+      "kept_file": "2.1\\mac\\scripts\\unified_quality_system.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\unified_quality_system.py",
+        "2.0\\win\\scripts\\unified_quality_system.py",
+        "2.1\\linux\\scripts\\unified_quality_system.py",
+        "2.1\\win\\scripts\\unified_quality_system.py",
+        "scripts\\utilities\\unified_quality_system.py"
+      ],
+      "size_saved": 106065
+    },
+    {
+      "group_id": 182,
+      "kept_file": "2.1\\mac\\scripts\\update_team_assignments.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\update_team_assignments.py",
+        "2.0\\win\\scripts\\update_team_assignments.py",
+        "2.1\\linux\\scripts\\update_team_assignments.py",
+        "2.1\\win\\scripts\\update_team_assignments.py",
+        "scripts\\maintenance\\update_team_assignments.py"
+      ],
+      "size_saved": 36295
+    },
+    {
+      "group_id": 183,
+      "kept_file": "2.1\\mac\\scripts\\validate_coding_rules.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\validate_coding_rules.py",
+        "2.1\\linux\\scripts\\validate_coding_rules.py",
+        "scripts\\testing\\validate_coding_rules.py"
+      ],
+      "size_saved": 34857
+    },
+    {
+      "group_id": 184,
+      "kept_file": "2.1\\mac\\scripts\\validate_kiro_config.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\validate_kiro_config.py",
+        "2.0\\win\\scripts\\validate_kiro_config.py",
+        "2.1\\linux\\scripts\\validate_kiro_config.py",
+        "2.1\\win\\scripts\\validate_kiro_config.py",
+        "scripts\\testing\\validate_kiro_config.py"
+      ],
+      "size_saved": 90005
+    },
+    {
+      "group_id": 185,
+      "kept_file": "2.1\\mac\\scripts\\validate_risk_control_architecture.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\validate_risk_control_architecture.py",
+        "2.0\\win\\scripts\\validate_risk_control_architecture.py",
+        "2.1\\linux\\scripts\\validate_risk_control_architecture.py",
+        "2.1\\win\\scripts\\validate_risk_control_architecture.py",
+        "scripts\\testing\\validate_risk_control_architecture.py"
+      ],
+      "size_saved": 66505
+    },
+    {
+      "group_id": 186,
+      "kept_file": "2.1\\linux\\scripts\\version_organizer.py",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\version_organizer.py"
+      ],
+      "size_saved": 25165
+    },
+    {
+      "group_id": 187,
+      "kept_file": "scripts\\win\\README.md",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\win\\README.md",
+        "2.0\\win\\scripts\\win\\README.md",
+        "2.1\\linux\\scripts\\win\\README.md",
+        "2.1\\mac\\scripts\\win\\README.md",
+        "2.1\\win\\scripts\\win\\README.md"
+      ],
+      "size_saved": 4875
+    },
+    {
+      "group_id": 188,
+      "kept_file": "scripts\\win\\run_all_checks.bat",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\win\\run_all_checks.bat",
+        "2.0\\win\\scripts\\win\\run_all_checks.bat",
+        "2.1\\linux\\scripts\\win\\run_all_checks.bat",
+        "2.1\\mac\\scripts\\win\\run_all_checks.bat",
+        "2.1\\win\\scripts\\win\\run_all_checks.bat"
+      ],
+      "size_saved": 5475
+    },
+    {
+      "group_id": 189,
+      "kept_file": "scripts\\win\\run_bug_detection.bat",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\win\\run_bug_detection.bat",
+        "2.0\\win\\scripts\\win\\run_bug_detection.bat",
+        "2.1\\linux\\scripts\\win\\run_bug_detection.bat",
+        "2.1\\mac\\scripts\\win\\run_bug_detection.bat",
+        "2.1\\win\\scripts\\win\\run_bug_detection.bat"
+      ],
+      "size_saved": 3230
+    },
+    {
+      "group_id": 190,
+      "kept_file": "scripts\\win\\run_config_validate.bat",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\win\\run_config_validate.bat",
+        "2.0\\win\\scripts\\win\\run_config_validate.bat",
+        "2.1\\linux\\scripts\\win\\run_config_validate.bat",
+        "2.1\\mac\\scripts\\win\\run_config_validate.bat",
+        "2.1\\win\\scripts\\win\\run_config_validate.bat"
+      ],
+      "size_saved": 1395
+    },
+    {
+      "group_id": 191,
+      "kept_file": "scripts\\win\\run_deploy_test.bat",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\win\\run_deploy_test.bat",
+        "2.0\\win\\scripts\\win\\run_deploy_test.bat",
+        "2.1\\linux\\scripts\\win\\run_deploy_test.bat",
+        "2.1\\mac\\scripts\\win\\run_deploy_test.bat",
+        "2.1\\win\\scripts\\win\\run_deploy_test.bat"
+      ],
+      "size_saved": 2190
+    },
+    {
+      "group_id": 192,
+      "kept_file": "scripts\\win\\run_quality_gate.bat",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\win\\run_quality_gate.bat",
+        "2.0\\win\\scripts\\win\\run_quality_gate.bat",
+        "2.1\\linux\\scripts\\win\\run_quality_gate.bat",
+        "2.1\\mac\\scripts\\win\\run_quality_gate.bat",
+        "2.1\\win\\scripts\\win\\run_quality_gate.bat"
+      ],
+      "size_saved": 2130
+    },
+    {
+      "group_id": 193,
+      "kept_file": "scripts\\win\\run_unified_quality.bat",
+      "deleted_files": [
+        "2.0\\linux\\scripts\\win\\run_unified_quality.bat",
+        "2.0\\win\\scripts\\win\\run_unified_quality.bat",
+        "2.1\\linux\\scripts\\win\\run_unified_quality.bat",
+        "2.1\\mac\\scripts\\win\\run_unified_quality.bat",
+        "2.1\\win\\scripts\\win\\run_unified_quality.bat"
+      ],
+      "size_saved": 3335
+    },
+    {
+      "group_id": 194,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\auto-deploy-test.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\auto-deploy-test.kiro.hook"
+      ],
+      "size_saved": 736
+    },
+    {
+      "group_id": 195,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\context-consistency-anchor.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\context-consistency-anchor.kiro.hook"
+      ],
+      "size_saved": 1241
+    },
+    {
+      "group_id": 196,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\global-debug-360.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\global-debug-360.kiro.hook"
+      ],
+      "size_saved": 1974
+    },
+    {
+      "group_id": 197,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\llm-execution-monitor.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\llm-execution-monitor.kiro.hook"
+      ],
+      "size_saved": 1128
+    },
+    {
+      "group_id": 198,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\mac-environment-check.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\mac-environment-check.kiro.hook"
+      ],
+      "size_saved": 712
+    },
+    {
+      "group_id": 199,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\pm-task-assignment.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\pm-task-assignment.kiro.hook"
+      ],
+      "size_saved": 695
+    },
+    {
+      "group_id": 201,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\real-time-quality-guard.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\real-time-quality-guard.kiro.hook"
+      ],
+      "size_saved": 1438
+    },
+    {
+      "group_id": 202,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\task-lifecycle-management.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\task-lifecycle-management.kiro.hook"
+      ],
+      "size_saved": 1505
+    },
+    {
+      "group_id": 203,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\unified-bug-detection.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\unified-bug-detection.kiro.hook"
+      ],
+      "size_saved": 2160
+    },
+    {
+      "group_id": 204,
+      "kept_file": "2.1\\win\\.kiro\\hooks\\unified-quality-check.kiro.hook",
+      "deleted_files": [
+        "2.0\\win\\.kiro\\hooks\\unified-quality-check.kiro.hook"
+      ],
+      "size_saved": 1347
+    },
+    {
+      "group_id": 205,
+      "kept_file": "2.1\\win\\scripts\\check_coverage.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\check_coverage.py"
+      ],
+      "size_saved": 1593
+    },
+    {
+      "group_id": 206,
+      "kept_file": "2.1\\win\\scripts\\check_hallucination.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\check_hallucination.py"
+      ],
+      "size_saved": 9008
+    },
+    {
+      "group_id": 207,
+      "kept_file": "2.1\\win\\scripts\\cleanup_project.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\cleanup_project.py"
+      ],
+      "size_saved": 5129
+    },
+    {
+      "group_id": 208,
+      "kept_file": "2.1\\win\\scripts\\coverage_analyzer.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\coverage_analyzer.py"
+      ],
+      "size_saved": 7644
+    },
+    {
+      "group_id": 209,
+      "kept_file": "2.1\\win\\scripts\\debug_360.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\debug_360.py"
+      ],
+      "size_saved": 25606
+    },
+    {
+      "group_id": 210,
+      "kept_file": "2.1\\win\\scripts\\demo_factor_arena.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\demo_factor_arena.py"
+      ],
+      "size_saved": 15641
+    },
+    {
+      "group_id": 211,
+      "kept_file": "2.1\\win\\scripts\\demo_factor_mining_intelligence_sentinel.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\demo_factor_mining_intelligence_sentinel.py"
+      ],
+      "size_saved": 28139
+    },
+    {
+      "group_id": 212,
+      "kept_file": "2.1\\win\\scripts\\demo_four_tier_validation.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\demo_four_tier_validation.py"
+      ],
+      "size_saved": 25407
+    },
+    {
+      "group_id": 213,
+      "kept_file": "2.1\\win\\scripts\\demo_soldier_engine_v2.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\demo_soldier_engine_v2.py"
+      ],
+      "size_saved": 18568
+    },
+    {
+      "group_id": 214,
+      "kept_file": "2.1\\win\\scripts\\demo_sparta_arena_standards.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\demo_sparta_arena_standards.py"
+      ],
+      "size_saved": 15936
+    },
+    {
+      "group_id": 215,
+      "kept_file": "2.1\\win\\scripts\\demo_unified_llm_control.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\demo_unified_llm_control.py"
+      ],
+      "size_saved": 20130
+    },
+    {
+      "group_id": 216,
+      "kept_file": "2.1\\win\\scripts\\dependency_checker.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\dependency_checker.py"
+      ],
+      "size_saved": 9651
+    },
+    {
+      "group_id": 217,
+      "kept_file": "2.1\\win\\scripts\\end_to_end_system_test.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\end_to_end_system_test.py"
+      ],
+      "size_saved": 18672
+    },
+    {
+      "group_id": 218,
+      "kept_file": "2.1\\win\\scripts\\enhanced_quality_gate.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\enhanced_quality_gate.py"
+      ],
+      "size_saved": 16307
+    },
+    {
+      "group_id": 219,
+      "kept_file": "2.1\\win\\scripts\\full_alignment_check.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\full_alignment_check.py"
+      ],
+      "size_saved": 14620
+    },
+    {
+      "group_id": 220,
+      "kept_file": "2.1\\win\\scripts\\hook_system_validator.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\hook_system_validator.py"
+      ],
+      "size_saved": 13675
+    },
+    {
+      "group_id": 221,
+      "kept_file": "2.1\\win\\scripts\\iron_law_checker.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\iron_law_checker.py"
+      ],
+      "size_saved": 10759
+    },
+    {
+      "group_id": 222,
+      "kept_file": "2.1\\win\\scripts\\kiro_config_validator.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\kiro_config_validator.py"
+      ],
+      "size_saved": 11437
+    },
+    {
+      "group_id": 223,
+      "kept_file": "2.1\\win\\scripts\\llm_execution_monitor.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\llm_execution_monitor.py"
+      ],
+      "size_saved": 16094
+    },
+    {
+      "group_id": 224,
+      "kept_file": "2.1\\win\\scripts\\mac_compatibility.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\mac_compatibility.py"
+      ],
+      "size_saved": 17041
+    },
+    {
+      "group_id": 225,
+      "kept_file": "2.1\\win\\scripts\\mcp_silicon_valley_team.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\mcp_silicon_valley_team.py"
+      ],
+      "size_saved": 14752
+    },
+    {
+      "group_id": 226,
+      "kept_file": "2.1\\win\\scripts\\pre_commit_check.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\pre_commit_check.py"
+      ],
+      "size_saved": 7155
+    },
+    {
+      "group_id": 227,
+      "kept_file": "2.1\\win\\scripts\\setup_project_structure.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\setup_project_structure.py"
+      ],
+      "size_saved": 8588
+    },
+    {
+      "group_id": 228,
+      "kept_file": "2.1\\win\\scripts\\start_streamlit.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\start_streamlit.py"
+      ],
+      "size_saved": 1621
+    },
+    {
+      "group_id": 229,
+      "kept_file": "2.1\\win\\scripts\\system_deployment_checker.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\system_deployment_checker.py"
+      ],
+      "size_saved": 19066
+    },
+    {
+      "group_id": 230,
+      "kept_file": "2.1\\win\\scripts\\team_bug_fixer.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\team_bug_fixer.py"
+      ],
+      "size_saved": 14584
+    },
+    {
+      "group_id": 231,
+      "kept_file": "2.1\\win\\scripts\\unified_config_manager.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\unified_config_manager.py"
+      ],
+      "size_saved": 20601
+    },
+    {
+      "group_id": 232,
+      "kept_file": "2.1\\win\\scripts\\validate_coding_rules.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\validate_coding_rules.py"
+      ],
+      "size_saved": 11618
+    },
+    {
+      "group_id": 233,
+      "kept_file": "2.1\\win\\scripts\\version_organizer.py",
+      "deleted_files": [
+        "2.0\\win\\scripts\\version_organizer.py"
+      ],
+      "size_saved": 25138
+    },
+    {
+      "group_id": 234,
+      "kept_file": "2.1\\mac\\version.json",
+      "deleted_files": [
+        "2.1\\linux\\version.json",
+        "2.1\\win\\version.json"
+      ],
+      "size_saved": 1348
+    },
+    {
+      "group_id": 235,
+      "kept_file": "docs\\guides\\MAC_SETUP.md",
+      "deleted_files": [
+        "2.1\\mac\\docs\\MAC_SETUP.md"
+      ],
+      "size_saved": 4402
+    },
+    {
+      "group_id": 236,
+      "kept_file": "2.1\\mac\\scripts\\enhanced_quality_gate.py",
+      "deleted_files": [
+        "scripts\\utilities\\enhanced_quality_gate.py"
+      ],
+      "size_saved": 16330
+    },
+    {
+      "group_id": 237,
+      "kept_file": "2.1\\mac\\scripts\\mac_compatibility.py",
+      "deleted_files": [
+        "scripts\\utilities\\mac_compatibility.py"
+      ],
+      "size_saved": 17055
+    },
+    {
+      "group_id": 238,
+      "kept_file": "2.1\\mac\\scripts\\version_organizer.py",
+      "deleted_files": [
+        "scripts\\utilities\\version_organizer.py"
+      ],
+      "size_saved": 25163
+    },
+    {
+      "group_id": 239,
+      "kept_file": "src\\core\\__init__.py",
+      "deleted_files": [
+        "reports\\next_phase_action_plan.md",
+        "scripts\\deployment\\mac_configuration_adaptation.py",
+        "scripts\\utilities\\create_versioned_structure.py",
+        "src\\config\\__init__.py",
+        "src\\evolution\\security\\unified_security_gateway.py",
+        "src\\scheduler\\__init__.py",
+        "tests\\e2e\\__init__.py",
+        "tests\\integration\\chapter_1\\__init__.py",
+        "tests\\integration\\chapter_2\\__init__.py",
+        "tests\\integration\\chapter_3\\__init__.py",
+        "tests\\integration\\chapter_4\\__init__.py",
+        "tests\\integration\\chapter_6\\__init__.py",
+        "tests\\properties\\brain\\test_algo_hunter_properties.py",
+        "tests\\properties\\brain\\test_engram_memory_properties.py",
+        "tests\\unit\\brain\\test_ai_brain_coordinator_100_percent_correct.py",
+        "tests\\unit\\brain\\test_ai_brain_coordinator_complete_coverage.py",
+        "tests\\unit\\brain\\test_ai_brain_coordinator_fixed.py",
+        "tests\\unit\\brain\\soldier\\test_inference_latency.py",
+        "tests\\unit\\chapter_1\\__init__.py",
+        "tests\\unit\\chapter_2\\__init__.py",
+        "tests\\unit\\chapter_23\\test_capital_allocator.py",
+        "tests\\unit\\chapter_3\\__init__.py",
+        "tests\\unit\\chapter_4\\__init__.py"
+      ],
+      "size_saved": 0
+    },
+    {
+      "group_id": 240,
+      "kept_file": "src\\brain\\vllm_inference_engine.py",
+      "deleted_files": [
+        "src\\brain\\vllm_memory_coordinator_backup.py"
+      ],
+      "size_saved": 28081
+    },
+    {
+      "group_id": 241,
+      "kept_file": "tasks\\PRD-tasks-1769565662916.json",
+      "deleted_files": [
+        "tasks\\PRD-tasks-1769565514913.json"
+      ],
+      "size_saved": 153
+    }
+  ],
+  "recommendations": [
+    "定期运行重复文件检查",
+    "建立文件命名规范避免重复",
+    "使用版本控制系统管理文件历史",
+    "定期清理临时文件和备份文件",
+    "监控大文件的增长"
+  ],
+  "quality_improvements": {
+    "code_organization": "删除重复文件提升了代码组织性",
+    "storage_efficiency": "节省了 6098011 字节存储空间",
+    "maintenance_burden": "减少了维护负担和混淆风险",
+    "build_performance": "可能提升构建和搜索性能"
+  }
+}

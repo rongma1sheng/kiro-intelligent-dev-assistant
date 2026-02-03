@@ -1,0 +1,256 @@
+{
+  "platform_detection_patterns": [
+    {
+      "pattern_name": "Python平台检测",
+      "description": "使用Python platform模块自动检测操作系统",
+      "implementation": "\nimport platform\nsystem = platform.system().lower()\nif system == \"windows\":\n    return \"win32\"\nelif system == \"darwin\":\n    return \"darwin\"\nelif system == \"linux\":\n    return \"linux\"\n",
+      "benefits": [
+        "跨平台兼容",
+        "自动化检测",
+        "准确性高"
+      ],
+      "use_cases": [
+        "配置文件选择",
+        "平台特定功能",
+        "Hook适配"
+      ],
+      "reliability": "高 - Python标准库保证"
+    },
+    {
+      "pattern_name": "智能平台适配Hook",
+      "description": "创建能够自动适配不同平台的Hook配置",
+      "key_features": [
+        "运行时平台检测",
+        "动态提示生成",
+        "平台特定建议",
+        "自动化配置调整"
+      ],
+      "implementation_approach": "在Hook配置中嵌入平台检测逻辑",
+      "scalability": "可扩展到支持更多平台"
+    },
+    {
+      "pattern_name": "配置文件平台标识",
+      "description": "在配置文件中明确标识目标平台",
+      "format": "\n{\n  \"metadata\": {\n    \"platform\": \"win32|darwin|linux\",\n    \"version\": \"x.x.x\",\n    \"compatibility\": [\"platform1\", \"platform2\"]\n  }\n}\n",
+      "benefits": [
+        "清晰的平台支持",
+        "版本管理",
+        "兼容性追踪"
+      ]
+    }
+  ],
+  "configuration_adaptation_strategies": [
+    {
+      "strategy_name": "平台特定Hook替换策略",
+      "description": "根据平台自动替换不适合的Hook配置",
+      "process": [
+        "检测当前运行平台",
+        "识别平台不兼容的配置",
+        "移除不适合的配置文件",
+        "创建平台特定的替代配置",
+        "验证新配置的有效性"
+      ],
+      "example": "移除Mac性能监控Hook，创建Windows性能监控Hook",
+      "automation_level": "全自动化"
+    },
+    {
+      "strategy_name": "渐进式配置迁移",
+      "description": "分步骤地将配置从一个平台适配到另一个平台",
+      "phases": [
+        "阶段1: 移除不兼容配置",
+        "阶段2: 创建基础平台配置",
+        "阶段3: 添加平台特定优化",
+        "阶段4: 验证和测试配置"
+      ],
+      "rollback_support": "每个阶段都支持回滚",
+      "risk_mitigation": "分阶段降低配置错误风险"
+    },
+    {
+      "strategy_name": "配置模板化生成",
+      "description": "使用模板动态生成平台特定配置",
+      "template_structure": {
+        "base_template": "通用配置模板",
+        "platform_overrides": "平台特定覆盖配置",
+        "feature_flags": "平台功能开关",
+        "optimization_settings": "平台优化参数"
+      },
+      "generation_process": "模板 + 平台参数 = 最终配置",
+      "maintainability": "高 - 统一模板管理"
+    },
+    {
+      "strategy_name": "智能配置验证",
+      "description": "自动验证配置在目标平台上的有效性",
+      "validation_checks": [
+        "语法正确性检查",
+        "平台兼容性验证",
+        "依赖项可用性检查",
+        "功能完整性测试"
+      ],
+      "error_handling": "提供详细的错误信息和修复建议"
+    }
+  ],
+  "cross_platform_compatibility_issues": [
+    {
+      "issue_type": "平台特定功能假设",
+      "description": "配置中假设了特定平台的功能存在",
+      "example": "在Windows上使用Mac特定的性能监控",
+      "root_cause": "缺乏平台检测和适配机制",
+      "impact": "功能无法正常工作，用户体验差",
+      "solution": "实施平台检测和动态配置选择",
+      "prevention": "在配置设计时考虑跨平台兼容性"
+    },
+    {
+      "issue_type": "路径分隔符差异",
+      "description": "不同平台使用不同的路径分隔符",
+      "platforms": {
+        "windows": "反斜杠 (\\)",
+        "unix_like": "正斜杠 (/)"
+      },
+      "solution": "使用pathlib.Path或os.path.join处理路径",
+      "best_practice": "避免硬编码路径分隔符"
+    },
+    {
+      "issue_type": "命令行工具差异",
+      "description": "不同平台有不同的系统命令和工具",
+      "examples": {
+        "windows": [
+          "sfc",
+          "dism",
+          "wmic",
+          "powershell"
+        ],
+        "macos": [
+          "diskutil",
+          "system_profiler",
+          "brew"
+        ],
+        "linux": [
+          "fsck",
+          "systemctl",
+          "apt/yum"
+        ]
+      },
+      "adaptation_strategy": "为每个平台定义专用的命令集合"
+    },
+    {
+      "issue_type": "环境变量命名差异",
+      "description": "不同平台使用不同的环境变量名称和格式",
+      "examples": {
+        "windows": "%USERPROFILE%, %TEMP%",
+        "unix_like": "$HOME, $TMPDIR"
+      },
+      "solution": "使用平台特定的环境变量配置"
+    }
+  ],
+  "automated_fix_patterns": [
+    {
+      "pattern_name": "错误检测和自动修复循环",
+      "description": "检测配置错误并自动应用修复",
+      "workflow": [
+        "用户反馈问题",
+        "自动分析问题类型",
+        "查找适用的修复策略",
+        "执行自动修复",
+        "验证修复结果",
+        "向用户报告修复状态"
+      ],
+      "key_principles": [
+        "快速响应用户反馈",
+        "自动化减少人工干预",
+        "透明的修复过程",
+        "可回滚的修复操作"
+      ]
+    },
+    {
+      "pattern_name": "配置冲突解决模式",
+      "description": "自动解决平台配置冲突",
+      "conflict_types": [
+        "平台不兼容配置",
+        "重复功能配置",
+        "版本不匹配配置"
+      ],
+      "resolution_strategy": [
+        "优先保留平台兼容配置",
+        "移除重复和冲突配置",
+        "升级过时配置到最新版本"
+      ]
+    },
+    {
+      "pattern_name": "批量配置更新模式",
+      "description": "批量更新多个配置文件以保持一致性",
+      "update_scope": [
+        "Hook配置文件",
+        "MCP服务器配置",
+        "平台特定设置",
+        "性能优化参数"
+      ],
+      "consistency_checks": [
+        "配置版本一致性",
+        "平台兼容性验证",
+        "功能完整性检查"
+      ]
+    },
+    {
+      "pattern_name": "智能回滚机制",
+      "description": "在修复失败时自动回滚到稳定状态",
+      "trigger_conditions": [
+        "修复操作失败",
+        "配置验证不通过",
+        "用户明确要求回滚"
+      ],
+      "rollback_strategy": [
+        "恢复备份配置",
+        "重置到默认状态",
+        "逐步撤销修改"
+      ]
+    }
+  ],
+  "user_feedback_integration": [
+    {
+      "pattern_name": "实时问题识别",
+      "description": "从用户反馈中快速识别配置问题",
+      "feedback_sources": [
+        "直接用户报告",
+        "系统错误日志",
+        "配置验证失败",
+        "功能异常行为"
+      ],
+      "identification_speed": "立即识别关键问题",
+      "response_time": "问题识别后立即开始修复"
+    },
+    {
+      "pattern_name": "用户体验优先修复",
+      "description": "优先修复影响用户体验的问题",
+      "priority_criteria": [
+        "功能完全无法使用",
+        "配置错误导致系统异常",
+        "用户工作流程中断",
+        "性能显著下降"
+      ],
+      "repair_approach": "快速修复 + 详细解释 + 预防措施"
+    },
+    {
+      "pattern_name": "透明的修复沟通",
+      "description": "向用户清晰说明问题和修复过程",
+      "communication_elements": [
+        "问题确认和道歉",
+        "修复过程实时更新",
+        "修复结果验证",
+        "预防措施说明"
+      ],
+      "trust_rebuilding": "通过透明沟通重建用户信任"
+    },
+    {
+      "pattern_name": "持续改进反馈循环",
+      "description": "将用户反馈转化为系统改进",
+      "improvement_cycle": [
+        "收集用户反馈",
+        "分析问题根因",
+        "设计预防机制",
+        "实施系统改进",
+        "验证改进效果"
+      ],
+      "knowledge_accumulation": "每次修复都增加系统智能"
+    }
+  ]
+}

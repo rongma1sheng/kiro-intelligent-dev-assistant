@@ -1,63 +1,41 @@
 {
-  "platform": "darwin",
-  "version": "1.0.0",
-  "last_updated": "2026-02-03T13:56:08.774513",
-  "system_optimizations": {
+  "metadata": {
+    "platform": "darwin",
+    "version": "3.0.0",
+    "description": "macOS性能优化配置"
+  },
+  "system_optimization": {
     "memory_management": {
-      "enable_memory_compression": true,
-      "swap_usage_threshold": 0.8,
+      "unified_memory_optimization": true,
       "memory_pressure_handling": true,
-      "automatic_memory_cleanup": true
+      "swap_usage_optimization": true
     },
     "cpu_optimization": {
-      "enable_turbo_boost": true,
-      "cpu_scheduling_priority": "normal",
-      "background_app_refresh": false,
-      "energy_saver_mode": "balanced"
+      "energy_efficiency": true,
+      "turbo_boost": true,
+      "thermal_management": true
     },
-    "disk_optimization": {
-      "enable_trim": true,
-      "spotlight_indexing": "optimized",
-      "file_system_cache": "enabled",
-      "disk_utility_optimization": true
-    },
-    "network_optimization": {
-      "tcp_window_scaling": true,
-      "network_buffer_size": "auto",
-      "dns_caching": true,
-      "connection_pooling": true
+    "storage_optimization": {
+      "apfs_optimization": true,
+      "spotlight_indexing": true,
+      "trim_support": true
     }
   },
-  "development_optimizations": {
-    "ide_settings": {
-      "memory_allocation": "4GB",
-      "indexing_threads": 4,
-      "background_compilation": true,
-      "code_completion_cache": true
+  "development_environment": {
+    "xcode": {
+      "build_optimization": true,
+      "indexing_optimization": true,
+      "simulator_performance": true
     },
-    "build_optimization": {
+    "homebrew": {
+      "formula_caching": true,
       "parallel_builds": true,
-      "incremental_compilation": true,
-      "ccache_enabled": true,
-      "build_cache_size": "10GB"
+      "cleanup_automation": true
     },
-    "debugging_optimization": {
-      "symbol_loading": "lazy",
-      "debug_info_compression": true,
-      "breakpoint_optimization": true
+    "terminal": {
+      "zsh_optimization": true,
+      "completion_caching": true,
+      "history_optimization": true
     }
-  },
-  "monitoring_thresholds": {
-    "cpu_usage_warning": 80,
-    "memory_usage_warning": 85,
-    "disk_usage_warning": 90,
-    "temperature_warning": 85,
-    "battery_warning": 20
-  },
-  "automatic_actions": {
-    "high_cpu_usage": "notify_and_suggest",
-    "high_memory_usage": "cleanup_and_optimize",
-    "low_disk_space": "cleanup_suggestions",
-    "thermal_throttling": "reduce_background_tasks"
   }
 }

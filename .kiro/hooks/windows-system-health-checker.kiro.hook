@@ -1,0 +1,12 @@
+{
+  "name": "Windows系统健康检查器",
+  "version": "1.0.0",
+  "description": "定期检查Windows系统健康状态",
+  "when": {
+    "type": "agentStop"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "执行Windows系统健康检查：1. 系统文件完整性 2. 注册表健康状态 3. 磁盘错误检查 4. 安全更新状态"
+  }
+}

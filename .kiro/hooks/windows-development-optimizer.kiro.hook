@@ -1,0 +1,17 @@
+{
+  "name": "Windows开发环境优化器",
+  "version": "1.0.0",
+  "description": "优化Windows开发环境配置",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.py",
+      "*.js",
+      "*.ts"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "检查Windows开发环境优化机会：1. Visual Studio Code配置 2. PowerShell执行策略 3. Git配置优化 4. Python环境管理"
+  }
+}

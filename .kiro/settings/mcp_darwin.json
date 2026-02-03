@@ -2,9 +2,9 @@
   "_extends": "mcp.json",
   "_metadata": {
     "platform": "darwin",
-    "description": "macOS完全优化MCP配置",
-    "version": "2.1.0",
-    "last_updated": "2026-02-03T13:56:08.774513",
+    "description": "macOS优化MCP配置",
+    "version": "3.0.0",
+    "last_updated": "2026-02-03T14:36:07.920579",
     "optimizations": [
       "Homebrew路径优化",
       "Zsh shell集成",

@@ -1,0 +1,214 @@
+{
+  "critical_errors": [
+    {
+      "error_type": "配置文件误删",
+      "description": "重复文件清理时误删了用户正在使用的Kiro配置文件",
+      "root_cause": "清理脚本未正确识别活跃配置文件",
+      "impact": "用户本地Kiro环境无法正常工作",
+      "severity": "高",
+      "affected_components": [
+        ".kiro/settings/",
+        ".kiro/hooks/"
+      ],
+      "detection_method": "用户反馈",
+      "occurrence_context": "批量重复文件清理过程中"
+    },
+    {
+      "error_type": "权限访问错误",
+      "description": "Windows系统下某些文件删除时出现权限拒绝",
+      "root_cause": "文件被其他进程占用或权限不足",
+      "impact": "部分重复文件无法删除",
+      "severity": "中",
+      "affected_files": [
+        "steering文件",
+        "specs文件",
+        "backup文件"
+      ],
+      "workaround": "跳过权限错误文件，继续处理其他文件"
+    },
+    {
+      "error_type": "文件优先级判断错误",
+      "description": "清理脚本错误地选择了要保留的文件",
+      "root_cause": "优先级算法未充分考虑文件的实际使用状态",
+      "impact": "保留了备份文件而删除了活跃文件",
+      "severity": "高",
+      "lesson": "需要更智能的文件状态检测机制"
+    }
+  ],
+  "recovery_patterns": [
+    {
+      "pattern_name": "紧急配置恢复模式",
+      "description": "当关键配置文件丢失时的快速恢复策略",
+      "steps": [
+        "立即停止可能造成进一步损害的操作",
+        "查找最新的配置备份",
+        "从备份中恢复关键配置文件",
+        "重新创建缺失的基础配置",
+        "验证恢复结果的完整性",
+        "生成恢复报告和后续建议"
+      ],
+      "key_principles": [
+        "速度优先 - 快速恢复用户环境",
+        "最小化影响 - 只恢复必要的文件",
+        "验证完整性 - 确保恢复的配置可用",
+        "文档记录 - 记录恢复过程供学习"
+      ],
+      "success_criteria": "用户环境恢复正常工作状态"
+    },
+    {
+      "pattern_name": "备份查找和验证模式",
+      "description": "在紧急情况下快速定位和验证可用备份",
+      "implementation": "按时间戳排序备份目录，选择最新的完整备份",
+      "validation_steps": [
+        "检查备份目录的存在性",
+        "验证备份文件的完整性",
+        "确认备份内容的可用性",
+        "测试关键配置的有效性"
+      ]
+    },
+    {
+      "pattern_name": "渐进式恢复模式",
+      "description": "分阶段恢复系统功能，优先恢复核心功能",
+      "phases": [
+        "阶段1: 恢复基础MCP配置",
+        "阶段2: 恢复Hook自动化功能",
+        "阶段3: 恢复性能优化配置",
+        "阶段4: 恢复高级功能配置"
+      ],
+      "benefits": [
+        "降低恢复风险",
+        "快速恢复核心功能",
+        "便于问题定位"
+      ]
+    }
+  ],
+  "prevention_strategies": [
+    {
+      "strategy_name": "智能文件保护机制",
+      "description": "在执行批量操作前识别和保护关键文件",
+      "implementation": [
+        "建立活跃配置文件检测机制",
+        "创建文件重要性评估算法",
+        "实施多层确认机制",
+        "提供操作预览和回滚功能"
+      ],
+      "technical_approach": "文件访问时间分析 + 进程占用检测 + 用户确认",
+      "expected_outcome": "避免误删关键配置文件"
+    },
+    {
+      "strategy_name": "增强备份策略",
+      "description": "建立更完善的自动备份和恢复机制",
+      "components": [
+        "实时配置文件监控",
+        "增量备份机制",
+        "多版本备份保留",
+        "快速恢复工具"
+      ],
+      "backup_triggers": [
+        "配置文件修改时",
+        "执行危险操作前",
+        "定期自动备份",
+        "用户手动触发"
+      ]
+    },
+    {
+      "strategy_name": "用户环境隔离",
+      "description": "将用户活跃配置与项目文件分离管理",
+      "approach": "区分.kiro/active/和.kiro/templates/目录",
+      "benefits": [
+        "保护用户个性化配置",
+        "避免批量操作影响",
+        "简化恢复流程",
+        "提高系统稳定性"
+      ]
+    },
+    {
+      "strategy_name": "操作前影响评估",
+      "description": "在执行批量操作前评估潜在影响",
+      "evaluation_criteria": [
+        "文件使用频率分析",
+        "系统依赖关系检查",
+        "用户配置识别",
+        "风险等级评估"
+      ],
+      "decision_matrix": "高风险操作需要用户明确授权"
+    }
+  ],
+  "technical_solutions": [
+    {
+      "problem": "Windows文件权限访问错误",
+      "solution": "优雅的权限错误处理",
+      "implementation": "使用try-catch捕获权限错误，记录但不中断流程",
+      "code_pattern": "\ntry:\n    file_path.unlink()\n    deleted_count += 1\nexcept PermissionError as e:\n    print(f\"❌ 删除失败 {file_path}: 权限不足\")\n    continue  # 继续处理其他文件\n",
+      "benefits": [
+        "提高脚本健壮性",
+        "避免单点失败",
+        "提供清晰的错误信息"
+      ]
+    },
+    {
+      "problem": "配置文件快速重建",
+      "solution": "模板化配置生成",
+      "implementation": "预定义配置模板，根据平台和环境动态生成",
+      "key_features": [
+        "平台特定优化",
+        "环境变量自动配置",
+        "版本兼容性处理",
+        "用户偏好保留"
+      ]
+    },
+    {
+      "problem": "备份文件快速定位",
+      "solution": "时间戳排序和智能匹配",
+      "algorithm": "按修改时间排序备份目录，选择最新的完整备份",
+      "validation": "检查备份完整性和文件可用性"
+    },
+    {
+      "problem": "批量操作进度反馈",
+      "solution": "分阶段进度显示",
+      "implementation": "每处理一定数量文件显示进度，提供用户反馈",
+      "user_experience": "让用户了解操作进展，避免焦虑"
+    }
+  ],
+  "user_experience_lessons": [
+    {
+      "lesson": "操作透明度的重要性",
+      "description": "用户需要清楚了解系统正在执行什么操作",
+      "problem": "批量删除文件时用户不知道会影响其配置",
+      "solution": "提供详细的操作预览和影响评估",
+      "implementation": [
+        "显示将要删除的文件列表",
+        "标识关键配置文件",
+        "提供操作影响说明",
+        "允许用户选择性确认"
+      ]
+    },
+    {
+      "lesson": "错误恢复的及时性",
+      "description": "当发生错误时，需要立即提供恢复方案",
+      "response_time": "检测到问题后立即开始恢复流程",
+      "communication": "向用户说明问题和恢复进展",
+      "reassurance": "让用户知道问题可以解决"
+    },
+    {
+      "lesson": "用户信任的重建",
+      "description": "错误发生后需要重建用户对系统的信任",
+      "strategies": [
+        "承认错误并道歉",
+        "快速有效地解决问题",
+        "解释错误原因和预防措施",
+        "提供额外的保障机制"
+      ]
+    },
+    {
+      "lesson": "操作可逆性的价值",
+      "description": "所有批量操作都应该提供撤销机制",
+      "requirements": [
+        "操作前自动备份",
+        "详细的操作日志",
+        "一键恢复功能",
+        "分步骤回滚能力"
+      ]
+    }
+  ]
+}

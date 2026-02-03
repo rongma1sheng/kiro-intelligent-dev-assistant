@@ -1,0 +1,12 @@
+{
+  "name": "Windows性能监控",
+  "version": "1.0.0",
+  "description": "监控Windows系统性能并提供优化建议",
+  "when": {
+    "type": "promptSubmit"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "执行Windows性能分析：1. CPU和内存使用率检查 2. 磁盘空间和碎片分析 3. 启动项和服务优化建议 4. PowerShell和开发环境优化"
+  }
+}
