@@ -29,51 +29,51 @@ class IntelligentDevelopmentSupport:
         self.team_roles = {
             "📊 Product Manager": {
                 "expertise": ["需求分析", "业务逻辑", "优先级决策", "用户故事"],
-                "triggers": ["需求变更", "业务逻辑问题", "优先级冲突"]
+                "triggers": ["需求变更", "业务逻辑问题", "优先级冲突", "需求"]
             },
             "🏗️ Software Architect": {
                 "expertise": ["架构设计", "技术选型", "系统集成", "性能优化"],
-                "triggers": ["架构问题", "技术决策", "系统设计", "集成问题"]
+                "triggers": ["架构问题", "技术决策", "系统设计", "集成问题", "架构", "重构", "系统"]
             },
             "🧮 Algorithm Engineer": {
                 "expertise": ["算法优化", "性能分析", "复杂度优化", "数据结构"],
-                "triggers": ["性能问题", "算法优化", "计算复杂度"]
+                "triggers": ["性能问题", "算法优化", "计算复杂度", "算法", "性能", "优化"]
             },
             "🗄️ Database Engineer": {
                 "expertise": ["数据库设计", "查询优化", "性能调优", "数据建模"],
-                "triggers": ["数据库问题", "SQL优化", "数据一致性"]
+                "triggers": ["数据库问题", "SQL优化", "数据一致性", "数据库", "查询"]
             },
             "🎨 UI/UX Engineer": {
                 "expertise": ["界面设计", "用户体验", "可用性测试", "交互设计"],
-                "triggers": ["界面问题", "用户体验", "UI组件"]
+                "triggers": ["界面问题", "用户体验", "UI组件", "界面", "用户", "UI", "UX"]
             },
             "🚀 Full-Stack Engineer": {
                 "expertise": ["代码实现", "API开发", "系统集成", "全栈开发"],
-                "triggers": ["开发问题", "API问题", "集成问题", "代码实现"]
+                "triggers": ["开发问题", "API问题", "集成问题", "代码实现", "开发", "实现", "编码"]
             },
             "🔒 Security Engineer": {
                 "expertise": ["安全架构", "威胁建模", "合规审计", "漏洞修复"],
-                "triggers": ["安全漏洞", "合规问题", "权限问题"]
+                "triggers": ["安全漏洞", "合规问题", "权限问题", "安全", "漏洞", "权限"]
             },
             "☁️ DevOps Engineer": {
                 "expertise": ["基础设施", "部署管道", "监控告警", "自动化"],
-                "triggers": ["部署问题", "基础设施", "CI/CD", "监控"]
+                "triggers": ["部署问题", "基础设施", "CI/CD", "监控", "部署", "运维"]
             },
             "📈 Data Engineer": {
                 "expertise": ["数据管道", "ETL流程", "数据质量", "大数据处理"],
-                "triggers": ["数据处理", "ETL问题", "数据质量"]
+                "triggers": ["数据处理", "ETL问题", "数据质量", "数据", "ETL"]
             },
             "🧪 Test Engineer": {
                 "expertise": ["测试策略", "质量保证", "自动化测试", "测试框架"],
-                "triggers": ["测试问题", "质量问题", "测试覆盖率"]
+                "triggers": ["测试问题", "质量问题", "测试覆盖率", "测试", "质量"]
             },
             "🎯 Scrum Master": {
                 "expertise": ["流程管理", "团队协调", "敏捷开发", "项目管理"],
-                "triggers": ["流程问题", "团队协调", "项目管理"]
+                "triggers": ["流程问题", "团队协调", "项目管理", "流程", "管理"]
             },
             "🔍 Code Review Specialist": {
                 "expertise": ["代码审查", "质量标准", "最佳实践", "代码规范"],
-                "triggers": ["代码质量", "代码审查", "规范问题"]
+                "triggers": ["代码质量", "代码审查", "规范问题", "代码", "审查", "规范"]
             }
         }
         
@@ -343,14 +343,20 @@ class IntelligentDevelopmentSupport:
             
             # 检查专业领域匹配
             for expertise in config["expertise"]:
-                if any(keyword in task_lower for keyword in expertise.lower().split()):
-                    score += 2
-                    matched_expertise.append(expertise)
+                expertise_keywords = expertise.lower().split()
+                for keyword in expertise_keywords:
+                    if keyword in task_lower:
+                        score += 2
+                        matched_expertise.append(expertise)
+                        break
             
             # 检查触发条件匹配
             for trigger in config["triggers"]:
-                if any(keyword in task_lower for keyword in trigger.lower().split()):
-                    score += 3
+                trigger_keywords = trigger.lower().split()
+                for keyword in trigger_keywords:
+                    if keyword in task_lower:
+                        score += 3
+                        break
             
             if score > 0:
                 role_scores[role] = {
@@ -366,12 +372,41 @@ class IntelligentDevelopmentSupport:
             assignment["primary_assignee"] = sorted_roles[0][0]
             assignment["recommended_roles"] = [role for role, _ in sorted_roles[:3]]
             
-            # 支持角色
+            # 支持角色 - 确保至少有一个支持角色
             if len(sorted_roles) > 1:
                 assignment["supporting_roles"] = [role for role, _ in sorted_roles[1:3]]
+            else:
+                # 如果只有一个匹配角色，添加默认的支持角色
+                primary_role = sorted_roles[0][0]
+                if primary_role != "🔍 Code Review Specialist":
+                    assignment["supporting_roles"] = ["🔍 Code Review Specialist"]
+                else:
+                    assignment["supporting_roles"] = ["🚀 Full-Stack Engineer"]
             
-            # 所需技能
-            assignment["skills_required"] = sorted_roles[0][1]["matched_expertise"]
+            # 所需技能 - 确保至少有基本技能
+            matched_expertise = sorted_roles[0][1]["matched_expertise"]
+            if matched_expertise:
+                assignment["skills_required"] = matched_expertise
+            else:
+                # 如果没有匹配到具体技能，根据角色提供默认技能
+                role_default_skills = {
+                    "🏗️ Software Architect": ["架构设计", "系统集成"],
+                    "🧮 Algorithm Engineer": ["算法优化", "性能分析"],
+                    "🎨 UI/UX Engineer": ["界面设计", "用户体验"],
+                    "🔒 Security Engineer": ["安全架构", "威胁建模"],
+                    "🚀 Full-Stack Engineer": ["代码实现", "API开发"],
+                    "🔍 Code Review Specialist": ["代码审查", "质量标准"]
+                }
+                assignment["skills_required"] = role_default_skills.get(
+                    assignment["primary_assignee"], 
+                    ["通用开发技能"]
+                )
+        else:
+            # 如果没有匹配到任何角色，默认分配给Full-Stack Engineer
+            assignment["primary_assignee"] = "🚀 Full-Stack Engineer"
+            assignment["recommended_roles"] = ["🚀 Full-Stack Engineer"]
+            assignment["supporting_roles"] = ["🔍 Code Review Specialist"]
+            assignment["skills_required"] = ["通用开发技能"]
         
         # 估算工作量和优先级
         assignment.update(self._estimate_task_attributes(task_description))
@@ -385,28 +420,42 @@ class IntelligentDevelopmentSupport:
         
         task_lower = task_description.lower()
         
-        # 工作量估算
+        # 工作量估算 - 优化关键词匹配逻辑
         effort_keywords = {
-            "高": ["重构", "架构", "系统", "完整", "全面", "复杂"],
-            "中等": ["优化", "修复", "实现", "开发", "集成"],
-            "低": ["修改", "调整", "更新", "检查", "测试"]
+            "高": ["重构", "架构", "系统", "完整", "全面", "复杂", "安全漏洞", "漏洞修复"],
+            "中等": ["优化", "修复", "实现", "开发", "集成", "改进", "界面", "用户体验", "性能"],
+            "低": ["修改", "调整", "更新", "检查", "测试", "文档"]
         }
         
-        effort = "中等"
-        for level, keywords in effort_keywords.items():
+        effort = "中等"  # 默认值
+        
+        # 按优先级顺序检查（高 -> 中等 -> 低）
+        for level in ["高", "中等", "低"]:
+            keywords = effort_keywords[level]
             if any(keyword in task_lower for keyword in keywords):
                 effort = level
                 break
         
+        # 特殊情况处理
+        if "架构" in task_lower and ("重构" in task_lower or "优化" in task_lower):
+            effort = "高"
+        elif "性能" in task_lower and "优化" in task_lower:
+            effort = "高"  # 性能优化通常是高工作量
+        elif "安全" in task_lower:
+            effort = "高"  # 安全相关任务通常是高工作量
+        
         # 优先级估算
         priority_keywords = {
-            "高": ["紧急", "关键", "重要", "阻塞", "安全", "生产"],
-            "中": ["优化", "改进", "增强", "功能"],
-            "低": ["文档", "清理", "整理", "可选"]
+            "高": ["紧急", "关键", "重要", "阻塞", "安全", "生产", "漏洞"],
+            "中": ["优化", "改进", "增强", "功能", "性能", "架构"],
+            "低": ["文档", "清理", "整理", "可选", "界面"]
         }
         
-        priority = "中"
-        for level, keywords in priority_keywords.items():
+        priority = "中"  # 默认值
+        
+        # 按优先级顺序检查
+        for level in ["高", "中", "低"]:
+            keywords = priority_keywords[level]
             if any(keyword in task_lower for keyword in keywords):
                 priority = level
                 break
