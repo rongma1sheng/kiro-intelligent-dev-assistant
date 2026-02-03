@@ -28,6 +28,30 @@
 - 反漂移执行系统
 - 完整权限矩阵
 
+## 📁 项目结构
+
+```
+├── README.md                 # 项目说明
+├── .kiro/                   # Kiro配置文件
+│   ├── settings/            # 系统设置
+│   ├── hooks/              # Hook配置
+│   ├── steering/           # 指导文件
+│   └── docs/               # 配置文档
+├── scripts/                # 脚本工具
+│   ├── automation/         # 自动化脚本
+│   ├── analysis/          # 分析脚本
+│   ├── deployment/        # 部署脚本
+│   ├── maintenance/       # 维护脚本
+│   ├── testing/           # 测试脚本
+│   └── utilities/         # 工具脚本
+├── src/                   # 源代码
+├── tests/                 # 测试文件
+├── docs/                  # 项目文档
+├── config/                # 配置文件
+├── tools/                 # 开发工具
+└── examples/              # 示例代码
+```
+
 ## 🚀 快速开始
 
 ### macOS安装
@@ -52,7 +76,7 @@ cp .kiro/settings/mcp.json ~/.kiro/settings/mcp.json
 
 ## 📚 文档
 
-- [Mac开发指南](.kiro/docs/MAC_DEVELOPMENT_GUIDE.md)
+- [Mac开发指南](docs/guides/MAC_DEVELOPMENT_GUIDE.md)
 - [Hook系统文档](.kiro/hooks/HOOK_ARCHITECTURE.md)
 - [团队配置说明](.kiro/steering/silicon-valley-team-config-optimized.md)
 - [任务管理指南](.kiro/steering/task-hierarchy-management.md)
@@ -71,33 +95,25 @@ cp .kiro/settings/mcp.json ~/.kiro/settings/mcp.json
 - 📈 用户满意度89/100
 - 🎯 100%团队参与率
 
-## 🔧 配置文件
+## 🔧 脚本工具
 
-### MCP配置
-- `mcp.json` - 基础配置
-- `mcp_darwin.json` - Mac优化配置
-- `mac_performance_config.json` - 性能优化
+### 自动化脚本
+- Mac配置适配
+- Git仓库管理
+- Hook系统优化
+- 配置审计
 
-### Hook配置
-- 智能监控中心 (CRITICAL)
-- 统一质量系统 (HIGH)
-- 智能任务编排器 (HIGH)
-- Mac开发环境优化 (HIGH)
-- 知识积累器 (MEDIUM)
-- 智能编程助手 (MEDIUM)
+### 分析脚本
+- 性能分析
+- 覆盖率检查
+- 知识提取
+- 系统验证
 
-### Steering指导
-- 硅谷团队配置
-- 任务层次管理
-- 角色权限矩阵
-- 反漂移系统
-
-## 📊 性能指标
-
-- **配置健康度**: 92.3/100
-- **系统性能**: 提升50%
-- **可维护性**: 87.7/100
-- **用户满意度**: 89.0/100
+### 维护脚本
+- 配置修复
+- 系统更新
+- 清理工具
+- 优化脚本
 
 ## 🤝 贡献
 
@@ -109,6 +125,6 @@ MIT License
 
 ---
 
-**最后更新**: 2026-02-03T13:57:53.331598  
+**最后更新**: 2026-02-03T14:02:35.779429  
 **维护者**: DevOps Engineer  
-**版本**: v2.0 - Mac优化版
+**版本**: v2.1 - 整理优化版

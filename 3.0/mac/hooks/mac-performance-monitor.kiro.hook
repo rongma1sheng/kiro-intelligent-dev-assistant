@@ -1,0 +1,25 @@
+{
+  "name": "Mac性能监控",
+  "version": "1.0.0",
+  "description": "macOS系统性能实时监控",
+  "when": {
+    "type": "promptSubmit",
+    "patterns": [
+      "*性能*",
+      "*优化*",
+      "*慢*",
+      "*卡顿*"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "📊 Mac性能监控已激活\n\n执行macOS性能分析：\n\n1. **系统资源监控**\n   - CPU使用率分析\n   - 内存压力检测\n   - 磁盘I/O性能\n   - 网络带宽使用\n\n2. **应用程序分析**\n   - 高耗能应用识别\n   - 内存泄漏检测\n   - 启动项优化建议\n   - 后台进程管理\n\n3. **系统优化建议**\n   - 缓存清理建议\n   - 存储空间优化\n   - 系统设置调优\n   - 硬件升级建议\n\n4. **开发环境优化**\n   - IDE性能调优\n   - 编译优化设置\n   - 调试工具配置\n   - 版本控制优化\n\n提供详细的性能分析报告和优化方案。"
+  },
+  "_metadata": {
+    "platform": "darwin",
+    "priority": "medium",
+    "execution_timeout": 180,
+    "retry_count": 1,
+    "created": "2026-02-03T13:56:08.774513"
+  }
+}

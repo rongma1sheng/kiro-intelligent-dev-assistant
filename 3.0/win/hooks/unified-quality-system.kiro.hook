@@ -1,0 +1,41 @@
+{
+  "name": "统一质量系统",
+  "version": "2.0.0",
+  "description": "整合所有质量检查功能的统一Hook系统",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.py",
+      "*.js",
+      "*.ts",
+      "*.json",
+      "*.yaml",
+      "*.yml"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "🔍 统一质量检查系统已激活\n\n请执行以下质量检查流程：\n\n1. **代码质量检查**\n   - 语法错误检测\n   - 代码规范验证\n   - 复杂度分析\n   - 安全漏洞扫描\n\n2. **测试覆盖率检查**\n   - 单元测试覆盖率验证\n   - 集成测试状态检查\n   - 测试用例质量评估\n\n3. **部署准备检查**\n   - 依赖关系验证\n   - 配置文件检查\n   - 环境兼容性验证\n\n4. **文档同步检查**\n   - API文档更新状态\n   - 代码注释完整性\n   - 变更日志更新\n\n如果发现任何问题，请立即报告并提供修复建议。\n所有检查必须通过才能继续开发流程。"
+  },
+  "_metadata": {
+    "replaces": [
+      "auto-deploy-test.kiro.hook",
+      "real-time-quality-guard.kiro.hook",
+      "test-hook-trigger.kiro.hook",
+      "unified-quality-check.kiro.hook"
+    ],
+    "priority": "high",
+    "execution_timeout": 300,
+    "retry_count": 2,
+    "created": "2026-02-03T13:38:59.381317",
+    "creator": "Full-Stack Engineer",
+    "mac_compatible": true,
+    "mac_optimized": true,
+    "last_mac_update": "2026-02-03T13:56:08.774513"
+  },
+  "darwin_env": {
+    "SHELL": "/bin/zsh",
+    "PATH": "/opt/homebrew/bin:/usr/local/bin:$PATH",
+    "TMPDIR": "/tmp"
+  }
+}

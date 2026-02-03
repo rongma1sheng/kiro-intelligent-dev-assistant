@@ -1,0 +1,68 @@
+{
+  "_extends": "mcp.json",
+  "_metadata": {
+    "platform": "darwin",
+    "description": "macOS完全优化MCP配置",
+    "version": "2.1.0",
+    "last_updated": "2026-02-03T13:56:08.774513",
+    "optimizations": [
+      "Homebrew路径优化",
+      "Zsh shell集成",
+      "macOS权限适配",
+      "性能调优"
+    ]
+  },
+  "mcpServers": {
+    "filesystem": {
+      "env": {
+        "SHELL": "/bin/zsh",
+        "PATH": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH",
+        "TMPDIR": "/tmp",
+        "HOME": "$HOME",
+        "FILESYSTEM_MAX_FILE_SIZE": "20MB",
+        "FILESYSTEM_WATCH_ENABLED": "true",
+        "DARWIN_SPECIFIC": "true"
+      },
+      "darwin_optimizations": {
+        "use_fsevents": true,
+        "respect_spotlight_privacy": true,
+        "handle_resource_forks": true,
+        "case_sensitive_paths": false
+      }
+    },
+    "memory": {
+      "env": {
+        "TMPDIR": "/tmp",
+        "MEMORY_STORAGE_PATH": "$HOME/.kiro/memory",
+        "MEMORY_MAX_ENTITIES": "15000",
+        "MEMORY_PERSISTENCE": "true",
+        "DARWIN_MEMORY_OPTIMIZATION": "true"
+      },
+      "darwin_optimizations": {
+        "use_unified_memory": true,
+        "memory_pressure_handling": true,
+        "background_processing": true
+      }
+    }
+  },
+  "global_settings": {
+    "connection_timeout": 60000,
+    "max_concurrent_servers": 10,
+    "retry_attempts": 3,
+    "darwin_specific": {
+      "use_zsh_shell": true,
+      "homebrew_support": true,
+      "path_separator": "/",
+      "case_sensitivity": false,
+      "spotlight_integration": true,
+      "notification_center": true,
+      "keychain_integration": true
+    },
+    "performance_tuning": {
+      "enable_caching": true,
+      "cache_size": "256MB",
+      "background_sync": true,
+      "lazy_loading": true
+    }
+  }
+}
