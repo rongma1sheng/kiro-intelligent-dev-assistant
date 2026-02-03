@@ -1,0 +1,12 @@
+{
+  "name": "知识积累引擎",
+  "version": "5.0.0",
+  "description": "自动提取和存储有价值的开发知识",
+  "when": {
+    "type": "agentStop"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "分析刚才执行的任务，提取有价值的知识并存储到记忆系统中。"
+  }
+}
