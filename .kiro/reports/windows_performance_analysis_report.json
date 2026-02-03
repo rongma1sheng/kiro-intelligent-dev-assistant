@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "analysis_date": "2026-02-03T14:46:17.875686",
+    "analysis_date": "2026-02-03T15:02:11.491793",
     "analyzer": "🔧 DevOps Engineer",
     "system_platform": "Windows",
     "analysis_type": "性能分析"
@@ -15,9 +15,9 @@
   "detailed_analysis": {
     "cpu_memory_analysis": {
       "cpu": {
-        "current_usage": 1.6,
-        "average_usage": 1.34,
-        "peak_usage": 2.2,
+        "current_usage": 2.0,
+        "average_usage": 1.42,
+        "peak_usage": 1.8,
         "logical_cores": 32,
         "physical_cores": 16,
         "frequency_mhz": 3000.0,
@@ -25,9 +25,9 @@
       },
       "memory": {
         "total_gb": 31.65,
-        "used_gb": 16.48,
-        "available_gb": 15.17,
-        "usage_percent": 52.1,
+        "used_gb": 16.6,
+        "available_gb": 15.04,
+        "usage_percent": 52.5,
         "status": "正常"
       },
       "swap": {
@@ -37,69 +37,69 @@
       },
       "top_memory_processes": [
         {
-          "name": "AMDChat.exe",
           "pid": 9068,
-          "memory_percent": 4.2246127568888925,
-          "cpu_percent": 0.0
+          "name": "AMDChat.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 4.2246127568888925
         },
         {
-          "name": "rustdesk.exe",
           "pid": 11152,
-          "memory_percent": 3.855344861981077,
-          "cpu_percent": 0.0
+          "name": "rustdesk.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 3.855344861981077
         },
         {
-          "name": "Kiro.exe",
           "pid": 23964,
-          "memory_percent": 3.600708521849606,
-          "cpu_percent": 0.0
+          "name": "Kiro.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 3.662652955077328
         },
         {
-          "name": "explorer.exe",
           "pid": 9552,
-          "memory_percent": 2.012983138554112,
-          "cpu_percent": 0.0
+          "name": "explorer.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 2.012525094486656
         },
         {
-          "name": "Weixin.exe",
           "pid": 26264,
-          "memory_percent": 1.4609315531490832,
-          "cpu_percent": 0.0
+          "name": "Weixin.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 1.4606422621591113
         }
       ],
       "top_cpu_processes": [
         {
-          "name": "System Idle Process",
           "pid": 0,
-          "memory_percent": 2.410758249765403e-05,
-          "cpu_percent": 0.0
+          "name": "System Idle Process",
+          "cpu_percent": 0.0,
+          "memory_percent": 2.410758249765403e-05
         },
         {
-          "name": "System",
           "pid": 4,
-          "memory_percent": 0.0427427437683406,
-          "cpu_percent": 0.0
+          "name": "System",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.04276685135083825
         },
         {
-          "name": "",
           "pid": 428,
-          "memory_percent": 0.9342290907403378,
-          "cpu_percent": 0.0
+          "name": "",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.9342290907403378
         },
         {
-          "name": "Registry",
           "pid": 472,
-          "memory_percent": 0.09670756718933915,
-          "cpu_percent": 0.0
+          "name": "Registry",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.09603255487940483
         },
         {
-          "name": "smss.exe",
           "pid": 1108,
-          "memory_percent": 0.004821516499530806,
-          "cpu_percent": 0.0
+          "name": "smss.exe",
+          "cpu_percent": 0.0,
+          "memory_percent": 0.004821516499530806
         }
       ],
-      "timestamp": "2026-02-03T14:46:12.653514"
+      "timestamp": "2026-02-03T15:02:07.794137"
     },
     "disk_analysis": {
       "partitions": {
@@ -107,9 +107,9 @@
           "mountpoint": "C:\\",
           "filesystem": "NTFS",
           "total_gb": 1861.93,
-          "used_gb": 156.91,
-          "free_gb": 1705.02,
-          "usage_percent": 8.43,
+          "used_gb": 156.8,
+          "free_gb": 1705.12,
+          "usage_percent": 8.42,
           "status": "正常"
         },
         "D:\\": {
@@ -129,11 +129,11 @@
       },
       "io_performance": {
         "read_speed_mbps": 0.0,
-        "write_speed_mbps": 0.02,
+        "write_speed_mbps": 0.0,
         "status": "正常"
       },
       "recommendations": [],
-      "timestamp": "2026-02-03T14:46:14.950183"
+      "timestamp": "2026-02-03T15:02:09.924904"
     },
     "startup_optimization": {
       "startup_programs": {
@@ -165,7 +165,7 @@
       },
       "optimization_suggestions": [],
       "boot_time_estimate": "44秒 (快速)",
-      "timestamp": "2026-02-03T14:46:15.115631"
+      "timestamp": "2026-02-03T15:02:10.092984"
     },
     "development_environment": {
       "powershell_info": {
@@ -237,7 +237,7 @@
         "建议配置环境变量: PYTHONPATH, NODE_PATH, JAVA_HOME"
       ],
       "development_readiness": true,
-      "timestamp": "2026-02-03T14:46:17.875686"
+      "timestamp": "2026-02-03T15:02:11.490790"
     },
     "optimization_recommendations": [
       {
