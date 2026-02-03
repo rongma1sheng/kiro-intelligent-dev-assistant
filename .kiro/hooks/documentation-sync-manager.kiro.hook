@@ -1,0 +1,17 @@
+{
+  "name": "文档同步管理器",
+  "version": "5.0.0",
+  "description": "PRD和需求文档变更时的同步管理",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "PRD.md",
+      "prd.md",
+      ".kiro/specs/*/requirements.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "执行文档同步管理：检查相关代码和文档是否需要同步更新，确保需求和实现的一致性。"
+  }
+}

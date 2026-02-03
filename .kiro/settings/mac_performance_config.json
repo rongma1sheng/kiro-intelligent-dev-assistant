@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "platform": "darwin",
+    "version": "3.0.0",
+    "description": "macOS性能优化配置"
+  },
+  "system_optimization": {
+    "memory_management": {
+      "unified_memory_optimization": true,
+      "memory_pressure_handling": true,
+      "swap_usage_optimization": true
+    },
+    "cpu_optimization": {
+      "energy_efficiency": true,
+      "turbo_boost": true,
+      "thermal_management": true
+    },
+    "storage_optimization": {
+      "apfs_optimization": true,
+      "spotlight_indexing": true,
+      "trim_support": true
+    }
+  },
+  "development_environment": {
+    "xcode": {
+      "build_optimization": true,
+      "indexing_optimization": true,
+      "simulator_performance": true
+    },
+    "homebrew": {
+      "formula_caching": true,
+      "parallel_builds": true,
+      "cleanup_automation": true
+    },
+    "terminal": {
+      "zsh_optimization": true,
+      "completion_caching": true,
+      "history_optimization": true
+    }
+  }
+}
