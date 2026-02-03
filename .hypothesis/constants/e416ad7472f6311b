@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\observability\structured_logger.py
+# hypothesis_version: 6.150.2
+
+['ARENA_START', 'CRITICAL', 'DEBUG', 'DECAY_DETECTION', 'ERROR', 'INFO', 'TRACK_COMPLETION', 'VALIDATION_FAILURE', 'WARNING', 'Z2H_CERTIFICATION', 'context', 'correlation_id', 'level', 'message', 'module', 'timestamp']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\etf_lof\cross_market_alignment.py
+# hypothesis_version: 6.150.2
+
+[-1.0, 0.0, 0.05, 0.1, 0.3, 1.0, 100, 'A股', 'avg_correlation', 'close', 'ic_max', 'ic_mean', 'ic_min', 'ic_std', 'ic_std_threshold', 'min_correlation', 'std_exceeded', 'volume', '港股', '美股']

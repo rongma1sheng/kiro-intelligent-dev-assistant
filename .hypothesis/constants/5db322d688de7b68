@@ -1,0 +1,4 @@
+# file: C:\mia\src\compliance\docker_sandbox.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.01, 1.0, 10.0, 1000000000.0, 100, 512, 1000, 1024, '-c', '/tmp', '1001:1001', 'ALL', 'Docker沙箱运行在Mock模式', 'Mock模式: 代码执行成功', 'Mock模式: 检测到禁止的导入', 'cap_drop', 'command', 'cpu_limit', 'detach', 'image', 'import os', 'import sys', 'mem_limit', 'memory_limit_mb', 'memory_stats', 'mock_container_id', 'mock_mode', 'nano_cpus', 'network_mode', 'no-new-privileges', 'none', 'pids_limit', 'python', 'python:3.11-slim', 'read_only', 'seccomp=unconfined', 'security_opt', 'size=100m,mode=1777', 'sleep infinity', 'timeout', 'tmpfs', 'usage', 'user', 'utf-8', '代码不能为空']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\redis_storage.py
+# hypothesis_version: 6.150.2
+
+[100, 3600, 2592000, '*', '.*', ':', 'InMemoryPipeline', 'Redis客户端未初始化，返回空统计', 'Redis库未安装且不允许内存回退', 'Redis库未安装，使用内存存储', 'Redis连接已关闭', 'Redis连接成功', 'TTLManager初始化完成', '^mia:analysis:', '^mia:knowledge:', '^mia:market:', '^mia:recommendation:', '^mia:smart_money:', 'aclose', 'by_prefix', 'close', 'delete', 'ex', 'expire', 'expiring_soon', 'family_id', 'mia:*', 'mia:analysis:essence', 'mia:analysis:risk', 'mia:market:limit_up', 'mia:market:macro', 'mia:recommendation', 'permanent_keys', 'redis库未安装，将使用内存模拟存储', 'set', 'total_keys', '使用内存存储作为回退', '家族ID不能为空', '日期不能为空', '模式不能为空', '策略ID不能为空', '股票代码不能为空', '胶囊ID不能为空', '键名不能为空']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\analyzers\portfolio_optimization_analyzer.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.0001, 0.02, 0.03, 0.05, 0.08, 0.1, 0.15, 0.3, 0.5, 1.0, 1.1, 2.0, 100, 10000, 'biweekly', 'equal_weight', 'max_sharpe', 'mean_variance', 'min_variance', 'monthly', 'return', 'return_sensitivity', 'risk', 'risk_parity', 'risk_sensitivity', 'sharpe', 'weekly', 'weights', '协方差矩阵不可逆，使用等权重', '执行敏感性分析', '收益率数据不能为空', '收益率数据包含缺失值', '策略列表不能为空', '计算最大夏普比率组合', '计算最小方差组合', '计算等权重组合', '计算风险平价组合']

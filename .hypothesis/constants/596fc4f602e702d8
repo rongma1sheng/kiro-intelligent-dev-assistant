@@ -1,0 +1,4 @@
+# file: C:\mia\src\strategies\tier1_micro\example_momentum_strategy.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1.0, 100.0, 'buy', 'prices', 'sell', 'timestamp', '市场数据为空，无法生成信号', '无法计算动量，数据不足', '未知']

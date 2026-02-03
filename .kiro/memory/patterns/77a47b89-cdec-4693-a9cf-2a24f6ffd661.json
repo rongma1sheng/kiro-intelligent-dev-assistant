@@ -1,0 +1,31 @@
+{
+  "id": "77a47b89-cdec-4693-a9cf-2a24f6ffd661",
+  "type": "code_pattern",
+  "content": {
+    "title": "JSON序列化错误处理的通用解决模式",
+    "description": "处理复杂对象JSON序列化错误的通用模式：当对象包含不可序列化的元素（如枚举、自定义类实例）时，通过递归检查和转换确保数据可以正确序列化。核心思想是先尝试序列化，失败时创建简化版本",
+    "context": "JSON序列化错误处理",
+    "tags": [
+      "JSON序列化",
+      "错误处理",
+      "数据转换",
+      "通用模式"
+    ],
+    "code_example": "\n# JSON序列化错误处理模式\nimport json\nfrom enum import Enum\n\nclass SafeJSONSerializer:\n    @staticmethod\n    def serialize_safely(obj, max_length=200):\n        \"\"\"安全的JSON序列化\"\"\"\n        try:\n            # 尝试直接序列化\n            json.dumps(obj)\n            return obj\n        except TypeError:\n            # 处理不可序列化的对象\n            return SafeJSONSerializer.create_serializable_version(obj, max_length)\n    \n    @staticmethod\n    def create_serializable_version(obj, max_length=200):\n        \"\"\"创建可序列化版本\"\"\"\n        if isinstance(obj, dict):\n            serializable = {}\n            for key, value in obj.items():\n                try:\n                    json.dumps(value)\n                    serializable[key] = value\n                except TypeError:\n                    if isinstance(value, Enum):\n                        serializable[key] = value.value\n                    elif hasattr(value, '__dict__'):\n                        serializable[key] = str(value)[:max_length]\n                    else:\n                        serializable[key] = str(value)[:max_length]\n            return serializable\n        \n        elif isinstance(obj, list):\n            return [SafeJSONSerializer.serialize_safely(item, max_length) for item in obj]\n        \n        elif isinstance(obj, Enum):\n            return obj.value\n        \n        else:\n            # 转换为字符串并截断\n            str_repr = str(obj)\n            return str_repr[:max_length] + '...' if len(str_repr) > max_length else str_repr\n\n# 使用示例\ndef save_report_safely(report_data, file_path):\n    \"\"\"安全保存报告\"\"\"\n    serializable_data = SafeJSONSerializer.serialize_safely(report_data)\n    \n    with open(file_path, 'w', encoding='utf-8') as f:\n        json.dump(serializable_data, f, ensure_ascii=False, indent=2)\n"
+  },
+  "hash_key": "8db191659fb50420",
+  "metadata": {},
+  "created_at": "2026-02-03T12:29:15.684306",
+  "last_used": "2026-02-03T12:29:15.684306",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "JSON序列化",
+    "错误处理",
+    "数据转换",
+    "通用模式"
+  ],
+  "source": "comprehensive_analysis",
+  "confidence": 1.0
+}

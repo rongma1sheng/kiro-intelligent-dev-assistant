@@ -1,0 +1,4 @@
+# file: C:\mia\src\core\health_checker.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.5, 1.0, 100, 1000, 1024, 6379, 8501, 8502, '--showmeminfo', '.', 'Dashboard 8501', 'Dashboard 8502', 'GPU信息为空', 'GPU检查超时', 'GPU状态正常', 'Redis PING失败', 'Redis库未安装', 'Redis恢复失败，已达最大重试次数', 'accessible', 'available', 'available_gb', 'connected_clients', 'cpu', 'cpu_percent', 'critical', 'dashboard_8501', 'dashboard_8502', 'degraded', 'disk', 'free_gb', 'free_pct', 'gpu', 'healthy', 'latency_ms', 'localhost', 'memory', 'port', 'psutil未安装，无法检查CPU', 'psutil未安装，无法检查内存', 'redis', 'rocm-smi', 'rocm-smi未安装，无法检查GPU', 'total_gb', 'unhealthy', 'used_gb', 'used_memory', 'used_memory_mb', 'used_pct', 'vram', '开始健康检查']

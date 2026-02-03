@@ -1,0 +1,53 @@
+{
+  "test_timestamp": "2026-02-03T11:15:42.636578",
+  "total_tests": 7,
+  "passed_tests": 7,
+  "test_results": [
+    {
+      "test_name": "initialization",
+      "passed": true,
+      "message": "系统初始化成功",
+      "timestamp": "2026-02-03T11:15:42.257896"
+    },
+    {
+      "test_name": "storage",
+      "passed": true,
+      "message": "存储功能正常",
+      "timestamp": "2026-02-03T11:15:42.285999"
+    },
+    {
+      "test_name": "retrieval",
+      "passed": true,
+      "message": "检索功能正常",
+      "timestamp": "2026-02-03T11:15:42.348401"
+    },
+    {
+      "test_name": "learning",
+      "passed": true,
+      "message": "学习功能正常",
+      "timestamp": "2026-02-03T11:15:42.414371"
+    },
+    {
+      "test_name": "context_awareness",
+      "passed": true,
+      "message": "上下文感知正常",
+      "timestamp": "2026-02-03T11:15:42.449904"
+    },
+    {
+      "test_name": "hook_integration",
+      "passed": true,
+      "message": "Hook集成正常，无相关模式",
+      "timestamp": "2026-02-03T11:15:42.454413"
+    },
+    {
+      "test_name": "performance",
+      "passed": true,
+      "message": "搜索: 0.016s, 存储: 0.003s",
+      "timestamp": "2026-02-03T11:15:42.635578"
+    }
+  ],
+  "system_info": {
+    "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "win32"
+  }
+}

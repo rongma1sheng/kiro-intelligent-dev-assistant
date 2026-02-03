@@ -1,0 +1,12 @@
+{
+  "name": "自动化部署测试",
+  "version": "1.0.0",
+  "description": "执行完整的自动化部署测试流程：环境检查 -> 依赖安装 -> 单元测试 -> 集成测试 -> 覆盖率检查",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "执行自动化部署测试流程：\n1. 运行 `python3 scripts/deploy_test.py full`\n2. 检查环境配置和依赖\n3. 执行单元测试和集成测试\n4. 验证覆盖率达到100%标准\n5. 生成部署就绪报告\n6. 如有失败，分析原因并按硅谷12人团队角色分配修复任务\n\n🍎 Mac环境自动适配:\n- 使用python3命令\n- 使用zsh作为默认shell\n- 支持Apple Silicon和Intel芯片"
+  }
+}

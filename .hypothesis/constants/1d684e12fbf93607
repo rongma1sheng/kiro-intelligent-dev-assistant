@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\etf_lof\etf_operators.py
+# hypothesis_version: 6.150.2
+
+[1e-08, 0.0005, 0.001, 0.5, 2.0, 252, 'ETF fund flow', 'ETF tracking error', 'Input data is empty', 'Leveraged ETF decay', 'arbitrage_pricing', 'ask_price', 'aum', 'bid_price', 'call_volume', 'category', 'constituent_weights', 'creation_units', 'derivatives', 'description', 'etf_fund_flow', 'etf_leverage_decay', 'etf_premium_discount', 'etf_tracking_error', 'formula', 'fund_flow', 'income_cost', 'index_price', 'lending_income', 'momentum_returns', 'nav', 'option_price', 'price', 'price_market_a', 'price_market_b', 'price_return', 'put_volume', 'quality_returns', 'redemption_units', 'sector_flow', 'sector_returns', 'size_returns', 'style_factor', 'total_assets', 'total_return', 'tracking', 'value_returns', 'volume']

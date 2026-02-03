@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\analyzers\sector_analyzer.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.05, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.85, 0.9, 1.0, 'SectorAnalyzer初始化完成', 'capital_flow', 'consumer', 'cyclical', 'defensive', 'excellent', 'fair', 'financial', 'flows', 'fundamental_score', 'fundamentals', 'good', 'growth', 'high', 'index_return', 'inflow', 'low', 'medium', 'moderate', 'negative', 'negative_policies', 'neutral', 'outflow', 'pb', 'pe', 'policies', 'poor', 'positive_policies', 'profit_growth', 'profitability', 'quadrant', 'recommendation', 'relative_strength', 'returns', 'revenue_growth', 'roe', 'starting', 'strong', 'support_level', 'topping', 'valuation', 'weak', '人工智能', '传媒', '保险', '公用事业', '关注', '减仓', '化工', '医药', '半导体', '商贸零售', '回避', '多元金融', '家电', '建材', '建议关注周期股与成长股的轮动节奏', '开始行业板块分析', '房地产', '持有', '新能源', '有色', '机械', '汽车', '消费', '煤炭', '电子', '纺织服装', '计算机', '证券', '通信', '金融', '钢铁', '银行', '食品饮料']

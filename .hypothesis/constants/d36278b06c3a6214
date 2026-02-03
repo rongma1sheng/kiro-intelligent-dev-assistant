@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\ai_enhanced_miner.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1e-08, 0.01, 0.3, 0.4, 0.5, 0.6, 1.0, 252, 'ai_data', 'attention', 'attention_mechanism', 'close', 'cnn', 'cnn_feature_map', 'gan', 'gnn', 'gnn_node_embedding', 'lstm', 'lstm_hidden_state', 'multimodal', 'multimodal_fusion', 'operators', 'rl', 'rl_adaptive_weight', 'spearman', 'symbols', 'tolist', 'transformer', 'unknown', 'volume', '收益率数据不能为空', '数据中缺少 close 列', '输入数据不能为空']

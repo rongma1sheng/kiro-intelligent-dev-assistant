@@ -1,0 +1,4 @@
+# file: C:\mia\src\strategies\meta_arbitrage\s17_derivatives_linkage.py
+# hypothesis_version: 6.150.2
+
+[-2.0, -1.5, 0.0, 0.005, 0.01, 0.05, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.5, 0.6, 0.75, 0.8, 1.0, 1.5, 2.0, 2.5, 10000, 100000, '159919', '159919.SZ', '510050', '510050.SH', '510300', '510300.SH', '510500', '510500.SH', 'buy', 'call_volume', 'derivatives_linkage', 'futures', 'hist_iv_mean', 'hist_iv_std', 'hist_pcr_mean', 'hist_premium_mean', 'hist_premium_std', 'hold', 'implied_volatility', 'options', 'price', 'put_volume', 'sell', 'spot', 'spot_symbol', 'volume']

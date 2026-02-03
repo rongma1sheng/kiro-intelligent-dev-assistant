@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\arena\factor_arena.py
+# hypothesis_version: 6.150.2
+
+[0.7, 30.0, 100, 'adaptability_score', 'close', 'cross_market_score', 'elapsed_time', 'factor_arena', 'factor_id', 'factor_name', 'hell_score', 'ic', 'ir', 'overall_score', 'passed', 'reality_score', 'sharpe_ratio', 'survival_rate', 'test_timestamp', 'volume', '初始化FactorArenaSystem', '历史数据不能为空', '收益率数据不能为空']

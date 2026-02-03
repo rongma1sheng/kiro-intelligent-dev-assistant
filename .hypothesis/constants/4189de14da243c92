@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\events\event_publisher.py
+# hypothesis_version: 6.150.2
+
+['arena_score', 'capsule_id', 'certification_level', 'consecutive_days', 'current_ic', 'detailed_metrics', 'duration_days', 'factor_id', 'final_metrics', 'metrics', 'passed', 'performance_metrics', 'reason', 'recommended_action', 'severity', 'source_module不能为空', 'strategy_id', 'timestamp']

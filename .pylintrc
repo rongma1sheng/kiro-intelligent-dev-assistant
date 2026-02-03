@@ -1,0 +1,89 @@
+[MASTER]
+# 忽略的目录
+ignore=tests,htmlcov,.hypothesis,.git,.github,.kiro,.ralphy,data,logs,monitoring,docker,examples,scripts,tasks,prd,00_核心文档
+# 并行作业数
+jobs=4
+# 加载插件
+load-plugins=
+
+[MESSAGES CONTROL]
+# 禁用的检查项
+disable=
+    C0111,  # missing-docstring (逐步添加)
+    R0903,  # too-few-public-methods (数据类可以很简单)
+    R0913,  # too-many-arguments (某些函数确实需要多参数)
+    R0401,  # cyclic-import (使用依赖注入模式,无实际循环依赖)
+    R0801,  # duplicate-code (将通过重构解决)
+    W0212,  # protected-access (内部测试需要)
+    C0103,  # invalid-name (某些变量名符合领域习惯)
+    W0511,  # fixme (TODO注释是合理的)
+    R0914,  # too-many-locals (复杂函数需要多个局部变量)
+    R0915,  # too-many-statements (某些函数逻辑复杂)
+
+[FORMAT]
+# 最大行长度
+max-line-length=120
+# 缩进字符串
+indent-string='    '
+# 缩进后续行
+indent-after-paren=4
+
+[DESIGN]
+# 最大参数数量
+max-args=8
+# 最大局部变量数量
+max-locals=25
+# 最大返回语句数量
+max-returns=8
+# 最大分支数量
+max-branches=20
+# 最大语句数量
+max-statements=80
+# 最大属性数量
+max-attributes=15
+# 最小公共方法数量
+min-public-methods=1
+# 最大公共方法数量
+max-public-methods=30
+# 最大父类数量
+max-parents=7
+# 最大布尔表达式数量
+max-bool-expr=5
+
+[SIMILARITIES]
+# 最小相似行数
+min-similarity-lines=10
+# 忽略注释
+ignore-comments=yes
+# 忽略文档字符串
+ignore-docstrings=yes
+# 忽略导入
+ignore-imports=yes
+
+[BASIC]
+# 好的变量名模式
+good-names=i,j,k,ex,Run,_,id,df,ic,ir,p,q,x,y,z,t,n,m,a,b,c,d,e,f,g,h
+
+[TYPECHECK]
+# 忽略的类
+ignored-classes=optparse.Values,thread._local,_thread._local
+
+[VARIABLES]
+# 允许的重定义内置名称
+redefining-builtins-modules=six.moves,past.builtins,future.builtins,builtins,io
+
+[IMPORTS]
+# 允许的通配符导入模块
+allow-wildcard-with-all=no
+
+[LOGGING]
+# 日志模块
+logging-modules=logging,loguru
+
+[REPORTS]
+# 输出格式
+output-format=text
+# 报告
+reports=no
+# 评分
+score=yes

@@ -1,0 +1,4 @@
+# file: C:\mia\src\strategies\meta_arbitrage\s14_cross_domain_arb.py
+# hypothesis_version: 6.150.2
+
+[-2.0, 0.0, 0.005, 0.01, 0.015, 0.02, 0.05, 0.15, 0.2, 0.3, 0.35, 0.4, 0.5, 0.7, 0.8, 0.85, 1.0, 2.0, 1000000000.0, '159845.SZ', '510050.SH', '510300.SH', '510500.SH', 'IC', 'IF', 'IH', 'IM', 'S14_Cross_Domain_Arb', 'buy', 'coking_coal', 'copper', 'copper_etf', 'copper_futures', 'correlation', 'cross_domain_arb', 'crude_oil', 'diesel', 'downstream_change', 'downstream_symbol', 'futures', 'gasoline', 'gold', 'gold_etf', 'gold_futures', 'hist_basis_mean', 'hist_basis_std', 'hold', 'industry_chain', 'iron_ore', 'oil', 'price', 'rebar', 'sell', 'spot', 'steel', 'upstream_change', 'upstream_symbol', 'volume']

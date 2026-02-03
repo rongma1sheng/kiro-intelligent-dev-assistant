@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\arena\data_models.py
+# hypothesis_version: 6.150.2
+
+['a_stock', 'crash', 'crypto', 'flash_crash', 'hk_stock', 'liquidity_crisis', 'us_stock', 'volatility_spike', '因子ID不能为空', '因子名称不能为空', '因子表达式不能为空']

@@ -1,0 +1,28 @@
+{
+  "id": "d8d8c8d1-59fd-4a48-89a4-bed15813d152",
+  "type": "code_pattern",
+  "content": {
+    "code": "# 系统状态检查模式\ndef check_system_health():\n    \"\"\"多维度系统健康检查\"\"\"\n    # 1. 统计信息检查\n    stats = system.get_stats()\n    print(f\"总数据: {stats.total_items}\")\n    print(f\"存储大小: {stats.storage_size_mb:.2f} MB\")\n    \n    # 2. 功能测试\n    test_results = run_all_tests()\n    assert test_results.pass_rate == 1.0, \"测试未全部通过\"\n    \n    # 3. 性能验证\n    performance = measure_performance()\n    assert performance.response_time < threshold, \"性能不达标\"\n    \n    # 4. 集成状态检查\n    integration_status = check_integrations()\n    \n    return {\n        \"status\": \"healthy\", \n        \"stats\": stats,\n        \"performance\": performance,\n        \"integrations\": integration_status\n    }",
+    "description": "系统健康检查的标准模式，包含统计、测试、性能、集成四个维度的全面验证",
+    "file_type": "python"
+  },
+  "hash_key": "74000a4b9e34ada3",
+  "metadata": {
+    "file_type": "python"
+  },
+  "created_at": "2026-02-03T11:41:21.289165",
+  "last_used": "2026-02-03T11:41:21.289165",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "health_check",
+    "system_monitoring",
+    "testing",
+    "python",
+    "python",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

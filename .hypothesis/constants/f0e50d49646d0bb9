@@ -1,0 +1,4 @@
+# file: C:\mia\src\capital\tier.py
+# hypothesis_version: 6.150.2
+
+[1000, 10000, 100000, 500000, 1000000, 10000000, 'inf', 'tier1_micro', 'tier2_small', 'tier3_medium', 'tier4_large', 'tier5_million', 'tier6_ten_million']

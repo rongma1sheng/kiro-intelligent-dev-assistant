@@ -1,0 +1,12 @@
+{
+  "name": "基础质量检查 - WIN",
+  "version": "1.0.0",
+  "description": "v1.0版本win平台基础质量检查",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "执行win平台基础质量检查：\n1. 代码语法检查\n2. 基础测试运行\n3. 代码格式验证"
+  }
+}

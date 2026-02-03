@@ -1,0 +1,4 @@
+# file: C:\mia\src\core\gpu_watchdog.py
+# hypothesis_version: 6.150.2
+
+[-1.0, 0.3, 0.5, 5.0, 90.0, 1024, '--gpureset', '--showmeminfo', '-d', '0', 'DEGRADED', 'GPUWatchdog', 'GPU看门狗已经在运行', 'NORMAL', '[GPU] 无法解析rocm-smi输出', 'degraded', 'healthy', 'mia:soldier:status', 'rocm-smi', 'system:gpu_failures', 'unavailable', 'unhealthy', 'vram']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\z2h_data_models.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1.0, '2.0', 'T', 'Z2HCertificationV2', 'Z2HGeneCapsule', '__dict__', 'arena_failed_layers', 'arena_layer_results', 'arena_overall_score', 'arena_passed_layers', 'avg_position_count', 'beta', 'certification_date', 'certification_level', 'certified', 'created_by', 'creation_date', 'downgraded', 'exit_conditions', 'expected_shortfall', 'from_dict', 'gold', 'in_progress', 'market_correlation', 'max_allocation_ratio', 'max_drawdown', 'none', 'not_certified', 'optimal_trade_size', 'platinum', 'revoked', 'sector_distribution', 'silver', 'simulation_best_tier', 'simulation_metrics', 'source_factors', 'strategy_id', 'strategy_id必须是非空字符串', 'strategy_name', 'strategy_type', 'tier_1', 'tier_2', 'tier_3', 'tier_4', 'to_dict', 'turnover_rate', 'turnover_rate不能为负数', 'var_95', 'version', 'volatility', 'volatility不能为负数']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\execution\market_data.py
+# hypothesis_version: 6.150.2
+
+[-0.001, 0.0, 0.001, 0.1, 0.999, 1.001, 10.0, 100, 5000, 10000, 'MarketDataThread', 'QMT', 'QMT数据源连接 (模拟)', 'QMT模块未安装，使用模拟模式', 'amount', 'ask_price', 'ask_volume', 'bid_price', 'bid_volume', 'close', 'data_source', 'high', 'last_tick_time', 'low', 'open', 'price', 'status', 'subscribed_count', 'symbol', 'tick_count', 'timestamp', 'volume', '回放', '回放数据源连接成功', '已订阅', '已连接', '已连接数据源', '数据源已断开', '数据源连接失败', '数据源连接成功', '未连接', '未连接数据源，无法订阅', '模拟', '模拟数据源连接成功', '连接中', '错误']

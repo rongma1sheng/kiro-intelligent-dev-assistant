@@ -1,0 +1,4 @@
+# file: C:\mia\src\execution\order_manager.py
+# hypothesis_version: 6.150.2
+
+[0.0, 100, 3600, 'OrderManager初始化完成', 'OrderManager已重置', 'accepted', 'active_orders', 'average_price', 'buy', 'cancelled', 'commission', 'event_type', 'failed', 'fill_time', 'filled', 'filled_orders', 'filled_quantity', 'limit', 'market', 'message', 'metadata', 'old_price', 'old_quantity', 'old_status', 'order', 'order_cancelled', 'order_id', 'order_modified', 'order_status_updated', 'order_submitted', 'order_type', 'partially_filled', 'passed', 'pending', 'price', 'quantity', 'reason', 'rejected', 'result', 'risk_violation', 'sell', 'side', 'slippage', 'status', 'status_counts', 'stop', 'stop_limit', 'stop_price', 'strategy_id', 'submit_time', 'submitted', 'success', 'symbol', 'total_commission', 'total_orders', 'total_slippage', '模拟修改成功', '模拟取消成功', '模拟执行成功', '止损单必须指定止损价', '股票代码不能为空', '订单不存在', '限价单必须指定价格', '风控检查未通过']

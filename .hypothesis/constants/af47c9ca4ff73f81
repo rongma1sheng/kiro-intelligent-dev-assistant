@@ -1,0 +1,4 @@
+# file: C:\mia\src\risk\emergency_response_system.py
+# hypothesis_version: 6.150.2
+
+[1.0, '[Emergency] 执行停止交易程序', '[Emergency] 执行故障转移程序', '[Emergency] 执行清仓程序', '[Emergency] 执行系统恢复程序', 'alert_level', 'critical', 'danger', 'description', 'executed_at', 'failover', 'last_procedure', 'level_counts', 'liquidate', 'procedure_id', 'recent_24h', 'recovery', 'stop_trading', 'success', 'success_count', 'success_rate', 'total_procedures', 'warning', '切换备用方案', '发送紧急通知', '发送重要通知', '后台修复', '告警描述不能为空', '应急响应系统初始化完成', '触发末日开关（如需要）', '记录P0级告警', '记录P1级告警', '记录P2级告警']

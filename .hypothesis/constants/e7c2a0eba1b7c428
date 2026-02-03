@@ -1,0 +1,4 @@
+# file: C:\mia\src\strategies\meta_mean_reversion\s11_fallen_angel.py
+# hypothesis_version: 6.150.2
+
+[-0.3, 0.0, 0.01, 0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5, 0.75, 0.8, 0.9, 0.99, 5.0, 30.0, 100, 200, 'S11_Fallen_Angel', 'buy', 'close', 'delisting_risk', 'fundamentals', 'high_60d', 'indicators', 'is_st', 'low_3d', 'low_5d', 'macd_hist', 'macd_signal', 'pb_ratio', 'pe_ratio', 'prices', 'revenue_growth', 'roe', 'rsi_14', 'symbols', 'unknown', 'volume_ratio_5d']

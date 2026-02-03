@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\network_relationship\network_relationship_operators.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1e-08, 1e-06, 0.3, 0.5, 100, 'betweenness', 'closeness', 'degree', 'eigenvector', '交通运输', '制造业', '化工', '原材料', '数据不足，无法构建相关性网络', '服务业', '科技', '能源', '零售']

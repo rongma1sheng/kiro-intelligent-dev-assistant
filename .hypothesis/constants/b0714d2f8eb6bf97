@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\learning_data_store.py
+# hypothesis_version: 6.150.2
+
+[365, 1024, '%Y-%m', '-', '.gz', '.jsonl', '.jsonl.gz', '_', 'a', 'compressed_count', 'current_file', 'data/learning', 'data_dir', 'file_count', 'market_context', 'metadata', 'r', 'rb', 'retention_days', 'rt', 'timestamp', 'total_archived', 'total_deleted', 'total_loaded', 'total_saved', 'total_size_bytes', 'total_size_mb', 'utf-8', 'wb', 'winner']

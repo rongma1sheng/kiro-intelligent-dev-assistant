@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\analyzers\redis_storage.py
+# hypothesis_version: 6.150.2
+
+[0.0, 3600, 6379, 2592000, 7776000, 'Redis不可用，使用Mock模式', 'Redis未初始化，跳过删除', 'Redis未初始化，跳过存储', 'Redis未初始化，返回None', 'Redis未初始化，返回空列表', 'Redis未初始化，返回空字典', 'Redis连接初始化成功', 'Redis连接已关闭', 'capacity', 'comprehensive', 'correlation', 'decay', 'error', 'essence', 'factor_exposure', 'feature', 'hit_rate', 'initialized', 'keys', 'keyspace', 'keyspace_hits', 'keyspace_misses', 'localhost', 'macro', 'memory_used', 'microstructure', 'nonstationarity', 'overfitting', 'position_sizing', 'recommendation', 'regime_adaptation', 'retail_sentiment', 'risk', 'sector', 'sentiment', 'signal_noise', 'slippage', 'smart_money', 'stats', 'stop_loss', 'stress_test', 'total_keys', 'trade_review', 'trading_cost']

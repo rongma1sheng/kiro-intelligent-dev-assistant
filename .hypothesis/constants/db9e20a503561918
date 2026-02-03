@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\meta_miner.py
+# hypothesis_version: 6.150.2
+
+[-0.15, -0.01, 0.0, 0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0, 10.0, ', ', 'MetaMiner', 'avg_execution_time', 'avg_fitness', 'avg_ic', 'avg_ir', 'bear', 'bull', 'crisis', 'fitness_trend', 'meta_analysis', 'miner_type', 'returns', 'sample_count', 'stable', 'success_rate', 'top_performers', 'total_factors', 'total_miners_tracked', 'total_records', 'unknown', 'volatile', '开始元挖掘分析...', '收益率数据不能为空', '无可用推荐', '缺少returns列，无法检测市场状态', '输入数据不能为空', '默认推荐（推荐系统异常）']

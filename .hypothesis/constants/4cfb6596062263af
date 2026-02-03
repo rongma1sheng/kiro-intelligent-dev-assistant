@@ -1,0 +1,4 @@
+# file: C:\mia\src\infra\cache_manager.py
+# hypothesis_version: 6.150.2
+
+[0.0, 100, 3600, 6379, '%Y-%m-%d', '0B', ':', 'Redis未安装，缓存功能将被禁用', 'Redis连接已关闭', 'connected_clients', 'enabled', 'error', 'hit_rate', 'keys_count', 'keyspace_hits', 'keyspace_misses', 'localhost', 'mia:data:', 'used_memory', 'used_memory_human', '已清空所有缓存', '缓存管理器已禁用']

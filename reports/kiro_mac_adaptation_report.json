@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-02-02T00:00:00",
+  "system_info": {
+    "platform": "Windows-10-10.0.26100-SP0",
+    "system": "Windows",
+    "is_mac": false,
+    "is_apple_silicon": false,
+    "homebrew_prefix": ""
+  },
+  "hook_adaptations": [
+    {
+      "file": "auto-deploy-test.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "context-consistency-anchor.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "global-debug-360.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "llm-execution-monitor.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "mac-environment-check.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "pm-task-assignment.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "prd-sync-on-change.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "real-time-quality-guard.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "task-lifecycle-management.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "unified-bug-detection.kiro.hook",
+      "mac_compatible": true
+    },
+    {
+      "file": "unified-quality-check.kiro.hook",
+      "mac_compatible": true
+    }
+  ],
+  "script_adaptations": [
+    {
+      "file": "scripts/enhanced_quality_gate.py",
+      "mac_compatible": true
+    },
+    {
+      "file": "scripts/team_bug_fixer.py",
+      "mac_compatible": true
+    },
+    {
+      "file": "scripts/mac_compatibility.py",
+      "mac_compatible": true
+    }
+  ],
+  "config_creations": [
+    {
+      "file": ".kiro/settings/mcp_mac.json",
+      "exists": true
+    },
+    {
+      "file": ".kiro/hooks/mac-environment-check.kiro.hook",
+      "exists": true
+    },
+    {
+      "file": "setup_mac.sh",
+      "exists": true
+    },
+    {
+      "file": "MAC_SETUP.md",
+      "exists": true
+    }
+  ],
+  "compatibility_score": 100.0,
+  "recommendations": []
+}

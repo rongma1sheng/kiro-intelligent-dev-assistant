@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\certification_persistence_service.py
+# hypothesis_version: 6.150.2
+
+['%Y%m%d_%H%M%S', '.tmp', '__dict__', 'arena_results', 'backups', 'gene_capsules', 'last_updated', 'metadata', 'r', 'save_arena_result', 'save_gene_capsule', 'save_metadata', 'save_status_change', 'saved_at', 'simulation_results', 'status_history', 'timestamp', 'utf-8', 'w', '事务已回滚', '事务已开始', '事务已提交', '事务已激活', '事务未激活', '备份功能未启用']

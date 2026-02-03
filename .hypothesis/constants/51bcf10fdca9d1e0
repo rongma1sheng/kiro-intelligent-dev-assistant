@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\sentiment_behavior_miner.py
+# hypothesis_version: 6.150.2
+
+[-0.5, 0.0, 0.2, 0.3, 0.4, 0.5, 1.0, 3600.0, 10000, 'analyst', 'bearish', 'bullish', 'buy', 'cache_size', 'ceo', 'ceo_confidence_index', 'consensus', 'earnings_call', 'error_count', 'freshness_threshold', 'identified', 'insider', 'institutional', 'is_healthy', 'miner_name', 'miner_type', 'neutral', 'news', 'news_tone_shift', 'no_data', 'operators_count', 'options', 'pattern', 'retail', 'retail_panic_index', 'sample_size', 'sell', 'sentiment', 'short', 'social', 'social_media_buzz', 'stale_data_count', 'stale_data_ratio', 'total_checks', 'trend', 'volatility', '情绪数据不能为空', '股票代码列表不能为空', '行为数据不能为空']

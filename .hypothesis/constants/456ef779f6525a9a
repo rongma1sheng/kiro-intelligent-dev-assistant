@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\enhanced_illiquidity_miner.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1e-06, 0.01, 0.1, 0.33, 0.4, 0.6, 0.67, 0.99, 1.0, 2.0, 3.0, 100.0, 'amihud_ratio', 'bid_ask_spread', 'close', 'correlation_flip', 'decay', 'factor_decay', 'high', 'ic', 'ir', 'liquidity_premium', 'low', 'medium', 'performance', 'performance_mutation', 'sharpe', 'spearman', 'symbol', 'turnover_decay', 'unknown', 'volume', 'zero_return_ratio', '价格数据不能为空', '因子值、收益率和成交量数据不能为空', '市场数据不能为空', '成交额不能包含0或负数', '换手率数据不能为空', '收益率和Amihud比率数据不能为空', '收益率和成交额数据不能为空', '收益率数据不能为空']

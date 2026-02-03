@@ -1,0 +1,12 @@
+{
+  "name": "PM任务分配",
+  "version": "2.1.0",
+  "description": "Product Manager 依据 PRD 分析需求并启动团队开发",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "作为 Product Manager，依据 PRD 文档启动团队开发：\n\n1. 读取 `PRD.md` 或 `.kiro/specs/*/requirements.md`\n2. 提取待实现功能和验收标准\n3. 按硅谷12人团队角色分配任务\n4. 按「设计→实现→测试→审查」顺序执行\n5. 完成后运行 `python3 scripts/quality_gate.py src` 验证\n\n🍎 Mac环境自动适配:\n- 使用python3命令\n- 使用zsh作为默认shell\n- 支持Apple Silicon和Intel芯片"
+  }
+}

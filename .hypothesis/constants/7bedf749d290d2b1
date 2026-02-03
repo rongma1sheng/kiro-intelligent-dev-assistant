@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\analyzers\position_sizing_analyzer.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.01, 0.02, 0.03, 0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8, 0.9, 0.95, 252, 'expected_return', 'expected_volatility', 'fixed_fraction', 'half_kelly', 'high', 'highest', 'kelly', 'low', 'lowest', 'medium', 'position', 'risk_budget', 'risk_level', 'var_95', 'var_99', 'volatility', 'volatility_adjusted', 'warnings', '仓位分析至少需要20个收益数据点', '在市场平稳期间，可按推荐仓位操作', '当前胜率较高，可适当增加仓位', '当回撤恢复后，逐步恢复仓位', '当回撤超过10%时，仓位降低至最小仓位', '整体风险等级较高，建议谨慎操作', '连续亏损3次后，仓位降低50%', '风险在可控范围内']

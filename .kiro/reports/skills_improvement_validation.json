@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-02-03T12:36:59.911158",
+  "data_consistency": {
+    "status": "优秀",
+    "metrics": {
+      "total_roles": 12,
+      "active_roles": 12,
+      "total_skill_instances": 28,
+      "unique_skills": 7,
+      "data_consistency_ratio": 4.0,
+      "average_proficiency": 0.57
+    },
+    "checks_passed": 4,
+    "total_checks": 4
+  },
+  "skill_coverage": {
+    "python_status": "良好",
+    "architecture_status": "需要改进",
+    "writing_status": "需要改进",
+    "metrics": {
+      "python_coverage": 9,
+      "python_percentage": 75.0,
+      "architecture_coverage": 0,
+      "architecture_percentage": 0.0,
+      "writing_coverage": 0,
+      "writing_percentage": 0.0,
+      "total_roles": 12
+    }
+  },
+  "learning_activity": {
+    "status": "需要激活",
+    "metrics": {
+      "total_events": 0,
+      "event_types": {},
+      "event_outcomes": {},
+      "recent_events": 0,
+      "success_rate": 0
+    }
+  },
+  "overall_assessment": {
+    "data_quality": "优秀",
+    "skill_distribution": "良好",
+    "learning_tracking": "已激活",
+    "improvement_areas": [
+      "系统架构技能需要进一步加强",
+      "技术写作技能覆盖率需要提升",
+      "学习事件记录需要持续跟踪"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "613b1897-2ba2-4098-bd82-c527d94c98de",
+  "type": "best_practice",
+  "content": {
+    "title": "GitHub技能: pptx",
+    "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks 来源: anthropic",
+    "category": "github_skills"
+  },
+  "hash_key": "a940d1f4e4312ddb",
+  "metadata": {
+    "category": "github_skills"
+  },
+  "created_at": "2026-02-03T11:47:29.394777",
+  "last_used": "2026-02-03T11:47:29.394777",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "github",
+    "anthropic",
+    "skills",
+    "pptx",
+    "general",
+    "github_skills",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

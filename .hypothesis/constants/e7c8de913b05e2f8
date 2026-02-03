@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\etf_lof\etf_factor_miner.py
+# hypothesis_version: 6.150.2
+
+[0.005, 0.01, 0.02, 0.1, 0.2, 0.5, 0.7, '()', ',', 'ETFFactorMiner', 'ETFFactorMiner初始化完成', 'action', 'common_operators', 'component', 'correlation', 'covariance', 'crossover_rate', 'delay', 'delta', 'elite_ratio', 'error', 'error_type', 'etf_', 'etf_fund_flow', 'etf_leverage_decay', 'etf_operators', 'etf_operators_count', 'etf_premium_discount', 'etf_tracking_error', 'initialize', 'mutation_rate', 'population_size', 'rank', 'register_operators', 'regression_residual', 'total_operators', 'ts_mean', 'ts_std', '算子注册失败', '算子注册完成']

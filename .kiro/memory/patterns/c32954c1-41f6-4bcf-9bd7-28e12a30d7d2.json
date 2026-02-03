@@ -1,0 +1,36 @@
+{
+  "id": "c32954c1-41f6-4bcf-9bd7-28e12a30d7d2",
+  "type": "error_solution",
+  "content": {
+    "error_description": "ImportError: No module named 'requests'",
+    "solution": "pip install requests",
+    "error_type": "ImportError"
+  },
+  "hash_key": "e25ff6d3d2cbbda2",
+  "metadata": {
+    "error_type": "ImportError",
+    "usage_contexts": [
+      {
+        "file_type": "python",
+        "task_type": "debugging",
+        "user_role": "Full-Stack Engineer",
+        "success": false,
+        "timestamp": "2026-02-03T11:55:29.934403"
+      }
+    ]
+  },
+  "created_at": "2026-02-03T11:55:29.791886",
+  "last_used": "2026-02-03T11:55:29.791886",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "python",
+    "import",
+    "pip",
+    "error",
+    "solution"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

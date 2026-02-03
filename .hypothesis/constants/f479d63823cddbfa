@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\factor_combination_interaction_miner.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.3, 0.4, 0.5, 0.7, 0.9, 1.0, 252, 'bear', 'bull', 'factor_', 'factor_timing_signal', 'industry', 'market_cap', 'market_data', 'market_return', 'market_state', 'multi_factor_synergy', 'neutral', 'returns', 'spearman', '开始挖掘因子组合与交互因子...', '收益率数据不能为空', '未找到中性化目标，返回原始因子', '未找到因子列', '缺少必需列: returns', '输入数据不能为空']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\regime_engine.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.15, 0.25, 0.4, 0.5, -500, 252, 1000, 'RegimeEngineThread', 'confidence', 'duration', 'last_update', 'probabilities', 'regime', 'trend_strength', 'volatility', '中波动', '低波动', '市场状态引擎已停止', '市场状态引擎已启动', '市场状态引擎已在运行', '未知', '极端波动', '熊市', '牛市', '转折', '震荡', '高波动']

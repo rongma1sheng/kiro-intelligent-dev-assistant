@@ -1,0 +1,4 @@
+# file: C:\mia\src\infra\spsc_buffer.py
+# hypothesis_version: 6.150.2
+
+[b'\x00', 100, 1024, 3735928559, 'II', 'IIIII', 'available_space', 'buffer_size', 'error', 'name', 'read_pos', 'sequence_id', 'shm', 'usage_percent', 'used_space', 'write_pos', '共享内存缓冲区不可访问']

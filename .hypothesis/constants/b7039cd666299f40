@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\algo_evolution\data_models.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1.0, 'arxiv', 'authors不能为空', 'conference', 'github', 'name不能为空', 'title不能为空']

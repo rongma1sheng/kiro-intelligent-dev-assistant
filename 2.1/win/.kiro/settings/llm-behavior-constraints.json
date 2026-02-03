@@ -1,0 +1,148 @@
+{
+    "version": "1.0.0",
+    "description": "LLM行为约束配置 - 硅谷项目开发经理反漂移系统",
+    "last_updated": "2026-02-01",
+    "instruction_constraints": {
+        "mandatory_prefix_template": "🤖 LLM执行检查点：\n1. 当前角色：{current_role}\n2. 允许操作：{allowed_operations}\n3. 禁止操作：{forbidden_operations}\n4. 上下文验证：{context_hash}",
+        "mandatory_suffix_template": "✅ 执行前自检：\n- [ ] 是否遵循当前角色约束？\n- [ ] 是否在允许的操作范围内？\n- [ ] 是否保持了上下文一致性？\n- [ ] 是否需要人工确认？",
+        "violation_response": "🚨 检测到潜在违规，执行已暂停\n请重新审视约束条件并修正执行计划"
+    },
+    "context_protection": {
+        "context_window_management": {
+            "max_context_tokens": 8000,
+            "critical_info_preservation": true,
+            "context_compression_strategy": "semantic_priority"
+        },
+        "state_consistency_check": {
+            "track_variables": [
+                "current_role",
+                "task_progress",
+                "file_modifications"
+            ],
+            "consistency_validation": "every_10_actions",
+            "inconsistency_handling": "pause_and_clarify"
+        },
+        "memory_anchoring": {
+            "anchor_points": [
+                "system_constraints",
+                "current_objectives",
+                "quality_standards"
+            ],
+            "refresh_frequency": "every_5_minutes",
+            "anchor_validation": "checksum_based"
+        }
+    },
+    "quality_thresholds": {
+        "code_complexity": 10,
+        "test_coverage": 100,
+        "documentation_coverage": 70,
+        "security_score": 90,
+        "performance_score": 85,
+        "maintainability_index": 70
+    },
+    "violation_handling": {
+        "critical": {
+            "action": "block_execution",
+            "notification": "immediate",
+            "rollback": "automatic",
+            "escalation": "security_team"
+        },
+        "high": {
+            "action": "block_and_require_reauth",
+            "notification": "immediate",
+            "rollback": "manual",
+            "escalation": "team_lead"
+        },
+        "medium": {
+            "action": "warn_and_throttle",
+            "notification": "within_5_minutes",
+            "rollback": "optional",
+            "escalation": "none"
+        },
+        "low": {
+            "action": "log_only",
+            "notification": "daily_summary",
+            "rollback": "not_required",
+            "escalation": "none"
+        }
+    },
+    "adaptive_constraints": {
+        "learning_enabled": true,
+        "adjustment_frequency": "weekly",
+        "confidence_threshold": 0.8,
+        "adjustment_types": [
+            "tighten_constraints",
+            "relax_constraints",
+            "add_new_constraints",
+            "remove_obsolete_constraints"
+        ],
+        "safety_mechanisms": [
+            "human_approval_required",
+            "gradual_rollout",
+            "automatic_rollback"
+        ]
+    },
+    "monitoring_config": {
+        "real_time_monitoring": true,
+        "behavior_analysis": true,
+        "pattern_detection": true,
+        "drift_prediction": true,
+        "alert_thresholds": {
+            "violation_rate": 0.05,
+            "performance_degradation": 0.2,
+            "consistency_score": 0.8,
+            "resource_usage": 0.9
+        },
+        "reporting": {
+            "frequency": "hourly",
+            "include_patterns": true,
+            "include_recommendations": true,
+            "export_format": "json"
+        }
+    },
+    "emergency_protocols": {
+        "system_lockdown": {
+            "triggers": [
+                "critical_violation_count > 5",
+                "security_breach_detected",
+                "data_corruption_risk"
+            ],
+            "actions": [
+                "suspend_all_llm_operations",
+                "notify_security_team",
+                "create_incident_report",
+                "initiate_recovery_procedures"
+            ]
+        },
+        "graceful_degradation": {
+            "triggers": [
+                "performance_degradation > 50%",
+                "resource_exhaustion",
+                "service_instability"
+            ],
+            "actions": [
+                "reduce_concurrent_operations",
+                "increase_monitoring_frequency",
+                "activate_backup_systems",
+                "notify_operations_team"
+            ]
+        }
+    },
+    "integration_points": {
+        "hooks": [
+            "llm-execution-monitor.kiro.hook",
+            "real-time-quality-guard.kiro.hook",
+            "context-consistency-anchor.kiro.hook"
+        ],
+        "scripts": [
+            "scripts/llm_execution_monitor.py",
+            "scripts/quality_gate.py",
+            "scripts/enhanced_quality_gate.py"
+        ],
+        "steering_files": [
+            ".kiro/steering/llm-anti-drift-system.md",
+            ".kiro/steering/role-permission-matrix.md",
+            ".kiro/steering/silicon-valley-team-config-optimized.md"
+        ]
+    }
+}

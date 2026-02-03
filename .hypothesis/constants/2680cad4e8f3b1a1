@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\z2h\capsule_storage.py
+# hypothesis_version: 6.150.2
+
+[0.5, 365, 6379, '*.json', 'Redis未安装，将仅使用文件系统存储', 'data/z2h_capsules', 'localhost', 'r', 'redis_available', 'redis_cached_count', 'storage_dir', 'total_capsules', 'utf-8', 'w', 'z2h:capsule:*']

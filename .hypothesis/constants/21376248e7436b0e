@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\strategy_library_manager.py
+# hypothesis_version: 6.150.2
+
+[0.03, 0.05, 0.08, 0.1, 0.15, 0.2, 0.5, 0.6, 0.7, 0.8, 100000.0, 'action', 'activate', 'active', 'active_strategies', 'alert_enabled', 'certification_date', 'certification_level', 'export_time', 'inactive', 'max_capital_ratio', 'max_position_size', 'max_ratio', 'max_total_position', 'monitoring_enabled', 'optimal', 'reason', 'recommended_scale', 'register', 'registration_date', 'remove', 'removed', 'single', 'status', 'strategies', 'strategy_id', 'strategy_name', 'suspend', 'suspended', 'timestamp', 'total', 'total_capital_weight', 'total_strategies', 'utf-8', 'w', 'weight']

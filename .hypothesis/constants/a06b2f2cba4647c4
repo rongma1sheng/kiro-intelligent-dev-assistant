@@ -1,0 +1,4 @@
+# file: C:\mia\src\optimization\cost_optimizer.py
+# hypothesis_version: 6.150.2
+
+[0.0, 300, 'PB', 'PE', 'ROE', 'batch_calls', 'batch_size', 'cache_hit_rate', 'cache_hits', 'cache_misses', 'cache_size', 'cache_ttl', 'cloud', 'cloud_model_uses', 'complex', 'local', 'local_model_uses', 'medium', 'simple', '交易量', '代码', '净资产收益率', '分析', '判断', '市净率', '市盈率', '成交量', '根据上述内容', '根据以上信息', '模型价格表不能为空', '股票代码', '评估', '请分析', '请判断', '请求列表不能为空', '请求键不能为空', '请评估', '量']

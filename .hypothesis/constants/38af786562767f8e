@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\prompt_engineering.py
+# hypothesis_version: 6.150.2
+
+['\n以下是一些典型的决策示例:\n\n', '\n当前持仓: 空仓\n', 'BUY 1000股', 'Classes defined:', 'HOLD', 'REDUCE 1000股', 'SELL 1000股', '__main__', 'avg_prompt_length', 'buy', 'current_version', 'hold', 'increase', 'loaded_versions', 'prompts_by_version', 'reduce', 'sell', 'system', 'timestamp', 'user', 'v1.0', 'v1.1', 'v1.2', 'v2.0', 'version', '止损卖出', '熊市空仓', '牛市突破买入', '震荡市持有', '高位减仓']

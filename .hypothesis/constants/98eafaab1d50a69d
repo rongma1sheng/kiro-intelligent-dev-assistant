@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\analyzers\microstructure_analyzer.py
+# hypothesis_version: 6.150.2
+
+[-0.095, 0.0, 0.095, 0.2, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 100000000.0, 2000000000.0, 5000000000.0, 20000000000.0, 100000000000.0, 100, '%Y-%m-%d', 'avg_change', 'avg_seal_amount', 'by_market_cap', 'by_sector', 'by_theme', 'change_pct', 'count', 'final_limit_count', 'inf', 'large', 'limit_downs', 'limit_ups', 'market_cap', 'max_seal_amount', 'medium', 'mega', 'micro', 'positive', 'seal_amount', 'sector', 'sectors', 'small', 'stocks', 'strong_seal_count', 'themes', 'total_seal_amount', 'touched_limit_count', '不确定', '中', '其他', '反转（超跌后可能反弹）', '延续（情绪低迷，预计继续调整）', '延续（情绪高涨，预计继续上攻）', '延续（整体偏强）', '弱', '强', '震荡偏弱', '震荡偏强', '震荡（方向不明）', '震荡（炸板率偏高，注意分化）']

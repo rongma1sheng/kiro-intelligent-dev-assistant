@@ -1,0 +1,4 @@
+# file: C:\mia\src\audit\audit_logger.py
+# hypothesis_version: 6.150.2
+
+[100, 1000, '%Y%m%d', 'a', 'action', 'amount', 'audit_*.log', 'audit_signature', 'buy', 'data', 'event_type', 'order_id', 'price', 'quantity', 'r', 'sell', 'strategy_id', 'symbol', 'system', 'timestamp', 'user_id', 'utf-8', '事件数据必须包含event_type字段']

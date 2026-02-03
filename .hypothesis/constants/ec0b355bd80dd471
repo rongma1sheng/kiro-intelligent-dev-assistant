@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\arena\strategy_performance_calculator.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.03, 252, 'inf', '交易收益率列表不能为空', '收益率序列不能为空', '收益率序列和权益曲线不能为空', '权益曲线不能为空', '输入数据不能为空']

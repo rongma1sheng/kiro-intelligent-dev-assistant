@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\meta_learning\risk_control_meta_learner.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.01, 0.2, 0.3, 0.5, 0.6, 0.7, 1.0, 10.0, 10000000.0, 100, 1000, 5000, 'A', 'B', 'action', 'avg_training_time_ms', 'bear', 'bull', 'confidence', 'hist', 'hybrid', 'hybrid_params', 'last_training_time', 'liquidity', 'market_context', 'model_accuracy', 'model_trained', 'model_type', 'neural_network', 'predict_proba', 'predicted_strategy', 'prefer_a_when', 'prefer_b_when', 'random_forest', 'recommendations', 'regime', 'strategy_a_wins', 'strategy_b_wins', 'strategy_prediction', 'strategy_type', 'total_samples', 'training_count', 'trend_strength', 'volatility', 'win_rate_a', 'win_rate_b', 'xgboost', '发布模型训练完成事件', '发布策略进化完成事件', '已进化出混合策略，建议在实战中验证效果', '样本数不足，建议继续收集数据', '模型未训练，无法进行预测']

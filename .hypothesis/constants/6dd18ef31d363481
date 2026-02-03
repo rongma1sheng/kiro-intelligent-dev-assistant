@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\dual_architecture_runner.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.05, 0.15, 0.2, 0.5, 0.7, 0.8, 1.2, 2.0, 2.5, 100000.0, 1000000.0, 1000, 'aggressive', 'architecture_a_wins', 'architecture_b_wins', 'avg_volume', 'balanced', 'confidence', 'conservative', 'decide', 'decision_a', 'decision_b', 'error', 'executed_positions', 'execution_mode', 'execution_result', 'hardcoded', 'low', 'market_context', 'market_data', 'medium', 'metadata', 'portfolio', 'positions', 'recent_drawdown', 'regime', 'risk_level', 'selected_decision', 'sideways', 'strategy', 'strategy_layer', 'success', 'ties', 'timestamp', 'total_runs', 'total_value', 'trend_strength', 'value', 'volatility']

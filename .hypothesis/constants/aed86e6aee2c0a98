@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\memory\memory_table.py
+# hypothesis_version: 6.150.2
+
+[b'\x00', b'\x01', 1024, 10000, 'backend', 'cache_hit_rate', 'cache_hits', 'cache_misses', 'cache_size', 'file', 'file_size_mb', 'memory_map', 'memory_mb', 'occupied_slots', 'r+b', 'ram', 'ssd', 'total_slots', 'usage_rate', 'wb']

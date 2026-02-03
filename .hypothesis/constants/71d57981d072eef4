@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\pipeline\validation_pipeline_manager.py
+# hypothesis_version: 6.150.2
+
+[0.08, 0.1, 0.12, 1.8, 'EventBus不可用，跳过事件发布', 'GOLD', 'certification_date', 'certification_level', 'duration_days', 'factor', 'max_drawdown', 'passed', 'registered', 'registration_date', 'result', 'score', 'sharpe_ratio', 'signature', 'strategies_generated', 'strategy', 'strategy_id', 'total_return', '因子ID不能为空']

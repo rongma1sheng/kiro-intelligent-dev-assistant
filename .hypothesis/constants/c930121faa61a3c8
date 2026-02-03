@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\arena\strategy_arena.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.005, 0.01, 0.02, 0.15, 0.4, 0.6, 0.7, 0.8, 1.0, 1.5, 60.0, 100, 1095, 1000000, 10000000, 'D', 'EventBus不可用，跳过事件发布', 'annual_return', 'arena_score', 'avg_holding_period', 'black_swan', 'calmar_ratio', 'circuit_breaker', 'close', 'flash_crash', 'generated_at', 'hell_track', 'high', 'liquidity_drought', 'low', 'max_drawdown', 'max_stress_drawdown', 'open', 'overall_score', 'pass_criteria_met', 'pass_thresholds', 'passed', 'profit_factor', 'reality_track', 'recommendations', 'recovery_speed', 'report_type', 'scenarios_tested', 'score', 'sharpe_ratio', 'sortino_ratio', 'strategy_arena_test', 'strategy_id', 'strategy_name', 'summary', 'survival_rate', 'test_period_days', 'test_timestamp', 'total_trades', 'volatility_explosion', 'volume', 'win_rate', '策略ID不能为空', '策略表现良好，建议继续进入模拟盘验证阶段']

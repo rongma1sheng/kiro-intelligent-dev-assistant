@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\analyzers\recommendation_engine.py
+# hypothesis_version: 6.150.2
+
+[-0.05, 0.0, 0.02, 0.05, 0.1, 0.25, 0.5, 0.6, 0.8, 0.95, 1.1, 2.0, 2000000000.0, 100, 'MACD死叉，趋势向下', 'MACD金叉，趋势向上', 'bearish', 'bullish', 'debt_ratio', 'fundamentals', 'growth', 'macd_signal', 'market_cap', 'neutral', 'overall', 'pe', 'prices', 'profit_growth', 'profitability', 'roe', 'rsi', 'strong_up', 'technical', 'technicals', 'trend', 'valuation', 'volumes', '信号不明确，建议观望', '公司亏损，基本面风险', '分析失败', '小市值股票，流动性风险', '当前持仓，建议继续持有', '数据不足', '暂无明显风险', '综合分析结果', '风险']

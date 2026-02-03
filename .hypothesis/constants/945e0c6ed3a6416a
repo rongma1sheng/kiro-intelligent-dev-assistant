@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\visualization\stock_dashboard.py
+# hypothesis_version: 6.150.2
+
+[0.05, 0.1, 0.15, 0.2, 0.4, 0.5, 3.0, 9.0, 9.5, 10.0, 10.5, 11.0, 12.0, 60.0, 65.0, 68.0, 70.0, 75.0, 100, '.', 'StockDashboard初始化完成', 'cache_ttl', 'expired_count', 'smart_money_cost', 'stock_scorecard', 'total_cached', 'valid_count', '估值', '基本面', '已清除所有个股缓存', '市场整体波动较大', '建议买入', '建议卖出', '建议持有', '建议观望', '情绪面', '成交量维持正常水平', '技术面', '技术面处于中性区间', '股票代码不能为空', '资金面', '需关注行业政策变化']

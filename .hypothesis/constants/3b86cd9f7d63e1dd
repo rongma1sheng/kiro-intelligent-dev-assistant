@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\observability\metrics_collector.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.1, 'arena_factor_total', 'arena_strategy_total', 'arena_type', 'counters', 'decay_ic_value', 'decay_mild', 'decay_moderate', 'decay_severe', 'degraded', 'factor', 'healthy', 'metrics', 'mild', 'moderate', 'severe', 'severity', 'simulation_passed', 'simulation_total', 'status', 'strategy', 'timestamp']

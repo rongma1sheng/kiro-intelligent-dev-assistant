@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\network_relationship\__init__.py
+# hypothesis_version: 6.150.2
+
+['capital_flow_network', 'industry_ecosystem', 'network_centrality', 'supply_chain_network']

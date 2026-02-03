@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\macro_cross_asset_miner.py
+# hypothesis_version: 6.150.2
+
+[1e-08, 0.3, 0.4, 0.5, 0.6, 0.7, 24.0, 252, 3600, 'VIX期货数据至少需要一个到期月份', 'actual_values', 'asset_returns', 'commodity_momentum', 'commodity_prices', 'consensus_forecasts', 'corporate_yield', 'cross_border_flows', 'currency_carry_trade', 'data_delay_threshold', 'error_count', 'exchange_rate', 'forward_guidance', 'geopolitical_risk', 'high_yield_currency', 'is_healthy', 'long_term_yield', 'low_yield_currency', 'macro', 'macro_surprise', 'miner_name', 'miner_type', 'model', 'news_sentiment', 'operators_count', 'policy_rate', 'safe_haven_flows', 'scaler', 'short_term_yield', 'treasury_yield', 'vix_futures', 'vix_spot', 'vix_term_structure', 'volatility_index', 'yield_curve_slope', '商品价格数据不能为空', '央行资产负债表和跨境流动数据不能为空']

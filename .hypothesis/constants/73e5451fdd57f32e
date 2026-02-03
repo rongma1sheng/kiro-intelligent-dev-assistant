@@ -1,0 +1,4 @@
+# file: C:\mia\src\chronos\gpu_watchdog.py
+# hypothesis_version: 6.150.2
+
+[0.3, 0.5, 5.0, 90.0, 1024, '--gpureset', '--showmeminfo', 'GPUWatchdog', 'GPU看门狗主循环已启动', 'GPU看门狗主循环已退出', 'GPU看门狗已停止', 'GPU看门狗已启动', 'GPU看门狗已经在运行', 'GPU看门狗未在运行', 'GPU驱动已恢复，状态恢复为NORMAL', 'GPU驱动重载成功', 'GPU驱动重载超时', 'degraded', 'normal', 'rocm-smi', 'rocm-smi执行超时', 'rocm-smi未找到，无法执行驱动重载', 'unavailable', 'vram', '无法解析rocm-smi输出']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\risk_mining\portfolio_risk_miner.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.01, 0.05, 0.1, 0.3, 0.85, 1.0, 100, 252, 'PORTFOLIO', 'UNKNOWN', 'avg_correlation', 'cvar_95', 'max_correlation', 'max_sector', 'max_weight', 'num_holdings', 'portfolio', 'portfolio不能为空', 'returns_data不能为空', 'risk_type', 'sector_concentration', 'sector_weights', 'tail_risk', 'threshold', 'var_95', 'var_breach', '持仓标的少于2个，无法计算相关性', '没有可用的收益率数据']

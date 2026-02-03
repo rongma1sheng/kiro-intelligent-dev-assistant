@@ -1,0 +1,4 @@
+# file: C:\mia\src\infra\bar_synthesizer.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1440, '15m', '1d', '1h', '1m', '30m', '5m', 'active_buffers', 'completed_bars', 'inf', 'period_stats', 'supported_periods', 'symbol_stats', '价格必须大于0']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\price_volume\price_volume_operators.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1e-08, 0.3, 0.5, 1.5, 2.0, 100, 'OBV背离检测', 'Tick成交量分析', 'VWAP偏离度', 'breakout', 'category', 'close', 'correlation', 'description', 'deviation', 'divergence', 'flow', 'formula', 'high', 'low', 'momentum', 'money_flow_index', 'obv_divergence', 'pattern', 'price_volume_trend', 'support', 'tick', 'tick_volume_analysis', 'trend', 'volume', 'volume_surge_pattern', 'volume_weighted_rsi', 'vwap_deviation', '价量突破信号', '价量趋势', '成交量剖面支撑位', '成交量加权RSI', '成交量加权动量', '成交量激增模式', '累积派发线', '资金流量指数', '输入数据为空', '量价相关性']

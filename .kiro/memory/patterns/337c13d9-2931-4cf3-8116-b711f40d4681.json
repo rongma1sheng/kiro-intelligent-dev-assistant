@@ -1,0 +1,31 @@
+{
+  "id": "337c13d9-2931-4cf3-8116-b711f40d4681",
+  "type": "code_pattern",
+  "content": {
+    "title": "动态脚本生成和执行的代码模式",
+    "description": "在运行时动态生成优化脚本并执行的代码模式：通过字符串模板生成完整的Python脚本，保存到文件系统，然后执行验证。这种模式适用于需要根据具体问题动态创建解决方案的场景",
+    "context": "动态脚本生成",
+    "tags": [
+      "动态生成",
+      "脚本执行",
+      "模板编程",
+      "自动化"
+    ],
+    "code_example": "\n# 动态脚本生成模式\ndef create_optimization_script(script_name, script_content):\n    \"\"\"动态创建优化脚本\"\"\"\n    script_template = f'''#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"\n{script_name}\n\"\"\"\n\nimport sys\nfrom pathlib import Path\n\n# 添加src目录到Python路径\nsys.path.insert(0, str(Path(__file__).parent.parent / \"src\"))\n\n{script_content}\n\nif __name__ == \"__main__\":\n    main()\n'''\n    \n    script_path = Path(f\"scripts/{script_name}.py\")\n    with open(script_path, 'w', encoding='utf-8') as f:\n        f.write(script_template)\n    \n    return script_path\n"
+  },
+  "hash_key": "74f0a113f53a4320",
+  "metadata": {},
+  "created_at": "2026-02-03T12:19:14.939146",
+  "last_used": "2026-02-03T12:19:14.939146",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "动态生成",
+    "脚本执行",
+    "模板编程",
+    "自动化"
+  ],
+  "source": "task_execution_analysis",
+  "confidence": 1.0
+}

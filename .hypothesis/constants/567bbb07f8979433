@@ -1,0 +1,4 @@
+# file: C:\mia\src\strategies\meta_momentum\s07_morning_sniper.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.01, 0.05, 0.07, 0.09, 0.095, 0.15, 0.2, 0.25, 0.3, 0.5, 0.7, 0.95, 3.0, 100.0, 'S07_Morning_Sniper', 'auction_data', 'bid_price_change', 'bid_volume', 'buy', 'current_time', 'hot_themes', 'prev_close', 'sentiment_scores', 'themes', 'unknown', 'volume_ratio', '已过下单截止时间，跳过信号生成', '非集合竞价时间，跳过信号生成']

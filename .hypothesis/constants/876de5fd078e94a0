@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\z2h\gene_capsule_generator.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1.0, ', ', 'arena_score', 'max_drawdown', 'profit_factor', 'sharpe_ratio', 'source_factors不能为空', 'strategy_id不能为空', 'strategy_name不能为空', 'total_return', 'win_rate', '不符合最低认证标准(SILVER): ']

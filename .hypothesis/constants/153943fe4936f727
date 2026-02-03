@@ -1,0 +1,4 @@
+# file: C:\mia\src\infra\bridge.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.05, 0.1, 0.15, 0.2, 0.3, 1.0, 82.0, 84.0, 85.0, 86.0, 87.0, 88.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 100, 105, 1000, 1000000, 10000000, '.', '/api/fund/nav', '/api/futures/daily', '/api/index/daily', '/api/options/daily', '/api/stock/daily', '/api/stock/minute', '000001', '000001.SZ', '6', 'D', 'adjust', 'akshare', 'close', 'coerce', 'date', 'end_date', 'frequency', 'fund', 'fund_etf_hist_sina', 'futures', 'futures_zh_hist', 'get_fund_nav', 'get_futures_daily', 'get_index_daily', 'get_options_daily', 'get_stock_daily', 'get_stock_minute', 'guojin', 'high', 'index', 'low', 'open', 'option_finance_board', 'options', 'period', 'start_date', 'stock', 'stock_zh_a_hist', 'stock_zh_a_minute', 'stock_zh_index_daily', 'symbol', 'volume', '开盘', '成交量', '收盘', '日期', '最低', '最高', '股票代码', '至少需要配置一个平台']

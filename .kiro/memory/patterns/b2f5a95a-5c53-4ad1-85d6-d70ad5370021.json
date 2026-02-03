@@ -1,0 +1,36 @@
+{
+  "id": "b2f5a95a-5c53-4ad1-85d6-d70ad5370021",
+  "type": "code_pattern",
+  "content": {
+    "code": "from typing import List, Dict, Optional\n\ndef process_data(data: List[Dict[str, str]]) -> Optional[str]:\n    pass",
+    "description": "Python类型提示示例",
+    "file_type": "python"
+  },
+  "hash_key": "31dafbd020c3aa21",
+  "metadata": {
+    "file_type": "python",
+    "usage_contexts": [
+      {
+        "file_type": "python",
+        "task_type": "coding",
+        "user_role": "Full-Stack Engineer",
+        "success": true,
+        "timestamp": "2026-02-03T11:56:44.214212"
+      }
+    ]
+  },
+  "created_at": "2026-02-03T11:56:44.072091",
+  "last_used": "2026-02-03T11:56:44.072091",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "typing",
+    "function",
+    "best_practice",
+    "python",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

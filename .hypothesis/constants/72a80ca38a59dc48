@@ -1,0 +1,4 @@
+# file: C:\mia\src\strategies\strategy_risk_manager.py
+# hypothesis_version: 6.150.2
+
+[-0.005, -0.001, 0.0, 0.001, 0.0015, 0.002, 0.004, 0.005, 0.01, 0.02, 0.05, 0.1, 0.3, 0.5, 0.7, 0.8, 1.0, 1.2, 1.5, 120, 180, 300, 600, 50000000, 200000000, '09:15', '09:30', '14:45', '15:00', '70%限价单+30%市价单混合', 'LIMIT', 'MARKET', 'POV', 'TWAP', 'VWAP', 'avoid_periods', 'bid_ask_spread', 'critical', 'daily_volume', 'description', 'end', 'high', 'impact_cost_pct', 'limit_price_offsets', 'medium', 'mode', 'order_sizes', 'order_types', 'reason', 'recommended_split', 'reduce_ratio', 'slippage_pct', 'start', 'stealth', 'stealth_strategy', 'tier1_micro', 'tier2_small', 'tier3_medium', 'tier4_large', 'tier5_million', 'tier6_ten_million', 'timestamp', 'tips', 'total_cost_pct', 'total_splits', 'turnover_rate', 'urgency', '尾盘', '时间间隔不规律，模拟散户行为', '订单大小随机化，避免规律性', '避开集合竞价和尾盘敏感时段', '限价单价格略偏离市价，增加隐蔽性', '集合竞价']

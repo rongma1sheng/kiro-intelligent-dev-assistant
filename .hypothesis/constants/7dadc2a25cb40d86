@@ -1,0 +1,4 @@
+# file: C:\mia\src\core\fund_monitor.py
+# hypothesis_version: 6.150.2
+
+[100, '  1. 停止所有交易', '  2. 暂停新仓位建立', '  3. 发送紧急告警', '  4. 等待人工干预', 'critical', 'danger', 'normal', 'warning', '执行操作: 发送微信告警 + 暂停新仓位', '紧急锁定操作：', '触发紧急锁定！']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\factor_combination\factor_combination_operators.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1e-08, 0.3, 0.5, 0.6, 1.0, 120, 'add', 'divide', 'exponential', 'logarithmic', 'multiply', 'orthogonal', 'polynomial', 'regression', 'subtract']

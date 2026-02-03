@@ -1,0 +1,31 @@
+{
+  "id": "27e239d7-8cad-4121-a380-e89898366a3b",
+  "type": "code_pattern",
+  "content": {
+    "title": "多语言搜索增强的实现模式",
+    "description": "实现多语言搜索支持的代码模式：通过建立语言映射表、多轮搜索策略、关键词提取和翻译等技术，解决跨语言搜索匹配问题。核心思想是将非英语查询转换为英语进行搜索，然后合并结果",
+    "context": "多语言搜索",
+    "tags": [
+      "多语言",
+      "搜索优化",
+      "翻译映射",
+      "跨语言"
+    ],
+    "code_example": "\n# 多语言搜索增强模式\nclass MultiLanguageSearchEnhancer:\n    def __init__(self):\n        # 语言映射表\n        self.language_mappings = {\n            'zh': {  # 中文到英文映射\n                '技能': 'skill', '团队': 'team', '系统': 'system'\n            }\n        }\n    \n    def enhanced_search(self, query, language='zh'):\n        results = []\n        \n        # 1. 直接搜索\n        direct_results = self.search_engine.search(query)\n        results.extend(direct_results)\n        \n        # 2. 翻译搜索\n        if language in self.language_mappings:\n            translated_queries = self.translate_query(query, language)\n            for translated_query in translated_queries:\n                translated_results = self.search_engine.search(translated_query)\n                results.extend(translated_results)\n        \n        # 3. 去重和排序\n        return self.deduplicate_and_rank(results)\n    \n    def translate_query(self, query, language):\n        mappings = self.language_mappings[language]\n        translated_queries = []\n        \n        for native_word, english_word in mappings.items():\n            if native_word in query:\n                translated_queries.append(query.replace(native_word, english_word))\n                translated_queries.append(english_word)\n        \n        return list(set(translated_queries))\n"
+  },
+  "hash_key": "d460317166a355ef",
+  "metadata": {},
+  "created_at": "2026-02-03T12:19:14.946142",
+  "last_used": "2026-02-03T12:19:14.946142",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "多语言",
+    "搜索优化",
+    "翻译映射",
+    "跨语言"
+  ],
+  "source": "task_execution_analysis",
+  "confidence": 1.0
+}

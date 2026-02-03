@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\style_rotation_miner.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.2, 0.3, 0.4, 0.8, 1.0, 2.0, 252, 'debt_ratio', 'dividend_yield', 'dividend_yield_cycle', 'factor_exposure', 'ffill', 'growth', 'low_volatility', 'market_cap', 'market_data', 'momentum', 'pb_ratio', 'quality', 'returns', 'revenue_growth', 'reversal', 'roe', 'sector', 'size', 'size_premium_cycle', 'spearman', 'value', 'value_growth_spread', '开始挖掘风格轮动因子...', '收益率数据不能为空', '缺少必需列: returns', '输入数据不能为空']

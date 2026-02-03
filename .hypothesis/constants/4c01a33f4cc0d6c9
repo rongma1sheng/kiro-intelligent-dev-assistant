@@ -1,0 +1,4 @@
+# file: C:\mia\src\risk\risk_control_matrix.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.8, 1.0, 'can_open_position', 'daily_loss_ratio', 'margin_limit', 'margin_ratio', 'position_limit', 'risk_level', 'sector_concentration', 'sector_limit', 'stop_loss_threshold']

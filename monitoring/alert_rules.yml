@@ -1,0 +1,138 @@
+# Prometheus Alert Rules for MIA System
+# 白皮书依据: 第十三章 13.4 告警规则配置
+
+groups:
+  - name: mia_system_alerts
+    interval: 30s
+    rules:
+      # Redis 故障告警
+      - alert: RedisDown
+        expr: mia_redis_health == 0
+        for: 30s
+        labels:
+          severity: emergency
+          component: redis
+        annotations:
+          summary: "Redis连接失败"
+          description: "Redis已连续30秒无法连接，系统可能无法正常运行"
+
+      # Soldier 降级告警
+      - alert: SoldierDegraded
+        expr: mia_soldier_mode == 1
+        for: 10m
+        labels:
+          severity: critical
+          component: soldier
+        annotations:
+          summary: "Soldier已切换到Cloud模式"
+          description: "Soldier已在Cloud模式运行超过10分钟，本地GPU可能存在问题"
+
+      # GPU 过热告警
+      - alert: GPUOverheating
+        expr: mia_gpu_temperature_celsius > 85
+        for: 2m
+        labels:
+          severity: critical
+          component: gpu
+        annotations:
+          summary: "GPU温度过高"
+          description: "GPU温度已超过85°C持续2分钟，当前温度: {{ $value }}°C"
+
+      # 内存使用率告警
+      - alert: HighMemoryUsage
+        expr: mia_system_memory_percent > 90
+        for: 5m
+        labels:
+          severity: warning
+          component: system
+        annotations:
+          summary: "内存使用率过高"
+          description: "系统内存使用率已超过90%持续5分钟，当前: {{ $value }}%"
+
+      # 磁盘空间告警
+      - alert: LowDiskSpace
+        expr: mia_system_disk_percent{drive="D:"} > 90
+        for: 5m
+        labels:
+          severity: warning
+          component: system
+        annotations:
+          summary: "磁盘空间不足"
+          description: "D盘使用率已超过90%持续5分钟，当前: {{ $value }}%"
+
+      # 日亏损告警
+      - alert: DailyLossExceeded
+        expr: mia_portfolio_pnl{period="daily"} < -0.05 * mia_portfolio_value
+        for: 1m
+        labels:
+          severity: critical
+          component: trading
+        annotations:
+          summary: "日亏损超过5%"
+          description: "当日亏损已超过账户总值的5%，当前PnL: {{ $value }} CNY"
+
+      # 严重亏损告警
+      - alert: CriticalLoss
+        expr: mia_portfolio_pnl{period="daily"} < -0.10 * mia_portfolio_value
+        for: 1m
+        labels:
+          severity: emergency
+          component: trading
+        annotations:
+          summary: "日亏损超过10% - 触发末日开关"
+          description: "当日亏损已超过账户总值的10%，系统将触发紧急停机，当前PnL: {{ $value }} CNY"
+
+      # Soldier 延迟告警
+      - alert: SoldierHighLatency
+        expr: histogram_quantile(0.99, rate(mia_soldier_latency_seconds_bucket[5m])) > 0.150
+        for: 5m
+        labels:
+          severity: warning
+          component: soldier
+        annotations:
+          summary: "Soldier决策延迟过高"
+          description: "Soldier P99延迟已超过150ms持续5分钟，当前: {{ $value | humanizeDuration }}"
+
+      # Redis 延迟告警
+      - alert: RedisHighLatency
+        expr: rate(mia_redis_latency_seconds_sum[5m]) / rate(mia_redis_latency_seconds_count[5m]) > 0.050
+        for: 5m
+        labels:
+          severity: warning
+          component: redis
+        annotations:
+          summary: "Redis操作延迟过高"
+          description: "Redis平均延迟已超过50ms持续5分钟，当前: {{ $value | humanizeDuration }}"
+
+      # GPU 内存使用率告警
+      - alert: GPUMemoryHigh
+        expr: (mia_gpu_memory_used_bytes / mia_gpu_memory_total_bytes) > 0.90
+        for: 5m
+        labels:
+          severity: warning
+          component: gpu
+        annotations:
+          summary: "GPU内存使用率过高"
+          description: "GPU内存使用率已超过90%持续5分钟，当前: {{ $value | humanizePercentage }}"
+
+      # 健康检查失败告警
+      - alert: HealthCheckFailed
+        expr: up{job="mia-health-api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          component: health-api
+        annotations:
+          summary: "健康检查API不可用"
+          description: "健康检查API已连续1分钟无响应"
+
+      # 交易量异常告警
+      - alert: TradeVolumeAnomaly
+        expr: rate(mia_trades_total[5m]) < 0.1 * rate(mia_trades_total[1h] offset 1h)
+        for: 10m
+        labels:
+          severity: warning
+          component: trading
+        annotations:
+          summary: "交易量异常下降"
+          description: "当前交易量低于1小时前的10%，可能存在系统问题"

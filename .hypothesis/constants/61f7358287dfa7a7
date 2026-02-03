@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\macro_cross_asset\macro_cross_asset_operators.py
+# hypothesis_version: 6.150.2
+
+[-0.5, 0.0, 1e-08, 0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 'VIX期限结构', 'actual', 'asset1', 'asset2', 'balance_sheet', 'category', 'commodity', 'commodity_momentum', 'commodity_price', 'correlation', 'credit', 'credit_spread', 'currency', 'currency_carry_trade', 'description', 'event', 'exchange_rate', 'forecast', 'formula', 'interest_rate', 'interest_rate_diff', 'liquidity', 'long_rate', 'macro', 'macro_surprise_index', 'policy', 'policy_rate', 'risk', 'short_rate', 'vix_long', 'vix_short', 'vix_short / vix_long', 'vix_term_structure', 'volatility', 'yield_curve_slope', '信用利差扩大检测', '全球流动性流动', '商品价格动量', '地缘政治风险指数', '央行政策转向检测', '宏观数据意外指数', '收益率曲线斜率', '未找到地缘政治事件数据列', '未找到资产负债表数据列', '货币套利交易信号', '跨资产相关性', '输入数据为空']

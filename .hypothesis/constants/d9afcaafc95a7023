@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\arena\strategy_hell_track.py
+# hypothesis_version: 6.150.2
+
+[-1.0, -0.5, 0.0, 0.005, 0.01, 0.02, 0.07, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 0.8, 0.9, 1.0, 3.0, 5.0, 1000000.0, 'black_swan', 'circuit_breaker', 'close', 'final_equity', 'flash_crash', 'liquidity_drought', 'max_drawdown', 'min_equity', 'performance', 'recovery_days', 'survived', 'volatility_explosion', 'volume', '基础数据不能为空']

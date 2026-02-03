@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\soldier\inference_engine.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.1, 0.3, 0.9, 0.99, 1000.0, 200, 256, 1000, 4096, 'UNKNOWN', 'action', 'avg_latency_ms', 'change_pct', 'choices', 'confidence', 'error_count', 'error_rate', 'hold', 'inference_count', 'is_loaded', 'ma20', 'macd', 'market_data不能为空', 'model', 'model_path', 'p99_latency_ms', 'price', 'quantity', 'reasoning', 'rsi', 'symbol', 'text', 'volume', '{', '}', '决策完成', '推理引擎资源已清理', '未找到有效的JSON格式']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\sparta_arena_evaluator.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.15, 0.3, 0.35, 0.4, 0.5, 0.6, 0.7, 0.75, 0.8, 1.0, 2.0, 126, 252, 999, '-', '=', 'A_STOCK', 'EXCELLENT', 'QUALIFIED', 'UNQUALIFIED', 'Unknown', 'aggregated_metrics', 'efficiency_ratio', 'failed_scenarios', 'failure_reason', 'grade', 'is_oos_consistency', 'is_sharpe', 'layer_1_basic', 'layer_2_stability', 'layer_3_overfitting', 'layer_4_stress', 'metrics', 'oos_failure_rate', 'oos_sharpe', 'passed', 'qualified', 'returns', 'scenario_results', 'scenarios_failed', 'scenarios_passed', 'score', 'sharpe_degradation', 'stability_metrics', 'threshold_result', '不合格', '优秀', '各层验证详情:', '合格', '执行第一层验证: 投研级指标评价', '执行第三层验证: 防过拟合验证', '执行第二层验证: 时间稳定性验证', '执行第四层验证: 极限压力测试', '第一层：投研级指标评价', '第三层：防过拟合验证', '第二层：时间稳定性验证', '第四层：极限压力测试']

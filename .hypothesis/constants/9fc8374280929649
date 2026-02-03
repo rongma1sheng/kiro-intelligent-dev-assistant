@@ -1,0 +1,4 @@
+# file: C:\mia\src\compliance\data_privacy_manager.py
+# hypothesis_version: 6.150.2
+
+[365, 'DATA_EXPORT', 'anon_', 'anonymize_user', 'anonymized', 'anonymized_logs', 'can_delete', 'data_categories', 'deleted_categories', 'deletion_time', 'event_type', 'export_file', 'export_time', 'exports', 'message', 'mia:user', 'reason', 'record_count', 'redis_data', 'redis_keys_deleted', 'request_time', 'retention_end', 'strategy_config', 'timestamp', 'trade_data', 'trade_history', 'trade_time', 'user_id', 'user_info', 'user_request', 'utf-8', 'w', '交易数据已超过保留期', '无交易数据', '无有效交易时间', '清空日志', '用户ID不能为空']

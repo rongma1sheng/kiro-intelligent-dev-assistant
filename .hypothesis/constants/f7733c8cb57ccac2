@@ -1,0 +1,4 @@
+# file: C:\mia\src\infra\data_exceptions.py
+# hypothesis_version: 6.150.2
+
+[', ', '数据不可用', '数据获取失败', '数据质量不达标', '认证失败', '超过速率限制']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\factor_to_strategy_converter.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.15, 0.5, 0.6, 0.7, 0.8, 1.2, 1.3, 2.0, 100000.0, '-', 'avg_expected_sharpe', 'by_type', 'candidate', 'total_strategies', 'z2h_eligible_count', '动态权重策略需要至少一个高质量因子', '单因子策略需要至少一个因子', '因子列表不能为空', '市场中性策略需要至少一个全球因子', '组合策略需要至少2个因子']

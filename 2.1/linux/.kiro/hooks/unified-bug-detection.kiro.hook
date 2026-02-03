@@ -1,0 +1,12 @@
+{
+  "name": "统一Bug检测修复系统",
+  "version": "3.1.0",
+  "description": "整合增强质量门禁和团队协作修复功能，严格遵循硅谷12人团队铁律，提供完整的Bug检测修复循环",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "启动统一Bug检测修复系统：\n\n🚨 铁律合规检查流程：\n1. 运行 `python3 scripts/enhanced_quality_gate.py src` 进行增强质量门禁检查\n2. 执行 `python3 scripts/team_bug_fixer.py src` 进行团队协作修复\n3. 运行测试覆盖率检查确保100%覆盖率\n4. 执行安全扫描检测漏洞\n5. 按复杂度和角色分类Bug修复任务\n\n🔒 铁律遵循优先级：\n- 🚨 零号铁律：只修复明确缺失内容，不得修改已认证功能\n- 🔒 核心铁律：中文交流，禁止占位符，专业标准化\n- 🧪 测试铁律：严禁跳过测试，100%覆盖率强制要求\n- 🎯 团队铁律：角色职责边界，单一主责原则\n\n🤖 智能修复机制：\n- 简单Bug：自动修复（语法错误、格式问题等）\n- 复杂Bug：分配给硅谷12人团队对应角色\n- 铁律违规：立即阻断并强制修复\n\n🔄 循环验证流程：\n1. 增强质量门禁检查（所有铁律）\n2. 团队协作修复分配\n3. 修复后重新检测验证\n4. 循环执行直到0个违规\n5. 最多10轮循环保护\n6. 生成完整合规报告\n\n🎯 硅谷12人团队协作：\n- 零号铁律违规 → 📊 Product Manager\n- 核心铁律违规 → 🔍 Code Review Specialist\n- 测试铁律违规 → 🧪 Test Engineer\n- 团队标准违规 → 🎯 Scrum Master/Tech Lead\n- 安全问题 → 🔒 Security Engineer\n- 性能问题 → 🧮 Algorithm Engineer\n- 数据库问题 → 🗄️ Database Engineer\n- 架构问题 → 🏗️ Software Architect\n- 代码质量问题 → 🚀 Full-Stack Engineer\n- 基础设施问题 → ☁️ DevOps Engineer\n- 数据处理问题 → 📈 Data Engineer\n- 界面问题 → 🎨 UI/UX Engineer\n\n🍎 Mac环境自动适配:\n- 使用python3命令\n- 使用bash作为默认shell\n- 支持Apple Silicon和Intel芯片"
+  }
+}

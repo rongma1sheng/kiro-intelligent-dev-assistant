@@ -1,0 +1,4 @@
+# file: C:\mia\src\infra\websocket_bridge_server.py
+# hypothesis_version: 6.150.2
+
+[1.0, 600, 1000, 1024, 8502, '0.0.0.0', '[WebSocket] ✅ 服务器已停止', '[WebSocket] 共享内存已关闭', '[WebSocket] 共享内存未初始化', '[WebSocket] 收到中断信号', '__main__', 'client_count', 'frame_interval_ms', 'frame_rate', 'host', 'port', 'radar_data', 'running', 'shm_connected']

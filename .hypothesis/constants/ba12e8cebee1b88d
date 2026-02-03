@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\z2h\data_models.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.05, 0.08, 0.1, 0.12, 0.15, 0.55, 0.6, 0.65, 0.75, 0.8, 0.9, 1.0, 1.3, 1.5, 1.8, 2.0, 2.5, 'GOLD', 'PLATINUM', 'SILVER', 'Z2HGeneCapsule', 'arena_score', 'certification_date', 'certification_level', 'max_drawdown', 'metadata', 'profit_factor', 'sharpe_ratio', 'signature', 'simulation_metrics', 'source_factors', 'source_factors不能为空列表', 'strategy_id', 'strategy_name', 'total_return', 'win_rate']

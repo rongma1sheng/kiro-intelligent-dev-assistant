@@ -1,0 +1,29 @@
+{
+  "id": "cff6fa98-9bc7-4048-98ba-7f5f8be61210",
+  "type": "code_pattern",
+  "content": {
+    "code": "# 命令行工具诊断模式\nimport subprocess\nimport json\nfrom datetime import datetime\n\ndef run_cli_diagnostics():\n    \"\"\"通过命令行工具进行系统诊断\"\"\"\n    commands = [\n        (\"memory_stats\", \"python scripts/manage_memory_system.py stats\"),\n        (\"team_overview\", \"python scripts/manage_team_skills.py overview\"),\n        (\"memory_test\", \"python scripts/test_memory_system.py\"),\n        (\"skills_test\", \"python scripts/test_skills_meta_learning.py\")\n    ]\n    \n    results = {\n        \"timestamp\": datetime.now().isoformat(),\n        \"diagnostics\": {}\n    }\n    \n    for name, cmd in commands:\n        try:\n            result = subprocess.run(\n                cmd, shell=True, capture_output=True, \n                text=True, timeout=60\n            )\n            results[\"diagnostics\"][name] = {\n                \"command\": cmd,\n                \"exit_code\": result.returncode,\n                \"success\": result.returncode == 0,\n                \"output_lines\": len(result.stdout.splitlines()),\n                \"has_errors\": bool(result.stderr)\n            }\n        except subprocess.TimeoutExpired:\n            results[\"diagnostics\"][name] = {\n                \"command\": cmd,\n                \"error\": \"timeout\",\n                \"success\": False\n            }\n    \n    return results",
+    "description": "通过命令行工具进行系统诊断的标准模式，包含超时处理和结果结构化",
+    "file_type": "python"
+  },
+  "hash_key": "da9459b9b2671d35",
+  "metadata": {
+    "file_type": "python"
+  },
+  "created_at": "2026-02-03T11:41:21.298226",
+  "last_used": "2026-02-03T11:41:21.298226",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "cli_tools",
+    "diagnostics",
+    "automation",
+    "system_check",
+    "subprocess",
+    "python",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

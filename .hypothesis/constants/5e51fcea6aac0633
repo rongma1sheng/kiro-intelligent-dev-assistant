@@ -1,0 +1,4 @@
+# file: C:\mia\src\audit\auditor.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.001, 'action', 'alert_type', 'avg_cost', 'buy', 'diff', 'discrepancies', 'discrepancies_count', 'event_type', 'execution', 'last_sync', 'positions_count', 'quantity', 'sell', 'shadow', 'symbol', 'sync_from_broker', 'sync_time', 'utf-8', '券商API未配置，无法同步持仓', '对账完成: 无差异', '影子账本已清空']

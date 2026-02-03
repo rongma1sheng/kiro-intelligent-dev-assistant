@@ -1,0 +1,4 @@
+# file: C:\mia\src\compliance\engineering_law_validator.py
+# hypothesis_version: 6.150.2
+
+['(gpu|rocm|amd)', '(local|amd|gpu)', '(soldier|amd|driver)', '00_核心文档/mia.md', 'ARCHITECTURE', 'Atomic Law', 'Audit Law', 'Auto-Pilot Law', 'C 盘只读，D 盘读写。', 'CRITICAL', 'Calendar Law', 'Clearance Law', 'Code Injection Law', 'Concurrency Law', 'Doomsday Law', 'Dual-Drive Law', 'Environment Law', 'Failover Law', 'HIGH', 'Identity Law', 'Latency Law', 'LockBox Law', 'MEDIUM', 'Observability Law', 'Oracle Law', 'PPL Law', 'PROJECT_STRUCTURE.md', 'Proxy Law', 'Pydantic 标准 Schema。', 'Radar Law', 'Regime Law', 'Sandbox Law', 'Simulation Law', 'Spartan Law', 'Standardization Law', 'TODO.md', 'Trinity Law', 'UI Law', 'Zero Trust Law', 'amd', 'soldier', 'tasks.md', 'unknown', '主力识别模型必须在 AMD 本地运行。', '仅执行带 Z2H 胶囊及审计签名的代码。', '利润物理隔离 (逆回购/ETF)。', '原子写入协议。', '启动执行 PPL 自检。', '实盘模拟严禁离线回测。', '异步队列 + 单消费者。', '感知交易日历。', '无人值守，Job Objects 风控。', '物理断电锁，人工复位。', '独立审计进程确认成交。', '进化产物拒绝黑盒。']

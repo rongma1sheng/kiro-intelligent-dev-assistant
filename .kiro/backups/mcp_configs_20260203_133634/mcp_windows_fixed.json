@@ -1,0 +1,75 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\mia"
+      ],
+      "env": {
+        "FILESYSTEM_MAX_FILE_SIZE": "10MB",
+        "FILESYSTEM_ALLOWED_EXTENSIONS": ".py,.js,.ts,.md,.json,.yaml,.yml,.txt,.log",
+        "FILESYSTEM_ROOT": "C:\\mia",
+        "PATH": "%PATH%",
+        "TEMP": "%TEMP%",
+        "TMP": "%TMP%"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "read_text_file",
+        "list_directory", 
+        "search_files",
+        "get_file_info",
+        "directory_tree"
+      ],
+      "timeout": 30000,
+      "retries": 3
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_MAX_ENTITIES": "10000",
+        "MEMORY_PERSISTENCE": "true",
+        "MEMORY_STORAGE_PATH": "C:\\mia\\.kiro\\memory",
+        "TEMP": "%TEMP%",
+        "TMP": "%TMP%"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "create_entities",
+        "search_nodes", 
+        "read_graph",
+        "open_nodes",
+        "add_observations",
+        "create_relations",
+        "delete_entities",
+        "delete_relations",
+        "delete_observations"
+      ],
+      "timeout": 45000,
+      "retries": 2
+    }
+  },
+  "global_settings": {
+    "connection_timeout": 60000,
+    "max_concurrent_servers": 5,
+    "auto_restart_on_failure": true,
+    "log_level": "INFO",
+    "windows_specific": {
+      "use_cmd_shell": true,
+      "path_separator": "\\",
+      "temp_dir": "%TEMP%\\kiro_mcp"
+    }
+  },
+  "error_handling": {
+    "max_retries": 3,
+    "retry_delay": 2000,
+    "fallback_mode": true,
+    "error_reporting": true
+  }
+}

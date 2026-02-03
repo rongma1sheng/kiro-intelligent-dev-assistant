@@ -1,0 +1,4 @@
+# file: C:\mia\src\strategies\meta_arbitrage\s18_future_trend.py
+# hypothesis_version: 6.150.2
+
+[-1.0, -0.6, 0.0, 0.005, 0.02, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.5, 0.6, 0.8, 1.0, 1.5, 'IC', 'IF', 'IH', 'IM', 'S18_Future_Trend', '[Live]', '[Shadow]', 'buy', 'hold', 'index_futures', 'index_futures_shadow', 'open_interest', 'prev_open_interest', 'prev_volume', 'price', 'sell', 'volume']

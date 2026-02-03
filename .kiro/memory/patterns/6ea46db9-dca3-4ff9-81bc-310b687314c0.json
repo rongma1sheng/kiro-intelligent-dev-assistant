@@ -1,0 +1,28 @@
+{
+  "id": "6ea46db9-dca3-4ff9-81bc-310b687314c0",
+  "type": "error_solution",
+  "content": {
+    "error_description": "记忆系统搜索功能无法找到刚存储的模式",
+    "solution": "这通常是由于搜索索引未及时更新导致的。解决方案：1)执行系统优化命令重建索引 2)检查搜索关键词是否与存储的标签匹配 3)使用不同的搜索词进行测试 4)确认模式确实已存储（通过stats命令验证）。搜索功能依赖于标签和内容索引，新存储的内容可能需要时间建立索引。",
+    "error_type": "search_indexing"
+  },
+  "hash_key": "b4d1658286d8f7cd",
+  "metadata": {
+    "error_type": "search_indexing"
+  },
+  "created_at": "2026-02-03T11:52:31.420664",
+  "last_used": "2026-02-03T11:52:31.420664",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "memory_system",
+    "search",
+    "indexing",
+    "troubleshooting",
+    "error",
+    "solution"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

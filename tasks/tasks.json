@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "projectName": "MIA System PRD - AI Agent Governance Document",
+  "description": "Tasks derived from structured PRD requirements",
+  "tasks": [
+    {
+      "id": "PRD-CRA-001",
+      "title": "Implement file classification system",
+      "description": "Classify each file as CORE|SUPPORTING|CANDIDATE|BLOCKED based on entry points, test coverage, and whitepaper mentions. Must satisfy: exclusive classification, evidence-based, default to BLOCKED on uncertainty.",
+      "agentPersona": "Correctness_Auditor",
+      "tags": ["codebase-retention-audit", "classification", "property-test"],
+      "acceptanceCriteria": [
+        "Each file assigned exactly one classification",
+        "Files referenced by entry point → CORE",
+        "Files with test coverage > 0 → CORE",
+        "Insufficient evidence → BLOCKED"
+      ]
+    },
+    {
+      "id": "PRD-CRA-002",
+      "title": "Build evidence collection system",
+      "description": "Collect evidence from AST imports, coverage.json, whitepaper references. Each evidence must include source and confidence (0.0–1.0).",
+      "agentPersona": "Spec_Guardian",
+      "tags": ["evidence", "AST", "coverage", "whitepaper"]
+    },
+    {
+      "id": "PRD-CRA-003",
+      "title": "Construct dependency graph",
+      "description": "Build directed dependency graph from Python imports. Detect entry points, circular dependencies, and ensure bidirectional consistency (A imports B ⇔ B.imported_by contains A).",
+      "agentPersona": "Correctness_Auditor",
+      "tags": ["dependency-graph", "cycle-detection", "static-analysis"]
+    },
+    {
+      "id": "PRD-CRA-004",
+      "title": "Generate YAML audit report",
+      "description": "Output valid YAML report with metadata, summary stats, per-file classification, deletion_impact for CANDIDATE, blocked_reason for BLOCKED.",
+      "agentPersona": "Test_Sovereign",
+      "tags": ["reporting", "yaml", "audit-trail"]
+    },
+    {
+      "id": "PRD-CRA-005",
+      "title": "Implement human approval queue",
+      "description": "Add all CANDIDATE and BLOCKED files to Human_Approval_Queue. Maintain immutable audit trail of all decisions.",
+      "agentPersona": "Human_Approval_Gatekeeper",
+      "tags": ["human-in-the-loop", "approval", "audit-trail"]
+    },
+    {
+      "id": "PRD-CRA-006",
+      "title": "Enforce read-only safety mechanism",
+      "description": "Audit tool must never delete or modify source code. Enforce: no file.delete(), source unchanged after run, protected patterns preserved.",
+      "agentPersona": "Minimality_Inspector",
+      "tags": ["safety", "read-only", "immutable"]
+    },
+    {
+      "id": "PRD-CRA-007",
+      "title": "Export validated files",
+      "description": "Export only CORE/SUPPORTING files to target directory, preserving structure. Ensure exported codebase is runnable (all transitive deps present).",
+      "agentPersona": "Test_Sovereign",
+      "tags": ["export", "minimal-build", "integration-test"]
+    },
+    {
+      "id": "PRD-TBA-001",
+      "title": "Implement Soldier fast decision engine",
+      "description": "Local real-time trading engine with P99 latency < 150ms, hot-failover support, no circular deps with Commander/Scholar.",
+      "agentPersona": "Performance_Engineer",
+      "tags": ["tri-brain", "soldier", "low-latency"]
+    },
+    {
+      "id": "PRD-TBA-002",
+      "title": "Implement Commander slow strategy engine",
+      "description": "Cloud-based strategy analyzer producing market regime, risk assessment, and recommendations. No circular deps.",
+      "agentPersona": "Strategist",
+      "tags": ["tri-brain", "commander", "strategy"]
+    },
+    {
+      "id": "PRD-TBA-003",
+      "title": "Implement Scholar deep research engine",
+      "description": "Factor research system generating reports with factor_score, insight, and risk_metrics. No circular deps.",
+      "agentPersona": "Researcher",
+      "tags": ["tri-brain", "scholar", "factor-research"]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# file: C:\mia\src\core\lockbox_manager.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.5, 10000.0, 1000, 100000, '204001', 'SSE', 'action', 'amount', 'broker不能为None', 'buy', 'exchange', 'lockbox:total_locked', 'market', 'mia:lockbox', 'order_id', 'order_type', 'price', 'redis_client不能为None', 'status', 'success', 'symbol', 'timestamp']

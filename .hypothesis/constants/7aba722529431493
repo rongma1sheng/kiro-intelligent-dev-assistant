@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\strategy_evaluator.py
+# hypothesis_version: 6.150.2
+
+[-0.3, -0.25, -0.2, -0.18, -0.15, -0.05, -0.03, -0.02, 0.0, 1e-10, 0.05, 0.12, 0.15, 0.18, 0.2, 0.25, 0.4, 0.45, 0.6, 0.8, 1.0, 1.2, 1.4, 1.5, 1.6, 2.0, 252, 'A股', 'Sharpe', 'a_stock', 'annual_return', 'calmar', 'crypto', 'cvar_5pct', 'excellent', 'excellent_ratio', 'expectancy', 'failed_criteria', 'futures', 'grade', 'max', 'max_dd_duration_days', 'max_drawdown', 'max_single_loss', 'mean', 'min', 'passed_criteria', 'payoff_ratio', 'qualified', 'robust', 'sharpe', 'sortino', 'std', 'win_rate', '不合格', '优秀', '加密货币', '合格', '开始阈值检查', '期货']

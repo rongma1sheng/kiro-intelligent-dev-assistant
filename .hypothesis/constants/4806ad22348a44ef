@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\monitoring\decay_detector.py
+# hypothesis_version: 6.150.2
+
+[0.03, 0.3, 'factor_id不能为空']

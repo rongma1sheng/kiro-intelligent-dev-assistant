@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\etf_lof\lof_factor_miner.py
+# hypothesis_version: 6.150.2
+
+[0.01, 0.02, 0.03, 0.1, 0.2, 0.5, 0.7, '(', ')', ',', 'LOFFactorMiner', 'action', 'build_registry', 'common_operators', 'component', 'correlation', 'covariance', 'crossover_rate', 'delay', 'delta', 'elite_ratio', 'error', 'error_type', 'initialize', 'lof_', 'lof_nav_momentum', 'lof_operators', 'lof_operators_count', 'lof_turnover_rate', 'mutation_rate', 'population_size', 'rank', 'regression_residual', 'total_operators', 'ts_mean', 'ts_std']

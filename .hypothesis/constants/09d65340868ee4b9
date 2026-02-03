@@ -1,0 +1,4 @@
+# file: C:\mia\src\quality\code_quality_checker.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.5, 2.0, 5.0, 70.0, 80.0, 100.0, 120, 999, '--format=json', '-f', '-j', '-r', '-s', ':', 'UNKNOWN', 'bandit', 'bandit执行超时', 'cc', 'code', 'column_number', 'complexity', 'error', 'error:', 'errors', 'filename', 'flake8', 'flake8执行超时', 'info', 'issue_confidence', 'issue_severity', 'issue_text', 'issues', 'json', 'line_number', 'lineno', 'message', 'mypy', 'mypy执行超时', 'name', 'note', 'note:', 'notes', 'physical_line', 'radon', 'radon执行超时', 'results', 'src', 'test_id', 'text', 'type', 'unknown', 'warning', 'warning:', 'warnings', '✅ 代码风格符合标准', '✅ 所有函数圈复杂度符合标准', '✅ 所有质量检查通过', '✅ 未发现安全问题', '✅ 类型注解检查通过', '❌ 质量检查未通过']

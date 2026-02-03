@@ -1,0 +1,25 @@
+{
+  "name": "通用质量门禁强制执行",
+  "version": "1.0.0",
+  "description": "通用的质量门禁强制执行Hook，确保所有项目遵循统一的质量标准",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["*.py", "*.js", "*.ts", "*.java", "*.cpp", "*.c", "*.go", "*.rs"]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "🔒 执行质量门禁检查：\n\n🧪 测试铁律验证：\n- 严禁跳过任何测试\n- 测试超时必须溯源修复\n- 不得使用timeout作为跳过理由\n- 发现问题立刻修复\n- 强制要求：测试覆盖率必须达到100%\n- 强制要求：代码复杂度必须<10\n- 违规阻断：覆盖率<100%时禁止完成任务\n\n🔍 代码质量检查：\n1. 运行单元测试并验证通过率\n2. 检查测试覆盖率是否达到100%\n3. 验证代码复杂度是否<10\n4. 执行静态代码分析\n5. 检查是否有安全漏洞\n6. 验证编码规范遵循情况\n\n📋 文档同步检查：\n1. 验证代码变更是否同步更新文档\n2. 检查API文档是否与实现一致\n3. 确认测试文档是否完整\n\n🚨 违规处理：\n- 如发现任何质量门禁违规，立即阻断并要求修复\n- 记录违规详情和修复建议\n- 更新质量统计数据\n\n请对当前修改的文件执行完整的质量门禁检查。"
+  },
+  "metadata": {
+    "category": "quality-assurance",
+    "priority": "critical",
+    "auto_trigger": true,
+    "applicable_projects": "all",
+    "quality_thresholds": {
+      "test_coverage": 100,
+      "code_complexity": 10,
+      "security_score": 90,
+      "documentation_coverage": 80
+    }
+  }
+}

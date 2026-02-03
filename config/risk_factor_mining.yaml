@@ -1,0 +1,79 @@
+# 专业风险因子挖掘系统配置
+# 白皮书依据: 第四章 4.1.1 专业风险因子挖掘系统
+
+risk_factor_mining:
+  # 资金流挖掘器配置
+  flow_miner:
+    # 主力资金撤退阈值（元）
+    capital_retreat_threshold: 500000000  # 5亿
+    
+    # 大单阈值（元）
+    large_order_threshold: 1000000  # 100万
+    
+    # 检测窗口（天数）
+    detection_window_days: 5
+    
+    # 承接崩塌阈值（成交量比例）
+    acceptance_collapse_threshold: 0.3  # 30%
+    
+    # 资金流向逆转窗口（天数）
+    flow_reversal_window: 3
+  
+  # 微结构挖掘器配置
+  microstructure_miner:
+    # 流动性阈值（比例）
+    liquidity_threshold: 0.5  # 50%
+    
+    # 订单簿失衡阈值（倍数）
+    imbalance_threshold: 3.0  # 3倍
+    
+    # 买卖价差扩大倍数
+    spread_multiplier: 2.0  # 2倍
+    
+    # 深度不足阈值（比例）
+    depth_shortage_threshold: 0.3  # 30%
+    
+    # 订单簿快照频率（秒）
+    snapshot_frequency: 3
+  
+  # 组合挖掘器配置
+  portfolio_miner:
+    # 相关性阈值
+    correlation_threshold: 0.85
+    
+    # VaR阈值（比例）
+    var_threshold: 0.05  # 5%
+    
+    # 行业集中度阈值（比例）
+    concentration_threshold: 0.3  # 30%
+    
+    # CVaR阈值（比例）
+    cvar_threshold: 0.08  # 8%
+    
+    # 更新频率（秒）
+    update_frequency: 60
+  
+  # 风险因子注册中心配置
+  registry:
+    # 因子缓存TTL（秒）
+    cache_ttl: 3
+    
+    # 最大因子数量（每个标的）
+    max_factors_per_symbol: 100
+    
+    # 事件发布开关
+    enable_event_publishing: true
+  
+  # 性能配置
+  performance:
+    # 因子挖掘延迟目标（毫秒）
+    mining_latency_target: 10
+    
+    # 因子查询延迟目标（毫秒）
+    query_latency_target: 1
+    
+    # 端到端延迟目标（毫秒）
+    e2e_latency_target: 50
+    
+    # 内存占用目标（MB，1000个标的）
+    memory_target: 50

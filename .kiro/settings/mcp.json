@@ -1,0 +1,50 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ],
+      "env": {
+        "FILESYSTEM_MAX_FILE_SIZE": "10MB",
+        "FILESYSTEM_ALLOWED_EXTENSIONS": ".py,.js,.ts,.md,.json,.yaml,.yml,.txt"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "read_text_file",
+        "list_directory",
+        "search_files",
+        "get_file_info",
+        "directory_tree"
+      ]
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_MAX_ENTITIES": "10000",
+        "MEMORY_PERSISTENCE": "true"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "create_entities",
+        "search_nodes",
+        "read_graph",
+        "open_nodes",
+        "add_observations",
+        "create_relations"
+      ]
+    }
+  },
+  "_metadata": {
+    "version": "2.0",
+    "description": "统一MCP基础配置，所有平台共享",
+    "last_updated": "2026-02-03T13:37:06.050728",
+    "inheritance": "此配置为基础配置，平台特定配置将继承并覆盖差异部分"
+  }
+}

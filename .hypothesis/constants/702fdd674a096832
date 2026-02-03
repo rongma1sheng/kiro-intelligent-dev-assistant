@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\certification_api_gateway.py
+# hypothesis_version: 6.150.2
+
+[100, 'NotFoundError', 'ValidationError', 'certification_level', 'created_at', 'current_status', 'data', 'downgrade_reason', 'downgraded_at', 'end_time', 'error', 'failed', 'failure_analysis', 'from_status', 'last_updated', 'limit', 'message', 'new_level', 'not_started', 'offset', 'old_level', 'pending', 'reason', 'records', 'revoke_reason', 'revoked_at', 'source_factors', 'start_time', 'status', 'status_history', 'strategy_id', 'strategy_name', 'strategy_type', 'success', 'timestamp', 'to_status', 'total', 'trace_id', 'type', 'unknown', '启动认证流程失败', '基因胶囊不存在', '导出认证报告失败', '报告生成成功', '撤销认证失败', '无效的认证等级', '未找到认证记录', '查询Z2H基因胶囊失败', '查询成功', '查询认证状态失败', '查询认证记录失败', '策略不存在', '认证已撤销', '认证已降级', '认证流程启动', '认证流程已启动', '降级认证失败']

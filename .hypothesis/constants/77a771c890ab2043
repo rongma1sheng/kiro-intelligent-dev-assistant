@@ -1,0 +1,4 @@
+# file: C:\mia\src\integration\monitoring_reliability_integration.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1.0, 2.0, 3.0, 'Redis恢复失败', 'Redis恢复成功', 'component', 'components_detail', 'degraded_components', 'events_published', 'failed_components', 'message', 'metrics', 'overall_status', 'recovery_attempted', 'recovery_success', 'redis', 'start_time', 'status', 'timestamp', 'unhealthy', 'uptime_seconds', '健康检查指标注册完成', '开始Redis恢复流程', '监控与可靠性集成器初始化完成', '监控与可靠性集成器已停止', '监控与可靠性集成器已启动', '集成器已经在运行', '集成器未在运行', '集成循环已停止', '集成循环已启动']

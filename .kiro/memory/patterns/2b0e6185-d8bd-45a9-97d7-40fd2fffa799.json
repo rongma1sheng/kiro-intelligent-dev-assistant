@@ -1,0 +1,38 @@
+{
+  "id": "2b0e6185-d8bd-45a9-97d7-40fd2fffa799",
+  "type": "best_practice",
+  "content": {
+    "title": "测试驱动开发：分层测试策略",
+    "description": "按功能层次组织测试：基础->核心->集成->性能，确保100%覆盖率",
+    "category": "testing_best_practices"
+  },
+  "hash_key": "836d58e30dace2da",
+  "metadata": {
+    "category": "testing_best_practices",
+    "usage_contexts": [
+      {
+        "file_type": null,
+        "task_type": null,
+        "user_role": "Full-Stack Engineer",
+        "success": true,
+        "timestamp": "2026-02-03T11:22:08.692875"
+      }
+    ]
+  },
+  "created_at": "2026-02-03T11:22:08.542542",
+  "last_used": "2026-02-03T11:22:08.542542",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "tdd",
+    "testing",
+    "coverage",
+    "integration",
+    "performance",
+    "testing_best_practices",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

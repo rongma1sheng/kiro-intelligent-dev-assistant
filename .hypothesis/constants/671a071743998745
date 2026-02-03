@@ -1,0 +1,4 @@
+# file: C:\mia\src\infra\adapters\base_adapter.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1.0, 100, ', ', 'actual_columns', 'actual_dtype', 'attempts', 'close', 'datetime', 'high', 'last_error', 'low', 'open', 'request_params', 'required_columns', 'source_id不能为空', 'volume', '数据为空', '数据获取失败']

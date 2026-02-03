@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\walk_forward_analysis.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.1, 0.3, 0.5, 0.6, 0.7, 1.0, 252, 'A股', 'anchored', 'annual_return', 'consistency_ratio', 'failed_criteria', 'failure_ratio', 'is_overfitted', 'mean_is_return', 'mean_is_sharpe', 'mean_oos_return', 'mean_oos_sharpe', 'not_overfitted', 'passed_criteria', 'return_degradation', 'rolling', 'sharpe', 'sharpe_degradation', '加密货币', '开始过拟合检查', '期货', '滚动模式', '锚定模式']

@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\ml_feature_engineering\ml_feature_operators.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1e-08, 0.1, 1.0, 100, 'close', 'ma10_ratio', 'ma20_ratio', 'ma5_ratio', 'momentum', 'relu', 'returns', 'rsi', 'sigmoid', 'tanh', 'volatility', 'volume', 'volume_change']

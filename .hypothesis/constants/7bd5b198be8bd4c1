@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\commander_capital_integration.py
+# hypothesis_version: 6.150.2
+
+[-0.05, 0.0, 0.05, 0.1, 0.15, 0.6, 0.7, 0.8, 90.0, 95.0, 105.0, 110.0, 'acceleration', 'bear', 'bull', 'confidence', 'current_aum', 'current_position', 'current_tier', 'direction', 'level', 'market_regime', 'medium', 'mid', 'momentum', 'name', 'neutral', 'positive', 'rationale', 'recommendation', 'resistance_levels', 'sideways', 'stable', 'strategy_name', 'strength', 'support_levels', 'support_resistance', 'tier1_micro', 'tier2_small', 'tier3_medium', 'tier4_large', 'tier5_million', 'tier6_ten_million', 'timestamp', 'trend', 'unknown', 'up', 'value', 'volatility', 'weights', '。', '中性市场，适合均衡配置', '中等资金（10万-50万）', '千万级资金（1000万以上）', '大资金（50万-100万）', '小资金（1万-10万）', '小资金（1千-1万）', '市场环境分析完成', '开始市场环境分析', '开始策略分析（带资本上下文）', '熊市环境，适合防御策略', '牛市环境，适合动量策略', '百万级资金（100万-1000万）', '震荡市场，适合套利策略']

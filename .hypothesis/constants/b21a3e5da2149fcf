@@ -1,0 +1,4 @@
+# file: C:\mia\src\monitoring\alert_manager.py
+# hypothesis_version: 6.150.2
+
+[200, '10m', '1m', '5m', 'CriticalLoss', 'DailyLossExceeded', 'GPUOverheating', 'GPU温度 > 85°C', 'GPU温度过高', 'HighMemoryUsage', 'LowDiskSpace', 'RedisDown', 'Redis连接失败', 'Redis连接失败次数 >= 3', 'SoldierDegraded', 'Soldier降级运行', 'alert', 'annotations', 'content', 'critical', 'description', 'emergency', 'expr', 'for', 'info', 'labels', 'markdown', 'msgtype', 'severity', 'summary', 'text', 'warning', '内存使用率 > 90%', '内存使用率过高', '日内亏损 > 10%，触发紧急锁定', '日内亏损 > 5%，需要暂停新开仓', '日内亏损超过10%', '日内亏损超过5%', '磁盘使用率 > 90%', '磁盘空间不足']

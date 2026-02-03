@@ -1,0 +1,4 @@
+# file: C:\mia\src\strategies\meta_following\s15_algo_hunter.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.01, 0.1, 0.15, 0.18, 0.2, 0.22, 0.25, 0.35, 0.4, 0.5, 0.6, 0.65, 0.7, 0.9, 1.0, 1.17, 2.0, 100.0, 'S15_Algo_Hunter', 'accumulation', 'algo_hunter_signals', 'behavior_type', 'buy', 'iceberg_buy', 'iceberg_probability', 'order_book', 'stealth_buy', 'tick_data', 'total_ask_volume', 'total_bid_volume', 'unknown', 'wash_out_end']

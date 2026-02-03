@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\evolution_tree.py
+# hypothesis_version: 6.150.2
+
+[0.1, ':', 'EvolutionTree', 'JSON字符串不能为空', 'Redis存储管理器不能为None', 'children', 'children_map', 'edges', 'family_id', 'node', 'nodes', 'parent_map', 'root_node_id', '暂无失败分支，继续保持当前进化方向', '根节点已存在，不能重复创建', '父节点ID不能为空', '策略名称不能为空', '继续探索不同的变异方向', '胶囊ID不能为空', '节点ID不能为空', '节点ID列表不能为空']

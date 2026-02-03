@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\expression_ast.py
+# hypothesis_version: 6.150.2
+
+['(', ')', '*', '+', ',', ', ', '-', '/', 'ASTNode', 'abs', 'binary_op', 'bollinger', 'column', 'constant', 'ema', 'function', 'log', 'macd', 'rsi', 'safe_div', 'sma', 'sqrt', 'unary_op', '函数调用需要至少1个参数']

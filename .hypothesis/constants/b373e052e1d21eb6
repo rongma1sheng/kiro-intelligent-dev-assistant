@@ -1,0 +1,4 @@
+# file: C:\mia\src\infra\data_preheater.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.001, 0.0015, 0.002, 0.5, 1.0, 10.0, 100, 1024, 10000, 1000000, '000001.SH', '1d', '1m', '399001.SZ', '399006.SZ', 'Tick数据', '__len__', 'bars_loaded', 'close', 'data/bar', 'date', 'duration', 'errors', 'factors_cached', 'factors_computed', 'high', 'loaded', 'low', 'ma_20', 'ma_5', 'memory_used_mb', 'momentum_20', 'momentum_5', 'name', 'open', 'status', 'success', 'symbol', 'symbols_cached', 'symbols_loaded', 'volatility_20', 'volume', 'volume_ratio', '分钟K线', '加载K线数据...', '加载中', '因子数据', '就绪', '指数数据', '数据预热已停止', '数据预热缓存已清除', '无标的需要预热', '日K线', '空闲', '计算中', '错误', '预热完成', '预计算因子...']

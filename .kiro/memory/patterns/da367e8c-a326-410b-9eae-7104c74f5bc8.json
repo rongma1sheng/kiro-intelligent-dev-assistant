@@ -1,0 +1,31 @@
+{
+  "id": "da367e8c-a326-410b-9eae-7104c74f5bc8",
+  "type": "best_practice",
+  "content": {
+    "title": "系统优化任务的完整执行流程",
+    "description": "从问题识别到解决方案实施的完整系统优化流程：1)问题诊断-通过健康检查识别具体问题 2)解决方案设计-针对每个问题设计专门的解决方案 3)工具开发-创建专门的优化脚本和工具 4)效果验证-使用独立的验证脚本测试优化效果 5)知识积累-将优化经验存储到记忆系统 6)报告生成-创建详细的优化报告。这种系统化方法确保优化工作的完整性和可追溯性",
+    "context": "系统优化任务执行",
+    "tags": [
+      "任务执行",
+      "系统优化",
+      "流程管理",
+      "质量保证"
+    ],
+    "code_example": "\n# 系统优化任务执行流程\ndef execute_system_optimization():\n    # 1. 问题诊断\n    issues = diagnose_system_issues()\n    \n    # 2. 解决方案设计\n    solutions = design_solutions(issues)\n    \n    # 3. 工具开发\n    tools = create_optimization_tools(solutions)\n    \n    # 4. 效果验证\n    results = verify_optimization_effects(tools)\n    \n    # 5. 知识积累\n    accumulate_knowledge(results)\n    \n    # 6. 报告生成\n    generate_final_report(results)\n    \n    return results\n"
+  },
+  "hash_key": "4425abfefff15991",
+  "metadata": {},
+  "created_at": "2026-02-03T12:19:14.935636",
+  "last_used": "2026-02-03T12:19:14.935636",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "任务执行",
+    "系统优化",
+    "流程管理",
+    "质量保证"
+  ],
+  "source": "task_execution_analysis",
+  "confidence": 1.0
+}

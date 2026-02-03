@@ -1,0 +1,133 @@
+{
+  "timestamp": "2026-02-03T13:10:22.500131",
+  "initiative": "团队学习参与度扩展",
+  "status": "已完成",
+  "before_expansion": {
+    "total_roles": 12,
+    "active_roles": 7,
+    "participation_rate": "58.3%"
+  },
+  "after_expansion": {
+    "total_roles": 12,
+    "active_roles": 12,
+    "participation_rate": "12/12 (100.0%)"
+  },
+  "expansion_activities": {
+    "new_participant_activities": 2,
+    "engagement_enhancement_activities": 0,
+    "total_new_activities": 2
+  },
+  "detailed_results": {
+    "Product Manager": {
+      "total_events": 2,
+      "skills_involved": [
+        "system_architecture"
+      ],
+      "recent_activity": 2,
+      "participation_status": "活跃"
+    },
+    "Software Architect": {
+      "total_events": 3,
+      "skills_involved": [
+        "system_architecture"
+      ],
+      "recent_activity": 3,
+      "participation_status": "活跃"
+    },
+    "Algorithm Engineer": {
+      "total_events": 3,
+      "skills_involved": [
+        "python_programming",
+        "system_architecture"
+      ],
+      "recent_activity": 3,
+      "participation_status": "活跃"
+    },
+    "Database Engineer": {
+      "total_events": 2,
+      "skills_involved": [
+        "system_architecture"
+      ],
+      "recent_activity": 2,
+      "participation_status": "活跃"
+    },
+    "UI/UX Engineer": {
+      "total_events": 1,
+      "skills_involved": [
+        "javascript_programming"
+      ],
+      "recent_activity": 1,
+      "participation_status": "活跃"
+    },
+    "Full-Stack Engineer": {
+      "total_events": 1,
+      "skills_involved": [
+        "python_programming"
+      ],
+      "recent_activity": 1,
+      "participation_status": "活跃"
+    },
+    "Security Engineer": {
+      "total_events": 2,
+      "skills_involved": [
+        "system_architecture"
+      ],
+      "recent_activity": 2,
+      "participation_status": "活跃"
+    },
+    "DevOps Engineer": {
+      "total_events": 1,
+      "skills_involved": [
+        "docker_containerization"
+      ],
+      "recent_activity": 1,
+      "participation_status": "活跃"
+    },
+    "Data Engineer": {
+      "total_events": 3,
+      "skills_involved": [
+        "python_programming",
+        "system_architecture"
+      ],
+      "recent_activity": 3,
+      "participation_status": "活跃"
+    },
+    "Test Engineer": {
+      "total_events": 2,
+      "skills_involved": [
+        "python_programming",
+        "persistence_test"
+      ],
+      "recent_activity": 2,
+      "participation_status": "活跃"
+    },
+    "Scrum Master/Tech Lead": {
+      "total_events": 1,
+      "skills_involved": [
+        "technical_writing"
+      ],
+      "recent_activity": 1,
+      "participation_status": "活跃"
+    },
+    "Code Review Specialist": {
+      "total_events": 1,
+      "skills_involved": [
+        "technical_writing"
+      ],
+      "recent_activity": 1,
+      "participation_status": "活跃"
+    }
+  },
+  "success_metrics": {
+    "target_participation_rate": "≥80%",
+    "achieved_participation_rate": "12/12 (100.0%)",
+    "target_met": true,
+    "improvement": "+5 个活跃角色"
+  },
+  "next_steps": [
+    "监控新参与角色的学习进展",
+    "建立定期的团队学习分享机制",
+    "为低参与度角色提供个性化支持",
+    "建立学习伙伴制度促进协作学习"
+  ]
+}

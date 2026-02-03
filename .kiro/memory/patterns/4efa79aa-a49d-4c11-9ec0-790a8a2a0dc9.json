@@ -1,0 +1,31 @@
+{
+  "id": "4efa79aa-a49d-4c11-9ec0-790a8a2a0dc9",
+  "type": "best_practice",
+  "content": {
+    "title": "复杂系统全面健康检查的设计模式",
+    "description": "设计复杂系统全面健康检查的最佳实践：1)多维度评估框架-系统健康、功能效果、集成状态、性能指标 2)分层检查策略-基础健康→核心功能→系统集成→性能表现 3)量化评分体系-每个维度独立评分，加权计算总分 4)问题分级机制-根据严重程度分为关键、重要、一般问题 5)自动化检查流程-减少人工干预，提高检查一致性 6)详细报告生成-包含量化数据、问题分析、改进建议 7)知识积累机制-将检查经验存储供未来参考。这种模式确保系统评估的全面性和客观性",
+    "context": "系统健康检查设计",
+    "tags": [
+      "系统检查",
+      "健康评估",
+      "设计模式",
+      "质量保证"
+    ],
+    "code_example": "\n# 复杂系统健康检查框架\nclass ComprehensiveSystemChecker:\n    def __init__(self):\n        self.check_dimensions = [\n            'system_health',\n            'functional_effectiveness', \n            'integration_status',\n            'performance_metrics'\n        ]\n        self.scoring_weights = {\n            'system_health': 0.3,\n            'functional_effectiveness': 0.3,\n            'integration_status': 0.2,\n            'performance_metrics': 0.2\n        }\n        \n    def run_comprehensive_check(self):\n        \"\"\"运行全面检查\"\"\"\n        results = {}\n        \n        for dimension in self.check_dimensions:\n            try:\n                # 执行维度检查\n                check_method = getattr(self, f'check_{dimension}')\n                score, details = check_method()\n                \n                results[dimension] = {\n                    'score': score,\n                    'details': details,\n                    'status': self.determine_status(score)\n                }\n            except Exception as e:\n                results[dimension] = {\n                    'score': 0,\n                    'error': str(e),\n                    'status': 'error'\n                }\n        \n        # 计算综合评分\n        overall_score = self.calculate_overall_score(results)\n        \n        # 生成报告\n        report = self.generate_comprehensive_report(results, overall_score)\n        \n        return report\n    \n    def calculate_overall_score(self, results):\n        \"\"\"计算综合评分\"\"\"\n        total_score = 0\n        total_weight = 0\n        \n        for dimension, weight in self.scoring_weights.items():\n            if dimension in results and 'score' in results[dimension]:\n                total_score += results[dimension]['score'] * weight\n                total_weight += weight\n        \n        return total_score / total_weight if total_weight > 0 else 0\n"
+  },
+  "hash_key": "90c463e41f9a110b",
+  "metadata": {},
+  "created_at": "2026-02-03T12:29:15.680794",
+  "last_used": "2026-02-03T12:29:15.680794",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "系统检查",
+    "健康评估",
+    "设计模式",
+    "质量保证"
+  ],
+  "source": "comprehensive_analysis",
+  "confidence": 1.0
+}

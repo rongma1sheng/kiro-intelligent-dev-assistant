@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\network_relationship_miner.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1e-08, 0.01, 0.2, 0.25, 0.3, 0.4, 0.5, 0.8, 1.0, 252, 'capital_flow', 'capital_flow_network', 'close', 'composite_network', 'correlation', 'correlation_network', 'industry', 'industry_ecosystem', 'industry_network', 'information', 'information_network', 'network_centrality', 'network_data', 'operators', 'spearman', 'stock_0', 'supply_chain', 'supply_chain_network', 'symbols', 'tolist', 'unknown', 'volume', '收益率数据不能为空', '数据中缺少 close 列', '数据中缺少 volume 列', '输入数据不能为空']

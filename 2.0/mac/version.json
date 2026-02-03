@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "description": "Kiro配置系统增强版本",
+  "features": [
+    "硅谷12人团队配置",
+    "任务层次化管理",
+    "增强Hook系统",
+    "质量门禁体系",
+    "跨平台模板系统",
+    "LLM反漂移系统"
+  ],
+  "platforms": {
+    "win": {
+      "supported": true,
+      "notes": "Windows 10+完全支持"
+    },
+    "mac": {
+      "supported": false,
+      "notes": "v2.0不支持Mac，请使用v2.1+"
+    },
+    "linux": {
+      "supported": true,
+      "notes": "Ubuntu 18.04+完全支持"
+    }
+  }
+}

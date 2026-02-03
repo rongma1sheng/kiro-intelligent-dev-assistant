@@ -1,0 +1,4 @@
+# file: C:\mia\src\infra\cross_chapter_event_bus.py
+# hypothesis_version: 6.150.2
+
+['cost_budget_warning', 'cost_limit_exceeded', 'coverage_gate_failed', 'doomsday_reset', 'doomsday_triggered', 'emergency_triggered', 'events_per_second', 'events_published', 'events_routed', 'health_check_failed', 'is_cross_chapter', 'monitoring_alert', 'quality_check_failed', 'risk_level_changed', 'routing_errors', 'routing_success_rate', 'source_chapter', 'start_time', 'target_chapter', 'uptime_seconds', '事件对象类型错误', '跨章节事件处理器注册完成', '跨章节事件总线初始化完成', '跨章节事件总线启动成功']

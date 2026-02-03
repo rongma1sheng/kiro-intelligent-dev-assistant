@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\style_rotation\style_rotation_miner.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1e-08, 0.1, 0.5, 'composite', 'crowding', 'data', 'dividend_yield', 'dividend_yield_cycle', 'growth_quantile', 'low_volatility', 'momentum_reversal', 'momentum_window', 'neutral', 'operator_whitelist', 'quality_junk', 'quality_quantile', 'reversal_window', 'sector_map', 'size_premium', 'size_premium_cycle', 'size_quantile', 'threshold', 'unknown', 'value_growth', 'value_growth_spread', 'value_quantile', 'window', '开始分析风格轮动状态...', '开始挖掘风格轮动因子', '计算价值成长价差...', '计算低波动异象...', '计算动量反转切换...', '计算因子拥挤指数...', '计算股息率周期...', '计算行业轮动信号...', '计算规模溢价周期...', '计算质量垃圾轮动...', '计算风格择时信号...']

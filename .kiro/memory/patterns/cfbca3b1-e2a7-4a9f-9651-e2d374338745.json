@@ -1,0 +1,36 @@
+{
+  "id": "cfbca3b1-e2a7-4a9f-9651-e2d374338745",
+  "type": "code_pattern",
+  "content": {
+    "code": "def hello_world():\n    print('Hello, World!')",
+    "description": "简单的Hello World函数",
+    "file_type": "python"
+  },
+  "hash_key": "b6e5960d1e89b5b7",
+  "metadata": {
+    "file_type": "python",
+    "usage_contexts": [
+      {
+        "file_type": "python",
+        "task_type": "coding",
+        "user_role": "Full-Stack Engineer",
+        "success": true,
+        "timestamp": "2026-02-03T11:14:11.677260"
+      }
+    ]
+  },
+  "created_at": "2026-02-03T11:14:11.607109",
+  "last_used": "2026-02-03T11:14:11.607109",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "function",
+    "hello",
+    "example",
+    "python",
+    "code"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

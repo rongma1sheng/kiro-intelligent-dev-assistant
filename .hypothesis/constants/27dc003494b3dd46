@@ -1,0 +1,4 @@
+# file: C:\mia\src\compliance\network_guard.py
+# hypothesis_version: 6.150.2
+
+['.', '10.0.0.0/8', '127.0.0.0/8', '169.254.169.254/32', '172.16.0.0/12', '192.168.0.0/16', '://', 'INFO', 'NETWORK_ACCESS', 'WARNING', 'allowed', 'audit_logger_enabled', 'blacklist_ip_range', 'blacklist_ip_ranges', 'context', 'default_deny', 'event_type', 'invalid_ip', 'ip_requires_domain', 'pypi.org', 'reason', 'target', 'unknown', 'whitelist_domains', 'whitelist_exact', 'whitelist_miss', 'whitelist_subdomain', '域名不能为空', '访问目标不能为空', '默认拒绝策略：目标不在白名单中']

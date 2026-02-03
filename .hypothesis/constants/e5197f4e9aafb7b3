@@ -1,0 +1,4 @@
+# file: C:\mia\src\risk\risk_monitor.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.05, 0.08, 0.1, 0.2, 0.3, 1.0, 1000000.0, -500, 100, 300, 1000, 'DOOMSDAY_SWITCH.lock', 'RiskMonitorThread', 'alert_type', 'level', 'message', 'symbol', 'threshold', 'timestamp', 'value', '仓位超限', '危险', '回撤超限', '安全', '新交易日，重置日盈亏', '日亏损超限', '末日', '末日开关', '末日开关已重置', '检测到末日开关锁文件', '止损触发', '止盈触发', '紧急', '警告', '集中度超限', '风控监控器已停止', '风控监控器已启动', '风控监控器已在运行']

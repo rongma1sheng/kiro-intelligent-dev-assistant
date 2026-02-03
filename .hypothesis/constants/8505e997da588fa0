@@ -1,0 +1,4 @@
+# file: C:\mia\src\compliance\data_models.py
+# hypothesis_version: 6.150.2
+
+[999, 'action', 'amount', 'check_type', 'daily_trade_limit', 'details', 'is_derivative', 'is_st', 'is_suspended', 'list_date', 'margin_ratio', 'message', 'name', 'new_stock', 'order_id', 'price', 'quantity', 'single_trade_amount', 'st_stock', 'strategy_id', 'suspended_stock', 'symbol']

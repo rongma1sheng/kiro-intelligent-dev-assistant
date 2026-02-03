@@ -1,0 +1,29 @@
+{
+  "id": "b30e35cb-93c6-447b-8b83-3ba5750938d3",
+  "type": "best_practice",
+  "content": {
+    "title": "GitHub技能: slack-gif-creator",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\" 来源: anthropic",
+    "category": "github_skills"
+  },
+  "hash_key": "fd31f53f61fe00f0",
+  "metadata": {
+    "category": "github_skills"
+  },
+  "created_at": "2026-02-03T11:47:29.400872",
+  "last_used": "2026-02-03T11:47:29.400872",
+  "usage_count": 0,
+  "success_rate": 0.0,
+  "priority": 2,
+  "tags": [
+    "github",
+    "anthropic",
+    "skills",
+    "slack-gif-creator",
+    "general",
+    "github_skills",
+    "best_practice"
+  ],
+  "source": "user",
+  "confidence": 1.0
+}

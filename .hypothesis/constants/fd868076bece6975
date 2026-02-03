@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\commander_factor_decision.py
+# hypothesis_version: 6.150.2
+
+[-0.05, -0.02, 0.0, 0.01, 0.02, 0.03, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 0.8, 0.9, 1.0, 1.05, 1.1, 1.2, 252, 'Arena结果列表不能为空', 'BUY', 'Commander因子决策引擎初始化完成', 'FactorRecommendation', 'HOLD', 'SELL', 'action', 'arena_score', 'avg_arena_score', 'avg_hit_rate', 'avg_ic', 'avg_return', 'beta', 'confidence', 'current_regime', 'current_weight', 'expected_return', 'expression', 'factor_id', 'factor_name', 'factor_rank', 'factor_source', 'factor_value', 'factor_weights', 'hit_rate', 'ic_std', 'max_drawdown', 'name', 'overall_score', 'passed', 'reality_score', 'reasoning', 'recommendations', 'risk_metrics', 'sharpe', 'sharpe_ratio', 'spearman', 'symbol', 'target_weight', 'timestamp', 'total_confidence', 'total_factors', 'var_95', 'volatility', 'z2h_certified', 'z2h_eligible', '低波动', '市场数据不能为空', '熊市', '牛市', '震荡市', '高波动']

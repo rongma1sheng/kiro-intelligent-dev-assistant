@@ -1,0 +1,4 @@
+# file: C:\mia\src\evolution\pipeline\data_models.py
+# hypothesis_version: 6.150.2
+
+[0.0, 100, 'completed', 'factor', 'factor_arena', 'factor_discovery', 'failed', 'in_progress', 'pending', 'simulation', 'skipped', 'strategy', 'strategy_arena', 'strategy_generation', 'strategy_library', 'z2h_certification', '实体ID不能为空']

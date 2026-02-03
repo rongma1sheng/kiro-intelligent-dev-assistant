@@ -1,0 +1,4 @@
+# file: C:\mia\src\brain\analyzers\trade_review_analyzer.py
+# hypothesis_version: 6.150.2
+
+[-0.05, -0.02, 0.0, 0.001, 0.003, 0.005, 0.01, 0.02, 0.05, 0.1, 0.2, 0.4, 0.5, 0.6, 0.8, 0.95, 1.0, 1.2, 1.5, '09:25', '14:55', 'appropriate', 'avg_holding_days', 'entry_price', 'entry_time', 'entry_timing', 'excellent', 'exit_time', 'exit_timing', 'fair', 'fill_rate', 'good', 'holding_period', 'max_position', 'neutral', 'pnl', 'pnl_pct', 'poor', 'position_size', 'profit', 'quality_score', 'return', 'risk_reward_ratio', 'slippage', 'stop_loss', 'symbol', 'time', '严格执行止损止盈', '仓位控制合理', '仓位超限', '仓位过重', '优化执行算法，使用限价单', '使用自动止损，减少人为干预', '入场时机把握准确', '在交易系统中设置仓位上限', '建立明确的入场规则，避免情绪化交易', '成交率', '执行质量良好', '控制风险比追求收益更重要', '提高报价竞争力，或选择流动性更好的标的', '数据不足', '无交易数据', '暂无明显错误', '止损执行不坚决', '止损未执行', '滑点', '纪律是盈利的基础', '继续保持良好的交易习惯', '设置硬止损，到价自动执行', '追涨杀跌', '逆势操作', '非正常交易时间', '顺势而为']
