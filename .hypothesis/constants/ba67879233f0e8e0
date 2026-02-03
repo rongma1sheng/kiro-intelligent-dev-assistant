@@ -1,4 +1,0 @@
-# file: C:\mia\src\monitoring\circuit_breaker_costs.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 0.9, 50.0, 1500.0, 'N/A', 'block_rate', 'blocked_requests', 'cost_tracker不能为None', 'current_daily_cost', 'current_monthly_cost', 'daily_limit', 'daily_limit_exceeded', 'is_open', 'manual_pause', 'monthly_limit', 'open_count', 'open_reason', 'open_timestamp', 'per_request_limit', 'total_checks']

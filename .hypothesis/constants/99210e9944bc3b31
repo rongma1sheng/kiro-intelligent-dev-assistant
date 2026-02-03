@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\monitoring\data_models.py
-# hypothesis_version: 6.150.2
-
-[0.03, 'factor_id不能为空', 'mild', 'moderate', 'none', 'pause_and_retest', 'reduce_weight', 'retire_immediately', 'severe', 'strategy_id不能为空']

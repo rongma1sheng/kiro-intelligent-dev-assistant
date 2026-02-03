@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\data_completeness_checker.py
-# hypothesis_version: 6.150.2
-
-['%Y-%m-%d', 'data_download.log', 'failed', 'r', 'success', 'summary', 'trading_date', 'utf-8', '下载日志不存在，无法补齐', '下载日志不存在，需要全量下载', '下载日志中没有交易日期信息', '开始数据完整性检查...', '数据补齐完成', '没有缺失的交易日']

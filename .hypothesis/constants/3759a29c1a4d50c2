@@ -1,4 +1,0 @@
-# file: C:\mia\src\compliance\doomsday_monitor.py
-# hypothesis_version: 6.150.2
-
-[0.0, 1.0, 10.0, 20.0, 95.0, 100, 'DOOMSDAY_TRIGGERED', 'actions_taken', 'consecutive_loss', 'critical', 'daily_loss', 'daily_pnl_percentage', 'event_type', 'is_triggered', 'lock_file', 'lock_file_exists', 'manual', 'margin_risk', 'margin_risk_ratio', 'reason', 'threshold', 'timestamp', 'trigger_time', 'trigger_type', 'trigger_value', '交易引擎已紧急停止', '创建lock文件', '发送告警通知', '告警通知已发送', '审计日志已记录', '末日开关已触发，无法再次检查', '末日开关已触发，无法再次触发', '末日状态已重置', '检测到末日开关文件', '紧急停止交易引擎', '记录审计日志', '🚨 末日风控触发']

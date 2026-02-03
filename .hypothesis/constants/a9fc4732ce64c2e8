@@ -1,4 +1,0 @@
-# file: C:\mia\src\strategies\meta_mean_reversion\s01_retracement.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.01, 0.02, 0.05, 0.08, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.9, 1.5, 100.0, 'MA10', 'MA20', 'S01_Retracement', 'avg_volume_20d', 'buy', 'close', 'close_20d_ago', 'high_20d', 'indicators', 'low_20d', 'ma_10', 'ma_20', 'prices', 'symbols', 'unknown', 'volume', 'volumes']

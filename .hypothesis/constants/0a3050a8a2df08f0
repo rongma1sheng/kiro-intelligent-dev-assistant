@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\risk_mining\risk_factor.py
-# hypothesis_version: 6.150.2
-
-[1e-06, 'RiskEvent', 'RiskFactor', 'confidence', 'event_type', 'factor', 'factor_type', 'flow', 'metadata', 'microstructure', 'portfolio', 'risk_value', 'symbol', 'timestamp']

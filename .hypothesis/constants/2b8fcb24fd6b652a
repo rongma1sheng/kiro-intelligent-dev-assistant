@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\risk_mining\risk_factor_registry.py
-# hypothesis_version: 6.150.2
-
-[100, 'confidence', 'event_bus不能为None', 'factor_type', 'factors_collected', 'factors_per_second', 'factors_published', 'factor不能为None', 'flow', 'metadata', 'microstructure', 'miners_registered', 'miner不能为None', 'portfolio', 'queries_executed', 'risk_event_type', 'risk_factor_registry', 'risk_value', 'start_time', 'symbol', 'symbols_tracked', 'symbol不能为空', 'total_factors', 'uptime_seconds', '挖掘器已经注册']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\portfolio_doctor.py
-# hypothesis_version: 6.150.2
-
-[-0.2, -0.15, -0.1, -0.05, 0.0, 0.1, 0.3, 0.5, 0.8, 1.0, 'affected_positions', 'avg_loss', 'avg_win', 'cost_price', 'current_price', 'description', 'level', 'losing_count', 'market_value', 'overall_status', 'pnl', 'pnl_ratio', 'position_details', 'quantity', 'report_date', 'risk_exposures', 'risk_type', 'sector', 'suggestion', 'suggestions', 'symbol', 'timestamp', 'total_market_value', 'total_pnl', 'total_pnl_ratio', 'total_positions', 'weight', 'win_rate', 'winning_count', '健康', '危险', '回撤风险', '建议分散投资，降低单一持仓比例', '建议检查止损策略，考虑减仓控制风险', '建议评估这些持仓是否需要止损', '持仓正常', '持仓状态良好，继续保持当前策略', '未分类', '未知', '波动率风险', '流动性风险', '相关性风险', '行业风险', '警告', '集中度风险']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\arena\strategy_data_models.py
-# hypothesis_version: 6.150.2
-
-[0.0, 'active', 'arbitrage', 'arena_score', 'arena_testing', 'black_swan', 'candidate', 'certified', 'circuit_breaker', 'deprecated', 'factor_combo', 'flash_crash', 'liquidity_drought', 'market_making', 'max_drawdown', 'mean_reversion', 'momentum', 'monitoring', 'pure_factor', 'retired', 'sharpe_ratio', 'simulation', 'volatility_explosion', '源因子列表不能为空', '策略ID不能为空', '策略代码不能为空', '策略名称不能为空']

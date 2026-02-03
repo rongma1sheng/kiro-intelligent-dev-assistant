@@ -1,4 +1,0 @@
-# file: C:\mia\src\risk\risk_identification_system.py
-# hypothesis_version: 6.150.2
-
-[0.05, 0.1, 0.2, 0.3, 0.5, 0.7, 0.8, 1.0, 1.5, 2.0, 3600, 'bid_ask_spread', 'broker_rating', 'counterparty_risk', 'crash', 'credit_exposure', 'critical', 'daily_loss', 'daily_pnl_ratio', 'data_quality_score', 'description', 'gpu_health', 'high', 'level_counts', 'liquidity', 'liquidity_risk', 'low', 'market_depth', 'market_risk', 'market_trend', 'market_volatility', 'medium', 'network_health', 'normal', 'operational_risk', 'overall_health', 'overall_risk_level', 'overfitting_score', 'recent_events', 'redis_health', 'risk_counts', 'risk_level', 'risk_type', 'settlement_delay', 'strategy_sharpe', 'system_health', 'system_risk', 'threshold', 'timestamp', 'total_events', 'volatile', 'volatility', 'volume_ratio', '市场崩盘风险']

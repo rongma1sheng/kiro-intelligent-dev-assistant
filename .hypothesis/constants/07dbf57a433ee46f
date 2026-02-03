@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\data_downloader.py
-# hypothesis_version: 6.150.2
-
-[1000, '%Y-%m-%d', '%Y-%m-%d %H:%M:%S', '.', 'FAILED', 'SUCCESS', 'akshare', 'asset_type', 'backup', 'data_download.log', 'data_range', 'discoveries', 'download_time_ms', 'download_timestamp', 'downloads', 'end_date', 'error', 'failed', 'fallback_to', 'fallback_used', 'guojin', 'interface_used', 'primary', 'probe_discovery.json', 'r', 'recommended', 'retry_count', 'rows_downloaded', 'start_date', 'status', 'success', 'summary', 'symbol', 'total_symbols', 'trading_date', 'utf-8', 'w']

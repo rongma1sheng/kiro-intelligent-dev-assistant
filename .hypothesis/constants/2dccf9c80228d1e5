@@ -1,4 +1,0 @@
-# file: C:\mia\src\execution\multi_account_data_models.py
-# hypothesis_version: 6.150.2
-
-['account_id', 'account_type', 'available_cash', 'broker_name', 'confidence', 'connected', 'enabled', 'error', 'error_message', 'health_status', 'healthy', 'last_update_time', 'market_value', 'max_capital', 'metadata', 'mini_qmt_path', 'position_count', 'priority', 'qmt_config', 'reason', 'routing_strategy', 'timestamp', 'today_pnl', 'total_assets', 'warning', '实盘', '模拟盘']

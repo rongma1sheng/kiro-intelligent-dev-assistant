@@ -1,4 +1,0 @@
-# file: C:\mia\src\core\exceptions.py
-# hypothesis_version: 6.150.2
-
-['CAPACITY_ERROR', 'CONFIG_ERROR', 'ConfigurationError', 'DataShapeError', 'EVENTBUS_ERROR', 'EVOLUTION_ERROR', 'EventBusError', 'EventPublishError', 'EventTimeoutError', 'INFERENCE_ERROR', 'INIT_ERROR', 'LatencyExceededError', 'MEMORY_ERROR', 'MEMORY_LEAK', 'MIAException', 'MODEL_LOAD_ERROR', 'MemoryCapacityError', 'MemoryLeakError', 'MemoryOperationError', 'ModelInferenceError', 'ModelLoadError', 'ModelTrainingError', 'PERFORMANCE_ERROR', 'PerformanceError', 'RESOURCE_EXHAUSTED', 'TRAINING_ERROR', 'VALIDATION_ERROR', 'ValidationError', 'data_shape', 'details', 'error_code', 'event_type', 'exception_type', 'input_shape', 'memory_address', 'message', 'model_type', 'ms', 'operation', 'paper_title', 'publish', 'sample_count', 'stage', 'validate', 'wait_response']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\pipeline\pipeline_state_tracker.py
-# hypothesis_version: 6.150.2
-
-[0.0, 100, 'completed', 'completion_rate', 'failed', 'failure_rate', 'in_progress', 'stage_distribution', 'total', '清空所有进度记录']

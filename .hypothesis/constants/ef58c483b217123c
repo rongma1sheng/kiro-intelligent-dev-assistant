@@ -1,4 +1,0 @@
-# file: C:\mia\src\monitoring\performance_monitor.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 100, 150, 1000, 150000, 'Redis吞吐量数据为空，无法检测回归', 'Soldier延迟数据为空，无法检测回归', 'baseline_value', 'baselines', 'count', 'current', 'current_value', 'degradation_pct', 'has_regression', 'max', 'mean', 'min', 'p50', 'p95', 'p99', 'redis', 'redis_throughput', 'sample_counts', 'soldier', 'soldier_latency', 'soldier_p99', 'threshold_pct']

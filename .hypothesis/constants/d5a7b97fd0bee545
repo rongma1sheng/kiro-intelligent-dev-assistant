@@ -1,4 +1,0 @@
-# file: C:\mia\src\strategies\meta_momentum\s02_aggressive.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.15, 0.2, 0.3, 0.5, 0.95, 1.5, 50.0, 100.0, 250, 'S02_Aggressive', 'avg_volume_20d', 'buy', 'close', 'high_20d', 'indicators', 'macd_hist', 'prices', 'rsi_14', 'symbols', 'unknown', 'volume', 'volumes']

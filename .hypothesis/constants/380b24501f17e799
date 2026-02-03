@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\factor_lifecycle_manager.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 0.3, 0.5, 0.7, 1.0, 1.5, 3.0, -100, 100, 300, 3600, 'active', 'archived', 'avg_weight', 'bear', 'bull', 'degrading', 'high_volatility', 'low_volatility', 'paused', 'regime', 'retired', 'sideways', 'total_weight', 'z2h_certified_count', '严重衰减', '启动因子生命周期监控', '因子ID不能为空', '因子名称不能为空']

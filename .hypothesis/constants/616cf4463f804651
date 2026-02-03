@@ -1,4 +1,0 @@
-# file: C:\mia\src\monitoring\cost_tracker.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 0.5, 1.0, 50.0, 1500.0, 1000000, '%Y%m', '%Y%m%d', 'alert_count', 'budget_exceeded', 'cost:alerts', 'cost:total', 'daily_budget', 'daily_cost', 'daily_exceeded', 'daily_utilization', 'deepseek-chat', 'deepseek-r1', 'excess', 'local-model', 'monthly_budget', 'monthly_cost', 'monthly_exceeded', 'monthly_utilization', 'qwen-next-80b', 'qwen-scholar', 'timestamp', 'total_calls', 'total_cost', 'type', '模型名称不能为空']

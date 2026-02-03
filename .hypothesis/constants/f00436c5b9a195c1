@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\live_strategy_loader.py
-# hypothesis_version: 6.150.2
-
-['arena_tier', 'arena_value', 'capital_tier', 'holding_period_days', 'live_value', 'matched_params', 'max_industry', 'max_position', 'max_single_stock', 'mismatched_params', 'param', 'parameters', 'stop_loss_pct', 'strategy_name', 'take_profit_pct', 'target_tier', 'tier1_micro', 'tier2_small', 'tier3_medium', 'tier4_large', 'tier5_million', 'tier6_ten_million', 'timestamp', 'trading_frequency', 'valid']

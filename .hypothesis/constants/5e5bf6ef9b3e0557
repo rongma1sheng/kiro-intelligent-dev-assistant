@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\config\configuration_manager.py
-# hypothesis_version: 6.150.2
-
-['.json', '.yaml', '.yml', 'arena_pass_score', 'auto_reload', 'config_path', 'decay_ic_threshold', 'has_errors', 'last_modified', 'utf-8', 'version', 'z2h_gold_threshold', '使用默认配置', '未指定配置文件路径', '未设置配置文件路径，无法重载', '配置重载失败，保持原配置', '配置重载成功']

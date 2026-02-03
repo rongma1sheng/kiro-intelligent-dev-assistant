@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\spsc_manager.py
-# hypothesis_version: 6.150.2
-
-[0.0, 100, 1024, 1000000, 'I', 'Q', 'SPSCManager', '_mock_buffer', 'utf-8', '共享内存名称不能为空']

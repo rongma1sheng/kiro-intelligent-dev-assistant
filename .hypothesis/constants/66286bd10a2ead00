@@ -1,4 +1,0 @@
-# file: C:\mia\src\integration\scheduler_pipeline.py
-# hypothesis_version: 6.150.2
-
-[1000, 'default', 'dependencies', 'enabled', 'execution_count', 'last_error', 'last_execution_time', 'name', 'performance_metrics', 'pipeline_id', '数据接收器不能为空', '数据源不能为空', '管道名称不能为空']

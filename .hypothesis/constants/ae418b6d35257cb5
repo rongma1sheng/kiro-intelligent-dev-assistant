@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\config\data_models.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.0003, 0.001, 0.01, 0.03, 0.05, 0.15, 0.2, 0.3, 0.4, 0.5, 0.55, 0.7, 1.0, 1.2, 1.3, 1.5, 2.0, 100000.0, 200000.0, 500000.0, 1000000.0, 365, '1.0.0', 'arena', 'commission_rate', 'cross_market_weight', 'decay', 'duration_days', 'file_storage_enabled', 'hell_track_weight', 'ic_warning_threshold', 'max_drawdown', 'mild_decay_days', 'min_ic', 'min_ir', 'min_profit_factor', 'min_return', 'min_sharpe', 'min_win_rate', 'moderate_decay_days', 'pass_score', 'reality_track_weight', 'redis_ttl_days', 'severe_decay_days', 'simulation', 'slippage_rate', 'tier_1_capital', 'tier_2_capital', 'tier_3_capital', 'tier_4_capital', 'version', 'z2h']

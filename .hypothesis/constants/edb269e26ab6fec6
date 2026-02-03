@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\error_handling.py
-# hypothesis_version: 6.150.2
-
-[200, 1000, 'Arena测试', 'available_days', 'by_category', 'by_severity', 'category', 'code_snippet', 'conflict_type', 'current_drawdown', 'details', 'diversity_score', 'duration_seconds', 'expression', 'factor_id', 'factor_ids', 'market', 'message', 'metric_name', 'missing_metrics', 'order_id', 'reason', 'recorded_errors', 'required_days', 'scenario_type', 'severity', 'source', 'strategy_id', 'symbol', 'syntax_error', 'threshold', 'timestamp', 'total_errors', 'unresolved_errors', '严重', '信息', '数据', '模拟', '监控', '策略生成', '系统', '警告', '认证', '遗传算法', '错误', '错误跟踪器已清空', '集成']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\slippage_analyzer.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.2, 0.5, 1.5, 2000000000.0, 5000000000.0, 20000000000.0, 100000000000.0, 10000, '-', '0-5bp', '09:30-10:00', '10-20bp', '10:00-10:30', '10:30-11:00', '11:00-11:30', '13:00-13:30', '13:30-14:00', '14:00-14:30', '14:30-15:00', '20-50bp', '5-10bp', ':', '>50bp', 'amount', 'avg_volume', 'buy', 'direction', 'expected_price', 'fill_price', 'high', 'large', 'long', 'low', 'market_cap', 'medium', 'mega', 'micro', 'p50', 'p75', 'p90', 'p95', 'p99', 'price', 'quantity', 'side', 'signal_price', 'small', 'time', 'timestamp', 'turnover', 'turnover_rate', 'volume', '买入', '在流动性充足时段集中交易', '平均滑点较高，建议优先使用限价单', '无交易数据', '滑点处于中等水平，有优化空间', '考虑使用TWAP/VWAP算法执行大单']

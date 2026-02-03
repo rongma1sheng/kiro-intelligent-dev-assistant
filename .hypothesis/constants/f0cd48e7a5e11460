@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\rolling_backtest.py
-# hypothesis_version: 6.150.2
-
-[-0.1, 0.0, 0.5, 0.7, 1.0, 126, 252, 'annual_return', 'best_window_period', 'best_window_return', 'calmar', 'expanding', 'failed_criteria', 'fixed', 'max_annual_return', 'max_drawdown', 'max_sharpe', 'mean_annual_return', 'mean_calmar', 'mean_max_drawdown', 'mean_sharpe', 'mean_sortino', 'median_annual_return', 'median_sharpe', 'min_annual_return', 'min_sharpe', 'num_windows', 'passed_criteria', 'return_range', 'return_stability', 'sharpe', 'sharpe_range', 'sharpe_stability', 'sortino', 'stable', 'std_annual_return', 'std_sharpe', 'worst_max_drawdown', 'worst_window_period', 'worst_window_return', '固定窗口', '开始稳定性检查', '扩展窗口']

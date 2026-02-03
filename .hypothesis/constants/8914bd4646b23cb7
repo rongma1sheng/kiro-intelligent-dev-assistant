@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\service_discovery.py
-# hypothesis_version: 6.150.2
-
-[65535, 'healthy', 'healthy_instances', 'heartbeat_timeout', 'host', 'instance_id', 'last_heartbeat', 'metadata', 'port', 'random', 'registered_at', 'round_robin', 'service_name', 'services', 'status', 'total', 'total_discoveries', 'total_instances', 'total_registrations', 'total_services', 'unhealthy', 'unhealthy_instances', '主机地址不能为空', '实例ID不能为空', '服务名称不能为空']

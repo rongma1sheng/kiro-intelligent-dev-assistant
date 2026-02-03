@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\time_series_dl_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 1e-10, 0.74, 0.75, 0.76, 0.77, 0.78, 0.79, 0.8, 0.82, 1000, 'Attention', 'DeepAR', 'DeepAR概率预测的不确定性度量', 'LSTM', 'LSTM预测残差，反映价格不可预测成分', 'N-BEATS', 'N-BEATS分解的趋势和季节性强度', 'Seq2Seq', 'Seq2Seq预测误差反映的市场不确定性', 'TCN', 'TCN识别的时序模式强度', 'Transformer', 'WaveNet', 'WaveNet大感受野捕获的长期依赖', 'attention_scores', 'count', 'description', 'dilation_rates', 'encoding_frequencies', 'error_count', 'forecast_horizon', 'is_healthy', 'lookback_window', 'mean_ms', 'miner_name', 'miner_type', 'operators_count', 'p50_ms', 'p95_ms', 'p99_ms', 'seasonal_periods', 'tcn_temporal_pattern', 'time_series_dl', 'trend_window', '价格数据不能为空', '性能监控器已重置', '模型缓存已清空', '注意力机制计算的时序重要性权重']

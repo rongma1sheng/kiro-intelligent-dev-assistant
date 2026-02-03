@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\deepseek_client.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 0.7, 1.0, 2.0, 200, 1000, 1000000, 'Authorization', 'Content-Type', 'DeepSeekClient', 'DeepSeekConfig', 'DeepSeekResponse', 'Prompt不能为空', 'RateLimiter', 'application/json', 'avg_latency_ms', 'choices', 'content', 'deepseek-chat', 'failed_requests', 'finish_reason', 'max_tokens', 'message', 'messages', 'model', 'retry_count', 'role', 'success_rate', 'successful_requests', 'temperature', 'total_cost', 'total_requests', 'total_tokens', 'unknown', 'usage', 'user']

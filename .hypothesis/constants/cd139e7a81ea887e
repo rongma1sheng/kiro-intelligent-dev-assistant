@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\adaptive_batch_scheduler.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.0001, 0.001, 0.005, 0.01, 0.1, 0.3, 0.5, 0.7, 0.8, 1.0, 1.2, 10.0, 50.0, 100.0, 200.0, 1000.0, 5000.0, 100, 200, 500, 1000, '=', 'ERROR', 'IDLE', 'READY', 'Request expired', 'SHUTDOWN', 'Test completed!', '__main__', 'avg_batch_size', 'avg_latency_ms', 'batches_processed', 'commander', 'config', 'current_batch_size', 'error', 'latency_ms', 'max_batch_size', 'max_queue_size', 'memory_pressure', 'priority_stats', 'queue_overflow_count', 'queue_size', 'queue_status', 'reason', 'requests', 'running', 'scholar', 'soldier', 'state', 'success', 'target_latency_ms', 'timeout', 'total_requests']

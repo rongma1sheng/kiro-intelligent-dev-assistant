@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\z2h\signature_manager.py
-# hypothesis_version: 6.150.2
-
-['arena_score', 'certification_date', 'certification_level', 'metadata', 'sha256', 'signature', 'simulation_metrics', 'source_factors', 'strategy_id', 'strategy_name', 'utf-8', '数据缺少signature字段']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\capital\aum_sensor.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.05, 10000.0, 'AUM监控已停止', 'aum', 'event_type', 'get_aum', 'new_tier', 'old_tier', 'tier_change', 'timestamp', '停止AUM监控', '开始监控AUM变化']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\compliance\trading_compliance_manager.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.3, 1000000.0, 200, 172800, '%Y%m%d', 'COMPLIANCE_CHECK', 'amount', 'blacklist', 'checked_at', 'current_count', 'current_ratio', 'date', 'days_since_listing', 'details', 'event_type', 'is_new_stock', 'is_st', 'is_suspended', 'limit', 'list_date', 'message', 'name', 'order', 'passed', 'required_days', 'result', 'source', 'suspended_set', 'symbol', 'utf-8', 'violations', 'violations_count', '重置当日交易次数']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\analysis\knowledge_base.py
-# hypothesis_version: 6.150.2
-
-[0.0, 100, 1000, 6379, 'Bronze', 'Gold', 'Platinum', 'Silver', 'anti_pattern', 'anti_patterns', 'certification_tier', 'children_ids', 'critical', 'elite_strategies', 'elite_strategy', 'evolution_nodes', 'evolution_tree', 'failed_strategies', 'failed_strategy', 'gene_capsule', 'gene_capsules', 'high', 'keywords', 'localhost', 'low', 'max_generation', 'medium', 'nodes', 'root_nodes', 'total_nodes', 'updated_at', '关闭KnowledgeBase连接', '初始化演化树', '失败原因不能为空', '搜索查询不能为空', '未检测到反模式', '模式ID不能为空', '模式名称不能为空', '策略ID不能为空', '策略代码不能为空', '胶囊ID不能为空', '节点ID不能为空']

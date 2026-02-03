@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\resilient_redis_pool.py
-# hypothesis_version: 6.150.2
-
-[5.0, 6379, 'F', 'RedisHealthCheck', 'Redis健康检查主循环已启动', 'Redis健康检查主循环已退出', 'Redis健康检查线程已停止', 'Redis健康检查线程已启动', 'Redis库不可用', 'Redis库不可用，使用模拟模式', 'Redis连接已断开', 'connected', 'degraded', 'disconnected', 'localhost', 'reconnecting', '健康检查已在运行', '尝试重新连接Redis...', '未知错误']

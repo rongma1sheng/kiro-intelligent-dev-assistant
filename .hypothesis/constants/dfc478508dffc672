@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\certification_notification_service.py
-# hypothesis_version: 6.150.2
-
-[0.0, '  无详细信息', 'arena_completed', 'arena_passed', 'arena_score', 'best_tier', 'certification_failed', 'certification_level', 'downgrade_reason', 'duration_days', 'email', 'failed', 'failed_stage', 'failure_details', 'failure_reason', 'gold', 'high', 'layer_results', 'low', 'max_allocation_ratio', 'new_allocation_ratio', 'new_level', 'normal', 'overall_metrics', 'passed', 'platinum', 'previous_level', 'revocation_reason', 'score', 'silver', 'simulation_completed', 'simulation_metrics', 'simulation_passed', 'sms', 'strategy_id', 'strategy_name', 'success', 'system', 'urgent', 'wechat', '✅', '✅ 通过', '❌ 未通过', '未通过', '通过', '🏆', '🥇', '🥈']

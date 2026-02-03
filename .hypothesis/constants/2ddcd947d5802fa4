@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\etf_lof\logging_config.py
-# hypothesis_version: 6.150.2
-
-['100 MB', '30 days', 'CRITICAL', 'DEBUG', 'ERROR', 'INFO', 'LoggingConfig', 'SUCCESS', 'TRACE', 'WARNING', 'action', 'component', 'compression', 'configure', 'etf_lof', 'log', 'log_file', 'log_level', 'retention', 'rotation', 'unknown', 'zip']

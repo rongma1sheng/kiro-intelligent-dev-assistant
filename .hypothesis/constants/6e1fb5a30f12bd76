@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\z2h_certification.py
-# hypothesis_version: 6.150.2
-
-[-0.02, 0.0, 0.5, 1.2, 2.0, 100.0, 252, '%Y-%m-%d', 'annual_return', 'best_tier', 'calmar', 'certification_date', 'cvar_5pct', 'eligibility_check', 'eligible', 'excellent', 'excellent_ratio', 'expectancy', 'failed_criteria', 'grade', 'max_dd_duration_days', 'max_drawdown', 'max_single_loss', 'metrics', 'passed_criteria', 'payoff_ratio', 'qualified', 'revoke_date', 'revoke_reason', 'revoked', 'sharpe', 'simulation_result', 'sortino', 'strategy_name', 'win_rate', '不合格', '缺少Arena测试结果']

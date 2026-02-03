@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\z2h\z2h_certifier.py
-# hypothesis_version: 6.150.2
-
-[0.0, 6379, 'GOLD', 'PLATINUM', 'SILVER', 'Z2HCertifier初始化完成', 'alert_type', 'arena_score', 'capsule_tampering', 'certification_date', 'certification_level', 'certification_levels', 'data/z2h_capsules', 'localhost', 'manual_revocation', 'max_drawdown', 'message', 'reason', 'sharpe_ratio', 'storage_stats', 'strategy_id', 'strategy_name', 'total_capsules', 'total_certified', 'z2h_certifier']

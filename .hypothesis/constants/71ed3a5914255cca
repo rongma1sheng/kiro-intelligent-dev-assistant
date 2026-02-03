@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\arena\strategy_reality_track.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.0001, 0.0003, 0.1, 0.15, 0.2, 0.3, 0.35, 0.5, 1.0, 2.0, 5.0, 1000000.0, 'amount', 'annual_return', 'avg_holding_period', 'calmar_ratio', 'cost', 'equity', 'equity_curve', 'max_drawdown', 'positions', 'profit_factor', 'return', 'returns', 'sharpe_ratio', 'sortino_ratio', 'symbol', 'total_trades', 'trades', 'win_rate', '历史数据不能为空']

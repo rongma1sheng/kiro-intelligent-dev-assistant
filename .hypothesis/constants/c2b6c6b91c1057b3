@@ -1,4 +1,0 @@
-# file: C:\mia\src\capital\capital_allocator.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.05, 0.1, 0.2, 1.0, -1000, 100, 1000, 100000, 1000000, 'assassin', 'aum', 'description', 'event_type', 'high', 'intraday', 'leviathan', 'low', 'max_position_size', 'medium', 'mode', 'mode_change', 'mode_characteristics', 'neutral', 'new_mode', 'old_mode', 'position', 'risk_tolerance', 'strategies', 'strategy_count', 'strategy_name', 'swing', 'tier', 'tier_range', 'timestamp', 'very_high', 'weights', 'wolf_pack', '利维坦模式 - 大资金稳健运作', '刺客模式 - 小资金高频快进快出', '开始感知资本物理状态...', '狼群模式 - 中等资金多策略并行', '策略元数据缺少strategy_name']

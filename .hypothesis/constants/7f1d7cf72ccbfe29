@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\simulation\simulation_engine.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.01, 100000.0, 200000.0, 500000.0, 1000000.0, 'buy', 'close', 'cost', 'price', 'sell', 'shares', 'side', 'symbol', 'value']

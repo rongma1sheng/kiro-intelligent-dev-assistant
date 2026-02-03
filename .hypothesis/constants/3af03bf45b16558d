@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\nonstationarity_analyzer.py
-# hypothesis_version: 6.150.2
-
-[-0.2, 0.0, 1e-10, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 1.0, 1.2, 1.3, 1.5, 100, 120, 200, 500, 'avg_return', 'bear_high_vol', 'bear_low_vol', 'bull_high_vol', 'bull_low_vol', 'critical', 'description', 'deteriorating', 'frequency', 'from', 'high', 'improving', 'index', 'low', 'medium', 'parameter_history', 'parameters', 'returns', 'stable', 'to', 'unknown', 'volatility', '为不同市场状态设置不同的参数组合', '分析失败，建议人工审核', '市场结构相对稳定', '建议定期进行Walk-Forward分析', '收益率中枢上移', '收益率中枢下移', '数据非平稳，建议使用差分或对数收益率', '波动率显著上升', '波动率显著下降', '熊市低波动', '熊市高波动', '牛市低波动', '牛市高波动', '考虑使用在线学习方法实时适应市场', '考虑使用自适应参数或状态切换模型', '自相关结构发生变化']

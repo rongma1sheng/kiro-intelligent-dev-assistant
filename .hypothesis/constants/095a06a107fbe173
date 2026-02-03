@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\soldier_failover.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.2, 2.0, 60.0, 100, 1000, 'Soldier切换到Cloud模式', 'action', 'cloud', 'cloud_default', 'confidence', 'hold', 'local', 'local_default', 'mia:soldier:mode', 'offline', 'source']

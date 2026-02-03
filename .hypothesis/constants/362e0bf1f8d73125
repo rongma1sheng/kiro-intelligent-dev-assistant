@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\price_volume\price_volume_miner.py
-# hypothesis_version: 6.150.2
-
-[-1.0, 0.0, 1e-08, 0.02, 0.3, 0.4, 1.0, 2.0, 'close', 'divergence_by_type', 'divergence_threshold', 'high', 'low', 'money_flow_index', 'obv_divergence', 'operator_whitelist', 'price_volume_trend', 'tick_volume_analysis', 'volume', 'volume_surge_pattern', 'volume_weighted_rsi', 'vwap_deviation', '价格或指标序列为空']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\arena\factor_reality_track.py
-# hypothesis_version: 6.150.2
-
-[0.0, 252, 'close', 'volume', '历史数据不能为空', '因子值和收益率没有共同的索引', '因子值计算结果为空', '收益率数据不能为空']

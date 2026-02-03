@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\pipeline.py
-# hypothesis_version: 6.150.2
-
-['DataPipeline started', 'DataPipeline stopped', 'T', 'sink不能为空', 'source不能为空', '子类必须实现process方法', '子类必须实现read方法', '子类必须实现write方法', '数据管道已经在运行']

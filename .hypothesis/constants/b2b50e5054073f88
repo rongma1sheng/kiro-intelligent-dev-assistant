@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\prompt_evolution.py
-# hypothesis_version: 6.150.2
-
-[0.0, 1.0, 2.0, 100, '\n\n上下文: 在当前市场状态下评估。', '\n\n原则: 顺势而为，不逆市操作。', '\n\n提示: 考虑技术指标的综合信号。', '\n\n注意: 特别关注仓位管理和风险控制。', '\n\n约束条件: 必须遵守风险控制规则。', '\n\n背景: 结合主力资金流向和市场情绪。', '\n\n要求: 止损线严格执行。', '\n\n规则: 优先考虑风险而非收益。', '\n\n限制: 单股仓位不超过5%。', 'Classes defined:', '__main__', 'add_constraint', 'add_context', 'add_example', 'avg_win_rate', 'best_win_rate', 'change_tone', 'content', 'created_at', 'generation', 'greedy', 'inf', 'mutation_type', 'next_evolution_in', 'parent_id', 'pool_size', 'random', 'rephrase', 'simplify', 'successes', 'template_id', 'total_evolutions', 'total_uses', 'ucb', 'uses', 'win_rate', '关注', '决策', '分析', '判断', '务必认真', '建议', '推荐', '权衡', '注意', '考虑', '评估', '请仔细', '请全面', '请客观', '请深入']

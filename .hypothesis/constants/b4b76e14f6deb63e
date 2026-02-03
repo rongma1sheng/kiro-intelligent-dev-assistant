@@ -1,4 +1,0 @@
-# file: C:\mia\src\strategies\meta_event\s16_theme_hunter.py
-# hypothesis_version: 6.150.2
-
-[-0.03, 0.0, 0.005, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.5, 0.6, 0.85, 1.0, 2.5, 1000000000.0, 5000000000.0, 50000000000.0, 100000000000.0, 'S16_Theme_Hunter', 'buy', 'change_pct', 'first_seen', 'heat_score', 'hold', 'leader_score', 'market_cap', 'name', 'news', 'news_count', 'price', 'related_stocks', 'report_count', 'research_reports', 'scholar', 'sell', 'sentiment', 'sentiment_score', 'stocks', 'symbol', 'theme_event', 'theme_relevance', 'themes', 'volume_ratio', '题材黑名单已清空']

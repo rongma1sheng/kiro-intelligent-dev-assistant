@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\risk_mining\microstructure_risk_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.15, 0.3, 0.5, 1.0, 2.0, 3.0, 'ask_prices', 'ask_volumes', 'avg_bid_volume_20d', 'avg_spread_20d', 'bid_prices', 'bid_volumes', 'depth_shortage', 'detection_count', 'liquidity_drought', 'microstructure', 'orderbook_imbalance', 'signals', 'spread_widening']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\anti_pattern_library.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.7, 1.0, '**', '/', 'N', 'Redis存储管理器不能为None', 'V', '\\b[a-z_][a-z0-9_]*\\b', '\\d+\\.?\\d*', '\\s+', 'delay', 'failures_by_step', 'pow', 'rank', 'total_failures', 'total_patterns', 'ts_', '因子意义分析失败，考虑简化因子表达式', '因子表达式不能为空', '失败原因不能为空', '幂运算', '幂运算可能导致数值溢出', '延迟函数', '建议尝试不同的因子结构', '排名函数', '时序函数', '检查是否存在未来函数，避免使用未来数据', '注意除法运算可能导致除零错误', '清空所有反向模式', '除法运算']

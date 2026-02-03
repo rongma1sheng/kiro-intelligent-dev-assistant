@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\library\data_models.py
-# hypothesis_version: 6.150.2
-
-[0.0, 'StrategyMetadata', 'StrategyRecord', 'active', 'annual_return', 'arbitrage', 'arena_score', 'arena_test_date', 'bear', 'bull', 'created_at', 'crisis', 'deprecated', 'description', 'factor_based', 'high_vol', 'last_updated', 'lifecycle_state', 'low_vol', 'market_neutral', 'max_drawdown', 'mean_reversion', 'metadata', 'momentum', 'monitoring', 'multi_factor', 'profit_factor', 'recent_ic', 'retired', 'sharpe_ratio', 'sideways', 'simulation_end_date', 'simulation_metrics', 'simulation_passed', 'source_factors', 'strategy_code', 'strategy_id', 'strategy_id不能为空', 'strategy_name', 'strategy_name不能为空', 'strategy_type', 'suitable_regimes', 'trend_following', 'win_rate', 'z2h_certified']

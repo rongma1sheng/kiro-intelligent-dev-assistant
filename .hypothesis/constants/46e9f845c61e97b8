@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\llm_local_inference.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 0.5, 0.7, 0.9, 0.99, 1.1, 5.0, 512, 1000, 4096, 'Classes defined:', 'Model not loaded', '__main__', 'avg_latency_ms', 'batch_inferences', 'cache_hit_rate', 'cache_hits', 'cache_misses', 'cache_size', 'choices', 'completion_tokens', 'echo', 'error', 'error_count', 'frequency_penalty', 'latency_history_size', 'loading', 'max_tokens', 'mirostat_eta', 'mirostat_mode', 'mirostat_tau', 'model', 'model_status', 'p50_latency_ms', 'p90_latency_ms', 'p99_latency_ms', 'presence_penalty', 'ready', 'repeat_penalty', 'temperature', 'text', 'tokens', 'top_k', 'top_p', 'total_inferences', 'total_tokens', 'unloaded', 'usage']

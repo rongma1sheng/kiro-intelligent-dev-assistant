@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\z2h_certification_pipeline.py
-# hypothesis_version: 6.150.2
-
-[0.08, 0.1, 0.15, 0.2, 0.65, 0.75, 0.8, 0.85, 0.87, 0.88, 0.9, 0.92, 2.0, 2.5, '# 策略代码占位符', '=== 阶段6: 实盘交易部署 ===', 'crash_scenario_score', 'expected_drawdown', 'expected_return', 'expected_sharpe', 'is_oos_ratio', 'layer4_stress_test', 'max_drawdown', 'multi_factor', 'passed', 'rolling_sharpe_std', 'score', 'sharpe_ratio', 'stage1_factor_arena', 'stage3_sparta_arena', 'stage4_simulation', 'win_rate', '因子Arena测试未通过', '因子Arena测试未通过，终止认证流程', '斯巴达Arena考核未通过', '斯巴达Arena考核未通过，终止认证流程', '未生成候选策略', '未生成候选策略，终止认证流程', '模拟盘验证未通过，终止认证流程', '没有通过验证的因子，无法生成策略', '策略库集成失败', '策略库集成失败，认证流程失败', '输入实体不能为空']

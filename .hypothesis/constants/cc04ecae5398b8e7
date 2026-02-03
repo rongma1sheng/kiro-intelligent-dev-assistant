@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\monitoring\__init__.py
-# hypothesis_version: 6.150.2
-
-['DecayAction', 'DecayDetectionResult', 'DecayDetector', 'DecaySeverity', 'PerformanceMonitor']

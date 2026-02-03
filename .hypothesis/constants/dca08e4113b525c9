@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\stop_loss_analyzer.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.01, 0.02, 0.03, 0.05, 0.07, 0.08, 0.1, 0.15, 0.3, 0.5, 0.8, 1.5, 2.0, 2.5, '-inf', 'description', 'estimated_score', 'level', 'max_drawdown', 'multiplier', 'pnl', 'pnl_pct', 'profit', 'return', 'stop_loss', 'stop_loss_pct', 'stop_triggered', 'stopped', 'type', '分析失败，建议人工审核', '建议结合ATR动态调整止损位', '止损很少触发但效果不佳，建议收紧止损位', '止损策略有改进空间，考虑使用动态止损', '考虑使用追踪止损锁定利润']

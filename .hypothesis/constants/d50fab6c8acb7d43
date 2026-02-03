@@ -1,4 +1,0 @@
-# file: C:\mia\src\monitoring\cost_reporter.py
-# hypothesis_version: 6.150.2
-
-[0.0, 50.0, 1500.0, 100, '%Y%m%d', 'avg_daily_cost', 'budget', 'budget_utilization', 'daily_reports', 'date', 'days_in_month', 'deepseek-chat', 'deepseek-r1', 'end_date', 'exceeded', 'model_costs', 'model_percentages', 'month', 'most_expensive', 'qwen-next-80b', 'qwen-scholar', 'total_cost', 'year', '成本报表生成器初始化完成']

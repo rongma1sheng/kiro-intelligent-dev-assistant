@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\sentiment_sentinel.py
-# hypothesis_version: 6.150.2
-
-[-1.0, -0.5, -0.2, 0.0, 0.2, 0.5, 1.0, 'bearish_count', 'bullish_count', 'category', 'category_scores', 'content', 'hot_keywords', 'key_news', 'keywords', 'market_outlook', 'neutral_count', 'news_count', 'overall_score', 'overall_sentiment', 'publish_time', 'related_symbols', 'report_date', 'sentiment_score', 'source', 'timestamp', 'title', '。', '上涨', '下滑', '下跌', '不及预期', '中性', '乐观', '买入', '亏损', '公司', '减持', '分红', '创新低', '创新高', '利好', '利润', '利空', '卖出', '危机', '反弹', '回暖', '回调', '国际', '增持', '增长', '复苏', '大涨', '大跌', '宏观', '崩盘', '市场', '市场情绪中性，观望情绪浓厚', '市场情绪偏向乐观，整体氛围积极', '市场情绪偏向悲观，需谨慎操作', '市场情绪极度乐观，投资者信心高涨', '市场情绪极度悲观，投资者信心不足', '强劲', '悲观', '扩张', '承压', '提振', '支撑', '收缩', '放量', '政策', '新低', '新高', '无新闻数据，无法判断市场情绪', '暴涨', '暴跌', '极度乐观', '极度悲观', '涨停', '熊市', '牛市', '疲弱', '疲软', '盈利', '看好', '看空', '突破', '缩量', '行业', '衰退', '警告', '走弱', '走强', '超预期', '跌停', '跌破', '风险', '飙升']

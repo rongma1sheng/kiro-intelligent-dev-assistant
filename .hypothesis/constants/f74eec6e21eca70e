@@ -1,4 +1,0 @@
-# file: C:\mia\src\security\auth_manager.py
-# hypothesis_version: 6.150.2
-
-['HS256', 'JWT_SECRET', 'Token expired', 'bearer', 'exp', 'iat', 'nbf', 'role', 'token不能为空', 'user_id', 'user_id不能为空', '从SecureConfig读取JWT密钥', '使用提供的JWT密钥']

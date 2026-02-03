@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\visualization\strategy_dashboard.py
-# hypothesis_version: 6.150.2
-
-[0.03, 0.1, 0.12, 0.15, 0.18, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.7, 0.77, 0.8, 1.5, 2.0, 10.0, 50.0, 100, 300, 'best_fitness', 'cache_ttl', 'charts_count', 'csv', 'essence', 'essence_radar', 'essence_radar_data', 'essence_report', 'expired_count', 'feature', 'feature_importance', 'feature_report', 'fitness_values', 'generated_at', 'generations', 'history_strategies', 'json', 'macro', 'macro_report', 'market_adaptation', 'mutation_history', 'name', 'overall_score', 'overfitting', 'overfitting_report', 'overfitting_risk', 'risk', 'risk_report', 'strategy_id', 'strategy_name', 'title', 'total_cached', 'utf-8', 'valid_count', 'wb', '价值', '价值因子', '值', '动量', '动量因子', '字段', '已清除所有策略缓存', '市场适配度', '得分', '收益', '波动', '波动率因子', '流动性', '流动性因子', '熊市', '牛市', '特征', '稳定性', '策略ID', '策略ID不能为空', '策略名称', '策略本质维度', '综合评分', '规模因子', '质量', '质量因子', '输出路径不能为空', '过拟合风险', '重要性', '震荡', '风险']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\shared_memory.py
-# hypothesis_version: 6.150.2
-
-[0.0, 1000, 10000, 100000, 1000000, 'T', 'avg_latency_us', 'bar_data', 'current_size', 'max_size', 'order_data', 'overflow_count', 'risk_data', 'signal_data', 'tick_data', 'total_reads', 'total_writes', 'trade_data', '共享内存缓冲区管理器初始化', '所有缓冲区已清空', '溢出', '满', '空', '部分填充']

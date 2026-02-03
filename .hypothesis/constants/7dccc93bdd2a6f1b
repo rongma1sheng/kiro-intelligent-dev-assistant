@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\qmt_broker_api.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.05, 0.1, 0.6, 1.5, 252, '%Y%m%d%H%M%S', 'Mock API连接已断开', 'Mock API连接成功', 'QMT连接已断开', 'QMT连接成功', '_', 'amount', 'can_use_volume', 'commission', 'cost_price', 'current_capital', 'daily_pnl', 'default_session', 'direction', 'duration_days', 'enable_balance', 'initial_capital', 'market_value', 'max_drawdown', 'open_date', 'order_id', 'order_status', 'order_type', 'positions', 'price', 'profit', 'profit_ratio', 'running', 'sharpe_ratio', 'start_time', 'status', 'stock_code', 'stock_name', 'stopped', 'strategy_code', 'total_asset', 'total_profit', 'total_return', 'trade_id', 'trade_time', 'traded_amount', 'traded_price', 'traded_time', 'traded_volume', 'trades', 'volume', 'win_rate', '初始化MockBrokerAPI', '卖出', '无法获取账户信息', '未连接']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\sentiment_analyzer.py
-# hypothesis_version: 6.150.2
-
-[-0.02, 0.02, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.7, 0.8, 100, '%Y-%m-%d', 'advance_decline', 'advances', 'declines', 'extreme_fear', 'extreme_greed', 'fear', 'greed', 'margin_balance', 'margin_change', 'margin_data', 'margin_sentiment', 'neutral_high', 'neutral_low', 'price_momentum', 'prices', 'put_call_ratio', 'put_call_sentiment', 'vix', 'vix_sentiment', 'volume_sentiment', 'volumes', '【警告】市场恐慌可能继续，注意流动性风险', '【警告】市场过热，回调风险极高', '保持均衡配置', '保持耐心，等待情绪修复', '关注超跌反弹机会', '分批建仓优质资产', '分析失败，建议谨慎操作', '大幅减仓，保留现金', '市场情绪中性，按计划操作', '市场情绪偏乐观，注意风险', '市场情绪偏悲观，可适度布局', '市场极度恐慌，可能是逆向投资机会', '市场极度贪婪，高度警惕', '当前无重大风险警告', '情绪见顶回落，加速减仓', '情绪触底回升，可加大布局', '数据不足', '波动率指数偏高，市场不确定性大', '看跌期权比例偏高，市场避险情绪浓', '适度减仓锁定利润', '避免追高']

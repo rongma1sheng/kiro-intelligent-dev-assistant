@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\strategy_analyzer.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.02, 0.03, 0.04, 0.05, 0.08, 0.1, 0.12, 0.15, 0.5, 2.0, 3.0, 50.0, 100, 3600, 'Redis存储未初始化，跳过存储', 'adaptation_score', 'analysis_timestamp', 'analyze', 'available', 'avg_quality_score', 'capacity', 'correlation', 'cost_efficiency', 'decay', 'dimensions', 'dimensions_analyzed', 'essence', 'factor_exposure', 'feature', 'information_ratio', 'macro', 'microstructure', 'nonstationarity', 'overall_quality', 'overall_score', 'overfitting', 'position_sizing', 'recommendation', 'regime_adaptation', 'retail_sentiment', 'return_decay_rate', 'risk', 'risk_score', 'scalability_score', 'sector', 'sentiment', 'sharpe_ratio', 'signal_noise', 'slippage', 'smart_money', 'stability_scores', 'stop_loss', 'strategy_id', 'stress_test', 'survival_probability', 'sustainability_score', 'trade_review', 'trading_cost', '分析引擎未初始化', '半仓', '均衡配置', '开始分析大盘和宏观环境', '无法进行完整分析', '无法预测']

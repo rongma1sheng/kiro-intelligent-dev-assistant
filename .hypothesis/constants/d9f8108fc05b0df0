@@ -1,4 +1,0 @@
-# file: C:\mia\src\interface\ui_theme.py
-# hypothesis_version: 6.150.2
-
-[400, 500, 700, '#00C853', '#048cfc', '#05478a', '#0D1117', '#161B22', '#1890FF', '#191B24', '#222631', '#2A2D3A', '#30363D', '#308FFF', '#333333', '#52C41A', '#657e98', '#8B8E98', '#8B949E', '#8C8C8C', '#C9D1D9', '#E1E3E8', '#F44336', '#FA8C16', '#FF4D4F', '#FFC107', '#b4bdc6', '#ffffff', '+', '10px', '12px', '14px', '16px', '20px', '24px', '4px', '8px', 'bg_card', 'bg_primary', 'border', 'card_margin', 'card_padding', 'card_radius', 'colors', 'dark', 'fall', 'fintech', 'fonts', 'lg', 'light', 'md', 'mode', 'mono', 'neutral', 'niuniu', 'primary', 'professional', 'rgba(0, 0, 0, 0.1)', 'rgba(0, 0, 0, 0.3)', 'rgba(0, 0, 0, 0.4)', 'rise', 'sans', 'scheme', 'shadow', 'size_2xl', 'size_lg', 'size_md', 'size_sm', 'size_xl', 'size_xs', 'sm', 'spacing', 'text_primary', 'text_secondary', 'warning', 'weight_bold', 'weight_medium', 'weight_normal', 'xl', 'xs']

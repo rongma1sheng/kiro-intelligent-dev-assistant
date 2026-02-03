@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\timeseries_dl\timeseries_dl_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 100, 'attention', 'close', 'config', 'd_model', 'decoder_length', 'deepar', 'dilation_rates', 'encoder_length', 'expression', 'fitness', 'forecast_horizon', 'forecast_length', 'hidden_dim', 'ic', 'ir', 'kernel_size', 'lstm', 'mae', 'max_len', 'mean', 'mean_error', 'mean_residual', 'mean_uncertainty', 'mean_weight', 'miner', 'miner_type', 'nbeats', 'num_blocks', 'num_filters', 'num_heads', 'num_layers', 'num_operators', 'num_samples', 'operator_whitelist', 'operators', 'receptive_field', 'residual', 'seasonality', 'seq2seq', 'sequence_length', 'stack_types', 'std', 'std_error', 'std_residual', 'std_uncertainty', 'std_weight', 'tcn', 'tcn_temporal_pattern', 'timeseries_dl', 'transformer', 'trend', 'type', 'wavenet', 'window', '时序深度学习特征分析完成']

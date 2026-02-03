@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\alternative_data\alternative_data_operators.py
-# hypothesis_version: 6.150.2
-
-[1e-08, 0.5, 2.0, 'baseline_count', 'baseline_volume', 'category', 'description', 'disruption_events', 'foot_traffic', 'foot_traffic_anomaly', 'formula', 'mention_volume', 'news', 'news_importance', 'news_sentiment', 'news_sentiment_shock', 'parking_count', 'returns', 'satellite', 'search', 'search_trend_leading', 'search_volume', 'sentiment_score', 'severity_score', 'shipping', 'shipping_volume', 'social', 'supply_chain', 'web', 'web_traffic', 'web_traffic_growth', '人流量异常检测', '供应链中断指数', '卫星停车场车辆计数', '搜索趋势领先指标', '新闻情绪冲击', '社交媒体情绪动量', '网站流量增长率', '航运量变化率', '输入数据为空']

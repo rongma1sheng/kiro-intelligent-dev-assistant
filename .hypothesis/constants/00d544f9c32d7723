@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\esg_intelligence_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 1e-10, 0.2, 0.3, 0.33, 0.34, 0.5, 0.7, 1.0, 100.0, 'E', 'ESG争议事件对股价的冲击影响', 'ESG因素对股票估值的影响', 'ESG指标的改善速度和趋势', 'ESG数据不能为空', 'G', 'S', 'board_diversity', 'carbon_emissions', 'completeness', 'consistency', 'controversy_mean', 'controversy_score', 'controversy_std', 'correlation', 'coverage', 'description', 'diversity_mean', 'diversity_std', 'emission_mean', 'emission_std', 'environmental_score', 'error_count', 'esg', 'esg_momentum', 'esg_risk_premium', 'governance_score', 'is_healthy', 'miner_name', 'miner_type', 'momentum_mean', 'momentum_std', 'operators_count', 'overall', 'premium_mean', 'premium_std', 'ratio_mean', 'ratio_std', 'satisfaction_mean', 'satisfaction_std', 'score_mean', 'score_std', 'social_score', 'sustainability_score', 'weights', '价格数据不能为空', '企业碳排放趋势和减排进展', '员工满意度评分', '治理(G)', '环境(E)', '社会(S)', '综合', '综合可持续性评分', '绿色投资在资本配置中的比例', '董事会多样性评分', '行业平均值缓存已清空']

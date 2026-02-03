@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\attribution_analyzer.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.03, 0.05, 0.5, 1.0, 2.0, 252, 'Alpha/Beta分解', 'allocation_effect', 'alpha', 'alpha_beta', 'benchmark_return', 'benchmark_weight', 'beta', 'excess_return', 'exposure', 'factor_exposures', 'factor_name', 'information_ratio', 'interaction_effect', 'is_significant', 'period_end', 'period_start', 'portfolio_return', 'portfolio_weight', 'r_squared', 'report_date', 'return_contribution', 'sector', 'sector_attributions', 'selection_effect', 'sharpe_ratio', 'strategy_name', 't_stat', 'timestamp', 'total_effect', 'total_return', 'tracking_error', 'trade_count', 'weight', 'win_rate', '因子暴露', '开始归因分析', '择时归因', '策略贡献', '行业归因', '选股归因']

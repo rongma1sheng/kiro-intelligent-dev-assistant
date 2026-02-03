@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\retail_sentiment_analyzer.py
-# hypothesis_version: 6.150.2
-
-[-0.03, 0.0, 0.03, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.2, 1.5, 100, 100000, '%Y-%m-%d', 'avg_holding_days', 'bearish', 'behavior_consistency', 'bullish', 'concentration', 'holdings', 'net_buy', 'net_buy_history', 'neutral', 'new_accounts', 'position_ratio', 'prices', 'retail_data', 'search_trends', 'slightly_bearish', 'slightly_bullish', 'stock_search_index', 'total_holdings', 'trading_ratio', 'turnover_rate', 'volumes', '【警告】散户情绪极度悲观，注意恐慌性抛售', '【警告】散户情绪过热，市场可能见顶', '交易频繁', '保持独立思考，不盲目跟风', '分析失败', '制定投资计划，严格执行', '建立交易纪律，避免情绪化操作', '当前无重大风险警告', '恐慌杀跌，错失反弹', '持仓过于集中，风险较大', '持仓集中', '散户过度乐观，专业投资者应保持谨慎', '散户过度悲观，可能是布局机会', '数据不足', '暂无明显错误', '杀跌行为明显', '短线操作为主', '羊群效应明显，注意踩踏风险', '考虑逆向布局优质资产', '考虑逐步减仓，锁定利润', '行为特征不明显', '过度短线，难以把握趋势', '追涨杀跌严重', '追涨杀跌严重，需要逆向思维', '追涨杀跌行为极端，市场波动可能加剧', '追涨行为明显', '降低交易频率，关注中长期机会', '频繁交易', '频繁交易，成本侵蚀收益', '高位追涨，容易被套']

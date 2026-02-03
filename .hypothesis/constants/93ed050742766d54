@@ -1,4 +1,0 @@
-# file: C:\mia\src\core\doomsday_switch.py
-# hypothesis_version: 6.150.2
-
-[-0.15, -0.1, 0.0, 0.95, 100, 1000000, 'D:/', 'disk_critical', 'doomsday', 'emergency', 'gpu_failure', 'loss_threshold', 'manual', 'memory_critical', 'mia:doomsday', 'mia:doomsday:reason', 'portfolio:daily_pnl', 'psutil不可用，部分系统检查将被跳过', 'redis_failure', 'system:gpu_failures', 'triggered', 'w']

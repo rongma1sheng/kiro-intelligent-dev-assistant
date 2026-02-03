@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\alternative_data\alternative_data_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.2, 0.3, 0.5, 0.7, 0.8, 1.0, 3600, '_count', 'average_quality', 'data_sources', 'foot_traffic', 'foot_traffic_anomaly', 'freshness_hours', 'news', 'news_sentiment_shock', 'operator_whitelist', 'quality_scores', 'quality_threshold', 'satellite', 'search', 'search_trend_leading', 'shipping', 'social', 'source', 'supply_chain', 'timestamp', 'uniqueness_threshold', 'web', 'web_traffic_growth']

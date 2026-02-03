@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\etf_lof\lof_operators.py
-# hypothesis_version: 6.150.2
-
-[1e-08, 0.002, 0.8, 252, 'Input data is empty', 'aum', 'benchmark_returns', 'dividend', 'expense_ratio', 'holdings', 'lof_nav_momentum', 'lof_turnover_rate', 'nav', 'offmarket_nav', 'onmarket_price', 'onmarket_volume', 'peer_returns', 'redemption_amount', 'retail_holding', 'returns', 'sector_weights', 'trade_size', 'turnover', 'volume']

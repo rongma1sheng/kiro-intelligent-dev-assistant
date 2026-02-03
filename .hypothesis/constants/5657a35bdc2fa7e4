@@ -1,4 +1,0 @@
-# file: C:\mia\src\execution\multi_account_manager.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.8, 0.85, 0.9, 1.0, 5000.0, 500000.0, 1000000.0, 'account_id', 'balanced', 'capacity', 'details', 'distribution', 'error', 'error_accounts', 'hash', 'healthy', 'healthy_accounts', 'priority', 'quantity', 'routing_distribution', 'routing_strategy', 'side', 'symbol', 'total_accounts', 'total_assets', 'total_orders', 'total_orders_routed', 'warning', 'warning_accounts', '国金', '没有可用账户']

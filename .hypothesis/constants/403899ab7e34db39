@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\factor_combination\factor_combination_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 'degree', 'exponential', 'factor_timing_signal', 'float64', 'logarithmic', 'method', 'multi_factor_synergy', 'multiply', 'operator_whitelist', 'polynomial', 'returns', 'threshold', '开始分析因子协同效应', '开始生成中性化因子', '开始生成所有类型的组合因子', '开始生成择时信号', '开始生成条件因子', '生成中性化因子...', '生成交互因子...', '生成择时信号...', '生成条件因子...', '生成非线性组合因子...']

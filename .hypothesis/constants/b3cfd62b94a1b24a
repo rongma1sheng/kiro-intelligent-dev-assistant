@@ -1,4 +1,0 @@
-# file: C:\mia\src\monitoring\circuit_breaker.py
-# hypothesis_version: 6.150.2
-
-[b'open', 50.0, 1500.0, '%Y%m%d', '[Cost] 熔断器已关闭', '[Cost] 熔断器已强制打开', 'cost:circuit_breaker', 'daily_budget', 'daily_cost', 'daily_remaining', 'daily_utilization', 'is_open', 'open']

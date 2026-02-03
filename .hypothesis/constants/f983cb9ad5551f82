@@ -1,4 +1,0 @@
-# file: C:\mia\src\integration\cost_monitoring_integration.py
-# hypothesis_version: 6.150.2
-
-['budget', 'budget_alerts', 'budget_monthly', 'budget_type', 'budget_utilization', 'cost_tracker不能为None', 'current_cost', 'daily', 'daily_budget', 'daily_cost', 'daily_utilization', 'events_published', 'excess_amount', 'is_daily_exceeded', 'is_monthly_exceeded', 'limit_type', 'message', 'mia_cost_by_service', 'mia_cost_daily_total', 'model', 'monthly', 'monthly_budget', 'monthly_cost', 'monthly_utilization', 'predicted_monthly', 'service', 'start_time', 'sync_rate', 'timestamp', 'total_synced', 'total_tracked', 'tracking_rate', 'uptime_seconds', 'utilization', '事件总线未初始化，跳过事件发布', '成本指标已注册到Prometheus', '成本监控集成启动成功']

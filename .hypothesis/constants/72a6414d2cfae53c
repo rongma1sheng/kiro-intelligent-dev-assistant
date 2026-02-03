@@ -1,4 +1,0 @@
-# file: C:\mia\src\strategies\data_models.py
-# hypothesis_version: 6.150.2
-
-[-0.05, 0.0, 0.05, 0.1, 0.3, 0.8, 1.0, 1000000.0, 'ArenaTestResult', 'StrategyConfig', 'StrategyMetadata', 'arena_results', 'buy', 'config', 'high', 'hold', 'holding_period_days', 'liquidity_threshold', 'low', 'max_drawdown_pct', 'max_industry', 'max_position', 'max_single_stock', 'medium', 'sell', 'sharpe_ratio', 'stop_loss_pct', 'take_profit_pct', 'tier1_micro', 'total_return_pct', 'trading_frequency', 'trailing_stop_pct', 'unknown', 'win_rate']

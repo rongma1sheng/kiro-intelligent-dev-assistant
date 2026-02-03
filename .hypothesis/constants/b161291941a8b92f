@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\intelligent_risk_control_router.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.6, 0.8, -10000, 10000, 'fallback', 'fallback_rate', 'fallback_used', 'hardcoded', 'hardcoded_rate', 'hardcoded_selected', 'high_confidence', 'high_confidence_rate', 'hybrid', 'hybrid_rate', 'hybrid_selected', 'low_confidence', 'low_confidence_rate', 'medium_confidence', 'routing_history_size', 'strategy_layer', 'strategy_layer_rate', 'strategy_selection', 'thresholds', 'timestamp', 'total_routes']

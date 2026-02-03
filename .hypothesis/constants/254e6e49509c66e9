@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\gene_capsule_manager.py
-# hypothesis_version: 6.150.2
-
-[0.15, 0.6, 0.7, 0.75, 0.8, 0.95, 1.5, 1.8, 'JSON字符串不能为空', 'Redis存储管理器不能为None', 'capsule_id', 'created_at', 'to_dict', 'updated_at', 'version', '基因胶囊不能为None', '家族ID不能为空', '建议增加止损逻辑', '策略代码不能为空', '胶囊ID不能为空']

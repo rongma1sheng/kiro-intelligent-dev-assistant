@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\data_models.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.5, 100, 'accuracy', 'alternative_data', 'api_endpoint不能为空', 'available', 'completeness', 'consistency', 'cost_first', 'degraded', 'event_data', 'financial_data', 'latency_first', 'macro_data', 'market_data', 'overall_score', 'primary_source不能为空', 'quality_first', 'region_aware', 'sentiment_data', 'source_id不能为空', 'source_name不能为空', 'testing', 'timeliness', 'unavailable']

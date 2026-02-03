@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\simulation_manager.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.0003, 0.0005, 0.05, 0.15, 0.2, 0.5, 0.55, 1.2, 1.3, 100.0, 1000000.0, 252, 1000000, 'active_simulations', 'close', 'config', 'date', 'duration_days', 'initial_capital', 'max_drawdown_halt', 'max_drawdown_limit', 'min_monthly_return', 'min_profit_factor', 'min_sharpe_ratio', 'min_win_rate', 'simulation_halted', 'volume', '每日结果不能为空', '策略不能为None']

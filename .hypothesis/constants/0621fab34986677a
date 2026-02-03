@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\expression_types.py
-# hypothesis_version: 6.150.2
-
-['!=', '*', '+', '-', '/', '<', '<=', '==', '>', '>=', 'amount', 'boolean', 'check', 'close', 'description', 'high', 'indicator', 'low', 'name', 'no_price_volume_mix', 'open', 'price', 'ratio', 'return', 'unknown', 'volatility', 'volume', '禁止价格和成交量混合运算', '禁止对布尔值进行算术运算', '类型系统初始化完成', '语义验证器初始化完成']

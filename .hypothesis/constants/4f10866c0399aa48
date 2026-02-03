@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\converter\factor_to_strategy_converter.py
-# hypothesis_version: 6.150.2
-
-[0.12, 0.15, 0.5, 0.6, 0.7, 1.0, 2.0, 2.5, ', ', '-', '_', 'avg_arena_score', 'candidate', 'cross_market_score', 'expected_sharpe', 'factor_arena_score', 'factor_combo', 'factor_weights', 'hell_score', 'num_factors', 'pure_factor', 'reality_score', 'source_factors', 'strategy_id', 'strategy_type']

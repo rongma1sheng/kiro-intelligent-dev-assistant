@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\correlation_analyzer.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 0.3, 0.5, 0.7, 1.0, 252, 'pearson', '相关性分析至少需要2个策略', '组合分散化程度中等，建议适当调整策略配置', '组合分散化程度良好，策略间相关性较低']

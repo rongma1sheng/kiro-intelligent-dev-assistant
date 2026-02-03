@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\capital_allocation_rules_determiner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.001, 0.01, 0.05, 0.08, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4, 0.5, 0.8, 1.0, 1.5, 2.0, 1000, 10000, 50000, 100000, 500000, 1000000, 5000000, 'avg_position_count', 'max_drawdown', 'sharpe_ratio', 'turnover_rate', 'volatility', 'win_rate', '未认证策略不能确定资金配置规则', '模拟盘指标不能为空']

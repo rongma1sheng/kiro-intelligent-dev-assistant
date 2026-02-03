@@ -1,4 +1,0 @@
-# file: C:\mia\src\planning\feature_prioritizer.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.01, 0.1, 0.2, 0.3, 0.4, 1.0, 5.0, 'avg_business_value', 'business_value', 'cost', 'impact', 'name', 'p0_count', 'p1_count', 'p2_count', 'p3_count', 'priority', 'risk', 'top_features', 'total_count', 'urgency', '功能列表不能为空']

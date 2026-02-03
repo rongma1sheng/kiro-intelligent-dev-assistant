@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\algo_hunter\algo_hunter.py
-# hypothesis_version: 6.150.2
-
-[0.0, 1e-08, 0.99, 1.0, 100, 128, 200, 256, 1000, '1d_cnn', 'CUDA不可用，切换到CPU', 'PyTorch未安装，使用模拟模型', 'action', 'algo_hunter', 'avg_latency_ms', 'batch_inferences', 'batch_size', 'compile', 'cpu', 'cuda', 'data_shape', 'device', 'failed_inferences', 'latency_history', 'main_force_detection', 'mixed_precision', 'model_compile', 'model_type', 'optimizations', 'p99_latency_ms', 'probability', 'reduce-overhead', 'success_rate', 'timestamp', 'total_inferences', 'total_latency_ms', 'tst', '启用channels_last内存格式', '启用混合精度推理（FP16）', '开始模型预热...', '模型预热完成']

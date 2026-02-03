@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\multi_objective.py
-# hypothesis_version: 6.150.2
-
-[-1.0, 0.0, 0.01, 0.09, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.9, 1.0, 1.5, 200, 'avg_complexity', 'avg_instability', 'avg_revenue', 'avg_weighted_fitness', 'complexity', 'inf', 'instability', 'num_fronts', 'pareto_avg_revenue', 'pareto_front_size', 'revenue', 'total_individuals']

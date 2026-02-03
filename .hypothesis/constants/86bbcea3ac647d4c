@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\prompt_engineer.py
-# hypothesis_version: 6.150.2
-
-['## 决策示例\n\n', 'Classes defined:', '__main__', 'buy', 'hold', 'sell', 'v1.0', 'v1.1', 'v1.2', '止损卖出', '突破买入', '获利了结', '趋势持有', '高风险规避']

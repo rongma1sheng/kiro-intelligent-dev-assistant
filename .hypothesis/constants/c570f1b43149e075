@@ -1,4 +1,0 @@
-# file: C:\mia\src\strategies\meta_arbitrage\s09_cb_scalper.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.005, 0.03, 0.05, 0.2, 0.25, 0.3, 0.4, 0.5, 0.85, 1.0, 2.5, 100, 10000000, 100000000, 'S09_CB_Scalper', 'buy', 'change_pct', 'conversion_price', 'convertible_bond', 'convertible_bonds', 'hold', 'premium_rate', 'price', 'sell', 'stock_code', 'stocks', 'volume']

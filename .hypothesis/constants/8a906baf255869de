@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\arena\factor_hell_track.py
-# hypothesis_version: 6.150.2
-
-[-0.7, -0.2, -0.1, 0.0, 0.3, 0.5, 3.0, 100, 'close', 'crash', 'description', 'factor', 'flash_crash', 'liquidity_crisis', 'name', 'returns', 'threshold', 'volatility_spike', 'volume', 'window', '初始化FactorHellTrack', '历史数据不能为空', '因子值计算结果为空', '崩盘场景', '崩盘期间样本不足，返回中性评分0.5', '市场下跌超过20%', '成交量骤降超过70%', '收益率数据不能为空', '未检测到崩盘场景，返回中性评分0.5', '未检测到闪崩场景，返回中性评分0.5', '波动率增加超过3倍', '波动率飙升', '流动性危机', '相关性崩溃', '相关性突然变化', '短时间内暴跌超过10%', '闪崩场景', '闪崩期间样本不足，返回中性评分0.5']

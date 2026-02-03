@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\certification_level_evaluator.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 0.12, 0.15, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1.0, 1.5, 2.0, 2.5, 'Arena层级结果不能为空', 'EXCELLENT', 'FAILED', 'GOLD', 'GOOD', 'PLATINUM', 'QUALIFIED', 'SILVER', 'layer1_reality', 'layer2_hell', 'layer3_cross_market', 'layer4_stress', 'layer_1', 'layer_1_basic', 'layer_2', 'layer_2_stability', 'layer_3', 'layer_3_overfitting', 'layer_4', 'layer_4_stress', 'max_drawdown', 'min_sharpe', 'min_win_rate', 'passed', 'score', 'sharpe_ratio', 'win_rate', '模拟盘验证未通过', '模拟盘验证未通过，拒绝认证']

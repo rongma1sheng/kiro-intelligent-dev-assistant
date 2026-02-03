@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\cache_manager.py
-# hypothesis_version: 6.150.2
-
-[0.01, 0.5, 1.0, 5.0, 300.0, 3600.0, 500, 1000, 1024, 2000, 'CacheManager初始化完成', 'avg_size_bytes', 'commander', 'evictions', 'expirations', 'hit_rate', 'hits', 'max_size', 'misses', 'scholar', 'size', 'soldier', 'store_kv_cache', 'total_size_bytes', 'utf-8', 'value', '所有缓存已清空', '缓存已清空']

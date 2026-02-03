@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\hybrid_risk_control.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.2, 0.25, 0.3, 0.5, 0.7, 0.8, 1.0, 1.5, 2.5, -10000, 10000, ', ', '__builtins__', 'abs', 'action', 'architecture_a', 'architecture_b', 'aum', 'aum > 1000000', 'both', 'condition', 'confidence', 'high', 'large_aum_flexible', 'liquidity', 'liquidity < 500000', 'low', 'max', 'medium', 'min', 'name', 'positions', 'reason', 'recent_drawdown', 'risk_level', 'rules_triggered', 'size', 'source', 'symbol', 'timestamp', 'total_decisions', 'total_rules', 'trend_strength', 'use_hardcoded_only', 'volatility', 'volatility > 0.30', 'weight_adjustment', '使用默认权重（50/50）', '回撤过大，切换到保守风控', '大资金规模，增加灵活风控权重', '流动性不足，增加保守风控权重', '趋势明确，增加激进风控权重', '高波动环境，增加保守风控权重']

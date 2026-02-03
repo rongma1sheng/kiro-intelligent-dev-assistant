@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\contract_stitcher.py
-# hypothesis_version: 6.150.2
-
-[0.0, 1e-06, 0.4, 0.6, 1.0, 1.2, 1000, 'inf', 'processing_time_ms', 'total_contracts', 'total_stitched', 'total_switches', '合约列表不能为空', '拼接统计已重置', '缓冲区已清空']

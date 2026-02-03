@@ -1,4 +1,0 @@
-# file: C:\mia\src\strategies\signal_aggregator.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.3, 0.4, 0.5, 0.7, 1.0, 60.0, 'buy_count', 'confidence', 'direction', 'hold_count', 'reason', 'sell_count', 'strategy_name', 'strength', 'symbol', 'target_position', 'timestamp', '中', '买入', '优先级', '保守', '加权', '卖出', '多数决', '弱', '强', '持有', '激进']

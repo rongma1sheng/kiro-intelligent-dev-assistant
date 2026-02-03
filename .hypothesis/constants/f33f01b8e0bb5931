@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\trading_cost_analyzer.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.0003, 0.0005, 0.001, 0.01, 0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0, 100, 200, 'amount', 'avg_daily_volume', 'buy', 'direction', 'expected_price', 'fill_price', 'high', 'long', 'low', 'medium', 'pnl', 'price', 'profit', 'quantity', 'sell', 'short', 'side', 'signal_price', 'very_high', '买入', '交易频率较高，考虑减少不必要的交易', '冲击成本较高，建议拆分大单分批执行', '卖出', '成本控制有改善空间，建议关注主要成本来源', '成本控制良好，继续保持', '无交易记录', '滑点成本较高，建议使用限价单替代市价单', '考虑在流动性较好的时段交易']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\high_frequency\high_frequency_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 'adverse_selection', 'bid_ask_bounce', 'data', 'hidden_liquidity', 'mm_inventory', 'operator_whitelist', 'order_flow_imbalance', 'price_impact', 'price_impact_curve', 'quantiles', 'quote_stuffing', 'spread_decomposition', 'threshold', 'tick_momentum', 'trade_clustering', 'volume', 'window', '开始挖掘高频微观结构因子', '计算Tick方向动量...', '计算买卖价反弹...', '计算交易规模聚类...', '计算价格冲击曲线...', '计算做市商库存...', '计算报价填充检测...', '计算有效价差分解...', '计算订单流不平衡...', '计算逆向选择成本...', '计算隐藏流动性...']

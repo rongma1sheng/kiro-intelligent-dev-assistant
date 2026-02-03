@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\data_archiver.py
-# hypothesis_version: 6.150.2
-
-[0.0, '%Y%m%d', '*.parquet', '1m', 'bar', 'count', 'data', 'duration', 'error', 'file_path', 'file_size', 'pyarrow未安装', 'radar', 'radar_archive', 'record_count', 'size', 'snappy', 'success', 'tick']

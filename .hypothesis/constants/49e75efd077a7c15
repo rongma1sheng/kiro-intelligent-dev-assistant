@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\ml_feature_engineering_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 0.2, 0.3, 0.7, 0.8, 1.0, 250, 1000, 'PCA', 'error_count', 'high_loss_count', 'high_loss_ratio', 'is_healthy', 'miner_name', 'miner_type', 'ml_feature', 'n_components_pca', 'n_components_tsne', 'operators_count', 'pca', 'total_reductions', 'tsne', 'tsne_embeddings', '特征数据不能为空', '股票代码列表不能为空']

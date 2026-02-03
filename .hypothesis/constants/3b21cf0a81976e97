@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\derivatives_validator.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.01, 0.05, 0.1, 0.2, 1000, 'delta', 'fail', 'failed_validations', 'gamma', 'open_interest', 'parity_diff', 'parity_diff_pct', 'parity_lhs', 'parity_rhs', 'pass', 'pass_rate', 'passed_validations', 'pre_settlement', 'price', 'price_change', 'rho', 'settlement_price', 'theta', 'total_validations', 'vega', 'volume', 'volume_oi_ratio', 'warning', 'warnings', '买入看涨，卖出看跌', '买入看跌，卖出看涨', '价格 > 0', '前结算价 > 0', '成交量 >= 0', '持仓量 >= 0', '结算价 > 0', '验证统计已重置']

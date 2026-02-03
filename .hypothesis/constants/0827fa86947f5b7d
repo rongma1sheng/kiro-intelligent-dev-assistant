@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\memory\hash_router.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.5, 1.0, 100, 'N-gram不能为空', 'avg_per_bucket', 'big', 'collision_rate', 'sample_size', 'std_dev', 'uniformity', 'unique_addresses', 'utf-8', '样本N-gram列表不能为空']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\ml_feature_engineering\ml_feature_miner.py
-# hypothesis_version: 6.150.2
-
-[0.1, 2.0, 100, 'ML特征分析完成', 'activation', 'adaptation_rate', 'autoencoder', 'close', 'config', 'contamination', 'encoding_layers', 'ensemble', 'expression', 'fitness', 'hidden_units', 'high', 'ic', 'ir', 'isolation_forest', 'latent_dim', 'low', 'max', 'max_anomaly_score', 'max_depth', 'max_variance', 'mean', 'mean_activation', 'mean_anomaly_score', 'mean_variance', 'meta_learning', 'meta_window', 'min', 'miner', 'miner_type', 'n_components', 'n_estimators', 'n_models', 'neural_network', 'num_layers', 'num_operators', 'open', 'operator_whitelist', 'operators', 'pc1', 'pca', 'perplexity', 'relu', 'std', 'std_activation', 'std_anomaly_score', 'std_variance', 'tsne', 'tsne1', 'tsne_embedding', 'type', 'volume', 'window', 'xgboost']

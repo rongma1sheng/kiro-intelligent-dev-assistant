@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\high_frequency_microstructure_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.01, 0.99, 1.0, 2.0, 100.0, 100, 1000, 10000, 'ask', 'avg_latency_ms', 'batch_size', 'bid', 'bid_ask_bounce', 'cache_size', 'error_count', 'high_frequency', 'is_healthy', 'latencies', 'meets_requirement', 'miner_name', 'miner_type', 'operators_count', 'order_flow_imbalance', 'p99_latency', 'p99_latency_ms', 'price_impact_curve', 'total_calls', 'total_time', '交易记录不能为空', '股票代码列表不能为空', '订单簿数据不能为空']

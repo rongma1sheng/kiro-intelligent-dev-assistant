@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\algo_hunter\core.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.35, 0.4, 0.5, 0.55, 0.6, 0.75, 1.0, 1000, 50000, 100000, 1000000, 'CPUExecutionProvider', 'GPU不可用，使用CPU', 'GPU不可用，降级到CPU', 'PyTorch模型加载成功', 'Tick数据无效', 'ask', 'bid', 'bid_ask_spread', 'compatible', 'format', 'gpu_available', 'inference_count', 'loaded', 'mode', 'model_format', 'model_loaded', 'model_path', 'onnx', 'path', 'price', 'price_deviation', 'pytorch', 'spsc_queue_connected', 'symbol', 'timestamp', 'torch未安装，使用兼容模式', 'volume', '使用CUDA加速', '使用ROCm加速（AMD GPU）', '标的代码不能为空', '模型加载成功', '模型加载成功（兼容模式）', '模型路径不能为空']

@@ -1,4 +1,0 @@
-# file: C:\mia\src\chronos\services.py
-# hypothesis_version: 6.150.2
-
-[1024, '--daemon', '-m', '.', 'Streamlit服务', 'WebSocket服务', 'audit_events', 'error', 'last_audit_time', 'last_order_time', 'last_signal_time', 'orders_processed', 'processed_count', 'python', 'queue_size', 'running', 'service', 'signals_processed', 'src.audit.auditor', 'src.infra.sanitizer', 'starting', 'status', 'stopped', 'stopping', 'uptime', '交易执行服务', '交易执行服务启动失败', '交易执行服务启动成功', '交易执行服务已停止', '交易执行服务已在运行', '停止交易执行服务...', '停止审计服务...', '停止数据清洗服务...', '停止雷达服务...', '启动交易执行服务...', '启动审计服务...', '启动数据清洗服务...', '启动雷达服务...', '子类必须实现start方法', '子类必须实现stop方法', '审计服务', '审计服务启动失败', '审计服务启动成功', '审计服务已停止', '审计服务已在运行', '强制终止交易执行服务', '强制终止审计服务', '强制终止数据清洗服务', '强制终止雷达服务', '数据清洗服务', '数据清洗服务启动失败', '数据清洗服务启动成功', '数据清洗服务已停止', '数据清洗服务已在运行', '服务管理器初始化完成', '雷达服务', '雷达服务启动失败', '雷达服务启动成功', '雷达服务已停止', '雷达服务已在运行']

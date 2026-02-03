@@ -1,4 +1,0 @@
-# file: C:\mia\src\core\dependency_container.py
-# hypothesis_version: 6.150.2
-
-['DIContainer', 'T', '__name__', 'access_count', 'created_at', 'dependencies', 'has_instance', 'implementation_type', 'lifecycle', 'name', 'required', 'scoped', 'self', 'service_type', 'singleton', 'transient', 'type']

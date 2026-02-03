@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\macro_cross_asset\macro_cross_asset_miner.py
-# hypothesis_version: 6.150.2
-
-[1e-08, 0.02, 0.3, 0.7, 'commodity_momentum', 'credit_spread', 'currency_carry_trade', 'long_rate', 'macro_surprise_index', 'momentum_window', 'operator_whitelist', 'risk_lookback_period', 'short_rate', 'signals_by_type', 'spread_threshold', 'total_macro_signals', 'vix', 'vix_term_structure', 'yield_curve_slope', '利率序列为空', '输入数据为空']

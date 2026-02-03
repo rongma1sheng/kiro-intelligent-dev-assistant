@@ -1,4 +1,0 @@
-# file: C:\mia\src\strategies\meta_momentum\s13_limit_down_reversal.py
-# hypothesis_version: 6.150.2
-
-[-0.095, -0.08, -0.05, 0.0, 0.005, 0.03, 0.1, 0.125, 0.15, 0.25, 0.3, 0.4, 0.5, 0.75, 1.5, 2.0, 2.5, 100.0, 'bid_ask_ratio', 'buy', 'delisting_risk', 'fundamentals', 'is_open', 'is_st', 'limit_down_stocks', 'negative_news_count', 'news_sentiment', 'open_time', 'pb_ratio', 'pe_ratio', 'price_change', 'reason', 'risk_manager', 'sentiment_score', 'unknown', 'volume_ratio', 'was_limit_down']

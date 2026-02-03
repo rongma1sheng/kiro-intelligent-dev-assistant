@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\arena\cross_market_track.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.15, 0.4, 0.5, 0.6, 1.0, 2.0, 'a_stock', 'close', 'crypto', 'hk_stock', 'us_stock', 'volume', '初始化CrossMarketTrack', '因子值和收益率没有共同的索引', '因子值计算结果为空', '市场收益率数据不能为空', '市场数据不能为空']

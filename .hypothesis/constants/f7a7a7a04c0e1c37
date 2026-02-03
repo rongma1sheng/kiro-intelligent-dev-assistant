@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\memory\engram_memory.py
-# hypothesis_version: 6.150.2
-
-[0.0, 1.0, 512, 10000, 100000000, 'occupied_slots', 'ram', 'ssd', 'total_slots', 'usage_rate', '文本内容不能为空', '查询文本不能为空']

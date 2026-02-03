@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\spsc_queue.py
-# hypothesis_version: 6.150.2
-
-[1000, 1024, 10000, 1000000, 18446744073709551615, '<I', '<Q', '<QQQ', 'SPSCQueue cleared', 'T', 'actual_operations', 'avg_read_latency_us', 'avg_write_latency_us', 'buffer', 'capacity', 'current_size', 'inf', 'integrity_ok', 'is_empty', 'is_full', 'item_size', 'memory_usage', 'read_ops_per_sec', 'shared_memory_name', 'shm', 'test_data', 'total_time_sec', 'write_ops_per_sec']

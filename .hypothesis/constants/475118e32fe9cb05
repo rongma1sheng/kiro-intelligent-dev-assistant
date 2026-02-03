@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\ai_enhanced\ai_enhanced_miner.py
-# hypothesis_version: 6.150.2
-
-[0.01, 0.1, 0.3, 0.4, 0.95, 100, 'AI特征分析完成', 'ai_enhanced', 'attention', 'attention_mechanism', 'attention_weights', 'cnn', 'cnn_feature_map', 'cnn_features', 'config', 'correlation_window', 'd_model', 'discount_factor', 'embedding_dim', 'exploration_rate', 'expression', 'fitness', 'gan', 'gan_features', 'gnn', 'gnn_embedding', 'gnn_node_embedding', 'heads', 'hidden_dim', 'ic', 'ir', 'iterations', 'kernel_size', 'learning_rate', 'lstm', 'lstm_hidden_state', 'lstm_states', 'max', 'mean', 'mean_weight', 'min', 'miner', 'miner_type', 'multimodal', 'multimodal_fusion', 'noise_dim', 'num_filters', 'num_operators', 'num_samples', 'operator_whitelist', 'operators', 'price_weight', 'rl', 'rl_adaptive_weight', 'rl_weights', 'sequence_length', 'std', 'transformer', 'type', 'volatility_weight', 'volume_weight', 'weight_std', 'window']

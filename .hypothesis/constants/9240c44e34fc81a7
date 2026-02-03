@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\certification_performance_monitor.py
-# hypothesis_version: 6.150.2
-
-[0.0, 30.0, 60.0, 80.0, 2048.0, 'Arena验证', 'actual_value', 'alert_id', 'alert_level', 'alert_time', 'alerts', 'arena_metrics', 'arena_total_duration', 'avg_duration_seconds', 'cpu_usage', 'cpu_usage_percent', 'critical', 'disk_io_mb', 'duration_seconds', 'end_time', 'error', 'error_alerts', 'error_message', 'failure_rate', 'info', 'level', 'level_distribution', 'memory_usage', 'memory_usage_mb', 'message', 'metadata', 'metric_name', 'network_io_mb', 'overall_score', 'peak_cpu_percent', 'peak_memory_mb', 'report_date', 'report_id', 'simulation_metrics', 'stage_duration', 'stage_metrics', 'stage_name', 'start_time', 'statistics', 'strategy_id', 'success', 'success_rate', 'threshold_value', 'time_range_end', 'time_range_start', 'timestamp', 'total_alerts', 'total_certifications', 'utf-8', 'w', 'warning', 'warning_alerts', '模拟盘验证']

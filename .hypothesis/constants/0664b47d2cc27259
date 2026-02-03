@@ -1,4 +1,0 @@
-# file: C:\mia\src\integration\risk_emergency_integration.py
-# hypothesis_version: 6.150.2
-
-['alert_level', 'alert_rate', 'bid_ask_spread', 'broker_rating', 'credit_exposure', 'daily_pnl_ratio', 'data_quality_score', 'description', 'events_published', 'gpu_health', 'market_depth', 'market_risk', 'market_trend', 'metrics', 'network_health', 'normal', 'overfitting_score', 'reason', 'redis_health', 'risk_detection_rate', 'risk_level', 'risk_system不能为None', 'risk_type', 'settlement_delay', 'start_time', 'strategy_sharpe', 'system_risk', 'timestamp', 'total_risks_detected', 'triggers_fired', 'uptime_seconds', 'volatility', 'volume_ratio', '事件总线未初始化，跳过事件发布', '风险应急集成启动成功']

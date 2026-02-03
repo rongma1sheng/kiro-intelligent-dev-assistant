@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\timeseries_dl\timeseries_dl_operators.py
-# hypothesis_version: 6.150.2
-
-[0.0, 1e-08, 0.01, 0.1, 1.0, 10000.0, 100, 'close', 'seasonality', 'trend']

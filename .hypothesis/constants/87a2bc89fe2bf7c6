@@ -1,4 +1,0 @@
-# file: C:\mia\src\audit\data_models.py
-# hypothesis_version: 6.150.2
-
-['ALERT_TRIGGERED', 'API_CALL', 'AuditEntry', 'BALANCE_CHANGE', 'CONFIG_CHANGE', 'POSITION_CHANGE', 'ShadowLedgerEntry', 'ShadowPosition', 'TRADE_EXECUTION', 'USER_LOGIN', 'audit_signature', 'avg_cost', 'data', 'difference', 'event_type', 'execution_quantity', 'last_sync', 'quantity', 'shadow_quantity', 'symbol', 'system', 'timestamp', 'user_id']

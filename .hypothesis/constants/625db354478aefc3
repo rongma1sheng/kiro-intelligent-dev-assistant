@@ -1,4 +1,0 @@
-# file: C:\mia\src\infra\path_manager.py
-# hypothesis_version: 6.150.2
-
-['/', '/bin', '/boot', '/data', '/etc', '/sbin', '/usr', 'C:/', 'C:/mia_data', 'C:\\', 'D:/', 'Darwin', 'Linux', 'Windows', '\\', 'data', 'data_drive', 'data_path', 'docker', 'docker_root', 'log_path', 'logs', 'mia', 'mia_data', 'os_type', 'readonly_enabled', 'system_drive', 'temp', 'temp_path']

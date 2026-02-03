@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\risk_mining\flow_risk_miner.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.15, 0.3, 0.5, 1.0, 300, 1000000, 500000000, 'acceptance_collapse', 'amount', 'avg_volume_20d', 'capital_retreat', 'detection_count', 'flow', 'flow_reversal', 'large_order_dump', 'large_orders', 'net_outflow_history', 'signals', 'timestamp', 'volume_history']

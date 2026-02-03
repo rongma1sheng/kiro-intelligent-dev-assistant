@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\factor_exposure_analyzer.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.1, 0.5, 0.7, 1.0, 1.5, 2.0, 'alpha', 'exposures', 'fitted_values', 'growth', 'herfindahl_index', 'idiosyncratic', 'idiosyncratic_pct', 'liquidity', 'market', 'max_exposure', 'momentum', 'quality', 'r_squared', 'residuals', 'sector', 'size', 'systematic', 'systematic_pct', 'top3_concentration', 'total', 'value', 'volatility', 'weight', '因子暴露度漂移较大，建议进行再平衡', '执行多因子回归', '策略收益率和因子收益率没有共同的日期']

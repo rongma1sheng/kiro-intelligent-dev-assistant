@@ -1,4 +1,0 @@
-# file: C:\mia\src\evolution\z2h_certification_v2.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.001, 0.15, 0.2, 0.5, 0.8, 1.0, 1.3, 2.0, 5.0, 10.0, 'Arena层级结果不能为空', 'bear_market', 'buffer', 'bull_market', 'drawdown > 15%', 'estimated_impact', 'final_capital', 'initial_capital', 'max', 'max_drawdown', 'max_drawdown_stop', 'mid_cap', 'min', 'optimal', 'passed', 'sharpe < 1.0', 'sharpe_ratio', 'sideways_market', 'total_return', 'volatility', 'win_rate', '建议配置10-20%资金', '开始评估认证资格', '模拟盘结果不能为空', '确定认证等级', '适合作为核心持仓']

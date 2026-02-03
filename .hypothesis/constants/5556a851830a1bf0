@@ -1,4 +1,0 @@
-# file: C:\mia\src\brain\analyzers\capacity_analyzer.py
-# hypothesis_version: 6.150.2
-
-[-0.5, 0.0, 1e-10, 0.002, 0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0, 1.5, 2.0, 5.0, 100000000.0, 1000000000.0, 100, 252, 'amount', 'avg_daily_volume', 'avg_trade_size', 'capital', 'capital_ratio', 'current_capital', 'decay_factor', 'expected_return', 'holding_period', 'linear', 'price', 'quantity', 'returns', 'slippage', 'sqrt', 'symbol', 'trades', '交易频率过高', '优化执行算法，降低滑点', '使用TWAP/VWAP算法执行', '分析失败', '在流动性好的时段交易', '增加交易标的数量，分散流动性需求', '增加策略覆盖的标的范围', '市场流动性不足', '建议人工审核', '当前容量利用率较低，有较大扩容空间', '当前容量利用率较高，建议控制资金增长', '暂无明显瓶颈', '标的集中度过高', '滑点成本过高', '策略可扩展性较差，建议优化策略逻辑', '考虑多市场/多品种扩展', '选择流动性更好的标的', '降低交易频率，减少市场冲击']

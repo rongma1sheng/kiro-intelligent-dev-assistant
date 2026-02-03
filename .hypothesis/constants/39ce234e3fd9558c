@@ -1,4 +1,0 @@
-# file: C:\mia\src\execution\lockbox.py
-# hypothesis_version: 6.150.2
-
-[0.0, 0.3, 0.5, 100.0, 10000.0, 100, 1000, '511010', '511880', 'GC001', 'GC002', 'GC003', 'GC007', 'LockBox状态已重置', 'amount', 'asset', 'auto_lock_enabled', 'buy', 'config', 'daily_pnl', 'last_lock_time', 'lock_count', 'locked_assets', 'market', 'max_lock_ratio', 'message', 'min_lock_amount', 'order_id', 'primary_asset', 'profit_lock_ratio', 'sell', 'shares', 'success', 'timestamp', 'total_assets', 'total_locked', 'total_locked_amount', '已达到最大锁定比例，无法继续锁定', '当前非逆回购交易时间', '当日无盈利，无需锁定', '无法获取ETF价格', '模拟执行成功', '金额不足1000元，无法购买逆回购', '金额不足购买100股ETF', '锁定金额必须大于0']
