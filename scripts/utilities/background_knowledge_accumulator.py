@@ -253,8 +253,13 @@ class BackgroundKnowledgeAccumulator:
 
 def main():
     """主函数 - 用于测试"""
-    print("后台知识积累引擎 v3.0")
-    print("=" * 50)
+    # Windows兼容的输出方式
+    try:
+        print("后台知识积累引擎 v3.0")
+        print("=" * 50)
+    except UnicodeEncodeError:
+        print("Background Knowledge Accumulator v3.0")
+        print("=" * 50)
     
     # 创建引擎实例（非静默模式用于测试）
     engine = BackgroundKnowledgeAccumulator(silent_mode=False)
@@ -283,16 +288,25 @@ def main():
     
     # 显示状态
     status = engine.get_status()
-    print("引擎状态:")
+    try:
+        print("引擎状态:")
+    except UnicodeEncodeError:
+        print("Engine Status:")
     for key, value in status.items():
         print(f"  {key}: {value}")
     
-    print("\n运行10秒...")
+    try:
+        print("\n运行10秒...")
+    except UnicodeEncodeError:
+        print("\nRunning for 10 seconds...")
     time.sleep(10)
     
     # 停止引擎
     engine.stop()
-    print("\n测试完成")
+    try:
+        print("\n测试完成")
+    except UnicodeEncodeError:
+        print("\nTest completed")
 
 if __name__ == "__main__":
     main()
